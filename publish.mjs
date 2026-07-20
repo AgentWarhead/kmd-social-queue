@@ -88,3 +88,10 @@ if (changed) {
 } else {
   console.log("nothing due");
 }
+
+// A failed post turns the run red so GitHub emails the boss.
+// The queue write above still happened; the failure is loud, not lost.
+if (queue.some(e => e.status === "failed" && !e.acknowledged)) {
+  console.error("one or more posts FAILED; see queue.json");
+  process.exit(1);
+}
