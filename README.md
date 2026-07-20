@@ -19,3 +19,7 @@ Queue entry shape:
 Carousels use "images": ["images/a.png", "images/b.png"] instead of
 "image". Times are UTC. Managed by the KMD studio pipeline; posts are
 stamped by Brett before they ever enter this queue.
+
+Reels use "video": "images/day30-example.mp4" instead of "image"
+(full-bleed 9:16 MP4; the publisher posts it as an Instagram Reel
+shared to feed).

@@ -23,8 +23,8 @@ async function api(path, params) {
   return json;
 }
 
-async function waitReady(containerId) {
-  for (let i = 0; i < 12; i++) {
+async function waitReady(containerId, attempts = 12) {
+  for (let i = 0; i < attempts; i++) {
     const res = await fetch(`${API}/${containerId}?fields=status_code&access_token=${TOKEN}`);
     const json = await res.json();
     if (json.status_code === "FINISHED") return;
@@ -69,7 +69,7 @@ for (const entry of queue) {
   if (new Date(entry.publish_at) > now) continue;
   try {
     console.log(`publishing ${entry.id}...`);
-    const mediaId = entry.images ? await publishCarousel(entry) : await publishImage(entry);
+    const mediaId = entry.video ? await publishReel(entry) : entry.images ? await publishCarousel(entry) : await publishImage(entry);
     entry.status = "published";
     entry.media_id = mediaId;
     entry.published_at = new Date().toISOString();
@@ -94,4 +94,17 @@ if (changed) {
 if (queue.some(e => e.status === "failed" && !e.acknowledged)) {
   console.error("one or more posts FAILED; see queue.json");
   process.exit(1);
+}
+
+// Reels: video processing is slower, so the readiness poll gets 5 minutes.
+async function publishReel(entry) {
+  const c = await api(`${IG_ID}/media`, {
+    media_type: "REELS",
+    video_url: RAW + entry.video,
+    caption: entry.caption,
+    share_to_feed: "true",
+  });
+  await waitReady(c.id, 60);
+  const pub = await api(`${IG_ID}/media_publish`, { creation_id: c.id });
+  return pub.id;
 }
