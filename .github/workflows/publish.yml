@@ -1,0 +1,34 @@
+name: IG publisher
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Publish due posts
+        env:
+          META_GRAPH_TOKEN: ${{ secrets.META_GRAPH_TOKEN }}
+        run: node publish.mjs
+      - name: Commit queue status
+        run: |
+          git config user.name "kmd-shade"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet queue.json; then
+            git add queue.json
+            git commit -m "queue: publish run $(date -u +%FT%TZ)"
+            git push
+          fi
