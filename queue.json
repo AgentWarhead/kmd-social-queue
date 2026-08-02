@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "2026-08-02-breaker-room-reel",
+    "publish_at": "2026-08-02T15:00:00Z",
+    "video": "media/breaker-room-reel-20260802.mp4",
+    "caption": "This brewery doesn't exist. The website does.\n\nBreaker Room Brewing is a concept build, a fictional BC taproom built to prove what a brewery website can feel like: eight beers, eight room states, a switchboard you can actually throw, and an age gate with manners.\n\nEvery pixel custom. No template anywhere.\n\nWhich Kootenay brewery deserves a site like this? Name them below.\n\n#Kootenays #Castlegar #WebDesign #BCBusiness",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-03-smokefall-carousel",
+    "publish_at": "2026-08-03T15:00:00Z",
+    "images": [
+      "images/smokefall-carousel-01.jpg",
+      "images/smokefall-carousel-02.jpg",
+      "images/smokefall-carousel-03.jpg",
+      "images/smokefall-carousel-04.jpg",
+      "images/smokefall-carousel-05.jpg",
+      "images/smokefall-carousel-06.jpg"
+    ],
+    "caption": "Five decisions make Smokefall smell like woodsmoke, and four of them transfer to any kitchen in the Kootenays.\n\nSmokefall is a concept build, a fictional wood-fired restaurant designed to prove the pattern: the site knows what time it is, the sun is draggable, the menu is real HTML set like a printed board, and the whole show still scores 97 on Google's own speed test.\n\nNumber five is the one every restaurant site skips.\n\nSave this for your next redesign.\n\n#Kootenays #RestaurantMarketing #WebDesign #BCFood",
+    "status": "pending"
+  }
+]
