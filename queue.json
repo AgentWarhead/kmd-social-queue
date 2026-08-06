@@ -64,5 +64,66 @@
     "image": "images/ask-post-20260812.jpg",
     "caption": "Two kinds of Kootenay business owners read this page.\n\nThe first has a website and a quiet suspicion it isn't pulling its weight. For you: a free check-up, two live scans, real numbers, no strings. kootenaymade.ca\n\nThe second has no website at all, and honestly, you might be the smart one: you skipped the bad-website phase entirely. For you: I build first websites that start working from day one, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
     "status": "pending"
+  },
+  {
+    "id": "2026-08-13-smokefall-clock-reel",
+    "publish_at": "2026-08-13T15:00:00Z",
+    "video": "media/smokefall-clock-reel-20260813.mp4",
+    "caption": "This website knows what time it is.\n\nSmokefall is a concept build: a fictional wood-fired restaurant. Visit in the morning and it offers coffee and the morning board. Visit at 10 pm and it says goodnight and tells you when the oven is back. The light changes with the hour, and yes, the sun is draggable.\n\nA restaurant site's real job is answering one question: are they open right now, and what's good tonight? This one answers before you ask.\n\nSee what time it is there: smokefall-restaurant.vercel.app\n\n#RestaurantMarketing #WebDesign #KootenayMade #BCFood",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-14-seo-checks-carousel",
+    "publish_at": "2026-08-14T15:00:00Z",
+    "images": [
+      "images/seo-checks-01.jpg",
+      "images/seo-checks-02.jpg",
+      "images/seo-checks-03.jpg",
+      "images/seo-checks-04.jpg",
+      "images/seo-checks-05.jpg"
+    ],
+    "caption": "Before you pay anyone for SEO, run these four free checks.\n\nMost \"SEO packages\" start by charging you for things you can check yourself in ten minutes: your Google Business Profile, your town in real text, page titles, and how your site actually loads on a phone.\n\nSwipe through, check your own site, and if number four fails, my free check-up will name exactly what's slow.\n\nWhich one surprised you? \ud83d\udc47\n\n#SEO #KootenayBusiness #SmallBusinessBC #CastlegarBC #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-15-kmd-map-reel",
+    "publish_at": "2026-08-15T15:00:00Z",
+    "video": "media/kmd-map-reel-20260815.mp4",
+    "caption": "The map on my homepage is alive.\n\nIt's not a video and not a stock texture: it's a real WebGL survey map, drawn live by your graphics card, and it reacts to your cursor. Every page of my site gets its own lens on the same living world.\n\nWhy bother? Because in a region where most business sites come from the same template bin, the site that feels alive is the one that gets remembered.\n\nGo wake it up: kootenaymade.ca\n\n#WebDesign #WebGL #KootenayMade #CastlegarBC #BCBusiness",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-16-honesty-single",
+    "publish_at": "2026-08-17T02:00:00Z",
+    "image": "images/honesty-single-20260816.jpg",
+    "caption": "The brewery in my portfolio isn't real.\n\nBreaker Room Brewing has eight beers, a taproom above the river, and a website where you pour your own pint. It also doesn't exist, and it says so right on the site.\n\nConcept builds are how I show what's possible without borrowing a real business's name or inventing fake clients. If it's invented, it's labeled. Every time. That's the deal, and it's also why you can trust the rest of the portfolio: the real work is real.\n\nSee both kinds, clearly marked: kootenaymade.ca/portfolio\n\n#Honesty #WebDesign #KootenayMade #SmallBusinessBC",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-17-powderhorn-descent-reel",
+    "publish_at": "2026-08-17T15:00:00Z",
+    "video": "media/powderhorn-descent-reel-20260817.mp4",
+    "caption": "Scroll is the descent.\n\nLast week I showed you a still of Powderhorn Basin. Here's the run itself: the homepage descends the mountain as you scroll, and the altimeter in the corner ticks down from the drop-in to the valley, live.\n\nPowderhorn is a concept build: a fictional cat and heli skiing operation, built to prove that cinema and straight answers can share one page. Seats, deposits, weather days: all answered before the booking form asks for anything.\n\nTake the run: powderhorn-basin.vercel.app\n\n#WebDesign #SkiBC #KootenayMade #NelsonBC #ConceptDesign",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-18-list-rules-carousel",
+    "publish_at": "2026-08-18T15:00:00Z",
+    "images": [
+      "images/list-rules-01.jpg",
+      "images/list-rules-02.jpg",
+      "images/list-rules-03.jpg",
+      "images/list-rules-04.jpg",
+      "images/list-rules-05.jpg"
+    ],
+    "caption": "How did 5,635 businesses end up on one list?\n\nFour rules, no shortcuts: public sources only, with the source named on every listing. One business, one record. Every listing wears a \"last checked\" date, and stale listings come off the list. And nobody can buy a spot, ever.\n\nThat last rule is the whole point: the moment a list sells placement, it stops being a list and starts being an ad.\n\nTry to stump it: kootenaylist.ca\n\n#Kootenays #KootenayBusiness #ShopLocalBC #WestKootenay #EastKootenay",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-19-ask-post",
+    "publish_at": "2026-08-19T15:00:00Z",
+    "image": "images/ask-post-20260819.jpg",
+    "caption": "Is your website earning its keep?\n\nIf you have one and you're not sure, the free check-up answers in two minutes: two live scans, real numbers, plain English, no email required.\n\nIf you don't have one yet, honestly, you might be the smart one: you skipped the bad-website phase. First websites are my favourite builds, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\nkootenaymade.ca\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
+    "status": "pending"
   }
 ]
