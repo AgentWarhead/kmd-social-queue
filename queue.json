@@ -23,5 +23,46 @@
     "status": "published",
     "media_id": "17940515892303378",
     "published_at": "2026-08-03T16:42:30.272Z"
+  },
+  {
+    "id": "2026-08-08-contractor-carousel",
+    "publish_at": "2026-08-08T15:00:00Z",
+    "images": [
+      "images/contractor-carousel-01.jpg",
+      "images/contractor-carousel-02.jpg",
+      "images/contractor-carousel-03.jpg",
+      "images/contractor-carousel-04.jpg",
+      "images/contractor-carousel-05.jpg"
+    ],
+    "caption": "Four ways a contractor's website quietly loses jobs.\n\nWhen I look at contractor sites around the region, it's almost always one of these four things costing them calls. None of them are fancy. All of them are fixable in an afternoon.\n\nSwipe through and check your own site against the list. If all four pass, you're ahead of most of the region.\n\nWhich one is your site guilty of?\n\n#KootenayBusiness #ContractorLife #WebDesign #TrailBC #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-09-powderhorn-single",
+    "publish_at": "2026-08-10T02:00:00Z",
+    "image": "images/powderhorn-single-20260809.jpg",
+    "caption": "On this one, scrolling IS the ski run.\n\nPowderhorn Basin is a concept build from my portfolio: a fictional cat and heli skiing operation above an invented BC town. The homepage is one mountain descended by scroll. An altimeter ticks down from the 2,610 metre drop-in while the light walks from dawn alpenglow through storm grey to valley lamplight, and by the time you reach the book button, you've already taken the run.\n\nUnder the cinema, the practical layer holds: accessibility scores of 100 on all 28 pages, and the packages page answers seats, deposits, and weather days before it asks for anything.\n\nThe operation is invented. The system is real, and it's built for any operator whose mountain deserves better than a contact form.\n\nTake the run: powderhorn-basin.vercel.app\n\n#WebDesign #SkiBC #KootenayMade #NelsonBC #ConceptDesign",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-10-breaker-pour-reel",
+    "publish_at": "2026-08-10T15:00:00Z",
+    "video": "media/breaker-pour-reel-20260810.mp4",
+    "caption": "I built a website where you pour your own beer.\n\nBreaker Room Brewing is a concept build: a fictional Kootenay brewery I use to show what a taproom site can feel like. Click and hold the tap, the glass fills, and every one of the eight beers pours its own way.\n\nNobody needs a beer-pouring website. But everybody remembers one. That's the point: in a region where most business sites look identical, feel is the difference between \"seen it\" and \"sent it to a friend.\"\n\nPour one yourself: breaker-room-brewing.vercel.app\n\n#WebDesign #CraftBeer #KootenayMade #BCBusiness #CastlegarBC",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-11-audit-demo-reel",
+    "publish_at": "2026-08-11T15:00:00Z",
+    "video": "media/audit-demo-reel-20260811.mp4",
+    "caption": "This is what my free website check-up actually does.\n\nTwo scans, run live: one for speed, one for what's costing you visitors. No login, no email, just your site's real numbers and what they mean in plain English. In the video it's my own Kootenay List going under the lens, leaks and all.\n\nAnd if you don't have a website yet, the check-up isn't for you, the conversation is: I build first websites for Kootenay businesses, starting from a plan that fits.\n\nRun yours free: kootenaymade.ca/audit\n\n#WebsiteAudit #SmallBusinessBC #KootenayBusiness #CranbrookBC #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-12-ask-post",
+    "publish_at": "2026-08-12T15:00:00Z",
+    "image": "images/ask-post-20260812.jpg",
+    "caption": "Two kinds of Kootenay business owners read this page.\n\nThe first has a website and a quiet suspicion it isn't pulling its weight. For you: a free check-up, two live scans, real numbers, no strings. kootenaymade.ca\n\nThe second has no website at all, and honestly, you might be the smart one: you skipped the bad-website phase entirely. For you: I build first websites that start working from day one, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
+    "status": "pending"
   }
 ]
