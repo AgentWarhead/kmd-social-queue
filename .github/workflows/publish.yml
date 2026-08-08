@@ -30,5 +30,6 @@ jobs:
           if ! git diff --quiet queue.json; then
             git add queue.json
             git commit -m "queue: publish run $(date -u +%FT%TZ)"
+            git pull --rebase origin main
             git push
           fi

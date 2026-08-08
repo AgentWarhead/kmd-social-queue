@@ -75,9 +75,14 @@ for (const entry of queue) {
     entry.published_at = new Date().toISOString();
     console.log(`published ${entry.id} -> ${mediaId}`);
   } catch (e) {
-    entry.status = "failed";
+    entry.attempts = (entry.attempts || 0) + 1;
     entry.error = String(e.message).slice(0, 300);
-    console.error(`FAILED ${entry.id}: ${entry.error}`);
+    if (entry.attempts >= 3) {
+      entry.status = "failed";
+      console.error(`FAILED ${entry.id} after ${entry.attempts} attempts: ${entry.error}`);
+    } else {
+      console.error(`RETRY ${entry.id} (attempt ${entry.attempts}/3, next tick): ${entry.error}`);
+    }
   }
   changed = true;
 }
@@ -104,7 +109,7 @@ async function publishReel(entry) {
     caption: entry.caption,
     share_to_feed: "true",
   });
-  await waitReady(c.id, 60);
+  await waitReady(c.id, 100);
   const pub = await api(`${IG_ID}/media_publish`, { creation_id: c.id });
   return pub.id;
 }
