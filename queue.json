@@ -139,5 +139,75 @@
     "image": "images/ask-post-20260819.jpg",
     "caption": "Is your website earning its keep?\n\nIf you have one and you're not sure, the free check-up answers in two minutes: two live scans, real numbers, plain English, no email required.\n\nIf you don't have one yet, honestly, you might be the smart one: you skipped the bad-website phase. First websites are my favourite builds, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\nkootenaymade.ca\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
     "status": "pending"
+  },
+  {
+    "id": "2026-08-14-mica-reel",
+    "publish_at": "2026-08-14T21:29:00Z",
+    "video": "media/mica-reel-20260814.mp4",
+    "caption": "A photograph lies. A swatch does not.\n\nMica Hair Studio is a concept build: a fictional salon, made to prove what a colour appointment can look like online. The homepage is a swatch ring you hold against a ten-level ladder and re-light three ways, because the honest answer to \"what will this look like on me\" changes with the light you ask it in.\n\nFurther down, the thing no salon publishes: the trade's own level scale, shown to the customer instead of kept behind the chair.\n\nSee it against your hair: mica-hair-studio.vercel.app\n\n#WebDesign #SalonLife #KootenayMade #NelsonBC #ConceptDesign",
+    "status": "published",
+    "media_id": "17921117367420572",
+    "published_at": "2026-08-14T21:29:21Z",
+    "note": "published directly via the local system-user token, not the runner"
+  },
+  {
+    "id": "2026-08-15-drip-carousel",
+    "publish_at": "2026-08-16T02:30:00Z",
+    "images": [
+      "images/drip-fees-01.jpg",
+      "images/drip-fees-02.jpg",
+      "images/drip-fees-03.jpg",
+      "images/drip-fees-04.jpg",
+      "images/drip-fees-05.jpg",
+      "images/drip-fees-06.jpg",
+      "images/drip-fees-07.jpg",
+      "images/drip-fees-08.jpg"
+    ],
+    "caption": "If a customer cannot buy at the price you advertise, that is a legal problem, not a marketing one.\n\nSince June 2022 it has been a false or misleading representation under the Competition Act to advertise a price nobody can actually pay. In January the Federal Court of Appeal upheld a $38.9 million penalty over a $1.50 booking fee. The fee was disclosed. It was disclosed too late to matter.\n\nThe only charges allowed outside your advertised price are ones a statute charges the buyer. There is no small business exemption.\n\nSwipe through, then walk your own checkout on a phone.\n\n#SmallBusinessCanada #SmallBizTips #WebsiteTips #Kootenays #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-16-harkness-reel",
+    "publish_at": "2026-08-16T15:30:00Z",
+    "video": "media/harkness-reel-20260816.mp4",
+    "caption": "Never get surprised by a repair bill again.\n\nThat is the promise on the front of Harkness Auto & Tire, a concept build: a fictional shop, made to prove what an honest repair site looks like. Photos of the problem before any work. A written price you approve from your phone. A bill that matches it to the dollar.\n\nTen jobs priced openly on the page, the shop rate published, parts at cost plus twenty percent, and a full sample invoice a stranger can read before they ever get one.\n\nSee the prices: harkness-auto-tire.vercel.app\n\n#WebDesign #AutoRepair #KootenayMade #TrailBC #ConceptDesign",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-17-two-lanes",
+    "publish_at": "2026-08-18T01:30:00Z",
+    "image": "images/two-lanes-20260817.jpg",
+    "caption": "You can find out what your website is costing you in about a minute.\n\nTwo scans on my check-up page. One reads what a visitor sees in the first few seconds. The other reads speed, mobile, and the search basics that quietly decide whether someone stays. Free, no email, and you get the results either way.\n\nNo website yet? That lane starts at $2,000 for a custom site you own outright, or twelve payments of $189, which is $2,268 all in. Kootenay businesses take 10% off either way.\n\nStart either lane: kootenaymade.ca/audit\n\n#CastlegarBC #Kootenays #WebDesign #SmallBusinessWebsite #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-18-five-questions",
+    "publish_at": "2026-08-19T01:30:00Z",
+    "images": [
+      "images/five-questions-01.jpg",
+      "images/five-questions-02.jpg",
+      "images/five-questions-03.jpg",
+      "images/five-questions-04.jpg",
+      "images/five-questions-05.jpg",
+      "images/five-questions-06.jpg",
+      "images/five-questions-07.jpg"
+    ],
+    "caption": "Five questions your website should answer before anyone picks up the phone.\n\nWhat will this cost. What actually happens next. Who this is not for. Whether I can get in the door. And why I should believe any of it.\n\nEvery example in here comes off a concept build: ten jobs priced with a sample invoice anyone can read, the three hours of a colour appointment written out, three plain refusals each with its reason, access facts down to the door width. The businesses are invented. The systems are not.\n\nWhich one is missing from yours?\n\n#WebsiteTips #SmallBizTips #WebDesign #WestKootenay #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-08-19-not-for-carousel",
+    "publish_at": "2026-08-20T01:30:00Z",
+    "images": [
+      "images/not-for-01.jpg",
+      "images/not-for-02.jpg",
+      "images/not-for-03.jpg",
+      "images/not-for-04.jpg",
+      "images/not-for-05.jpg",
+      "images/not-for-06.jpg",
+      "images/not-for-07.jpg"
+    ],
+    "caption": "The fastest way to be believed is to say plainly what you are not for.\n\nEvery business page in every town says the same four things. Passionate. Family owned. Quality work. Years of experience. Worn so smooth they carry no information at all.\n\nOn a salon concept I built there is a section headed \"who this is not for\": no same-day colour, no extensions, no guaranteed match to a photograph, each with its reason. Three refusals, and every one makes the rest of the page more believable.\n\nWhat is the one job you would rather send down the road?\n\n#SmallBusinessOwner #SmallBizTips #WebsiteTips #RosslandBC #KootenayMade",
+    "status": "pending"
   }
 ]
