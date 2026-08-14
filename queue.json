@@ -138,7 +138,8 @@
     "publish_at": "2026-08-19T15:00:00Z",
     "image": "images/ask-post-20260819.jpg",
     "caption": "Is your website earning its keep?\n\nIf you have one and you're not sure, the free check-up answers in two minutes: two live scans, real numbers, plain English, no email required.\n\nIf you don't have one yet, honestly, you might be the smart one: you skipped the bad-website phase. First websites are my favourite builds, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\nkootenaymade.ca\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
-    "status": "pending"
+    "status": "cancelled",
+    "cancelled_reason": "near-duplicate of 2026-08-19-ask-post's predecessor 2026-08-12-ask-post: same card template with the ground inverted, 53% caption similarity, two sentences verbatim. The offer job for this week is carried by 2026-08-17-two-lanes, which also states the full price."
   },
   {
     "id": "2026-08-14-mica-reel",
