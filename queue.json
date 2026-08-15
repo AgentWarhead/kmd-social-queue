@@ -104,7 +104,9 @@
     "publish_at": "2026-08-15T15:00:00Z",
     "video": "media/kmd-map-reel-20260815.mp4",
     "caption": "The map on my homepage is alive.\n\nIt's not a video and not a stock texture: it's a real WebGL survey map, drawn live by your graphics card, and it reacts to your cursor. Every page of my site gets its own lens on the same living world.\n\nWhy bother? Because in a region where most business sites come from the same template bin, the site that feels alive is the one that gets remembered.\n\nGo wake it up: kootenaymade.ca\n\n#WebDesign #WebGL #KootenayMade #CastlegarBC #BCBusiness",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18021033191914975",
+    "published_at": "2026-08-15T15:01:19.382Z"
   },
   {
     "id": "2026-08-16-honesty-single",
