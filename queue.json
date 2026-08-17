@@ -122,7 +122,9 @@
     "publish_at": "2026-08-17T15:00:00Z",
     "video": "media/powderhorn-descent-reel-20260817.mp4",
     "caption": "Scroll is the descent.\n\nLast week I showed you a still of Powderhorn Basin. Here's the run itself: the homepage descends the mountain as you scroll, and the altimeter in the corner ticks down from the drop-in to the valley, live.\n\nPowderhorn is a concept build: a fictional cat and heli skiing operation, built to prove that cinema and straight answers can share one page. Seats, deposits, weather days: all answered before the booking form asks for anything.\n\nTake the run: powderhorn-basin.vercel.app\n\n#WebDesign #SkiBC #KootenayMade #NelsonBC #ConceptDesign",
-    "status": "pending"
+    "status": "pending",
+    "attempts": 1,
+    "error": "container ERROR"
   },
   {
     "id": "2026-08-18-list-rules-carousel",
