@@ -1,243 +1,382 @@
 [
-  {
-    "id": "2026-08-02-breaker-room-reel",
-    "publish_at": "2026-08-02T15:00:00Z",
-    "video": "media/breaker-room-reel-20260802.mp4",
-    "caption": "This brewery doesn't exist. The website does.\n\nBreaker Room Brewing is a concept build, a fictional BC taproom built to prove what a brewery website can feel like: eight beers, eight room states, a switchboard you can actually throw, and an age gate with manners.\n\nEvery pixel custom. No template anywhere.\n\nWhich Kootenay brewery deserves a site like this? Name them below.\n\n#Kootenays #Castlegar #WebDesign #BCBusiness",
-    "status": "published",
-    "media_id": "18111789332059265",
-    "published_at": "2026-08-02T15:12:44.323Z"
-  },
-  {
-    "id": "2026-08-03-smokefall-carousel",
-    "publish_at": "2026-08-03T15:00:00Z",
-    "images": [
-      "images/smokefall-carousel-01.jpg",
-      "images/smokefall-carousel-02.jpg",
-      "images/smokefall-carousel-03.jpg",
-      "images/smokefall-carousel-04.jpg",
-      "images/smokefall-carousel-05.jpg",
-      "images/smokefall-carousel-06.jpg"
-    ],
-    "caption": "Five decisions make Smokefall smell like woodsmoke, and four of them transfer to any kitchen in the Kootenays.\n\nSmokefall is a concept build, a fictional wood-fired restaurant designed to prove the pattern: the site knows what time it is, the sun is draggable, the menu is real HTML set like a printed board, and the whole show still scores 97 on Google's own speed test.\n\nNumber five is the one every restaurant site skips.\n\nSave this for your next redesign.\n\n#Kootenays #RestaurantMarketing #WebDesign #BCFood",
-    "status": "published",
-    "media_id": "17940515892303378",
-    "published_at": "2026-08-03T16:42:30.272Z"
-  },
-  {
-    "id": "2026-08-08-contractor-carousel",
-    "publish_at": "2026-08-08T15:00:00Z",
-    "images": [
-      "images/contractor-carousel-01.jpg",
-      "images/contractor-carousel-02.jpg",
-      "images/contractor-carousel-03.jpg",
-      "images/contractor-carousel-04.jpg",
-      "images/contractor-carousel-05.jpg"
-    ],
-    "caption": "Four ways a contractor's website quietly loses jobs.\n\nWhen I look at contractor sites around the region, it's almost always one of these four things costing them calls. None of them are fancy. All of them are fixable in an afternoon.\n\nSwipe through and check your own site against the list. If all four pass, you're ahead of most of the region.\n\nWhich one is your site guilty of?\n\n#KootenayBusiness #ContractorLife #WebDesign #TrailBC #KootenayMade",
-    "status": "published",
-    "media_id": "18092032727541541",
-    "published_at": "2026-08-08T15:12:34.329Z"
-  },
-  {
-    "id": "2026-08-09-powderhorn-single",
-    "publish_at": "2026-08-10T02:00:00Z",
-    "image": "images/powderhorn-single-20260809.jpg",
-    "caption": "On this one, scrolling IS the ski run.\n\nPowderhorn Basin is a concept build from my portfolio: a fictional cat and heli skiing operation above an invented BC town. The homepage is one mountain descended by scroll. An altimeter ticks down from the 2,610 metre drop-in while the light walks from dawn alpenglow through storm grey to valley lamplight, and by the time you reach the book button, you've already taken the run.\n\nUnder the cinema, the practical layer holds: accessibility scores of 100 on all 28 pages, and the packages page answers seats, deposits, and weather days before it asks for anything.\n\nThe operation is invented. The system is real, and it's built for any operator whose mountain deserves better than a contact form.\n\nTake the run: powderhorn-basin.vercel.app\n\n#WebDesign #SkiBC #KootenayMade #NelsonBC #ConceptDesign",
-    "status": "published",
-    "media_id": "17919525066203651",
-    "published_at": "2026-08-10T02:16:49.873Z"
-  },
-  {
-    "id": "2026-08-10-breaker-pour-reel",
-    "publish_at": "2026-08-10T15:00:00Z",
-    "video": "media/breaker-pour-reel-20260810.mp4",
-    "caption": "I built a website where you pour your own beer.\n\nBreaker Room Brewing is a concept build: a fictional Kootenay brewery I use to show what a taproom site can feel like. Click and hold the tap, the glass fills, and every one of the eight beers pours its own way.\n\nNobody needs a beer-pouring website. But everybody remembers one. That's the point: in a region where most business sites look identical, feel is the difference between \"seen it\" and \"sent it to a friend.\"\n\nPour one yourself: breaker-room-brewing.vercel.app\n\n#WebDesign #CraftBeer #KootenayMade #BCBusiness #CastlegarBC",
-    "status": "published",
-    "media_id": "17928535785146483",
-    "published_at": "2026-08-10T15:41:53.542Z"
-  },
-  {
-    "id": "2026-08-11-audit-demo-reel",
-    "publish_at": "2026-08-11T15:00:00Z",
-    "video": "media/audit-demo-reel-20260811.mp4",
-    "caption": "This is what my free website check-up actually does.\n\nTwo scans, run live: one for speed, one for what's costing you visitors. No login, no email, just your site's real numbers and what they mean in plain English. In the video it's my own Kootenay List going under the lens, leaks and all.\n\nAnd if you don't have a website yet, the check-up isn't for you, the conversation is: I build first websites for Kootenay businesses, starting from a plan that fits.\n\nRun yours free: kootenaymade.ca/audit\n\n#WebsiteAudit #SmallBusinessBC #KootenayBusiness #CranbrookBC #KootenayMade",
-    "status": "published",
-    "media_id": "18365804269210857",
-    "published_at": "2026-08-11T15:17:49.591Z"
-  },
-  {
-    "id": "2026-08-12-ask-post",
-    "publish_at": "2026-08-12T15:00:00Z",
-    "image": "images/ask-post-20260812.jpg",
-    "caption": "Two kinds of Kootenay business owners read this page.\n\nThe first has a website and a quiet suspicion it isn't pulling its weight. For you: a free check-up, two live scans, real numbers, no strings. kootenaymade.ca\n\nThe second has no website at all, and honestly, you might be the smart one: you skipped the bad-website phase entirely. For you: I build first websites that start working from day one, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
-    "status": "published",
-    "media_id": "18034374440827789",
-    "published_at": "2026-08-12T15:16:25.535Z"
-  },
-  {
-    "id": "2026-08-13-smokefall-clock-reel",
-    "publish_at": "2026-08-13T15:00:00Z",
-    "video": "media/smokefall-clock-reel-20260813.mp4",
-    "caption": "This website knows what time it is.\n\nSmokefall is a concept build: a fictional wood-fired restaurant. Visit in the morning and it offers coffee and the morning board. Visit at 10 pm and it says goodnight and tells you when the oven is back. The light changes with the hour, and yes, the sun is draggable.\n\nA restaurant site's real job is answering one question: are they open right now, and what's good tonight? This one answers before you ask.\n\nSee what time it is there: smokefall-restaurant.vercel.app\n\n#RestaurantMarketing #WebDesign #KootenayMade #BCFood",
-    "status": "published",
-    "media_id": "18122103898637929",
-    "published_at": "2026-08-13T15:17:17.189Z"
-  },
-  {
-    "id": "2026-08-14-seo-checks-carousel",
-    "publish_at": "2026-08-14T15:00:00Z",
-    "images": [
-      "images/seo-checks-01.jpg",
-      "images/seo-checks-02.jpg",
-      "images/seo-checks-03.jpg",
-      "images/seo-checks-04.jpg",
-      "images/seo-checks-05.jpg"
-    ],
-    "caption": "Before you pay anyone for SEO, run these four free checks.\n\nMost \"SEO packages\" start by charging you for things you can check yourself in ten minutes: your Google Business Profile, your town in real text, page titles, and how your site actually loads on a phone.\n\nSwipe through, check your own site, and if number four fails, my free check-up will name exactly what's slow.\n\nWhich one surprised you? 👇\n\n#SEO #KootenayBusiness #SmallBusinessBC #CastlegarBC #KootenayMade",
-    "status": "published",
-    "media_id": "18125360911772709",
-    "published_at": "2026-08-14T16:00:13.590Z"
-  },
-  {
-    "id": "2026-08-15-kmd-map-reel",
-    "publish_at": "2026-08-15T15:00:00Z",
-    "video": "media/kmd-map-reel-20260815.mp4",
-    "caption": "The map on my homepage is alive.\n\nIt's not a video and not a stock texture: it's a real WebGL survey map, drawn live by your graphics card, and it reacts to your cursor. Every page of my site gets its own lens on the same living world.\n\nWhy bother? Because in a region where most business sites come from the same template bin, the site that feels alive is the one that gets remembered.\n\nGo wake it up: kootenaymade.ca\n\n#WebDesign #WebGL #KootenayMade #CastlegarBC #BCBusiness",
-    "status": "published",
-    "media_id": "18021033191914975",
-    "published_at": "2026-08-15T15:01:19.382Z"
-  },
-  {
-    "id": "2026-08-16-honesty-single",
-    "publish_at": "2026-08-17T02:00:00Z",
-    "image": "images/honesty-single-20260816.jpg",
-    "caption": "The brewery in my portfolio isn't real.\n\nBreaker Room Brewing has eight beers, a taproom above the river, and a website where you pour your own pint. It also doesn't exist, and it says so right on the site.\n\nConcept builds are how I show what's possible without borrowing a real business's name or inventing fake clients. If it's invented, it's labeled. Every time. That's the deal, and it's also why you can trust the rest of the portfolio: the real work is real.\n\nSee both kinds, clearly marked: kootenaymade.ca/portfolio\n\n#Honesty #WebDesign #KootenayMade #SmallBusinessBC",
-    "status": "published",
-    "media_id": "18117200083914715",
-    "published_at": "2026-08-17T02:47:23.572Z"
-  },
-  {
-    "id": "2026-08-17-powderhorn-descent-reel",
-    "publish_at": "2026-08-17T15:00:00Z",
-    "video": "media/powderhorn-descent-reel-20260817.mp4",
-    "caption": "Scroll is the descent.\n\nLast week I showed you a still of Powderhorn Basin. Here's the run itself: the homepage descends the mountain as you scroll, and the altimeter in the corner ticks down from the drop-in to the valley, live.\n\nPowderhorn is a concept build: a fictional cat and heli skiing operation, built to prove that cinema and straight answers can share one page. Seats, deposits, weather days: all answered before the booking form asks for anything.\n\nTake the run: powderhorn-basin.vercel.app\n\n#WebDesign #SkiBC #KootenayMade #NelsonBC #ConceptDesign",
-    "status": "published",
-    "attempts": 1,
-    "error": "container ERROR",
-    "media_id": "18112800061778933",
-    "published_at": "2026-08-17T15:43:27.514Z"
-  },
-  {
-    "id": "2026-08-18-list-rules-carousel",
-    "publish_at": "2026-08-18T15:00:00Z",
-    "images": [
-      "images/list-rules-01.jpg",
-      "images/list-rules-02.jpg",
-      "images/list-rules-03.jpg",
-      "images/list-rules-04.jpg",
-      "images/list-rules-05.jpg"
-    ],
-    "caption": "How did 5,635 businesses end up on one list?\n\nFour rules, no shortcuts: public sources only, with the source named on every listing. One business, one record. Every listing wears a \"last checked\" date, and stale listings come off the list. And nobody can buy a spot, ever.\n\nThat last rule is the whole point: the moment a list sells placement, it stops being a list and starts being an ad.\n\nTry to stump it: kootenaylist.ca\n\n#Kootenays #KootenayBusiness #ShopLocalBC #WestKootenay #EastKootenay",
-    "status": "published",
-    "media_id": "18082435268285906",
-    "published_at": "2026-08-18T15:38:09.921Z"
-  },
-  {
-    "id": "2026-08-19-ask-post",
-    "publish_at": "2026-08-19T15:00:00Z",
-    "image": "images/ask-post-20260819.jpg",
-    "caption": "Is your website earning its keep?\n\nIf you have one and you're not sure, the free check-up answers in two minutes: two live scans, real numbers, plain English, no email required.\n\nIf you don't have one yet, honestly, you might be the smart one: you skipped the bad-website phase. First websites are my favourite builds, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\nkootenaymade.ca\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
-    "status": "cancelled",
-    "cancelled_reason": "near-duplicate of 2026-08-19-ask-post's predecessor 2026-08-12-ask-post: same card template with the ground inverted, 53% caption similarity, two sentences verbatim. The offer job for this week is carried by 2026-08-17-two-lanes, which also states the full price."
-  },
-  {
-    "id": "2026-08-14-mica-reel",
-    "publish_at": "2026-08-14T21:29:00Z",
-    "video": "media/mica-reel-20260814.mp4",
-    "caption": "A photograph lies. A swatch does not.\n\nMica Hair Studio is a concept build: a fictional salon, made to prove what a colour appointment can look like online. The homepage is a swatch ring you hold against a ten-level ladder and re-light three ways, because the honest answer to \"what will this look like on me\" changes with the light you ask it in.\n\nFurther down, the thing no salon publishes: the trade's own level scale, shown to the customer instead of kept behind the chair.\n\nSee it against your hair: mica-hair-studio.vercel.app\n\n#WebDesign #SalonLife #KootenayMade #NelsonBC #ConceptDesign",
-    "status": "published",
-    "media_id": "17921117367420572",
-    "published_at": "2026-08-14T21:29:21Z",
-    "note": "published directly via the local system-user token, not the runner"
-  },
-  {
-    "id": "2026-08-15-drip-carousel",
-    "publish_at": "2026-08-16T02:30:00Z",
-    "images": [
-      "images/drip-fees-01.jpg",
-      "images/drip-fees-02.jpg",
-      "images/drip-fees-03.jpg",
-      "images/drip-fees-04.jpg",
-      "images/drip-fees-05.jpg",
-      "images/drip-fees-06.jpg",
-      "images/drip-fees-07.jpg",
-      "images/drip-fees-08.jpg"
-    ],
-    "caption": "If a customer cannot buy at the price you advertise, that is a legal problem, not a marketing one.\n\nSince June 2022 it has been a false or misleading representation under the Competition Act to advertise a price nobody can actually pay. In January the Federal Court of Appeal upheld a $38.9 million penalty over a $1.50 booking fee. The fee was disclosed. It was disclosed too late to matter.\n\nThe only charges allowed outside your advertised price are ones a statute charges the buyer. There is no small business exemption.\n\nSwipe through, then walk your own checkout on a phone.\n\n#SmallBusinessCanada #SmallBizTips #WebsiteTips #Kootenays #KootenayMade",
-    "status": "published",
-    "media_id": "18118821412699650",
-    "published_at": "2026-08-16T03:07:18.515Z"
-  },
-  {
-    "id": "2026-08-16-harkness-reel",
-    "publish_at": "2026-08-16T15:30:00Z",
-    "video": "media/harkness-reel-20260816.mp4",
-    "caption": "Never get surprised by a repair bill again.\n\nThat is the promise on the front of Harkness Auto & Tire, a concept build: a fictional shop, made to prove what an honest repair site looks like. Photos of the problem before any work. A written price you approve from your phone. A bill that matches it to the dollar.\n\nTen jobs priced openly on the page, the shop rate published, parts at cost plus twenty percent, and a full sample invoice a stranger can read before they ever get one.\n\nSee the prices: harkness-auto-tire.vercel.app\n\n#WebDesign #AutoRepair #KootenayMade #TrailBC #ConceptDesign",
-    "status": "published",
-    "media_id": "18092898110562311",
-    "published_at": "2026-08-16T15:38:42.261Z"
-  },
-  {
-    "id": "2026-08-17-two-lanes",
-    "publish_at": "2026-08-18T01:30:00Z",
-    "image": "images/two-lanes-20260817.jpg",
-    "caption": "You can find out what your website is costing you in about a minute.\n\nTwo scans on my check-up page. One reads what a visitor sees in the first few seconds. The other reads speed, mobile, and the search basics that quietly decide whether someone stays. Free, no email, and you get the results either way.\n\nNo website yet? That lane starts at $2,000 for a custom site you own outright, or twelve payments of $189, which is $2,268 all in. Kootenay businesses take 10% off either way.\n\nStart either lane: kootenaymade.ca/audit\n\n#CastlegarBC #Kootenays #WebDesign #SmallBusinessWebsite #KootenayMade",
-    "status": "published",
-    "media_id": "17905446462308135",
-    "published_at": "2026-08-18T01:52:29.294Z"
-  },
-  {
-    "id": "2026-08-18-five-questions",
-    "publish_at": "2026-08-19T01:30:00Z",
-    "images": [
-      "images/five-questions-01.jpg",
-      "images/five-questions-02.jpg",
-      "images/five-questions-03.jpg",
-      "images/five-questions-04.jpg",
-      "images/five-questions-05.jpg",
-      "images/five-questions-06.jpg",
-      "images/five-questions-07.jpg"
-    ],
-    "caption": "Five questions your website should answer before anyone picks up the phone.\n\nWhat will this cost. What actually happens next. Who this is not for. Whether I can get in the door. And why I should believe any of it.\n\nEvery example in here comes off a concept build: ten jobs priced with a sample invoice anyone can read, the three hours of a colour appointment written out, three plain refusals each with its reason, access facts down to the door width. The businesses are invented. The systems are not.\n\nWhich one is missing from yours?\n\n#WebsiteTips #SmallBizTips #WebDesign #WestKootenay #KootenayMade",
-    "status": "published",
-    "media_id": "18342320824271867",
-    "published_at": "2026-08-19T01:49:17.793Z"
-  },
-  {
-    "id": "2026-08-19-not-for-carousel",
-    "publish_at": "2026-08-20T01:30:00Z",
-    "images": [
-      "images/not-for-01.jpg",
-      "images/not-for-02.jpg",
-      "images/not-for-03.jpg",
-      "images/not-for-04.jpg",
-      "images/not-for-05.jpg",
-      "images/not-for-06.jpg",
-      "images/not-for-07.jpg"
-    ],
-    "caption": "The fastest way to be believed is to say plainly what you are not for.\n\nEvery business page in every town says the same four things. Passionate. Family owned. Quality work. Years of experience. Worn so smooth they carry no information at all.\n\nOn a salon concept I built there is a section headed \"who this is not for\": no same-day colour, no extensions, no guaranteed match to a photograph, each with its reason. Three refusals, and every one makes the rest of the page more believable.\n\nWhat is the one job you would rather send down the road?\n\n#SmallBusinessOwner #SmallBizTips #WebsiteTips #RosslandBC #KootenayMade",
-    "status": "published",
-    "media_id": "18066407243774854",
-    "published_at": "2026-08-20T01:54:10.985Z"
-  },
-  {
-    "id": "2026-08-20-cedar-stone-reel",
-    "publish_at": "2026-08-20T15:00:00Z",
-    "video": "media/cedar-stone-reel-20260820.mp4",
-    "caption": "Every booking that goes through a platform costs you a night's profit.\n\nCedar & Stone Lodge is a concept build: a fictional five-room lodge near Radium Hot Springs, made to prove a small operator can win the direct booking. The homepage is one morning at the lodge told hour by hour, and every room gets a page of its own instead of a tile in a grid.\n\nUnder that, the practical layer: what a day there actually looks like, what is minutes from the door, and a booking path that ends in the house instead of a platform's inbox.\n\nSee the rooms: cedar-stone-lodge-w9m1.vercel.app\n\n#WebDesign #KootenayMade #ExploreBC #KootenayLife #ConceptDesign",
-    "status": "published",
-    "media_id": "18104021557921813",
-    "published_at": "2026-08-20T15:41:52.992Z"
-  }
+ {
+  "id": "2026-08-02-breaker-room-reel",
+  "publish_at": "2026-08-02T15:00:00Z",
+  "video": "media/breaker-room-reel-20260802.mp4",
+  "caption": "This brewery doesn't exist. The website does.\n\nBreaker Room Brewing is a concept build, a fictional BC taproom built to prove what a brewery website can feel like: eight beers, eight room states, a switchboard you can actually throw, and an age gate with manners.\n\nEvery pixel custom. No template anywhere.\n\nWhich Kootenay brewery deserves a site like this? Name them below.\n\n#Kootenays #Castlegar #WebDesign #BCBusiness",
+  "status": "published",
+  "media_id": "18111789332059265",
+  "published_at": "2026-08-02T15:12:44.323Z"
+ },
+ {
+  "id": "2026-08-03-smokefall-carousel",
+  "publish_at": "2026-08-03T15:00:00Z",
+  "images": [
+   "images/smokefall-carousel-01.jpg",
+   "images/smokefall-carousel-02.jpg",
+   "images/smokefall-carousel-03.jpg",
+   "images/smokefall-carousel-04.jpg",
+   "images/smokefall-carousel-05.jpg",
+   "images/smokefall-carousel-06.jpg"
+  ],
+  "caption": "Five decisions make Smokefall smell like woodsmoke, and four of them transfer to any kitchen in the Kootenays.\n\nSmokefall is a concept build, a fictional wood-fired restaurant designed to prove the pattern: the site knows what time it is, the sun is draggable, the menu is real HTML set like a printed board, and the whole show still scores 97 on Google's own speed test.\n\nNumber five is the one every restaurant site skips.\n\nSave this for your next redesign.\n\n#Kootenays #RestaurantMarketing #WebDesign #BCFood",
+  "status": "published",
+  "media_id": "17940515892303378",
+  "published_at": "2026-08-03T16:42:30.272Z"
+ },
+ {
+  "id": "2026-08-08-contractor-carousel",
+  "publish_at": "2026-08-08T15:00:00Z",
+  "images": [
+   "images/contractor-carousel-01.jpg",
+   "images/contractor-carousel-02.jpg",
+   "images/contractor-carousel-03.jpg",
+   "images/contractor-carousel-04.jpg",
+   "images/contractor-carousel-05.jpg"
+  ],
+  "caption": "Four ways a contractor's website quietly loses jobs.\n\nWhen I look at contractor sites around the region, it's almost always one of these four things costing them calls. None of them are fancy. All of them are fixable in an afternoon.\n\nSwipe through and check your own site against the list. If all four pass, you're ahead of most of the region.\n\nWhich one is your site guilty of?\n\n#KootenayBusiness #ContractorLife #WebDesign #TrailBC #KootenayMade",
+  "status": "published",
+  "media_id": "18092032727541541",
+  "published_at": "2026-08-08T15:12:34.329Z"
+ },
+ {
+  "id": "2026-08-09-powderhorn-single",
+  "publish_at": "2026-08-10T02:00:00Z",
+  "image": "images/powderhorn-single-20260809.jpg",
+  "caption": "On this one, scrolling IS the ski run.\n\nPowderhorn Basin is a concept build from my portfolio: a fictional cat and heli skiing operation above an invented BC town. The homepage is one mountain descended by scroll. An altimeter ticks down from the 2,610 metre drop-in while the light walks from dawn alpenglow through storm grey to valley lamplight, and by the time you reach the book button, you've already taken the run.\n\nUnder the cinema, the practical layer holds: accessibility scores of 100 on all 28 pages, and the packages page answers seats, deposits, and weather days before it asks for anything.\n\nThe operation is invented. The system is real, and it's built for any operator whose mountain deserves better than a contact form.\n\nTake the run: powderhorn-basin.vercel.app\n\n#WebDesign #SkiBC #KootenayMade #NelsonBC #ConceptDesign",
+  "status": "published",
+  "media_id": "17919525066203651",
+  "published_at": "2026-08-10T02:16:49.873Z"
+ },
+ {
+  "id": "2026-08-10-breaker-pour-reel",
+  "publish_at": "2026-08-10T15:00:00Z",
+  "video": "media/breaker-pour-reel-20260810.mp4",
+  "caption": "I built a website where you pour your own beer.\n\nBreaker Room Brewing is a concept build: a fictional Kootenay brewery I use to show what a taproom site can feel like. Click and hold the tap, the glass fills, and every one of the eight beers pours its own way.\n\nNobody needs a beer-pouring website. But everybody remembers one. That's the point: in a region where most business sites look identical, feel is the difference between \"seen it\" and \"sent it to a friend.\"\n\nPour one yourself: breaker-room-brewing.vercel.app\n\n#WebDesign #CraftBeer #KootenayMade #BCBusiness #CastlegarBC",
+  "status": "published",
+  "media_id": "17928535785146483",
+  "published_at": "2026-08-10T15:41:53.542Z"
+ },
+ {
+  "id": "2026-08-11-audit-demo-reel",
+  "publish_at": "2026-08-11T15:00:00Z",
+  "video": "media/audit-demo-reel-20260811.mp4",
+  "caption": "This is what my free website check-up actually does.\n\nTwo scans, run live: one for speed, one for what's costing you visitors. No login, no email, just your site's real numbers and what they mean in plain English. In the video it's my own Kootenay List going under the lens, leaks and all.\n\nAnd if you don't have a website yet, the check-up isn't for you, the conversation is: I build first websites for Kootenay businesses, starting from a plan that fits.\n\nRun yours free: kootenaymade.ca/audit\n\n#WebsiteAudit #SmallBusinessBC #KootenayBusiness #CranbrookBC #KootenayMade",
+  "status": "published",
+  "media_id": "18365804269210857",
+  "published_at": "2026-08-11T15:17:49.591Z"
+ },
+ {
+  "id": "2026-08-12-ask-post",
+  "publish_at": "2026-08-12T15:00:00Z",
+  "image": "images/ask-post-20260812.jpg",
+  "caption": "Two kinds of Kootenay business owners read this page.\n\nThe first has a website and a quiet suspicion it isn't pulling its weight. For you: a free check-up, two live scans, real numbers, no strings. kootenaymade.ca\n\nThe second has no website at all, and honestly, you might be the smart one: you skipped the bad-website phase entirely. For you: I build first websites that start working from day one, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
+  "status": "published",
+  "media_id": "18034374440827789",
+  "published_at": "2026-08-12T15:16:25.535Z"
+ },
+ {
+  "id": "2026-08-13-smokefall-clock-reel",
+  "publish_at": "2026-08-13T15:00:00Z",
+  "video": "media/smokefall-clock-reel-20260813.mp4",
+  "caption": "This website knows what time it is.\n\nSmokefall is a concept build: a fictional wood-fired restaurant. Visit in the morning and it offers coffee and the morning board. Visit at 10 pm and it says goodnight and tells you when the oven is back. The light changes with the hour, and yes, the sun is draggable.\n\nA restaurant site's real job is answering one question: are they open right now, and what's good tonight? This one answers before you ask.\n\nSee what time it is there: smokefall-restaurant.vercel.app\n\n#RestaurantMarketing #WebDesign #KootenayMade #BCFood",
+  "status": "published",
+  "media_id": "18122103898637929",
+  "published_at": "2026-08-13T15:17:17.189Z"
+ },
+ {
+  "id": "2026-08-14-seo-checks-carousel",
+  "publish_at": "2026-08-14T15:00:00Z",
+  "images": [
+   "images/seo-checks-01.jpg",
+   "images/seo-checks-02.jpg",
+   "images/seo-checks-03.jpg",
+   "images/seo-checks-04.jpg",
+   "images/seo-checks-05.jpg"
+  ],
+  "caption": "Before you pay anyone for SEO, run these four free checks.\n\nMost \"SEO packages\" start by charging you for things you can check yourself in ten minutes: your Google Business Profile, your town in real text, page titles, and how your site actually loads on a phone.\n\nSwipe through, check your own site, and if number four fails, my free check-up will name exactly what's slow.\n\nWhich one surprised you? 👇\n\n#SEO #KootenayBusiness #SmallBusinessBC #CastlegarBC #KootenayMade",
+  "status": "published",
+  "media_id": "18125360911772709",
+  "published_at": "2026-08-14T16:00:13.590Z"
+ },
+ {
+  "id": "2026-08-15-kmd-map-reel",
+  "publish_at": "2026-08-15T15:00:00Z",
+  "video": "media/kmd-map-reel-20260815.mp4",
+  "caption": "The map on my homepage is alive.\n\nIt's not a video and not a stock texture: it's a real WebGL survey map, drawn live by your graphics card, and it reacts to your cursor. Every page of my site gets its own lens on the same living world.\n\nWhy bother? Because in a region where most business sites come from the same template bin, the site that feels alive is the one that gets remembered.\n\nGo wake it up: kootenaymade.ca\n\n#WebDesign #WebGL #KootenayMade #CastlegarBC #BCBusiness",
+  "status": "published",
+  "media_id": "18021033191914975",
+  "published_at": "2026-08-15T15:01:19.382Z"
+ },
+ {
+  "id": "2026-08-16-honesty-single",
+  "publish_at": "2026-08-17T02:00:00Z",
+  "image": "images/honesty-single-20260816.jpg",
+  "caption": "The brewery in my portfolio isn't real.\n\nBreaker Room Brewing has eight beers, a taproom above the river, and a website where you pour your own pint. It also doesn't exist, and it says so right on the site.\n\nConcept builds are how I show what's possible without borrowing a real business's name or inventing fake clients. If it's invented, it's labeled. Every time. That's the deal, and it's also why you can trust the rest of the portfolio: the real work is real.\n\nSee both kinds, clearly marked: kootenaymade.ca/portfolio\n\n#Honesty #WebDesign #KootenayMade #SmallBusinessBC",
+  "status": "published",
+  "media_id": "18117200083914715",
+  "published_at": "2026-08-17T02:47:23.572Z"
+ },
+ {
+  "id": "2026-08-17-powderhorn-descent-reel",
+  "publish_at": "2026-08-17T15:00:00Z",
+  "video": "media/powderhorn-descent-reel-20260817.mp4",
+  "caption": "Scroll is the descent.\n\nLast week I showed you a still of Powderhorn Basin. Here's the run itself: the homepage descends the mountain as you scroll, and the altimeter in the corner ticks down from the drop-in to the valley, live.\n\nPowderhorn is a concept build: a fictional cat and heli skiing operation, built to prove that cinema and straight answers can share one page. Seats, deposits, weather days: all answered before the booking form asks for anything.\n\nTake the run: powderhorn-basin.vercel.app\n\n#WebDesign #SkiBC #KootenayMade #NelsonBC #ConceptDesign",
+  "status": "published",
+  "attempts": 1,
+  "error": "container ERROR",
+  "media_id": "18112800061778933",
+  "published_at": "2026-08-17T15:43:27.514Z"
+ },
+ {
+  "id": "2026-08-18-list-rules-carousel",
+  "publish_at": "2026-08-18T15:00:00Z",
+  "images": [
+   "images/list-rules-01.jpg",
+   "images/list-rules-02.jpg",
+   "images/list-rules-03.jpg",
+   "images/list-rules-04.jpg",
+   "images/list-rules-05.jpg"
+  ],
+  "caption": "How did 5,635 businesses end up on one list?\n\nFour rules, no shortcuts: public sources only, with the source named on every listing. One business, one record. Every listing wears a \"last checked\" date, and stale listings come off the list. And nobody can buy a spot, ever.\n\nThat last rule is the whole point: the moment a list sells placement, it stops being a list and starts being an ad.\n\nTry to stump it: kootenaylist.ca\n\n#Kootenays #KootenayBusiness #ShopLocalBC #WestKootenay #EastKootenay",
+  "status": "published",
+  "media_id": "18082435268285906",
+  "published_at": "2026-08-18T15:38:09.921Z"
+ },
+ {
+  "id": "2026-08-19-ask-post",
+  "publish_at": "2026-08-19T15:00:00Z",
+  "image": "images/ask-post-20260819.jpg",
+  "caption": "Is your website earning its keep?\n\nIf you have one and you're not sure, the free check-up answers in two minutes: two live scans, real numbers, plain English, no email required.\n\nIf you don't have one yet, honestly, you might be the smart one: you skipped the bad-website phase. First websites are my favourite builds, priced for a Kootenay business, not a Vancouver one.\n\nEither way, it starts with one message. I answer every single one myself.\n\nkootenaymade.ca\n\n#KootenayBusiness #SmallBusinessBC #WebDesign #CastlegarBC #KootenayMade",
+  "status": "cancelled",
+  "cancelled_reason": "near-duplicate of 2026-08-19-ask-post's predecessor 2026-08-12-ask-post: same card template with the ground inverted, 53% caption similarity, two sentences verbatim. The offer job for this week is carried by 2026-08-17-two-lanes, which also states the full price."
+ },
+ {
+  "id": "2026-08-14-mica-reel",
+  "publish_at": "2026-08-14T21:29:00Z",
+  "video": "media/mica-reel-20260814.mp4",
+  "caption": "A photograph lies. A swatch does not.\n\nMica Hair Studio is a concept build: a fictional salon, made to prove what a colour appointment can look like online. The homepage is a swatch ring you hold against a ten-level ladder and re-light three ways, because the honest answer to \"what will this look like on me\" changes with the light you ask it in.\n\nFurther down, the thing no salon publishes: the trade's own level scale, shown to the customer instead of kept behind the chair.\n\nSee it against your hair: mica-hair-studio.vercel.app\n\n#WebDesign #SalonLife #KootenayMade #NelsonBC #ConceptDesign",
+  "status": "published",
+  "media_id": "17921117367420572",
+  "published_at": "2026-08-14T21:29:21Z",
+  "note": "published directly via the local system-user token, not the runner"
+ },
+ {
+  "id": "2026-08-15-drip-carousel",
+  "publish_at": "2026-08-16T02:30:00Z",
+  "images": [
+   "images/drip-fees-01.jpg",
+   "images/drip-fees-02.jpg",
+   "images/drip-fees-03.jpg",
+   "images/drip-fees-04.jpg",
+   "images/drip-fees-05.jpg",
+   "images/drip-fees-06.jpg",
+   "images/drip-fees-07.jpg",
+   "images/drip-fees-08.jpg"
+  ],
+  "caption": "If a customer cannot buy at the price you advertise, that is a legal problem, not a marketing one.\n\nSince June 2022 it has been a false or misleading representation under the Competition Act to advertise a price nobody can actually pay. In January the Federal Court of Appeal upheld a $38.9 million penalty over a $1.50 booking fee. The fee was disclosed. It was disclosed too late to matter.\n\nThe only charges allowed outside your advertised price are ones a statute charges the buyer. There is no small business exemption.\n\nSwipe through, then walk your own checkout on a phone.\n\n#SmallBusinessCanada #SmallBizTips #WebsiteTips #Kootenays #KootenayMade",
+  "status": "published",
+  "media_id": "18118821412699650",
+  "published_at": "2026-08-16T03:07:18.515Z"
+ },
+ {
+  "id": "2026-08-16-harkness-reel",
+  "publish_at": "2026-08-16T15:30:00Z",
+  "video": "media/harkness-reel-20260816.mp4",
+  "caption": "Never get surprised by a repair bill again.\n\nThat is the promise on the front of Harkness Auto & Tire, a concept build: a fictional shop, made to prove what an honest repair site looks like. Photos of the problem before any work. A written price you approve from your phone. A bill that matches it to the dollar.\n\nTen jobs priced openly on the page, the shop rate published, parts at cost plus twenty percent, and a full sample invoice a stranger can read before they ever get one.\n\nSee the prices: harkness-auto-tire.vercel.app\n\n#WebDesign #AutoRepair #KootenayMade #TrailBC #ConceptDesign",
+  "status": "published",
+  "media_id": "18092898110562311",
+  "published_at": "2026-08-16T15:38:42.261Z"
+ },
+ {
+  "id": "2026-08-17-two-lanes",
+  "publish_at": "2026-08-18T01:30:00Z",
+  "image": "images/two-lanes-20260817.jpg",
+  "caption": "You can find out what your website is costing you in about a minute.\n\nTwo scans on my check-up page. One reads what a visitor sees in the first few seconds. The other reads speed, mobile, and the search basics that quietly decide whether someone stays. Free, no email, and you get the results either way.\n\nNo website yet? That lane starts at $2,000 for a custom site you own outright, or twelve payments of $189, which is $2,268 all in. Kootenay businesses take 10% off either way.\n\nStart either lane: kootenaymade.ca/audit\n\n#CastlegarBC #Kootenays #WebDesign #SmallBusinessWebsite #KootenayMade",
+  "status": "published",
+  "media_id": "17905446462308135",
+  "published_at": "2026-08-18T01:52:29.294Z"
+ },
+ {
+  "id": "2026-08-18-five-questions",
+  "publish_at": "2026-08-19T01:30:00Z",
+  "images": [
+   "images/five-questions-01.jpg",
+   "images/five-questions-02.jpg",
+   "images/five-questions-03.jpg",
+   "images/five-questions-04.jpg",
+   "images/five-questions-05.jpg",
+   "images/five-questions-06.jpg",
+   "images/five-questions-07.jpg"
+  ],
+  "caption": "Five questions your website should answer before anyone picks up the phone.\n\nWhat will this cost. What actually happens next. Who this is not for. Whether I can get in the door. And why I should believe any of it.\n\nEvery example in here comes off a concept build: ten jobs priced with a sample invoice anyone can read, the three hours of a colour appointment written out, three plain refusals each with its reason, access facts down to the door width. The businesses are invented. The systems are not.\n\nWhich one is missing from yours?\n\n#WebsiteTips #SmallBizTips #WebDesign #WestKootenay #KootenayMade",
+  "status": "published",
+  "media_id": "18342320824271867",
+  "published_at": "2026-08-19T01:49:17.793Z"
+ },
+ {
+  "id": "2026-08-19-not-for-carousel",
+  "publish_at": "2026-08-20T01:30:00Z",
+  "images": [
+   "images/not-for-01.jpg",
+   "images/not-for-02.jpg",
+   "images/not-for-03.jpg",
+   "images/not-for-04.jpg",
+   "images/not-for-05.jpg",
+   "images/not-for-06.jpg",
+   "images/not-for-07.jpg"
+  ],
+  "caption": "The fastest way to be believed is to say plainly what you are not for.\n\nEvery business page in every town says the same four things. Passionate. Family owned. Quality work. Years of experience. Worn so smooth they carry no information at all.\n\nOn a salon concept I built there is a section headed \"who this is not for\": no same-day colour, no extensions, no guaranteed match to a photograph, each with its reason. Three refusals, and every one makes the rest of the page more believable.\n\nWhat is the one job you would rather send down the road?\n\n#SmallBusinessOwner #SmallBizTips #WebsiteTips #RosslandBC #KootenayMade",
+  "status": "published",
+  "media_id": "18066407243774854",
+  "published_at": "2026-08-20T01:54:10.985Z"
+ },
+ {
+  "id": "2026-08-20-cedar-stone-reel",
+  "publish_at": "2026-08-20T15:00:00Z",
+  "video": "media/cedar-stone-reel-20260820.mp4",
+  "caption": "Every booking that goes through a platform costs you a night's profit.\n\nCedar & Stone Lodge is a concept build: a fictional five-room lodge near Radium Hot Springs, made to prove a small operator can win the direct booking. The homepage is one morning at the lodge told hour by hour, and every room gets a page of its own instead of a tile in a grid.\n\nUnder that, the practical layer: what a day there actually looks like, what is minutes from the door, and a booking path that ends in the house instead of a platform's inbox.\n\nSee the rooms: cedar-stone-lodge-w9m1.vercel.app\n\n#WebDesign #KootenayMade #ExploreBC #KootenayLife #ConceptDesign",
+  "status": "published",
+  "media_id": "18104021557921813",
+  "published_at": "2026-08-20T15:41:52.992Z"
+ },
+ {
+  "id": "2026-08-22-checkup-log-1",
+  "publish_at": "2026-08-22T15:00:00Z",
+  "caption": "I scanned 8 Kootenay business sites this week. Every single one failed Google's speed bar.\n\nReal sites, measured the way Google measures them, on a phone. No names. Nobody gets embarrassed here. The median homepage took 21 seconds to show its main content. The slowest took 48. Three had nothing written for the grey text under their search result, so Google is improvising it.\n\nAlmost none of this is the owner's fault, and that is the part that matters. It is the platform underneath, and it is fixable.\n\nThis is week one of The Check-Up Log. If you want yours read, the free check-up takes about a minute and the results are yours either way: kootenaymade.ca/audit\n\n#KootenayBusiness #NelsonBC #WebsiteTips #BCSmallBusiness #KootenayMade",
+  "status": "pending",
+  "images": [
+   "images/checkup-log-1-20260822-01.jpg",
+   "images/checkup-log-1-20260822-02.jpg",
+   "images/checkup-log-1-20260822-03.jpg",
+   "images/checkup-log-1-20260822-04.jpg",
+   "images/checkup-log-1-20260822-05.jpg",
+   "images/checkup-log-1-20260822-06.jpg"
+  ]
+ },
+ {
+  "id": "2026-08-22-own-it-hook",
+  "publish_at": "2026-08-23T01:30:00Z",
+  "caption": "Stop renting your website.\n\nMost local sites sit on a stack of subscriptions. The builder, the theme, the plugins, the monthly fees that never finish. Ten years of renting buys you a lot of nothing.\n\nI build sites you own outright. The code, the design, the words, and the domain registered in your name from day one. A custom three-page build is $2,000 once, or twelve payments of $189, which is $2,268 all in, and it is yours at the end. No credit checks. Kootenay businesses take 10% off either way.\n\nHow it works: kootenaymade.ca/own-it-monthly\n\n#CastlegarBC #WestKootenay #WebDesign #SmallBusinessCanada #KootenayMade",
+  "status": "pending",
+  "image": "images/own-it-hook-20260822.jpg"
+ },
+ {
+  "id": "2026-08-23-grants-truth",
+  "publish_at": "2026-08-23T15:00:00Z",
+  "caption": "There is no big BC website grant in 2026, and anyone telling you otherwise is reading an old page.\n\nCDAP closed in 2024. Launch Online closed back in 2021. What exists now is smaller and more useful than the myth. Community Futures and Futurpreneur loans repaid from the revenue a working site creates, regional economic development programs, and genuinely strong targeted streams for Indigenous entrepreneurs, founders 18 to 39, and newcomers.\n\nMost applications die for one simple reason, a vague project. A written quote with a defined scope is the single biggest thing you control.\n\nThe full guide, checked and current: kootenaymade.ca/blog/bc-small-business-website-grants-2026\n\n#ShopLocalBC #Kootenays #SmallBizTips #SmallBusinessCanada #KootenayMade",
+  "status": "pending",
+  "images": [
+   "images/grants-truth-20260823-01.jpg",
+   "images/grants-truth-20260823-02.jpg",
+   "images/grants-truth-20260823-03.jpg",
+   "images/grants-truth-20260823-04.jpg",
+   "images/grants-truth-20260823-05.jpg",
+   "images/grants-truth-20260823-06.jpg",
+   "images/grants-truth-20260823-07.jpg"
+  ]
+ },
+ {
+  "id": "2026-08-23-river-dawn",
+  "publish_at": "2026-08-24T01:30:00Z",
+  "caption": "A Kootenay river at first light, illustrated.\n\nThis one is not selling anything. It is the place, painted. The mist lifting off the water, the light climbing the far ridge, the heron that owns that bend. I build websites for the businesses that live here, and this valley is the entire reason the studio exists where it does.\n\nSome mornings the marketing does itself.\n\nMade in Castlegar. kootenaymade.ca\n\n#KootenayLife #ExploreBC #WestKootenay #SmallTownBC #KootenayMade",
+  "status": "pending",
+  "video": "media/river-dawn-20260823.mp4"
+ },
+ {
+  "id": "2026-08-24-vale-reel",
+  "publish_at": "2026-08-24T15:00:00Z",
+  "caption": "Concept build: Vale Realty, luxury real estate that sells the life instead of the square footage.\n\nNo brokerage commissioned this. I built it to prove what a two million dollar listing deserves online. Ten full estates, each told as a story with a page of its own. Six area guides for the coast around them. 43 routes, all custom.\n\nThe pattern transfers to any listing business. The property is the hero, the agent is the guide, and the enquiry is one obvious step away.\n\nWalk through: vale-realty.vercel.app\n\n#WebDesign #WebDesignCanada #SmallBusinessWebsite #ShopLocal #KootenayMade",
+  "status": "pending",
+  "video": "media/vale-reel-20260824.mp4"
+ },
+ {
+  "id": "2026-08-24-speed-ask",
+  "publish_at": "2026-08-25T01:30:00Z",
+  "caption": "Sixty seconds. One number. I want to see it.\n\nSearch PageSpeed Insights, run your homepage, and look at the phone score, because the phone score is the one Google actually uses. Most local sites land somewhere between 30 and 60, and the owners have no idea, since on the shop wifi everything feels fine.\n\nDrop your number in the comments, whatever it is, and I will tell you the one thing I would fix first, right here in the thread. Free, and useful either way.\n\nThe deeper free version lives at kootenaymade.ca/audit\n\n#WebsiteTips #SmallBizTips #CastlegarBC #SmallBusinessOwner #KootenayMade",
+  "status": "pending",
+  "image": "images/speed-ask-20260824.jpg"
+ },
+ {
+  "id": "2026-08-25-referral",
+  "publish_at": "2026-08-25T15:00:00Z",
+  "caption": "Know someone who needs a website? That thought is worth $200.\n\nSend a business my way, and when they sign a project I e-transfer you $200. Anyone, every time, no limit. Your cousin, your plumber, the bakery still running on a Facebook page from 2019.\n\nWord of mouth is the only marketing that has ever really worked in the Kootenays. I just think the mouth should get paid.\n\nMessage me the name, or send them to kootenaymade.ca and tell them to mention you.\n\n#Kootenays #KootenayBusiness #SupportLocal #SmallBusinessOwner #KootenayMade",
+  "status": "pending",
+  "image": "images/referral-20260825.jpg"
+ },
+ {
+  "id": "2026-08-25-gbp-fixes",
+  "publish_at": "2026-08-26T01:30:00Z",
+  "caption": "Your Google Business Profile decides who calls before your website ever loads.\n\nSix fixes, all free, all doable tonight. Hours, including holidays. The right primary category. Fresh real photos. A reply on every review. A services list written in the words people actually search. One post a week so the profile reads as alive.\n\nMost profiles around here are missing at least four of the six.\n\nSave this, work down the list, and if you get stuck on any step, ask in the comments and I will walk you through it. kootenaymade.ca\n\n#SmallBusinessTips #WebsiteTips #NelsonBC #ShopLocalBC #KootenayMade",
+  "status": "pending",
+  "images": [
+   "images/gbp-fixes-20260825-01.jpg",
+   "images/gbp-fixes-20260825-02.jpg",
+   "images/gbp-fixes-20260825-03.jpg",
+   "images/gbp-fixes-20260825-04.jpg",
+   "images/gbp-fixes-20260825-05.jpg",
+   "images/gbp-fixes-20260825-06.jpg",
+   "images/gbp-fixes-20260825-07.jpg",
+   "images/gbp-fixes-20260825-08.jpg"
+  ]
+ },
+ {
+  "id": "2026-08-26-worst-site",
+  "publish_at": "2026-08-26T15:00:00Z",
+  "caption": "One site I scanned this week took 48 seconds to show its homepage on a phone.\n\nName withheld, because the point is the pattern. Fifteen megabytes of homepage. On the shop wifi it feels fine, which is exactly why the owner has no idea. Google calls anything past 2.5 seconds poor, and it ranks accordingly, quietly.\n\nSlow sites rarely look broken. They just stop getting found, one search at a time.\n\nThe Check-Up Log continues Friday. If you want yours read before then, kootenaymade.ca/audit is free and takes about a minute.\n\n#WebsiteTips #WebDesign #RosslandBC #SmallTownBC #KootenayMade",
+  "status": "pending",
+  "image": "images/worst-site-20260826.jpg"
+ },
+ {
+  "id": "2026-08-26-clarity-hook",
+  "publish_at": "2026-08-27T01:30:00Z",
+  "caption": "Can a stranger tell what you do in five seconds?\n\nPull up your homepage and read only the biggest words on it. Do they name your trade, your towns, or anything at all? Most sites open with a greeting, a slogan, or a photo of a mountain, and leave the visitor to do the figuring out.\n\nClear beats clever every time it has ever been tested. A confused visitor does not scroll for answers. They hit back and call whoever said it plainly.\n\nIf your homepage buries what you do, that is usually a one-conversation fix: kootenaymade.ca\n\n#WebDesign #WebsiteDesign #KootenayBusiness #SmallBizTips #KootenayMade",
+  "status": "pending",
+  "image": "images/clarity-hook-20260826.jpg"
+ },
+ {
+  "id": "2026-08-27-lapphund-reel",
+  "publish_at": "2026-08-27T15:00:00Z",
+  "caption": "Real store, live today. Lapphund Designs: 480 products on Shopify, built and run from the Kootenays.\n\nE-commerce at that size lives or dies on the boring parts done right. Collections that make sense, product pages that answer the questions buyers actually ask, titles and tags built for search instead of vibes.\n\nThat is the same craft I sell. Custom Shopify storefronts start at $5,000, and the Masterpiece tier at $9,500 adds full brand identity and bespoke product layouts.\n\nSee it running: lapphunddesigns.com\n\n#ShopLocal #SmallBusinessCanada #WebsiteDesign #Kootenays #KootenayMade",
+  "status": "pending",
+  "video": "media/lapphund-reel-20260827.mp4"
+ },
+ {
+  "id": "2026-08-27-photo-list",
+  "publish_at": "2026-08-28T01:30:00Z",
+  "caption": "Photograph these five things before you hire a web person, and your future site doubles in quality before a designer ever touches it.\n\nThe work, mid-job. Before and after pairs, especially in the trades. The details only you notice. The place itself. And the rule that beats all the gear talk is that light wins. A phone by a window beats a real camera in a dark room.\n\nTen minutes a week builds the library, and real photos are the one thing stock can never fake.\n\nSave this for the day you need it. kootenaymade.ca\n\n#SmallBusinessOwner #SmallBusinessTips #TrailBC #WestKootenay #KootenayMade",
+  "status": "pending",
+  "images": [
+   "images/photo-list-20260827-01.jpg",
+   "images/photo-list-20260827-02.jpg",
+   "images/photo-list-20260827-03.jpg",
+   "images/photo-list-20260827-04.jpg",
+   "images/photo-list-20260827-05.jpg",
+   "images/photo-list-20260827-06.jpg",
+   "images/photo-list-20260827-07.jpg"
+  ]
+ },
+ {
+  "id": "2026-08-28-services",
+  "publish_at": "2026-08-28T15:00:00Z",
+  "caption": "One builder, everything your business needs to exist online.\n\nWebsites in three tiers, priced by what they do. The Trailhead at $2,000 is the credible front door. The Engine at $6,500 presents and grows. The Empire from $15,000 is for when the site becomes what the business runs on. Shopify stores start at $5,000, custom web apps at $15,000, brand identity is $1,500.\n\nTwelve-payment ownership exists too: the Trailhead runs $189 a month for twelve months, $2,268 total, yours outright at the end. No credit checks.\n\nKootenay businesses take 10% off any build. kootenaymade.ca/services\n\n#WebDesignCanada #SmallBusinessWebsite #CastlegarBC #ShopLocalBC #KootenayMade",
+  "status": "pending",
+  "images": [
+   "images/services-20260828-01.jpg",
+   "images/services-20260828-02.jpg",
+   "images/services-20260828-03.jpg",
+   "images/services-20260828-04.jpg",
+   "images/services-20260828-05.jpg",
+   "images/services-20260828-06.jpg",
+   "images/services-20260828-07.jpg",
+   "images/services-20260828-08.jpg"
+  ]
+ },
+ {
+  "id": "2026-08-28-leads-hook",
+  "publish_at": "2026-08-29T01:30:00Z",
+  "caption": "Better leads. Less chasing.\n\nThe difference is rarely the ads. It is what the click lands on. A site that names your trade, your towns, and your price floor prequalifies people before the phone rings. The tire kickers filter themselves out, and the calls that do come through already know roughly what you charge.\n\nThe actual job of a working website is a filter that respects your time.\n\nIf the phone rings plenty but the jobs are wrong, the fix is usually the site: kootenaymade.ca\n\n#SmallBusinessCanada #WebDesigner #NelsonBC #SupportSmallBusiness #KootenayMade",
+  "status": "pending",
+  "image": "images/leads-hook-20260828.jpg"
+ }
 ]
