@@ -304,8 +304,10 @@
     "id": "2026-08-24-speed-ask",
     "publish_at": "2026-08-25T15:00:00Z",
     "caption": "Sixty seconds. One number. I want to see it.\n\nSearch PageSpeed Insights, run your homepage, and look at the phone score, because the phone score is the one Google actually uses. Most local sites land somewhere between 30 and 60, and the owners have no idea, since on the shop wifi everything feels fine.\n\nDrop your number in the comments, whatever it is, and I will tell you the one thing I would fix first, right here in the thread. Free, and useful either way.\n\nThe deeper free version lives at kootenaymade.ca/audit\n\n#WebsiteTips #SmallBizTips #CastlegarBC #SmallBusinessOwner #KootenayMade",
-    "status": "pending",
-    "image": "images/speed-ask-20260824.jpg"
+    "status": "published",
+    "image": "images/speed-ask-20260824.jpg",
+    "media_id": "17987727645047221",
+    "published_at": "2026-08-25T15:50:33.946Z"
   },
   {
     "id": "2026-08-25-referral",
