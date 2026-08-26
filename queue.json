@@ -322,7 +322,7 @@
     "id": "2026-08-25-gbp-fixes",
     "publish_at": "2026-08-26T15:00:00Z",
     "caption": "Your Google Business Profile decides who calls before your website ever loads.\n\nSix fixes, all free, all doable tonight. Hours, including holidays. The right primary category. Fresh real photos. A reply on every review. A services list written in the words people actually search. One post a week so the profile reads as alive.\n\nMost profiles around here are missing at least four of the six.\n\nSave this, work down the list, and if you get stuck on any step, ask in the comments and I will walk you through it. kootenaymade.ca\n\n#SmallBusinessTips #WebsiteTips #NelsonBC #ShopLocalBC #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/gbp-fixes-20260825-01.jpg",
       "images/gbp-fixes-20260825-02.jpg",
@@ -332,7 +332,9 @@
       "images/gbp-fixes-20260825-06.jpg",
       "images/gbp-fixes-20260825-07.jpg",
       "images/gbp-fixes-20260825-08.jpg"
-    ]
+    ],
+    "media_id": "18022963154909622",
+    "published_at": "2026-08-26T16:04:27.006Z"
   },
   {
     "id": "2026-08-26-worst-site",
