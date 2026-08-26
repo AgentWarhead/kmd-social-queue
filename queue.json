@@ -313,8 +313,10 @@
     "id": "2026-08-25-referral",
     "publish_at": "2026-08-26T01:30:00Z",
     "caption": "Know someone who needs a website? That thought is worth $200.\n\nSend a business my way, and when they sign a project I e-transfer you $200. Anyone, every time, no limit. Your cousin, your plumber, the bakery still running on a Facebook page from 2019.\n\nWord of mouth is the only marketing that has ever really worked in the Kootenays. I just think the mouth should get paid.\n\nMessage me the name, or send them to kootenaymade.ca and tell them to mention you.\n\n#Kootenays #KootenayBusiness #SupportLocal #SmallBusinessOwner #KootenayMade",
-    "status": "pending",
-    "image": "images/referral-20260825.jpg"
+    "status": "published",
+    "image": "images/referral-20260825.jpg",
+    "media_id": "18625733707046063",
+    "published_at": "2026-08-26T01:44:02.141Z"
   },
   {
     "id": "2026-08-25-gbp-fixes",
