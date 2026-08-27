@@ -340,8 +340,10 @@
     "id": "2026-08-26-worst-site",
     "publish_at": "2026-08-27T01:30:00Z",
     "caption": "One site I scanned this week took 48 seconds to show its homepage on a phone.\n\nName withheld, because the point is the pattern. Fifteen megabytes of homepage. On the shop wifi it feels fine, which is exactly why the owner has no idea. Google calls anything past 2.5 seconds poor, and it ranks accordingly, quietly.\n\nSlow sites rarely look broken. They just stop getting found, one search at a time.\n\nThe Check-Up Log continues Friday. If you want yours read before then, kootenaymade.ca/audit is free and takes about a minute.\n\n#WebsiteTips #WebDesign #RosslandBC #SmallTownBC #KootenayMade",
-    "status": "pending",
-    "image": "images/worst-site-20260826.jpg"
+    "status": "published",
+    "image": "images/worst-site-20260826.jpg",
+    "media_id": "18343450297268654",
+    "published_at": "2026-08-27T03:29:35.764Z"
   },
   {
     "id": "2026-08-26-clarity-hook",
