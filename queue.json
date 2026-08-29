@@ -394,7 +394,9 @@
       "images/services-20260828-06.jpg",
       "images/services-20260828-07.jpg",
       "images/services-20260828-08.jpg"
-    ]
+    ],
+    "attempts": 1,
+    "error": "Only photo or video can be accepted as media type."
   },
   {
     "id": "2026-08-28-leads-hook",
