@@ -414,7 +414,9 @@
     "publish_at": "2026-09-08T15:00:00Z",
     "video": "media/teardown-12s-20260907.mp4",
     "caption": "One site I scanned this week took twelve seconds to show its homepage on a phone.\n\nName withheld, because the point is the pattern. Eighty-three images on the front page, about 3.6 megabytes of them sent larger than they display. On the shop wifi it feels fine, which is exactly why nobody has noticed.\n\nThe fix is an afternoon. Resize each image to the size it actually displays at, and save it as WebP.\n\nTwelve seconds is not a slow website. It is a closed door.\n\nRun yours in about a minute: kootenaymade.ca/audit\n\n#WebsiteSpeed #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18090083120165802",
+    "published_at": "2026-09-08T18:08:00.429Z"
   },
   {
     "id": "2026-09-08-own-carousel",
