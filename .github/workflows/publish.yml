@@ -23,7 +23,11 @@ jobs:
         env:
           META_GRAPH_TOKEN: ${{ secrets.META_GRAPH_TOKEN }}
         run: node publish.mjs
+      # ALWAYS. If the publish step exits non-zero the queue write it just
+      # made must still be saved, or every post that succeeded in that run
+      # gets published a second time on the next one.
       - name: Commit queue status
+        if: always()
         run: |
           git config user.name "kmd-shade"
           git config user.email "actions@users.noreply.github.com"

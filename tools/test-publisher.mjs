@@ -27,8 +27,11 @@ globalThis.fetch = async (url, opts) => {
   const u = String(url);
   if (opts && opts.method === "POST" && u.includes("/media_publish"))
     return { json: async () => ({ id: "MEDIA_" + ++n }) };
-  if (opts && opts.method === "POST" && u.includes("/media"))
+  if (opts && opts.method === "POST" && u.includes("/media")) {
+    if (String(opts.body).includes("BOOM"))
+      return { json: async () => ({ error: { message: "simulated Graph API failure" } }) };
     return { json: async () => ({ id: "CONTAINER_" + Math.random().toString(36).slice(2, 7) }) };
+  }
   if (u.includes("fields=status_code"))
     return { json: async () => ({ status_code: "FINISHED" }) };
   return { json: async () => ({ error: { message: "unstubbed " + u } }) };
@@ -49,6 +52,11 @@ const alreadyPosted = (m) => ({
   status: "published", published_at: minsAgo(m),
 });
 
+const failing = (attempts) => ({
+  id: "bad", publish_at: hoursAgo(9), image: "x.jpg", caption: "BOOM",
+  status: "pending", ...(attempts ? { attempts } : {}),
+});
+
 const CASES = [
   { name: "three due at once publishes exactly one", queue: due, expect: 1 },
   { name: "a post ten minutes old holds the next one", queue: [alreadyPosted(10), ...due], expect: 0 },
@@ -56,6 +64,14 @@ const CASES = [
   { name: "nothing due publishes nothing", expect: 0,
     queue: [{ id: "f", publish_at: new Date(Date.now() + 6 * 3600e3).toISOString(),
               image: "x.jpg", caption: "f", status: "pending" }] },
+
+  // The duplicate-post bug. A run that tips a post to failed must go red
+  // ONCE. Every run after that must be green, or the workflow stops
+  // committing queue.json and republishes everything that succeeded.
+  { name: "a third strike turns THIS run red", queue: [failing(2)], expect: 0, exit: 1 },
+  { name: "a post that failed on an earlier run leaves this one green",
+    queue: [{ ...failing(3), status: "failed" }, ...due], expect: 1, exit: 0 },
+  { name: "a first strike does not turn the run red", queue: [failing(0)], expect: 0, exit: 0 },
 ];
 
 let failed = 0;
@@ -65,19 +81,21 @@ for (const c of CASES) {
     copyFileSync(path.join(ROOT, "publish.mjs"), path.join(dir, "publish.mjs"));
     writeFileSync(path.join(dir, "runner.mjs"), RUNNER);
     writeFileSync(path.join(dir, "queue.json"), JSON.stringify(c.queue, null, 2));
-    let out = "";
+    let out = "", code = 0;
     try {
       out = execFileSync(process.execPath, ["runner.mjs"],
         { cwd: dir, encoding: "utf8", env: { ...process.env, META_GRAPH_TOKEN: "test-token" } });
     } catch (e) {
-      out = (e.stdout || "") + (e.stderr || "");
+      out = (e.stdout || "") + (e.stderr || ""); code = e.status;
     }
     const q = JSON.parse(readFileSync(path.join(dir, "queue.json"), "utf8"));
     const posted = q.filter((e) => e.status === "published" && e.id !== "z").map((e) => e.id);
-    const ok = posted.length === c.expect;
+    const exitOk = c.exit === undefined || code === c.exit;
+    const ok = posted.length === c.expect && exitOk;
     if (!ok) failed++;
     console.log(`${ok ? "ok  " : "FAIL"}  ${c.name}`);
-    console.log(`        expected ${c.expect}, published ${posted.length}${posted.length ? " (" + posted.join(",") + ")" : ""}`);
+    console.log(`        expected ${c.expect} published, got ${posted.length}${posted.length ? " (" + posted.join(",") + ")" : ""}` +
+      (c.exit === undefined ? "" : `; expected exit ${c.exit}, got ${code}`));
     if (!ok) console.log(out.split("\n").map((l) => "        | " + l).join("\n"));
   } finally {
     rmSync(dir, { recursive: true, force: true });

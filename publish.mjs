@@ -14,6 +14,7 @@ if (!TOKEN) { console.error("no META_GRAPH_TOKEN"); process.exit(1); }
 const queue = JSON.parse(readFileSync("queue.json", "utf8"));
 const now = new Date();
 let changed = false;
+let newFailure = false;
 
 // The cron asks for every 15 minutes and GitHub does not oblige. Measured
 // over 30 real runs the gap ran 1.7 to 5.8 hours, median 3.3. Slots four
@@ -101,6 +102,7 @@ for (const entry of queue) {
     entry.error = String(e.message).slice(0, 300);
     if (entry.attempts >= 3) {
       entry.status = "failed";
+      newFailure = true;
       console.error(`FAILED ${entry.id} after ${entry.attempts} attempts: ${entry.error}`);
     } else {
       console.error(`RETRY ${entry.id} (attempt ${entry.attempts}/3, next tick): ${entry.error}`);
@@ -116,10 +118,24 @@ if (changed) {
   console.log("nothing due");
 }
 
-// A failed post turns the run red so GitHub emails the boss.
-// The queue write above still happened; the failure is loud, not lost.
-if (queue.some(e => e.status === "failed" && !e.acknowledged)) {
-  console.error("one or more posts FAILED; see queue.json");
+// A failure turns the run red ONCE, on the run where it happened, so
+// GitHub emails the boss.
+//
+// It used to go red on every later run too, because the condition read a
+// queue-wide "failed" state against an "acknowledged" flag that nothing in
+// this repo ever set. Two things followed. Every run stayed red forever, so
+// a SECOND real failure looked identical to the first and was invisible.
+// Worse, the workflow only committed queue.json when this file exited 0, so
+// once a failure existed the queue status stopped being saved, and every
+// post that succeeded got published again on the next run. The workflow now
+// commits with if: always(), and this exits 1 only for a failure that just
+// happened.
+const stale = queue.filter(e => e.status === "failed");
+if (stale.length) {
+  console.log(`note: ${stale.length} previously failed post(s) still in the queue: ${stale.map(e => e.id).join(", ")}`);
+}
+if (newFailure) {
+  console.error("a post FAILED on this run; see queue.json");
   process.exit(1);
 }
 
