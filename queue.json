@@ -408,5 +408,126 @@
     "image": "images/leads-hook-20260828.jpg",
     "media_id": "17903393439481975",
     "published_at": "2026-08-29T15:14:34.228Z"
+  },
+  {
+    "id": "2026-09-08-teardown-twelve-seconds",
+    "publish_at": "2026-09-08T15:00:00Z",
+    "video": "media/teardown-12s-20260907.mp4",
+    "caption": "One site I scanned this week took twelve seconds to show its homepage on a phone.\n\nName withheld, because the point is the pattern. Eighty-three images on the front page, about 3.6 megabytes of them sent larger than they display. On the shop wifi it feels fine, which is exactly why nobody has noticed.\n\nThe fix is an afternoon. Resize each image to the size it actually displays at, and save it as WebP.\n\nTwelve seconds is not a slow website. It is a closed door.\n\nRun yours in about a minute: kootenaymade.ca/audit\n\n#WebsiteSpeed #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-08-own-carousel",
+    "publish_at": "2026-09-08T23:30:00Z",
+    "images": [
+      "images/own-20260907-01.jpg",
+      "images/own-20260907-02.jpg",
+      "images/own-20260907-03.jpg",
+      "images/own-20260907-04.jpg",
+      "images/own-20260907-05.jpg",
+      "images/own-20260907-06.jpg",
+      "images/own-20260907-07.jpg",
+      "images/own-20260907-08.jpg"
+    ],
+    "caption": "Six questions that prove you own your website.\n\nIf you cannot answer all six, you are renting it, and you will find out which one the day you try to leave.\n\nWhose name is on the domain. Whose account holds the hosting. Could another builder pick this up. Who owns the analytics. Where the contact form actually goes. Who answers the phone in a year.\n\nI work alone, so for my clients the answer to all six is the same person. That is most of the reason I work this way.\n\nHow many can you answer right now?\n\n#WebsiteOwnership #SmallBusinessBC #CastlegarBC #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-09-pike-hosting",
+    "publish_at": "2026-09-09T15:00:00Z",
+    "video": "media/pike-ep1-hosting-20260908.mp4",
+    "caption": "He was very pleased with the hosting.\n\nMost owners have no idea where their website actually lives, or whose account it lives in, and that second part is the one that matters. If the hosting sits in your builder's account, then moving on, or simply losing touch, means starting over.\n\nTwo questions worth asking today: where is my site hosted, and is the account in my name? A good builder answers both in one sentence and offers to show you the screen.\n\nDo you know where yours lives?\n\n#WebsiteOwnership #SmallBusinessBC #SalmoBC #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-09-first-website",
+    "publish_at": "2026-09-09T23:30:00Z",
+    "image": "images/first-website-20260908.jpg",
+    "caption": "You do not have a website yet, and every post about fixing one has nothing for you.\n\nSo here is the other lane. The Trailhead is $2,000 and it is a real front door: your trade, your towns, your prices, and a phone number that works on a phone. Most take about three weeks from the day you send me photos.\n\nYou own it at the end. The domain is in your name, the hosting is in your name, and another builder could pick it up next week.\n\nIf that is you, the first conversation is free and I will tell you honestly if you do not need one yet.\n\nkootenaymade.ca\n\n#FirstWebsite #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-10-summit-proof",
+    "publish_at": "2026-09-10T15:00:00Z",
+    "video": "media/summit-proof-20260909.mp4",
+    "caption": "Client build: Summit Handyman, live in Langley and five more towns.\n\nBrody writes the job down and takes it from there. The site does the same thing. Every service priced on the page, a minimum stated up front, and six towns named so somebody searching from any of them lands somewhere that mentions their own.\n\nThe quote form reaches him the same day. A trades website exists to do exactly that, and most of them get it wrong.\n\nReal work, real reviews, and his domain in his name.\n\nkootenaymade.ca\n\n#ContractorWebsite #SmallBusinessBC #LangleyBC #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-10-form-carousel",
+    "publish_at": "2026-09-10T23:30:00Z",
+    "images": [
+      "images/form-20260909-01.jpg",
+      "images/form-20260909-02.jpg",
+      "images/form-20260909-03.jpg",
+      "images/form-20260909-04.jpg",
+      "images/form-20260909-05.jpg",
+      "images/form-20260909-06.jpg",
+      "images/form-20260909-07.jpg"
+    ],
+    "caption": "Send your own contact form to yourself tonight.\n\nTwo minutes, and it is the most common thing I find broken on a local website. Five checks: did it arrive, how long it took, whose address is on it, whether you can reply to it, and whether there is a trap on it.\n\nThe trap is the one nobody has. A hidden field that bots fill in and people never see. Without it, your inbox becomes the trap instead.\n\nThen do it once a month.\n\nHas yours started filling with nonsense?\n\n#WebsiteTips #SmallBusinessBC #NelsonBC #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-11-pike-fakeforms",
+    "publish_at": "2026-09-11T15:00:00Z",
+    "video": "media/pike-ep2-fakeforms-20260910.mp4",
+    "caption": "A thousand fake enquiries overnight, and the real one is in there somewhere.\n\nForm spam is the most common thing that goes wrong with a small business website, and almost nobody builds for it. The fix is not a puzzle that makes real customers prove they are human. It is a hidden field that bots fill in and people never see, plus a limit on how fast one address can submit.\n\nIf your form has no trap in it, your inbox is the trap.\n\nHas yours started filling with nonsense?\n\n#WebsiteTips #SmallBusinessBC #NakuspBC #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-11-teardown-queue",
+    "publish_at": "2026-09-11T23:30:00Z",
+    "video": "media/teardown-queue-20260910.mp4",
+    "caption": "A second site, same week. Nine and a half seconds before anything appeared.\n\nEighteen files, stylesheets and scripts, all have to finish downloading before a single word shows up. That is three seconds of waiting built into every first visit.\n\nNobody chose that. It accumulates, one plugin at a time, and no single decision along the way looked wrong.\n\nLoad what the first screen needs, let the rest arrive after it.\n\nRun yours in about a minute: kootenaymade.ca/audit\n\n#WebsiteSpeed #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-12-place-valley",
+    "publish_at": "2026-09-12T15:00:00Z",
+    "image": "images/place-valley-20260911.jpg",
+    "caption": "Saturday.\n\nCold water, dark timber, one ridge catching the sun before anyone is awake.\n\nEvery business I build for sits somewhere in a valley like this, serving a handful of towns that all know each other. That is the whole market, and it is a good one.\n\n#Kootenays #BritishColumbia #SmallBusinessBC #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-12-referral",
+    "publish_at": "2026-09-12T19:30:00Z",
+    "image": "images/referral-20260913.jpg",
+    "caption": "You do not need a website to get paid for one.\n\nSend a business my way, and when they sign a project I e-transfer you $200. Anyone, every time, no limit. Your cousin, your plumber, the bakery still running on a Facebook page.\n\nYou do not have to sell anything. Tell them who built yours, or send them my way and let me do the rest.\n\nIt is the same $200 whether the project is a $2,000 Trailhead or an Empire build.\n\nKnow someone?\n\nkootenaymade.ca\n\n#ReferralProgram #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-12-familydesigns-proof",
+    "publish_at": "2026-09-12T23:30:00Z",
+    "video": "media/familydesigns-proof-20260911.mp4",
+    "caption": "Client build: Family Designs and Creations, made by hand in the Kootenays.\n\nKim makes custom apparel, gifts and fundraiser items out of her home studio. One shirt or a hundred, same hands.\n\nA custom-order site fails when it opens with a blank form and every option at once. Hers opens with one question instead, and sends you down the path that fits: for me and my family, for my business, for a fundraiser.\n\nReal reviews near the top, and a phone number that dials Kim.\n\nkootenaymade.ca\n\n#MadeInBC #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-13-pike-invoice",
+    "publish_at": "2026-09-13T15:00:00Z",
+    "video": "media/pike-ep3-invoice-20260912.mp4",
+    "caption": "He is very proud of that number.\n\nFour thousand two hundred dollars, settled today, and the marmot still cannot tell you whose name the domain is in.\n\nThe invoice is rarely the problem. The ownership is. Before you pay a web bill, ask three things: whose name is on the domain, where the code actually lives, and whether another builder could pick it up next week without starting over.\n\nIf all three answers are yours, you bought a website. If they are not, you rented one.\n\nWhat did your web guy do? Reply and it might be the next one.\n\n#WebDesign #SmallBusinessBC #CastlegarBC #WebsiteTips #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-13-teardown-tap",
+    "publish_at": "2026-09-13T19:30:00Z",
+    "video": "media/teardown-tap-20260913.mp4",
+    "caption": "Third site this week. Taps ignored for a second and a half while the page finished loading.\n\nThe screen was already there. It just did not answer. Behind it, nearly three seconds of scripts still running, including a tag manager nobody has opened in a year.\n\nAn early tap that does nothing reads as broken, and the visitor taps back before the page ever gets going.\n\nThat loss never appears in your analytics, because the visit ended before anything could measure it.\n\nRun yours in about a minute: kootenaymade.ca/audit\n\n#WebsiteSpeed #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
+    "status": "pending"
+  },
+  {
+    "id": "2026-09-13-down-carousel",
+    "publish_at": "2026-09-13T23:30:00Z",
+    "images": [
+      "images/down-20260912-01.jpg",
+      "images/down-20260912-02.jpg",
+      "images/down-20260912-03.jpg",
+      "images/down-20260912-04.jpg",
+      "images/down-20260912-05.jpg"
+    ],
+    "caption": "Would you know if your website went down tonight?\n\nMost owners find out from a customer weeks later, and by then it is a week of calls that never came.\n\nThree free checks. Set an uptime monitor, which takes five minutes and emails you the moment the site stops answering. Put the domain renewal in your calendar a month out, because an expired domain looks identical to a closed business. And look at the certificate date, because when it lapses browsers show a full page warning instead of your site.\n\nWhen did you last check yours?\n\n#WebsiteTips #SmallBusinessBC #TrailBC #WebDesign #KootenayMade",
+    "status": "pending"
   }
 ]

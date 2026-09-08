@@ -1,0 +1,15 @@
+# THIS REPO IS PUBLIC. The publisher serves media to Instagram over
+# raw.githubusercontent URLs, so anything committed here is readable by
+# anyone who finds the repo. Only the queue, the publisher and the media
+# that actually gets posted belong in it.
+
+# Generation provenance lives beside the asset on disk, never in public.
+*.prompt.md
+.*-source.png
+
+# Working notes and review boards.
+week-one-board.html
+week-one-new-captions.md
+
+# Check-up subject names never enter a repo.
+checkup-runs.local.json
