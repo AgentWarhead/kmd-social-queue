@@ -15,6 +15,26 @@ const queue = JSON.parse(readFileSync("queue.json", "utf8"));
 const now = new Date();
 let changed = false;
 
+// The cron asks for every 15 minutes and GitHub does not oblige. Measured
+// over 30 real runs the gap ran 1.7 to 5.8 hours, median 3.3. Slots four
+// hours apart therefore land in the SAME run, and the loop below would
+// fire them seconds apart. So a run publishes at most one post, and only
+// if the last one has had time to breathe. A backlog drains one per run;
+// posts arriving late is a schedule slipping, posts arriving together is
+// a feed looking broken.
+const MIN_GAP_MIN = 45;
+const lastPublished = queue
+  .filter(e => e.status === "published" && e.published_at)
+  .map(e => new Date(e.published_at))
+  .sort((a, b) => b - a)[0];
+if (lastPublished) {
+  const mins = (now - lastPublished) / 60000;
+  if (mins < MIN_GAP_MIN) {
+    console.log(`last post was ${Math.round(mins)} min ago, under the ${MIN_GAP_MIN} min floor; holding`);
+    process.exit(0);
+  }
+}
+
 async function api(path, params) {
   const body = new URLSearchParams({ ...params, access_token: TOKEN });
   const res = await fetch(`${API}/${path}`, { method: "POST", body });
@@ -74,6 +94,8 @@ for (const entry of queue) {
     entry.media_id = mediaId;
     entry.published_at = new Date().toISOString();
     console.log(`published ${entry.id} -> ${mediaId}`);
+    changed = true;
+    break;   // one per run, so a backlog spaces itself out
   } catch (e) {
     entry.attempts = (entry.attempts || 0) + 1;
     entry.error = String(e.message).slice(0, 300);
