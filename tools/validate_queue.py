@@ -32,6 +32,11 @@ except Exception as e:
 now = datetime.now(timezone.utc)
 pending = [e for e in q if e.get('status') == 'pending']
 
+# A post the publisher gave up on. It kept retrying for two days and the
+# content went stale, so a human has to decide: re-date it, rewrite it, or
+# cancel it. Silence here would let one quietly rot in the queue.
+missed = [e for e in q if e.get('status') == 'missed']
+
 KILL = re.compile(r'\b(financing|loan|installments?|interest|rent-to-own|down payment)\b', re.I)
 
 # The publisher does not read media off this disk. It hands Instagram a
@@ -81,6 +86,11 @@ for e in pending:
     m = KILL.search(cap)
     if m:
         fails.append('%s: kill-list word "%s"' % (eid, m.group(1)))
+
+for e in missed:
+    fails.append('%s: status "missed", the publisher gave up after %d attempts (%s). '
+                 'Re-date it, rewrite it, or set status "cancelled".'
+                 % (e.get('id'), e.get('attempts', 0), e.get('error', 'no error recorded')))
 
 if fails:
     print('FAIL (%d):' % len(fails))

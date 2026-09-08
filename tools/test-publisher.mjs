@@ -52,10 +52,14 @@ const alreadyPosted = (m) => ({
   status: "published", published_at: minsAgo(m),
 });
 
-const failing = (attempts) => ({
-  id: "bad", publish_at: hoursAgo(9), image: "x.jpg", caption: "BOOM",
-  status: "pending", ...(attempts ? { attempts } : {}),
+const failing = (o = {}) => ({
+  id: "bad", publish_at: hoursAgo(o.overdue ?? 9), image: "x.jpg", caption: "BOOM",
+  status: "pending",
+  ...(o.attempts ? { attempts: o.attempts } : {}),
+  ...(o.alerted ? { alerted: true } : {}),
+  ...(o.nextTry !== undefined ? { next_try: new Date(Date.now() + o.nextTry * 60e3).toISOString() } : {}),
 });
+const byId = (q, id) => q.find((e) => e.id === id);
 
 const CASES = [
   { name: "three due at once publishes exactly one", queue: due, expect: 1 },
@@ -65,13 +69,50 @@ const CASES = [
     queue: [{ id: "f", publish_at: new Date(Date.now() + 6 * 3600e3).toISOString(),
               image: "x.jpg", caption: "f", status: "pending" }] },
 
-  // The duplicate-post bug. A run that tips a post to failed must go red
-  // ONCE. Every run after that must be green, or the workflow stops
-  // committing queue.json and republishes everything that succeeded.
-  { name: "a third strike turns THIS run red", queue: [failing(2)], expect: 0, exit: 1 },
-  { name: "a post that failed on an earlier run leaves this one green",
-    queue: [{ ...failing(3), status: "failed" }, ...due], expect: 1, exit: 0 },
-  { name: "a first strike does not turn the run red", queue: [failing(0)], expect: 0, exit: 0 },
+  // The duplicate-post trap. A run that hits trouble goes red ONCE. Every run
+  // after that must be green, or the workflow stops committing queue.json and
+  // republishes everything that succeeded.
+  { name: "the third attempt shouts, once", queue: [failing({ attempts: 2 })], expect: 0, exit: 1,
+    check: (q) => byId(q, "bad").alerted === true || "alerted flag was not set" },
+  { name: "the fourth attempt stays quiet", queue: [failing({ attempts: 3, alerted: true })], expect: 0, exit: 0 },
+
+  // Never skip a post. A failure schedules a retry rather than ending it.
+  { name: "a failure keeps the post pending and books a retry",
+    queue: [failing()], expect: 0, exit: 0,
+    check: (q) => {
+      const b = byId(q, "bad");
+      if (b.status !== "pending") return `status became ${b.status}, expected pending`;
+      if (b.attempts !== 1) return `attempts ${b.attempts}, expected 1`;
+      if (!b.next_try) return "no next_try was booked";
+      const mins = (new Date(b.next_try) - Date.now()) / 60e3;
+      if (mins < 10 || mins > 20) return `next_try is ${mins.toFixed(0)} min out, expected about 15`;
+      return true;
+    } },
+  { name: "a post inside its backoff is left alone this run",
+    queue: [failing({ attempts: 1, nextTry: 30 }), ...due], expect: 1, exit: 0,
+    check: (q) => byId(q, "bad").attempts === 1 || "it retried while still in backoff" },
+  { name: "a tenth attempt still retries instead of giving up",
+    queue: [failing({ attempts: 9, alerted: true })], expect: 0, exit: 0,
+    check: (q) => {
+      const b = byId(q, "bad");
+      if (b.status !== "pending") return `status became ${b.status}, expected pending`;
+      return b.attempts === 10 || `attempts ${b.attempts}, expected 10`;
+    } },
+  { name: "a post two days past its slot is finally given up",
+    queue: [failing({ attempts: 12, alerted: true, overdue: 50 })], expect: 0, exit: 1,
+    check: (q) => byId(q, "bad").status === "missed" || `status is ${byId(q, "bad").status}, expected missed` },
+  { name: "a post just inside the horizon is not given up",
+    queue: [failing({ attempts: 12, alerted: true, overdue: 47 })], expect: 0, exit: 0,
+    check: (q) => byId(q, "bad").status === "pending" || `status is ${byId(q, "bad").status}, expected pending` },
+  { name: "success clears the retry bookkeeping", expect: 1, exit: 0,
+    queue: [{ id: "recovered", publish_at: hoursAgo(5), image: "x.jpg", caption: "fine now",
+              status: "pending", attempts: 4, alerted: true, error: "old error",
+              next_try: new Date(Date.now() - 60e3).toISOString() }],
+    check: (q) => {
+      const r = byId(q, "recovered");
+      const left = ["next_try", "alerted", "error"].filter((k) => k in r);
+      return left.length === 0 || `stale fields survived: ${left.join(", ")}`;
+    } },
 ];
 
 let failed = 0;
@@ -91,11 +132,13 @@ for (const c of CASES) {
     const q = JSON.parse(readFileSync(path.join(dir, "queue.json"), "utf8"));
     const posted = q.filter((e) => e.status === "published" && e.id !== "z").map((e) => e.id);
     const exitOk = c.exit === undefined || code === c.exit;
-    const ok = posted.length === c.expect && exitOk;
+    const extra = c.check ? c.check(q) : true;
+    const ok = posted.length === c.expect && exitOk && extra === true;
     if (!ok) failed++;
     console.log(`${ok ? "ok  " : "FAIL"}  ${c.name}`);
     console.log(`        expected ${c.expect} published, got ${posted.length}${posted.length ? " (" + posted.join(",") + ")" : ""}` +
-      (c.exit === undefined ? "" : `; expected exit ${c.exit}, got ${code}`));
+      (c.exit === undefined ? "" : `; expected exit ${c.exit}, got ${code}`) +
+      (extra === true ? "" : `; ${extra}`));
     if (!ok) console.log(out.split("\n").map((l) => "        | " + l).join("\n"));
   } finally {
     rmSync(dir, { recursive: true, force: true });

@@ -24,6 +24,20 @@ let newFailure = false;
 // posts arriving late is a schedule slipping, posts arriving together is
 // a feed looking broken.
 const MIN_GAP_MIN = 45;
+
+// Retry policy, Brett's call 2026-09-08: a post is never abandoned for a
+// transient failure. It keeps trying on a widening backoff until it either
+// publishes or goes so far past its slot that publishing it would be worse
+// than not. The old code gave up after three attempts, which meant one bad
+// afternoon silently cost a post.
+//
+// The horizon exists because late is not free. A caption that opens with
+// "Saturday." is wrong on Monday, and a scan finding described as "this
+// week" stops being true. Two days is the point where the content starts
+// lying, so that is where a human gets asked instead of a robot deciding.
+const RETRY_BACKOFF_MIN = [15, 30, 60, 120, 240];
+const GIVE_UP_HOURS = 48;
+const backoffFor = (n) => RETRY_BACKOFF_MIN[Math.min(n, RETRY_BACKOFF_MIN.length) - 1];
 const lastPublished = queue
   .filter(e => e.status === "published" && e.published_at)
   .map(e => new Date(e.published_at))
@@ -88,24 +102,37 @@ async function publishCarousel(entry) {
 for (const entry of queue) {
   if (entry.status !== "pending") continue;
   if (new Date(entry.publish_at) > now) continue;
+  if (entry.next_try && new Date(entry.next_try) > now) continue;   // still in backoff
   try {
     console.log(`publishing ${entry.id}...`);
     const mediaId = entry.video ? await publishReel(entry) : entry.images ? await publishCarousel(entry) : await publishImage(entry);
     entry.status = "published";
     entry.media_id = mediaId;
     entry.published_at = new Date().toISOString();
+    delete entry.next_try;
+    delete entry.alerted;
+    delete entry.error;
     console.log(`published ${entry.id} -> ${mediaId}`);
     changed = true;
     break;   // one per run, so a backlog spaces itself out
   } catch (e) {
     entry.attempts = (entry.attempts || 0) + 1;
     entry.error = String(e.message).slice(0, 300);
-    if (entry.attempts >= 3) {
-      entry.status = "failed";
+    const overdueH = (now - new Date(entry.publish_at)) / 3600e3;
+    if (overdueH > GIVE_UP_HOURS) {
+      entry.status = "missed";
       newFailure = true;
-      console.error(`FAILED ${entry.id} after ${entry.attempts} attempts: ${entry.error}`);
+      console.error(`MISSED ${entry.id}: ${overdueH.toFixed(1)} h past its slot after ${entry.attempts} attempts. Giving up, because posting it now would be worse than not. Last error: ${entry.error}`);
     } else {
-      console.error(`RETRY ${entry.id} (attempt ${entry.attempts}/3, next tick): ${entry.error}`);
+      const wait = backoffFor(entry.attempts);
+      entry.next_try = new Date(now.getTime() + wait * 60000).toISOString();
+      if (entry.attempts >= 3 && !entry.alerted) {
+        entry.alerted = true;      // shout once, then keep working quietly
+        newFailure = true;
+        console.error(`STRUGGLING ${entry.id}: ${entry.attempts} attempts, ${overdueH.toFixed(1)} h overdue, still retrying every ${wait} min: ${entry.error}`);
+      } else {
+        console.error(`RETRY ${entry.id} (attempt ${entry.attempts}, next in ${wait} min): ${entry.error}`);
+      }
     }
   }
   changed = true;
@@ -130,12 +157,16 @@ if (changed) {
 // post that succeeded got published again on the next run. The workflow now
 // commits with if: always(), and this exits 1 only for a failure that just
 // happened.
-const stale = queue.filter(e => e.status === "failed");
-if (stale.length) {
-  console.log(`note: ${stale.length} previously failed post(s) still in the queue: ${stale.map(e => e.id).join(", ")}`);
+const struggling = queue.filter(e => e.status === "pending" && e.attempts);
+if (struggling.length) {
+  console.log(`still retrying: ${struggling.map(e => `${e.id} (${e.attempts} attempts, next ${e.next_try})`).join(", ")}`);
+}
+const missed = queue.filter(e => e.status === "missed");
+if (missed.length) {
+  console.log(`gave up on: ${missed.map(e => e.id).join(", ")} (needs a human)`);
 }
 if (newFailure) {
-  console.error("a post FAILED on this run; see queue.json");
+  console.error("a post needs attention; see queue.json. It is still being retried unless it says missed.");
   process.exit(1);
 }
 
