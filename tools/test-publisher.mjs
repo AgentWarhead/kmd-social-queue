@@ -142,6 +142,28 @@ const CASES = [
     check: (q) => (q[0].fb_skipped && !q[0].fb_post_id) || `expected fb_skipped, got ${JSON.stringify(q[0])}`,
   },
   {
+    name: "two waiting on facebook go one per run, not together",
+    queue: [
+      { id: "c1", publish_at: hoursAgo(20), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(20) },
+      { id: "c2", publish_at: hoursAgo(19), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(19) },
+    ],
+    expect: 2, exit: 0,
+    check: (q) => (q.filter((e) => e.fb_post_id).length === 1)
+      ? true
+      : `expected exactly one facebook post this run, got ${q.filter((e) => e.fb_post_id).length}`,
+  },
+  {
+    name: "a catch-up waits when facebook posted recently",
+    queue: [
+      { id: "recent", publish_at: hoursAgo(20), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(20), fb_post_id: "FB_OLD", fb_posted_at: minsAgo(20) },
+      { id: "waiting", publish_at: hoursAgo(19), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(19) },
+    ],
+    expect: 2, exit: 0,
+    check: (q) => (!q.find((e) => e.id === "waiting").fb_post_id)
+      ? true
+      : "posted to facebook 20 minutes after the last one, ignoring the gap",
+  },
+  {
     name: "a post instagram carried earlier gets caught up on facebook",
     queue: [{ id: "catch", publish_at: hoursAgo(20), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(20) }],
     expect: 1, exit: 0,

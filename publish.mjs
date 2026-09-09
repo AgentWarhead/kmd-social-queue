@@ -9,6 +9,11 @@ const FB_PAGE_ID = "1001276889744302";          // Kootenay Made Digital
 // an Instagram-only post and stays that way; without this line, switching the
 // channel on would push the whole back catalogue onto the page in one run.
 const FB_FROM = "2026-09-08T00:00:00Z";
+// Catch-ups are extra posts landing beside a schedule that is already
+// running, so they spread across the day rather than arriving in a clump.
+// Runs land every 3.3 hours on average, so in practice this is at most one
+// extra Facebook post per run.
+const FB_CATCHUP_GAP_MIN = 150;
 const TOKEN = process.env.META_GRAPH_TOKEN;
 const REPO = process.env.GITHUB_REPOSITORY || "AgentWarhead/kmd-social-queue";
 const RAW = `https://raw.githubusercontent.com/${REPO}/main/`;
@@ -128,6 +133,7 @@ async function catchUpFacebook(entry) {
   }
   try {
     entry.fb_post_id = await publishToFacebook(entry);
+    entry.fb_posted_at = new Date().toISOString();
     delete entry.fb_error;
     console.log(`facebook ${entry.id} -> ${entry.fb_post_id}`);
   } catch (e) {
@@ -219,16 +225,25 @@ for (const entry of queue) {
   changed = true;
 }
 
-// Facebook catch-up for posts Instagram carried on an earlier run. Bounded
-// to two per run so a backlog trickles rather than floods the page.
-let caughtUp = 0;
+// Facebook catch-up for posts Instagram carried on an earlier run. One per
+// run, and only once the last Facebook post has had time to breathe, so a
+// backlog spreads across the day instead of landing in a clump.
+const lastFb = queue
+  .filter(e => e.fb_posted_at)
+  .map(e => new Date(e.fb_posted_at))
+  .sort((a, b) => b - a)[0];
+const fbGapOk = !lastFb || (now - lastFb) / 60000 >= FB_CATCHUP_GAP_MIN;
+
 for (const entry of queue) {
-  if (caughtUp >= 2) break;
   if (entry.status !== "published") continue;
   if (entry.fb_post_id || entry.fb_skipped || fbHandled.has(entry.id)) continue;
   if (new Date(entry.publish_at) < new Date(FB_FROM)) { entry.fb_skipped = "before facebook publishing started"; changed = true; continue; }
+  if (!fbGapOk) {
+    console.log(`facebook catch-up held: last facebook post ${Math.round((now - lastFb) / 60000)} min ago, under the ${FB_CATCHUP_GAP_MIN} min floor`);
+    break;
+  }
   await catchUpFacebook(entry);
-  caughtUp += 1;
+  break;   // one extra post per run
 }
 
 if (changed) {
