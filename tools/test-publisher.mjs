@@ -34,6 +34,12 @@ globalThis.fetch = async (url, opts) => {
   }
   if (u.includes("fields=status_code"))
     return { json: async () => ({ status_code: "FINISHED" }) };
+  if (u.includes("/me/accounts"))
+    return { json: async () => ({ data: [{ id: "1001276889744302", access_token: "PAGE_TOKEN" }] }) };
+  if (opts && opts.method === "POST" && (u.includes("/photos") || u.includes("/videos") || u.includes("/feed"))) {
+    if (process.env.FB_BOOM) return { json: async () => ({ error: { message: "simulated facebook failure" } }) };
+    return { json: async () => ({ id: "FB_" + ++n }) };
+  }
   return { json: async () => ({ error: { message: "unstubbed " + u } }) };
 };
 await import("./publish.mjs");
@@ -113,6 +119,34 @@ const CASES = [
       const left = ["next_try", "alerted", "error"].filter((k) => k in r);
       return left.length === 0 || `stale fields survived: ${left.join(", ")}`;
     } },
+  {
+    name: "facebook goes out with instagram",
+    queue: [{ id: "fb1", publish_at: hoursAgo(3), image: "x.jpg", caption: "c", status: "pending" }],
+    expect: 1, exit: 0,
+    check: (q) => /^FB_/.test(q[0].fb_post_id || "") || `no fb_post_id: ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "a facebook failure leaves the post published and the run green",
+    queue: [{ id: "fb2", publish_at: hoursAgo(3), image: "x.jpg", caption: "c", status: "pending" }],
+    expect: 1, exit: 0, env: { FB_BOOM: "1" },
+    // Explicit ternary: `a && b` returns b, and a truthy fb_error string is
+    // not `true`, so the runner read a passing case as a failing one.
+    check: (q) => (q[0].status === "published" && !q[0].fb_post_id && Boolean(q[0].fb_error))
+      ? true
+      : `expected published with fb_error and no fb_post_id: ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "posts from before facebook started are skipped, never backfilled",
+    queue: [{ id: "old", publish_at: "2026-08-01T15:00:00Z", image: "x.jpg", caption: "c", status: "published", published_at: "2026-08-01T15:01:00Z" }],
+    expect: 1, exit: 0,
+    check: (q) => (q[0].fb_skipped && !q[0].fb_post_id) || `expected fb_skipped, got ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "a post instagram carried earlier gets caught up on facebook",
+    queue: [{ id: "catch", publish_at: hoursAgo(20), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(20) }],
+    expect: 1, exit: 0,
+    check: (q) => /^FB_/.test(q[0].fb_post_id || "") || `not caught up: ${JSON.stringify(q[0])}`,
+  },
 ];
 
 let failed = 0;
@@ -125,7 +159,7 @@ for (const c of CASES) {
     let out = "", code = 0;
     try {
       out = execFileSync(process.execPath, ["runner.mjs"],
-        { cwd: dir, encoding: "utf8", env: { ...process.env, META_GRAPH_TOKEN: "test-token" } });
+        { cwd: dir, encoding: "utf8", env: { ...process.env, META_GRAPH_TOKEN: "test-token", ...(c.env || {}) } });
     } catch (e) {
       out = (e.stdout || "") + (e.stderr || ""); code = e.status;
     }

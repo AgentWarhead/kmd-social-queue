@@ -4,6 +4,11 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
 const IG_ID = "17841446312533398";
+const FB_PAGE_ID = "1001276889744302";          // Kootenay Made Digital
+// Facebook publishing started here. Anything scheduled before this date was
+// an Instagram-only post and stays that way; without this line, switching the
+// channel on would push the whole back catalogue onto the page in one run.
+const FB_FROM = "2026-09-08T00:00:00Z";
 const TOKEN = process.env.META_GRAPH_TOKEN;
 const REPO = process.env.GITHUB_REPOSITORY || "AgentWarhead/kmd-social-queue";
 const RAW = `https://raw.githubusercontent.com/${REPO}/main/`;
@@ -56,6 +61,81 @@ async function api(path, params) {
   const json = await res.json();
   if (json.error) throw new Error(json.error.message);
   return json;
+}
+
+// The page token is fetched at run time rather than stored: page tokens
+// derived from the user token inherit its expiry, so a second secret to
+// rotate buys nothing.
+let pageTokenCache;
+async function pageToken() {
+  if (pageTokenCache) return pageTokenCache;
+  const res = await fetch(`${API}/me/accounts?fields=id,access_token&access_token=${TOKEN}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`page token: ${json.error.message}`);
+  const page = (json.data || []).find(p => p.id === FB_PAGE_ID);
+  if (!page?.access_token) throw new Error(`page ${FB_PAGE_ID} not reachable with this token`);
+  pageTokenCache = page.access_token;
+  return pageTokenCache;
+}
+
+async function fbPost(path, params) {
+  const token = await pageToken();
+  const body = new URLSearchParams({ ...params, access_token: token });
+  const res = await fetch(`${API}/${path}`, { method: "POST", body });
+  const json = await res.json();
+  if (json.error) throw new Error(json.error.message);
+  return json;
+}
+
+// Video posts as a video, one image as a photo, and a set of images as a
+// single post with several photos attached, which is Facebook's shape for
+// what Instagram calls a carousel.
+async function publishToFacebook(entry) {
+  if (entry.video) {
+    const r = await fbPost(`${FB_PAGE_ID}/videos`, {
+      file_url: RAW + entry.video,
+      description: entry.caption,
+    });
+    return r.id;
+  }
+  if (entry.images?.length) {
+    const ids = [];
+    for (const img of entry.images) {
+      const r = await fbPost(`${FB_PAGE_ID}/photos`, { url: RAW + img, published: "false" });
+      ids.push(r.id);
+    }
+    const r = await fbPost(`${FB_PAGE_ID}/feed`, {
+      message: entry.caption,
+      ...Object.fromEntries(ids.map((id, i) => [`attached_media[${i}]`, JSON.stringify({ media_fbid: id })])),
+    });
+    return r.id;
+  }
+  const r = await fbPost(`${FB_PAGE_ID}/photos`, { url: RAW + entry.image, caption: entry.caption });
+  return r.id;
+}
+
+// Runs after Instagram, and for entries Instagram already carried on an
+// earlier run. Never touches entry.status, so it cannot trigger an Instagram
+// republish.
+const fbHandled = new Set();
+async function catchUpFacebook(entry) {
+  if (entry.fb_post_id || entry.fb_skipped || fbHandled.has(entry.id)) return;
+  fbHandled.add(entry.id);
+  if (new Date(entry.publish_at) < new Date(FB_FROM)) {
+    entry.fb_skipped = "before facebook publishing started";
+    changed = true;
+    return;
+  }
+  try {
+    entry.fb_post_id = await publishToFacebook(entry);
+    delete entry.fb_error;
+    console.log(`facebook ${entry.id} -> ${entry.fb_post_id}`);
+  } catch (e) {
+    entry.fb_attempts = (entry.fb_attempts || 0) + 1;
+    entry.fb_error = String(e.message).slice(0, 300);
+    console.error(`facebook FAILED ${entry.id} (attempt ${entry.fb_attempts}): ${entry.fb_error}`);
+  }
+  changed = true;
 }
 
 async function waitReady(containerId, attempts = 12) {
@@ -114,6 +194,7 @@ for (const entry of queue) {
     delete entry.error;
     console.log(`published ${entry.id} -> ${mediaId}`);
     changed = true;
+    await catchUpFacebook(entry);
     break;   // one per run, so a backlog spaces itself out
   } catch (e) {
     entry.attempts = (entry.attempts || 0) + 1;
@@ -136,6 +217,18 @@ for (const entry of queue) {
     }
   }
   changed = true;
+}
+
+// Facebook catch-up for posts Instagram carried on an earlier run. Bounded
+// to two per run so a backlog trickles rather than floods the page.
+let caughtUp = 0;
+for (const entry of queue) {
+  if (caughtUp >= 2) break;
+  if (entry.status !== "published") continue;
+  if (entry.fb_post_id || entry.fb_skipped || fbHandled.has(entry.id)) continue;
+  if (new Date(entry.publish_at) < new Date(FB_FROM)) { entry.fb_skipped = "before facebook publishing started"; changed = true; continue; }
+  await catchUpFacebook(entry);
+  caughtUp += 1;
 }
 
 if (changed) {
