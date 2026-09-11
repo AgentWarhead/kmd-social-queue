@@ -532,7 +532,11 @@
     "publish_at": "2026-09-11T15:00:00Z",
     "video": "media/pike-ep2-fakeforms-20260910.mp4",
     "caption": "A thousand fake enquiries overnight, and the real one is in there somewhere.\n\nForm spam is the most common thing that goes wrong with a small business website, and almost nobody builds for it. The fix is not a puzzle that makes real customers prove they are human. It is a hidden field that bots fill in and people never see, plus a limit on how fast one address can submit.\n\nIf your form has no trap in it, your inbox is the trap.\n\nHas yours started filling with nonsense?\n\n#WebsiteTips #SmallBusinessBC #NakuspBC #WebDesign #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18142078429539034",
+    "published_at": "2026-09-11T17:46:49.460Z",
+    "fb_post_id": "28713064894985097",
+    "fb_posted_at": "2026-09-11T17:46:54.553Z"
   },
   {
     "id": "2026-09-11-teardown-queue",
