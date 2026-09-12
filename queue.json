@@ -543,7 +543,11 @@
     "publish_at": "2026-09-11T23:30:00Z",
     "video": "media/teardown-queue-20260910.mp4",
     "caption": "A second site, same week. Nine and a half seconds before anything appeared.\n\nEighteen files, stylesheets and scripts, all have to finish downloading before a single word shows up. That is three seconds of waiting built into every first visit.\n\nNobody chose that. It accumulates, one plugin at a time, and no single decision along the way looked wrong.\n\nLoad what the first screen needs, let the rest arrive after it.\n\nRun yours in about a minute: kootenaymade.ca/audit\n\n#WebsiteSpeed #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "17983385316071358",
+    "published_at": "2026-09-12T01:09:44.658Z",
+    "fb_post_id": "1092335476633161",
+    "fb_posted_at": "2026-09-12T01:09:49.621Z"
   },
   {
     "id": "2026-09-12-place-valley",
