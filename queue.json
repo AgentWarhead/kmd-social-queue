@@ -587,7 +587,11 @@
     "publish_at": "2026-09-13T15:00:00Z",
     "video": "media/pike-ep3-invoice-20260912.mp4",
     "caption": "He is very proud of that number.\n\nFour thousand two hundred dollars, settled today, and the marmot still cannot tell you whose name the domain is in.\n\nThe invoice is rarely the problem. The ownership is. Before you pay a web bill, ask three things: whose name is on the domain, where the code actually lives, and whether another builder could pick it up next week without starting over.\n\nIf all three answers are yours, you bought a website. If they are not, you rented one.\n\nWhat did your web guy do? Reply and it might be the next one.\n\n#WebDesign #SmallBusinessBC #CastlegarBC #WebsiteTips #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18117068303000006",
+    "published_at": "2026-09-14T01:29:46.449Z",
+    "fb_post_id": "2362736687887852",
+    "fb_posted_at": "2026-09-14T01:29:52.641Z"
   },
   {
     "id": "2026-09-13-teardown-tap",
