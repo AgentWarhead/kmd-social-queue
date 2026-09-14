@@ -598,7 +598,11 @@
     "publish_at": "2026-09-13T19:30:00Z",
     "video": "media/teardown-tap-20260913.mp4",
     "caption": "Third site this week. Taps ignored for a second and a half while the page finished loading.\n\nThe screen was already there. It just did not answer. Behind it, nearly three seconds of scripts still running, including a tag manager nobody has opened in a year.\n\nAn early tap that does nothing reads as broken, and the visitor taps back before the page ever gets going.\n\nThat loss never appears in your analytics, because the visit ended before anything could measure it.\n\nRun yours in about a minute: kootenaymade.ca/audit\n\n#WebsiteSpeed #SmallBusinessBC #Kootenays #WebDesign #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18037890515828846",
+    "published_at": "2026-09-14T06:58:07.315Z",
+    "fb_post_id": "1626570765647815",
+    "fb_posted_at": "2026-09-14T06:58:11.774Z"
   },
   {
     "id": "2026-09-13-down-carousel",
