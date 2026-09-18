@@ -3,7 +3,57 @@
 // clock; this is. Token comes from the META_GRAPH_TOKEN repo secret.
 import { readFileSync, writeFileSync } from "node:fs";
 
-const IG_ID = "17841446312533398";
+const IG_ID = "17841446312533398";               // Kootenay Made Digital
+// Every entry belongs to one brand, KMD unless it says otherwise. Added 2026-09-17 when Lapphund Designs
+// joined: its Page and Instagram were assigned to the kmd-shade system user, so one token reaches both
+// brands and the only thing keeping a Lapphund post off KMD's feed is this lookup. An unknown account
+// throws rather than falling back, because a fallback here would publish to the wrong brand.
+// Mirrors tools/brands.py, which the pre-push gate reads. Change both together.
+const ACCOUNTS = {
+  kmd: { ig: IG_ID, username: "kootenaymadedigital", markers: ["#kootenaymade", "kootenaymade.ca"], imagePrefix: null },
+  lapphund: { ig: "17841459350887730", username: "lapphunddesigns", markers: ["lapphunddesigns.com", "#lapphunddesigns"], imagePrefix: "images/ld-" },
+};
+// Brett's law, 2026-09-17: a post on the wrong account is never acceptable. The pre-push gate already
+// refuses one; this is the last check before the API call, so a queue edited by hand after the gate
+// still cannot put a post on the wrong feed. It reads the post itself, not just the label on it.
+function assertBrand(entry) {
+  const account = entry.account || "kmd";
+  const mine = ACCOUNTS[account];
+  if (!mine) throw new Error(`unknown account "${entry.account}"`);
+  const text = String(entry.caption || "").toLowerCase();
+  const media = entry.images || [entry.image || entry.video].filter(Boolean);
+  if (!mine.markers.some(m => text.includes(m))) throw new Error(`brand check: no ${account} marker in the caption`);
+  for (const [other, b] of Object.entries(ACCOUNTS)) {
+    if (other === account) continue;
+    const hit = b.markers.filter(m => text.includes(m));
+    if (hit.length) throw new Error(`brand check: ${account} post carries ${other} markers (${hit.join(", ")})`);
+    if (b.imagePrefix && media.some(m => m.startsWith(b.imagePrefix))) throw new Error(`brand check: ${account} post uses a ${other} image`);
+  }
+  if (mine.imagePrefix && media.some(m => !m.startsWith(mine.imagePrefix))) throw new Error(`brand check: ${account} post uses an image outside ${mine.imagePrefix}`);
+}
+function igOf(entry) {
+  assertBrand(entry);
+  return ACCOUNTS[entry.account || "kmd"].ig;
+}
+
+// After publishing, ask Instagram whose feed the post is actually on. A mismatch cannot be undone from
+// here (the API has no delete), so it screams: the run goes red and the entry names the account it hit.
+async function verifyOwner(entry, mediaId) {
+  const want = ACCOUNTS[entry.account || "kmd"].username;
+  try {
+    const res = await fetch(`${API}/${mediaId}?fields=username&access_token=${TOKEN}`);
+    const json = await res.json();
+    if (json.error) { console.error(`owner check could not run for ${entry.id}: ${json.error.message}`); return; }
+    entry.verified_account = json.username;
+    if (json.username !== want) {
+      entry.wrong_account = json.username;
+      newFailure = true;
+      console.error(`WRONG ACCOUNT: ${entry.id} was meant for @${want} and is on @${json.username}. Remove it by hand now.`);
+    }
+  } catch (e) {
+    console.error(`owner check could not run for ${entry.id}: ${e.message}`);
+  }
+}
 const FB_PAGE_ID = "1001276889744302";          // Kootenay Made Digital
 // Facebook publishing started here. Anything scheduled before this date was
 // an Instagram-only post and stays that way; without this line, switching the
@@ -126,6 +176,13 @@ const fbHandled = new Set();
 async function catchUpFacebook(entry) {
   if (entry.fb_post_id || entry.fb_skipped || fbHandled.has(entry.id)) return;
   fbHandled.add(entry.id);
+  // FB_PAGE_ID is KMD's page. Any other brand's post stops here, whatever else the entry says: its
+  // Facebook copy is scheduled natively on that brand's own page when the slate is enqueued.
+  if ((entry.account || "kmd") !== "kmd") {
+    entry.fb_skipped = "not a KMD post; its facebook is scheduled on its own page";
+    changed = true;
+    return;
+  }
   if (new Date(entry.publish_at) < new Date(FB_FROM)) {
     entry.fb_skipped = "before facebook publishing started";
     changed = true;
@@ -156,32 +213,34 @@ async function waitReady(containerId, attempts = 12) {
 }
 
 async function publishImage(entry) {
-  const c = await api(`${IG_ID}/media`, {
+  const ig = igOf(entry);
+  const c = await api(`${ig}/media`, {
     image_url: RAW + entry.image,
     caption: entry.caption,
   });
   await waitReady(c.id);
-  const pub = await api(`${IG_ID}/media_publish`, { creation_id: c.id });
+  const pub = await api(`${ig}/media_publish`, { creation_id: c.id });
   return pub.id;
 }
 
 async function publishCarousel(entry) {
+  const ig = igOf(entry);
   const children = [];
   for (const img of entry.images) {
-    const c = await api(`${IG_ID}/media`, {
+    const c = await api(`${ig}/media`, {
       image_url: RAW + img,
       is_carousel_item: "true",
     });
     await waitReady(c.id);
     children.push(c.id);
   }
-  const carousel = await api(`${IG_ID}/media`, {
+  const carousel = await api(`${ig}/media`, {
     media_type: "CAROUSEL",
     children: children.join(","),
     caption: entry.caption,
   });
   await waitReady(carousel.id);
-  const pub = await api(`${IG_ID}/media_publish`, { creation_id: carousel.id });
+  const pub = await api(`${ig}/media_publish`, { creation_id: carousel.id });
   return pub.id;
 }
 
@@ -195,6 +254,7 @@ for (const entry of queue) {
     entry.status = "published";
     entry.media_id = mediaId;
     entry.published_at = new Date().toISOString();
+    await verifyOwner(entry, mediaId);
     delete entry.next_try;
     delete entry.alerted;
     delete entry.error;
@@ -280,13 +340,14 @@ if (newFailure) {
 
 // Reels: video processing is slower, so the readiness poll gets 5 minutes.
 async function publishReel(entry) {
-  const c = await api(`${IG_ID}/media`, {
+  const ig = igOf(entry);
+  const c = await api(`${ig}/media`, {
     media_type: "REELS",
     video_url: RAW + entry.video,
     caption: entry.caption,
     share_to_feed: "true",
   });
   await waitReady(c.id, 100);
-  const pub = await api(`${IG_ID}/media_publish`, { creation_id: c.id });
+  const pub = await api(`${ig}/media_publish`, { creation_id: c.id });
   return pub.id;
 }

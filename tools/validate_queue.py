@@ -21,10 +21,14 @@ import sys
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, 'tools'))
+from brands import BRANDS, brand_problems, pacific_date, cadence_problems
 fails = []
 
+# --queue <file> checks another queue against this repo's media: how the red controls prove each check fires.
+QUEUE = sys.argv[sys.argv.index('--queue') + 1] if '--queue' in sys.argv else os.path.join(ROOT, 'queue.json')
 try:
-    q = json.load(io.open(os.path.join(ROOT, 'queue.json'), encoding='utf-8-sig'))
+    q = json.load(io.open(QUEUE, encoding='utf-8-sig'))
 except Exception as e:
     print('FAIL: queue.json does not parse: %s' % e)
     sys.exit(1)
@@ -76,16 +80,41 @@ for e in pending:
     if len(cap) > CAPTION_MAX:
         fails.append('%s: caption is %d characters, Instagram caps it at %d'
                      % (eid, len(cap), CAPTION_MAX))
+    # The wrong-account gate (Brett, 2026-09-17: never, under any circumstances). The brand is read from the
+    # post itself, its markers and its image, and must agree with the account it is queued for.
+    account = e.get('account', 'kmd')
+    for why in brand_problems(account, cap, (media or [None])[0]):
+        fails.append('%s: WRONG ACCOUNT RISK, queued for %s but %s' % (eid, account, why))
+    for m in media[1:]:
+        for why in brand_problems(account, cap, m):
+            if 'image' in why:
+                fails.append('%s: WRONG ACCOUNT RISK, %s' % (eid, why))
+    if account != 'kmd' and not e.get('fb_skipped'):
+        fails.append('%s: a %s post must carry fb_skipped, or the publisher would try KMD facebook' % (eid, account))
     tags = re.findall(r'#\w+', cap)
     if len(tags) != 5:
         fails.append('%s: %d hashtags, law says exactly 5' % (eid, len(tags)))
-    elif tags[-1] != '#KootenayMade':
+    elif account == 'kmd' and tags[-1] != '#KootenayMade':
         fails.append('%s: #KootenayMade is not the last tag' % eid)
+    elif account != 'kmd' and '#KootenayMade' in tags:
+        fails.append('%s: #KootenayMade on a %s post' % (eid, account))
     if '—' in cap:
         fails.append('%s: em dash in caption' % eid)
     m = KILL.search(cap)
     if m:
         fails.append('%s: kill-list word "%s"' % (eid, m.group(1)))
+
+# The cadence lock: every post that is out or on its way, per brand, per Pacific day. Published posts count
+# too, so a queue cannot add a second post to a day that already had its one.
+live = [e for e in q if e.get('status') in ('pending', 'published')]
+for account in BRANDS:
+    mine = [e for e in live if e.get('account', 'kmd') == account]
+    todo = [e for e in mine if e.get('status') == 'pending']
+    if not todo:
+        continue
+    first = min(pacific_date(e['publish_at']) for e in todo)
+    days = [pacific_date(e['publish_at']) for e in mine if pacific_date(e['publish_at']) >= first]
+    fails.extend(cadence_problems(account, days))
 
 for e in missed:
     fails.append('%s: status "missed", the publisher gave up after %d attempts (%s). '
@@ -109,4 +138,6 @@ for a, b in tight:
           % (a.strftime('%m-%d %H:%M'), b.strftime('%H:%M'),
              (b - a).total_seconds() / 3600))
 
-print('PASS: %d entries, %d pending, all future-dated with media committed and captions lawful' % (len(q), len(pending)))
+per = ', '.join('%s %d' % (a, sum(1 for e in pending if e.get('account', 'kmd') == a)) for a in BRANDS)
+locks = ', '.join('%s %s' % (a, b['posts_per_day'] or 'NO LOCK SET') for a, b in BRANDS.items())
+print('PASS: %d entries, %d pending (%s), every post on its own brand, cadence per day: %s' % (len(q), len(pending), per, locks))

@@ -25,12 +25,18 @@ const RUNNER = `
 let n = 0;
 globalThis.fetch = async (url, opts) => {
   const u = String(url);
+  if (opts && opts.method === "POST" && u.includes("/media")) { const parts = u.split("?")[0].split("/"); console.log("IGACCOUNT " + parts[parts.length - 2]); if (!u.includes("/media_publish")) globalThis.lastIg = parts[parts.length - 2]; }
+  if (opts && opts.method === "POST" && ["/photos", "/videos", "/feed"].some((s) => u.includes(s))) console.log("FBCALL " + u);
   if (opts && opts.method === "POST" && u.includes("/media_publish"))
     return { json: async () => ({ id: "MEDIA_" + ++n }) };
   if (opts && opts.method === "POST" && u.includes("/media")) {
     if (String(opts.body).includes("BOOM"))
       return { json: async () => ({ error: { message: "simulated Graph API failure" } }) };
     return { json: async () => ({ id: "CONTAINER_" + Math.random().toString(36).slice(2, 7) }) };
+  }
+  if (u.includes("fields=username")) {
+    const names = { "17841459350887730": "lapphunddesigns", "17841446312533398": "kootenaymadedigital" };
+    return { json: async () => ({ username: process.env.WRONG_OWNER ? "someoneelse" : names[globalThis.lastIg] }) };
   }
   if (u.includes("fields=status_code"))
     return { json: async () => ({ status_code: "FINISHED" }) };
@@ -49,17 +55,17 @@ const hoursAgo = (h) => new Date(Date.now() - h * 3600e3).toISOString();
 const minsAgo = (m) => new Date(Date.now() - m * 60e3).toISOString();
 
 const due = [
-  { id: "a", publish_at: hoursAgo(6), image: "x.jpg", caption: "a", status: "pending" },
-  { id: "b", publish_at: hoursAgo(4), image: "x.jpg", caption: "b", status: "pending" },
-  { id: "c", publish_at: hoursAgo(2), image: "x.jpg", caption: "c", status: "pending" },
+  { id: "a", publish_at: hoursAgo(6), image: "x.jpg", caption: "a #KootenayMade", status: "pending" },
+  { id: "b", publish_at: hoursAgo(4), image: "x.jpg", caption: "b #KootenayMade", status: "pending" },
+  { id: "c", publish_at: hoursAgo(2), image: "x.jpg", caption: "c #KootenayMade", status: "pending" },
 ];
 const alreadyPosted = (m) => ({
-  id: "z", publish_at: hoursAgo(8), image: "x.jpg", caption: "z",
+  id: "z", publish_at: hoursAgo(8), image: "x.jpg", caption: "z #KootenayMade",
   status: "published", published_at: minsAgo(m),
 });
 
 const failing = (o = {}) => ({
-  id: "bad", publish_at: hoursAgo(o.overdue ?? 9), image: "x.jpg", caption: "BOOM",
+  id: "bad", publish_at: hoursAgo(o.overdue ?? 9), image: "x.jpg", caption: "BOOM #KootenayMade",
   status: "pending",
   ...(o.attempts ? { attempts: o.attempts } : {}),
   ...(o.alerted ? { alerted: true } : {}),
@@ -73,7 +79,7 @@ const CASES = [
   { name: "a post ninety minutes old lets one through", queue: [alreadyPosted(90), ...due], expect: 1 },
   { name: "nothing due publishes nothing", expect: 0,
     queue: [{ id: "f", publish_at: new Date(Date.now() + 6 * 3600e3).toISOString(),
-              image: "x.jpg", caption: "f", status: "pending" }] },
+              image: "x.jpg", caption: "f #KootenayMade", status: "pending" }] },
 
   // The duplicate-post trap. A run that hits trouble goes red ONCE. Every run
   // after that must be green, or the workflow stops committing queue.json and
@@ -111,7 +117,7 @@ const CASES = [
     queue: [failing({ attempts: 12, alerted: true, overdue: 47 })], expect: 0, exit: 0,
     check: (q) => byId(q, "bad").status === "pending" || `status is ${byId(q, "bad").status}, expected pending` },
   { name: "success clears the retry bookkeeping", expect: 1, exit: 0,
-    queue: [{ id: "recovered", publish_at: hoursAgo(5), image: "x.jpg", caption: "fine now",
+    queue: [{ id: "recovered", publish_at: hoursAgo(5), image: "x.jpg", caption: "fine now #KootenayMade",
               status: "pending", attempts: 4, alerted: true, error: "old error",
               next_try: new Date(Date.now() - 60e3).toISOString() }],
     check: (q) => {
@@ -121,13 +127,13 @@ const CASES = [
     } },
   {
     name: "facebook goes out with instagram",
-    queue: [{ id: "fb1", publish_at: hoursAgo(3), image: "x.jpg", caption: "c", status: "pending" }],
+    queue: [{ id: "fb1", publish_at: hoursAgo(3), image: "x.jpg", caption: "c #KootenayMade", status: "pending" }],
     expect: 1, exit: 0,
     check: (q) => /^FB_/.test(q[0].fb_post_id || "") || `no fb_post_id: ${JSON.stringify(q[0])}`,
   },
   {
     name: "a facebook failure leaves the post published and the run green",
-    queue: [{ id: "fb2", publish_at: hoursAgo(3), image: "x.jpg", caption: "c", status: "pending" }],
+    queue: [{ id: "fb2", publish_at: hoursAgo(3), image: "x.jpg", caption: "c #KootenayMade", status: "pending" }],
     expect: 1, exit: 0, env: { FB_BOOM: "1" },
     // Explicit ternary: `a && b` returns b, and a truthy fb_error string is
     // not `true`, so the runner read a passing case as a failing one.
@@ -137,15 +143,15 @@ const CASES = [
   },
   {
     name: "posts from before facebook started are skipped, never backfilled",
-    queue: [{ id: "old", publish_at: "2026-08-01T15:00:00Z", image: "x.jpg", caption: "c", status: "published", published_at: "2026-08-01T15:01:00Z" }],
+    queue: [{ id: "old", publish_at: "2026-08-01T15:00:00Z", image: "x.jpg", caption: "c #KootenayMade", status: "published", published_at: "2026-08-01T15:01:00Z" }],
     expect: 1, exit: 0,
     check: (q) => (q[0].fb_skipped && !q[0].fb_post_id) || `expected fb_skipped, got ${JSON.stringify(q[0])}`,
   },
   {
     name: "two waiting on facebook go one per run, not together",
     queue: [
-      { id: "c1", publish_at: hoursAgo(20), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(20) },
-      { id: "c2", publish_at: hoursAgo(19), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(19) },
+      { id: "c1", publish_at: hoursAgo(20), image: "x.jpg", caption: "c #KootenayMade", status: "published", published_at: hoursAgo(20) },
+      { id: "c2", publish_at: hoursAgo(19), image: "x.jpg", caption: "c #KootenayMade", status: "published", published_at: hoursAgo(19) },
     ],
     expect: 2, exit: 0,
     check: (q) => (q.filter((e) => e.fb_post_id).length === 1)
@@ -155,17 +161,68 @@ const CASES = [
   {
     name: "a catch-up waits when facebook posted recently",
     queue: [
-      { id: "recent", publish_at: hoursAgo(20), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(20), fb_post_id: "FB_OLD", fb_posted_at: minsAgo(20) },
-      { id: "waiting", publish_at: hoursAgo(19), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(19) },
+      { id: "recent", publish_at: hoursAgo(20), image: "x.jpg", caption: "c #KootenayMade", status: "published", published_at: hoursAgo(20), fb_post_id: "FB_OLD", fb_posted_at: minsAgo(20) },
+      { id: "waiting", publish_at: hoursAgo(19), image: "x.jpg", caption: "c #KootenayMade", status: "published", published_at: hoursAgo(19) },
     ],
     expect: 2, exit: 0,
     check: (q) => (!q.find((e) => e.id === "waiting").fb_post_id)
       ? true
       : "posted to facebook 20 minutes after the last one, ignoring the gap",
   },
+  // Lapphund Designs shares the token, so the account lookup is the only thing between its posts and
+  // KMD's feed. Both halves are checked by where the calls actually went, not by what the entry claims.
+  {
+    name: "a lapphund post goes to lapphund's instagram and nowhere else",
+    queue: [{ id: "ld1", account: "lapphund", publish_at: hoursAgo(1), image: "images/ld-x.jpg", caption: "c lapphunddesigns.com", status: "pending" }],
+    expect: 1, exit: 0,
+    check: (q, out) => {
+      const ig = [...new Set((out.match(/IGACCOUNT (\d+)/g) || []).map((l) => l.split(" ")[1]))];
+      if (ig.length !== 1 || ig[0] !== "17841459350887730") return `instagram calls went to ${ig.join(",") || "nothing"}`;
+      if (/FBCALL/.test(out)) return "it posted to KMD's facebook";
+      return q[0].fb_skipped ? true : "fb_skipped was not recorded";
+    },
+  },
+  {
+    name: "an unknown account fails instead of falling back to KMD",
+    queue: [{ id: "typo", account: "lapphnd", publish_at: hoursAgo(1), image: "x.jpg", caption: "c #KootenayMade", status: "pending" }],
+    expect: 0, exit: 0,
+    check: (q, out) => (!/IGACCOUNT/.test(out) && /unknown account/.test(q[0].error || ""))
+      ? true
+      : `expected no instagram call and an unknown account error, got ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "a KMD post carrying lapphund markers is refused before any call",
+    queue: [{ id: "mix1", publish_at: hoursAgo(1), image: "x.jpg", caption: "c #KootenayMade lapphunddesigns.com", status: "pending" }],
+    expect: 0, exit: 0,
+    check: (q, out) => (!/IGACCOUNT/.test(out) && /brand check/.test(q[0].error || "")) ? true : `not refused: ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "a lapphund post with a KMD image is refused before any call",
+    queue: [{ id: "mix2", account: "lapphund", publish_at: hoursAgo(1), image: "images/down-1.jpg", caption: "c lapphunddesigns.com", status: "pending", fb_skipped: "x" }],
+    expect: 0, exit: 0,
+    check: (q, out) => (!/IGACCOUNT/.test(out) && /brand check/.test(q[0].error || "")) ? true : `not refused: ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "a lapphund post with no lapphund marker is refused",
+    queue: [{ id: "mix3", account: "lapphund", publish_at: hoursAgo(1), image: "images/ld-x.jpg", caption: "just words", status: "pending", fb_skipped: "x" }],
+    expect: 0, exit: 0,
+    check: (q, out) => (!/IGACCOUNT/.test(out) && /brand check/.test(q[0].error || "")) ? true : `not refused: ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "a post that lands on the wrong feed turns the run red and is never reposted",
+    queue: [{ id: "owner", account: "lapphund", publish_at: hoursAgo(1), image: "images/ld-x.jpg", caption: "c lapphunddesigns.com", status: "pending", fb_skipped: "x" }],
+    expect: 1, exit: 1, env: { WRONG_OWNER: "1" },
+    check: (q) => (q[0].wrong_account === "someoneelse" && q[0].status === "published") ? true : `expected published with wrong_account: ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "the owner check records the right feed on a normal post",
+    queue: [{ id: "owner2", account: "lapphund", publish_at: hoursAgo(1), image: "images/ld-x.jpg", caption: "c lapphunddesigns.com", status: "pending", fb_skipped: "x" }],
+    expect: 1, exit: 0,
+    check: (q) => q[0].verified_account === "lapphunddesigns" || `verified_account is ${q[0].verified_account}`,
+  },
   {
     name: "a post instagram carried earlier gets caught up on facebook",
-    queue: [{ id: "catch", publish_at: hoursAgo(20), image: "x.jpg", caption: "c", status: "published", published_at: hoursAgo(20) }],
+    queue: [{ id: "catch", publish_at: hoursAgo(20), image: "x.jpg", caption: "c #KootenayMade", status: "published", published_at: hoursAgo(20) }],
     expect: 1, exit: 0,
     check: (q) => /^FB_/.test(q[0].fb_post_id || "") || `not caught up: ${JSON.stringify(q[0])}`,
   },
@@ -188,7 +245,7 @@ for (const c of CASES) {
     const q = JSON.parse(readFileSync(path.join(dir, "queue.json"), "utf8"));
     const posted = q.filter((e) => e.status === "published" && e.id !== "z").map((e) => e.id);
     const exitOk = c.exit === undefined || code === c.exit;
-    const extra = c.check ? c.check(q) : true;
+    const extra = c.check ? c.check(q, out) : true;
     const ok = posted.length === c.expect && exitOk && extra === true;
     if (!ok) failed++;
     console.log(`${ok ? "ok  " : "FAIL"}  ${c.name}`);
