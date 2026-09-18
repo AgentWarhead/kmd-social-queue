@@ -27,7 +27,7 @@ BRANDS = {
         'page_id': '109874835456732',
         'markers': ['lapphunddesigns.com', '#lapphunddesigns'],
         'image_prefix': 'images/ld-',
-        'posts_per_day': 1,                   # Brett, 2026-09-17: one a day
+        'posts_per_day': 2,                   # Brett, 2026-09-17: two a day, one lifestyle post and one Halloween product
     },
 }
 
