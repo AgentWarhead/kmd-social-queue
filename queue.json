@@ -627,8 +627,11 @@
     "publish_at": "2026-09-18T14:20:00Z",
     "image": "images/ld-20260918.jpg",
     "caption": "Free shipping just got a lot bigger. 🐾\n\nOrders over $75 now ship free to 43 countries, including Canada, the US, the UK, Europe, Australia and New Zealand. Bowls are the one exception, and only in Canada.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #LapphundDesigns #suomenlapinkoira #TheLappyPack #Lapphund",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18076965668714200",
+    "published_at": "2026-09-18T17:49:01.829Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-09-19-every-coat",
