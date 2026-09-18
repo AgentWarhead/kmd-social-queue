@@ -19,7 +19,7 @@ BRANDS = {
         'page_id': '1001276889744302',
         'markers': ['#kootenaymade', 'kootenaymade.ca'],
         'image_prefix': None,                 # anything except another brand's prefix
-        'posts_per_day': None,                # no lock set yet: Brett to name KMD's number
+        'posts_per_day': 2,                   # Brett, 2026-09-17: two a day
     },
     'lapphund': {
         'name': 'Lapphund Designs',
