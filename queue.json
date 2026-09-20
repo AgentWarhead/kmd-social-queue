@@ -772,9 +772,12 @@
     "publish_at": "2026-09-19T22:20:00Z",
     "image": "images/ld-20260919-p.jpg",
     "caption": "Woof. I mean, boo. 👻\n\nA tricolour Lappy doing its very best ghost impression, on a mug for your Halloween coffee. Three sizes, from $22.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HalloweenMug #LapphundDesigns #SpookySeason #Lapphund",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-woof-i-mean-boo-halloween-mug"
+    "product": "finnish-lapphund-woof-i-mean-boo-halloween-mug",
+    "media_id": "18109187795462869",
+    "published_at": "2026-09-20T00:00:14.701Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-09-20-product",
