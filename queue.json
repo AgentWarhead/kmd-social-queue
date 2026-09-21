@@ -804,9 +804,12 @@
     "publish_at": "2026-09-21T22:20:00Z",
     "image": "images/ld-20260921-p.jpg",
     "caption": "Pumpkin spice and everything floof. 🎃\n\nA sable Lappy with a latte, wrapped in autumn leaves and pumpkins. Monday coffee just got cozier. From $22.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #PumpkinSpice #HalloweenMug #LapphundDesigns #Lapphund",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-pumpkin-spice-everything-floof-halloween-mug"
+    "product": "finnish-lapphund-pumpkin-spice-everything-floof-halloween-mug",
+    "media_id": "18110528579165430",
+    "published_at": "2026-09-21T23:59:55.929Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-09-22-product",
