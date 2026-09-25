@@ -852,9 +852,12 @@
     "publish_at": "2026-09-24T22:20:00Z",
     "image": "images/ld-20260924-p.jpg",
     "caption": "Carved with love: the Bark-O-Lantern. 🎃\n\nA Lappy face glowing out of a jack-o'-lantern, on a forest green tee. From $29. Order by October 10 for delivery before Halloween in most of Canada and the US.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #JackOLantern #HalloweenShirt #LapphundDesigns #Lapphund",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-bark-o-lantern-halloween-t-shirt"
+    "product": "finnish-lapphund-bark-o-lantern-halloween-t-shirt",
+    "media_id": "18114457028324172",
+    "published_at": "2026-09-25T00:23:40.117Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-09-25-product",
