@@ -900,9 +900,12 @@
     "publish_at": "2026-09-27T22:20:00Z",
     "image": "images/ld-20260927-p.jpg",
     "caption": "Boo bee. 🐝\n\nA cream Lappy puppy in a bumblebee costume, with a couple of tiny ghosts buzzing along. From $22.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HalloweenMug #LapphundDesigns #CuteHalloween #suomenlapinkoira",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-boo-bee-halloween-mug"
+    "product": "finnish-lapphund-boo-bee-halloween-mug",
+    "media_id": "18110823760871831",
+    "published_at": "2026-09-27T22:31:18.924Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-09-28-product",
