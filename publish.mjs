@@ -98,16 +98,23 @@ const MIN_GAP_MIN = 45;
 const RETRY_BACKOFF_MIN = [15, 30, 60, 120, 240];
 const GIVE_UP_HOURS = 48;
 const backoffFor = (n) => RETRY_BACKOFF_MIN[Math.min(n, RETRY_BACKOFF_MIN.length) - 1];
-const lastPublished = queue
-  .filter(e => e.status === "published" && e.published_at)
+// Both rules are PER BRAND, since 2026-09-27. They exist so one feed does not receive two posts seconds
+// apart; they were never meant to let one brand's schedule delay another's. With two brands posting twice
+// a day, forty minutes apart, a shared floor would have pushed a post into the next run every day.
+const accountOf = (e) => e.account || "kmd";
+const lastPublishedFor = (account) => queue
+  .filter(e => e.status === "published" && e.published_at && accountOf(e) === account)
   .map(e => new Date(e.published_at))
   .sort((a, b) => b - a)[0];
-if (lastPublished) {
-  const mins = (now - lastPublished) / 60000;
+function breathingRoom(account) {
+  const last = lastPublishedFor(account);
+  if (!last) return true;
+  const mins = (now - last) / 60000;
   if (mins < MIN_GAP_MIN) {
-    console.log(`last post was ${Math.round(mins)} min ago, under the ${MIN_GAP_MIN} min floor; holding`);
-    process.exit(0);
+    console.log(`${account}: last post was ${Math.round(mins)} min ago, under the ${MIN_GAP_MIN} min floor; holding this brand`);
+    return false;
   }
+  return true;
 }
 
 async function api(path, params) {
@@ -244,10 +251,14 @@ async function publishCarousel(entry) {
   return pub.id;
 }
 
+const publishedThisRun = new Set();
 for (const entry of queue) {
   if (entry.status !== "pending") continue;
   if (new Date(entry.publish_at) > now) continue;
   if (entry.next_try && new Date(entry.next_try) > now) continue;   // still in backoff
+  const account = accountOf(entry);
+  if (publishedThisRun.has(account)) continue;                      // one per brand per run
+  if (!breathingRoom(account)) continue;
   try {
     console.log(`publishing ${entry.id}...`);
     const mediaId = entry.video ? await publishReel(entry) : entry.images ? await publishCarousel(entry) : await publishImage(entry);
@@ -260,8 +271,9 @@ for (const entry of queue) {
     delete entry.error;
     console.log(`published ${entry.id} -> ${mediaId}`);
     changed = true;
+    publishedThisRun.add(account);
     await catchUpFacebook(entry);
-    break;   // one per run, so a backlog spaces itself out
+    continue;   // one per brand per run, so each feed's backlog spaces itself out
   } catch (e) {
     entry.attempts = (entry.attempts || 0) + 1;
     entry.error = String(e.message).slice(0, 300);

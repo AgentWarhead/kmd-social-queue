@@ -220,6 +220,42 @@ const CASES = [
     expect: 1, exit: 0,
     check: (q) => q[0].verified_account === "lapphunddesigns" || `verified_account is ${q[0].verified_account}`,
   },
+  // Two brands share this queue and post twice a day, forty minutes apart. The pacing rules are per brand
+  // so neither can delay the other, while each feed still gets at most one post per run.
+  {
+    name: "two brands both due publish one each in the same run",
+    queue: [
+      { id: "k1", publish_at: hoursAgo(3), image: "x.jpg", caption: "k #KootenayMade", status: "pending" },
+      { id: "l1", account: "lapphund", publish_at: hoursAgo(3), image: "images/ld-x.jpg", caption: "l lapphunddesigns.com", status: "pending", fb_skipped: "x" },
+    ],
+    expect: 2, exit: 0,
+    check: (q, out) => {
+      const ig = (out.match(/IGACCOUNT (\d+)/g) || []).map((l) => l.split(" ")[1]);
+      return (ig.includes("17841446312533398") && ig.includes("17841459350887730")) ? true : `accounts posted to: ${ig.join(",")}`;
+    },
+  },
+  {
+    name: "one brand with two due still publishes only one",
+    queue: [
+      { id: "l1", account: "lapphund", publish_at: hoursAgo(4), image: "images/ld-x.jpg", caption: "l lapphunddesigns.com", status: "pending", fb_skipped: "x" },
+      { id: "l2", account: "lapphund", publish_at: hoursAgo(3), image: "images/ld-y.jpg", caption: "l2 lapphunddesigns.com", status: "pending", fb_skipped: "x" },
+    ],
+    expect: 1, exit: 0,
+  },
+  {
+    name: "a brand that just posted does not hold the other brand back",
+    queue: [
+      { id: "krecent", publish_at: hoursAgo(5), image: "x.jpg", caption: "k #KootenayMade", status: "published", published_at: minsAgo(10) },
+      { id: "kdue", publish_at: hoursAgo(3), image: "x.jpg", caption: "k2 #KootenayMade", status: "pending" },
+      { id: "ldue", account: "lapphund", publish_at: hoursAgo(3), image: "images/ld-x.jpg", caption: "l lapphunddesigns.com", status: "pending", fb_skipped: "x" },
+    ],
+    expect: 2, exit: 0,   // krecent was already published in the fixture; the run itself publishes only ldue
+    check: (q) => {
+      const l = q.find((e) => e.id === "ldue"), k = q.find((e) => e.id === "kdue");
+      if (l.status !== "published") return "the lapphund post was held by KMD's recent post";
+      return k.status === "pending" || "KMD posted again inside its own 45 minute floor";
+    },
+  },
   {
     name: "a post instagram carried earlier gets caught up on facebook",
     queue: [{ id: "catch", publish_at: hoursAgo(20), image: "x.jpg", caption: "c #KootenayMade", status: "published", published_at: hoursAgo(20) }],
