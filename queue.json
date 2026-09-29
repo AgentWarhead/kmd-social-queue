@@ -916,9 +916,12 @@
     "publish_at": "2026-09-28T22:20:00Z",
     "image": "images/ld-20260928-p.jpg",
     "caption": "Spooky coquette season. 🖤\n\nA cream Lappy with a black bow and pearls, framed by little skulls and hearts on a purple tee. From $29. Order by October 10 for delivery before Halloween in most of Canada and the US.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #SpookyCoquette #HalloweenShirt #LapphundDesigns #Lapphund",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-spooky-coquette-halloween-t-shirt"
+    "product": "finnish-lapphund-spooky-coquette-halloween-t-shirt",
+    "media_id": "18133933309679905",
+    "published_at": "2026-09-29T01:12:28.774Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-09-29-product",
@@ -974,7 +977,12 @@
       "images/save-maps-20260928-06.jpg"
     ],
     "caption": "Not showing up on Google Maps? Run this check before you pay anyone.\n\nSearch your exact business name first. If you are not there at all, it is a profile problem: the listing is unverified, suspended, hiding behind a duplicate, or claimed by the wrong account. Fix that before anything else.\n\nIf your name works but a search for what you do in your town does not, that is a different problem. Google knows you exist. It just does not see you as the best match nearby yet.\n\nThe full walkthrough is free: kootenaymade.ca/blog/why-not-showing-google-maps\n\n#KootenayBusiness #RosslandBC #WebDesignCanada #SmallBizTips #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18103823738457718",
+    "published_at": "2026-09-29T01:13:33.445Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122127871334844963",
+    "fb_posted_at": "2026-09-29T01:13:48.667Z"
   },
   {
     "id": "2026-09-29-trailhead",
