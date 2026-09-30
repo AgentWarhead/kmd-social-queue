@@ -12,6 +12,7 @@ const IG_ID = "17841446312533398";               // Kootenay Made Digital
 const ACCOUNTS = {
   kmd: { ig: IG_ID, username: "kootenaymadedigital", markers: ["#kootenaymade", "kootenaymade.ca"], imagePrefix: null },
   lapphund: { ig: "17841459350887730", username: "lapphunddesigns", markers: ["lapphunddesigns.com", "#lapphunddesigns"], imagePrefix: "images/ld-" },
+  list: { ig: "17841442960494232", username: "kootenaylist", markers: ["kootenaylist.ca"], imagePrefix: "media/kl-" },
 };
 // Brett's law, 2026-09-17: a post on the wrong account is never acceptable. The pre-push gate already
 // refuses one; this is the last check before the API call, so a queue edited by hand after the gate

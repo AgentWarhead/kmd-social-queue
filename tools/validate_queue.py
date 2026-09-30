@@ -100,7 +100,9 @@ for e in pending:
         fails.append('%s: #KootenayMade on a %s post' % (eid, account))
     if '—' in cap:
         fails.append('%s: em dash in caption' % eid)
-    m = KILL.search(cap)
+    # The kill-list is KMD's own offer language (kmd-brand rule 3). The List names third-party programs
+    # that really are loans (Community Futures, BDC), which kmd-brand's carve-out allows, so it binds KMD only.
+    m = KILL.search(cap) if account == 'kmd' else None
     if m:
         fails.append('%s: kill-list word "%s"' % (eid, m.group(1)))
 

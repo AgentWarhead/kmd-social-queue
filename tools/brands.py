@@ -29,6 +29,15 @@ BRANDS = {
         'image_prefix': 'images/ld-',
         'posts_per_day': 2,                   # Brett, 2026-09-17: two a day, one lifestyle post and one Halloween product
     },
+    'list': {
+        'name': 'The Kootenay List',
+        'ig_id': '17841442960494232', 'ig_username': 'kootenaylist',
+        'page_id': '1234528659738185',
+        'markers': ['kootenaylist.ca'],
+        'image_prefix': 'media/kl-',
+        # The List's week (SOCIAL.md, ratified 2026-08-14): one post each weekday, none at the weekend.
+        'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
+    },
 }
 
 
@@ -81,6 +90,7 @@ def cadence_problems(account, dates):
     lock = BRANDS[account]['posts_per_day']
     if lock is None or not dates:
         return []
+    per_day = (lambda d: lock.get(d.weekday(), 0)) if isinstance(lock, dict) else (lambda d: lock)
     count = {}
     for d in dates:
         count[d] = count.get(d, 0) + 1
@@ -88,9 +98,10 @@ def cadence_problems(account, dates):
     day, last = min(count), max(count)
     while day <= last:
         n = count.get(day, 0)
-        if n != lock:
-            out.append('%s on %s: %d post%s, locked to %d a day (%s)' % (
-                BRANDS[account]['name'], day.isoformat(), n, '' if n == 1 else 's', lock,
-                'missed day' if n < lock else 'overposting'))
+        want = per_day(day)
+        if n != want:
+            out.append('%s on %s: %d post%s, locked to %d that day (%s)' % (
+                BRANDS[account]['name'], day.isoformat(), n, '' if n == 1 else 's', want,
+                'missed day' if n < want else 'overposting'))
         day += timedelta(days=1)
     return out

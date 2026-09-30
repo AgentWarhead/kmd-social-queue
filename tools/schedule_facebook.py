@@ -60,6 +60,12 @@ if not GO:
 for i, p in enumerate(plan):
     when = int(datetime.fromisoformat(p['when'].replace('Z', '+00:00')).timestamp())
     data = open(p['file'], 'rb').read()
+    if p['file'].lower().endswith('.mp4'):
+        # a video schedules itself: one upload with the time on it (The Kootenay List, 2026-09-30)
+        r = meta_local.post_file('%s/videos' % brand['page_id'], tok, 'source', os.path.basename(p['file']), data,
+                                 description=p['message'], published='false', scheduled_publish_time=str(when))
+        print('scheduled %d/%d  %s  video %s' % (i + 1, len(plan), pacific_date(p['when']), r.get('id')))
+        continue
     # an unpublished photo, then one scheduled feed post that attaches it. Meta's docs say temporary=true for
     # this; with only the Content task on a Page it is refused as "no permission to create an unpublished
     # post" (2026-09-17, Lapphund Designs), while the same upload without it succeeds and schedules fine.
