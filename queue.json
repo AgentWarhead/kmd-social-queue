@@ -1514,9 +1514,12 @@
     "account": "list",
     "publish_at": "2026-09-30T17:00:00Z",
     "caption": "Your Community Futures office is in Nelson, Trail, Cranbrook or Grand Forks.\n\nCommunity Futures lends to businesses across the Kootenays, and helps you plan before you borrow. The hard part is knowing which door to knock on. There are four offices, and your town decides which one is yours.\n\nNelson covers Castlegar, Creston, Kaslo, Salmo, the Slocan and the Arrow Lakes. Trail covers Rossland, Fruitvale, Montrose and Warfield. Cranbrook covers the East Kootenay and the Columbia Valley. Grand Forks covers the Boundary.\n\nAll four are on the List's funding page, with 103 programs beside them.\n\nkootenaylist.ca/funding\n.\n.\n#NelsonBC #KootenayLife #SupportLocalBC #BCBusiness #NewBusiness",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-09-30-money-four-offices.mp4"
+    "video": "media/kl-2026-09-30-money-four-offices.mp4",
+    "media_id": "18135766861733703",
+    "published_at": "2026-09-30T20:15:31.662Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-01-how-i-keep-it-funding",
