@@ -783,8 +783,11 @@
     "publish_at": "2026-10-01T14:20:00Z",
     "image": "images/ld-20261001.jpg",
     "caption": "Which Lappy are you? 🐾\n\nMountain Explorer, Couch Cuddler, Snow Zoomie or Dramatic Diva. Tell us yours in the comments.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #Lapphund #LappyLife #suomenlapinkoira #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18632675212034966",
+    "published_at": "2026-10-01T18:19:43.544Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-09-18-product",
@@ -1061,7 +1064,12 @@
     "publish_at": "2026-10-01T15:00:00Z",
     "video": "media/engine-20261001.mp4",
     "caption": "They are not better than you. They just show up first.\n\nWhen someone searches for what you do in their town, the business with a page for that service and that town has a head start.\n\nThe Engine is built for that. Up to seven custom pages, a page for every town you serve, 20 guides written for you that answer what customers search, and a blog that keeps earning search after launch. Full brand identity, email set up on your domain and analytics are included too.\n\nThe Engine is $6,500, live in 4 to 5 weeks. You approve, I do the rest.\n\nkootenaymade.ca/services/websites\n\n#KootenayBusiness #RosslandBC #WebDesignCanada #SmallBizTips #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18100516067039264",
+    "published_at": "2026-10-01T18:20:20.078Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1639193071207842",
+    "fb_posted_at": "2026-10-01T18:20:28.275Z"
   },
   {
     "id": "2026-10-01-offer-checkup",
@@ -1534,9 +1542,12 @@
     "account": "list",
     "publish_at": "2026-10-01T16:00:00Z",
     "caption": "Business funding changes all year. A grant can open in spring and be full by summer, then come back the next year with new rules.\n\nSo the funding page on the List starts with who holds the money. That means the four Community Futures offices, Columbia Basin Trust, WorkBC, PacifiCan and the rest. Those organisations stay put while their programs come and go. Each one links to its own current programs page, so you read today's rules from the people who wrote them.\n\nThe 103 programs sit underneath, each with how to apply.\n\nkootenaylist.ca/funding\n.\n.\n#KootenayLiving #ExploreKootenays #BCLocal #KootenayBusiness #LocalSearch",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-01-how-i-keep-it-funding.jpg"
+    "image": "media/kl-2026-10-01-how-i-keep-it-funding.jpg",
+    "media_id": "18465193552186560",
+    "published_at": "2026-10-01T18:20:38.264Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-02-your-town-fernie",
