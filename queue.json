@@ -1091,7 +1091,12 @@
     "publish_at": "2026-10-02T15:00:00Z",
     "video": "media/storefront-20261002.mp4",
     "caption": "Still taking orders through your DMs?\n\nA store should take the order, the payment and the address while you get on with making things.\n\nThe Storefront is a custom Shopify store with up to 50 products at launch, and sizes and colours do not count against that. I make the product photos and mockups and write every description from what you tell me. Print-on-demand gets set up where your products need it, and there is no theme to buy.\n\nThe store in the video is Lapphund Designs, a real shop that is live right now. The Storefront starts from $5,500 and takes 5 to 6 weeks.\n\nkootenaymade.ca/services/shopify\n\n#BCSmallBusiness #KootenayLife #WebsiteDesign #SmallBusinessCanada #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18070236980770191",
+    "published_at": "2026-10-02T15:05:23.499Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "918551921091449",
+    "fb_posted_at": "2026-10-02T15:05:31.482Z"
   },
   {
     "id": "2026-10-02-save-tax",
@@ -1273,8 +1278,11 @@
     "publish_at": "2026-10-02T14:20:00Z",
     "image": "images/ld-20261002.jpg",
     "caption": "Small breed. Enormous opinions.\n\nExplorer, cuddler, zoomie, diva. Most Lappy people get all four in one dog, usually before lunch.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #Lapphund #LappyLife #LapphundDesigns #suomenlapinkoira",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "17941782906366373",
+    "published_at": "2026-10-02T15:05:39.208Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-02-product",
