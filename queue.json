@@ -1110,7 +1110,12 @@
       "images/save-tax-20261002-06.jpg"
     ],
     "caption": "Selling online in BC? Shopify does not file your taxes for you.\n\nIt calculates tax at checkout once you add your registrations. Charging the right rates, filing and remitting is still your job, with PST going to BC and GST going to the CRA.\n\nTwo numbers worth knowing. BC's small seller limit for PST is $10,000 a year in gross retail sales, and other tests apply. For GST, once taxable sales pass $30,000 in a quarter or over four quarters in a row, you have 29 days to register.\n\nCheck your own situation with an accountant. The full guide, checked September 2026: kootenaymade.ca/blog/shopify-taxes-bc-gst-pst\n\n#SmallBusinessBC #Kootenays #WebDesign #CastlegarBC #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18039877367830976",
+    "published_at": "2026-10-02T23:44:07.483Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122128499636844963",
+    "fb_posted_at": "2026-10-02T23:44:20.465Z"
   },
   {
     "id": "2026-10-03-hook-question",
@@ -1290,9 +1295,12 @@
     "publish_at": "2026-10-02T22:20:00Z",
     "image": "images/ld-20261002-p.jpg",
     "caption": "Squad ghouls, assembled. 👻\n\nFour Lappies in costume on a white tee: a pumpkin, a ghost, a little devil, and one dog who clearly did not agree to this. From $29.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HalloweenShirt #LapphundDesigns #SquadGhouls #Lapphund",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-squad-ghouls-halloween-t-shirt"
+    "product": "finnish-lapphund-squad-ghouls-halloween-t-shirt",
+    "media_id": "18111381638596252",
+    "published_at": "2026-10-02T23:44:36.187Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-03-am",
