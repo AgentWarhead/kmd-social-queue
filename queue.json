@@ -1570,9 +1570,12 @@
     "account": "list",
     "publish_at": "2026-10-02T16:00:00Z",
     "caption": "Fernie has 386 businesses on the List, from 71 places to eat and drink to 26 outdoor and adventure businesses.\n\nLooking for someone local shouldn't mean a string of searches that send you to a business an hour away. The List keeps every Fernie business it knows in one place, sorted by what they do.\n\n337 of them have a website of their own. That's 87%, the highest share of any Kootenay town over 3,000 people.\n\nSee all of it at kootenaylist.ca/town/fernie\n.\n.\n#FernieBC #EastKootenay #BuyLocalBC #LocalBusiness #SmallTownLife",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-10-02-your-town-fernie.mp4"
+    "video": "media/kl-2026-10-02-your-town-fernie.mp4",
+    "media_id": "18116595857094723",
+    "published_at": "2026-10-02T19:59:27.758Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-05-drawer-crawford-bay",
