@@ -1122,7 +1122,12 @@
     "publish_at": "2026-10-03T15:00:00Z",
     "video": "media/hook-question-20261003.mp4",
     "caption": "Can your customers find you?\n\nTry it the way they do. Pick up your phone, search what you do plus your town, and look at what comes up in the first screen.\n\nIf it is you, good. If it is a competitor, a directory listing, or nothing at all, that is the gap a website closes.\n\nNot sure what you are looking at? The free check-up reads your site and your search presence and tells you what to fix first. It takes about a minute.\n\nkootenaymade.ca/audit\n\n#SmallBusinessBC #TrailBC #WebsiteTips #SupportSmallBusiness #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18094428767678826",
+    "published_at": "2026-10-03T17:39:12.241Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1070624522460601",
+    "fb_posted_at": "2026-10-03T17:39:18.888Z"
   },
   {
     "id": "2026-10-04-brand",
@@ -1308,8 +1313,11 @@
     "publish_at": "2026-10-03T14:20:00Z",
     "image": "images/ld-20261003.jpg",
     "caption": "Trailhead outfit check, Lappy edition. 🐾\n\nTee, water bottle, stickers on everything, and a dog who thinks the pace is too slow. Saturday sorted.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HikingWithDogs #TrailDog #LapphundDesigns #TheLappyPack",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18117223280004212",
+    "published_at": "2026-10-03T17:39:34.165Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-03-product",
