@@ -1343,8 +1343,11 @@
     "publish_at": "2026-10-04T14:20:00Z",
     "image": "images/ld-20261004.jpg",
     "caption": "The Lappy morning routine, in four steps.\n\nStare. Stretch. Wait for the coffee. Demand walkies. Step one starts earlier on Sundays.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #MorningRoutine #LappyLife #LapphundDesigns #DogMom",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18094118351550487",
+    "published_at": "2026-10-04T14:44:02.174Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-04-product",
