@@ -1724,14 +1724,5 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "image": "media/gsuw-2026-10-09-the-society.jpg"
-  },
-  {
-    "id": "gsuw-2026-10-05-story-soul-journey",
-    "account": "gsuw",
-    "publish_at": "2026-10-05T18:00:00Z",
-    "story": "media/gsuw-2026-10-05-story-soul-journey.jpg",
-    "caption": "Instagram story, Soul Journey for Women, gsuw.org",
-    "status": "pending",
-    "fb_skipped": "an instagram story; nothing goes to facebook"
   }
 ]
