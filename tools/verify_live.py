@@ -31,6 +31,11 @@ fails, notes = [], []
 queue = json.load(io.open(os.path.join(ROOT, 'queue.json'), encoding='utf-8'))
 
 for account, b in BRANDS.items():
+    # A brand is judged from the day the queue started posting for it, never on the feed it had before
+    # (Global Symphony arrived 2026-10-05 with 126 posts of its own).
+    since = max(SINCE, date.fromisoformat(b['since'])) if b.get('since') else SINCE
+    lock = b['posts_per_day']
+    lock_today = lock.get(today.weekday(), 0) if isinstance(lock, dict) else lock
     # Facebook: what is waiting on the Page
     tok = meta_local.page_token(b['page_id'])
     sched = meta_local.get('%s/scheduled_posts' % b['page_id'], tok,
@@ -41,6 +46,21 @@ for account, b in BRANDS.items():
         for why in brand_problems(account, p.get('message', '')):
             fails.append('facebook %s scheduled %s (%s): WRONG ACCOUNT RISK, %s' % (b['name'], when.isoformat(), p['id'], why))
         fb_days.append(pacific_date(when))
+    # A scheduled video can be missing from /scheduled_posts for a while (PUBLISHING.md, the videos trap),
+    # which would read as a missed day. Count the Page's scheduled videos from the videos edge as well.
+    seen = {p['id'].split('_')[-1] for p in sched}
+    for v in meta_local.get('%s/videos' % b['page_id'], tok, fields='id,description,scheduled_publish_time,published',
+                            limit=50).get('data', []):
+        if v.get('published') or not v.get('scheduled_publish_time') or v['id'] in seen:
+            continue
+        when = datetime.fromtimestamp(int(v['scheduled_publish_time']), timezone.utc) \
+            if str(v['scheduled_publish_time']).isdigit() else datetime.fromisoformat(v['scheduled_publish_time'].replace('+0000', '+00:00'))
+        if when < datetime.now(timezone.utc):
+            continue
+        for why in brand_problems(account, v.get('description', '')):
+            fails.append('facebook %s scheduled video %s (%s): WRONG ACCOUNT RISK, %s' % (b['name'], when.isoformat(), v['id'], why))
+        fb_days.append(pacific_date(when))
+        sched.append(v)
     fails.extend('facebook ' + c for c in cadence_problems(account, fb_days))
     notes.append('%s facebook: %d scheduled%s' % (b['name'], len(sched),
                  (', %s to %s' % (min(fb_days), max(fb_days))) if fb_days else ''))
@@ -51,10 +71,10 @@ for account, b in BRANDS.items():
     while True:
         media += page.get('data', [])
         nxt = (page.get('paging') or {}).get('cursors', {}).get('after')
-        if not nxt or not page.get('data') or pacific_date(page['data'][-1]['timestamp']) < SINCE:
+        if not nxt or not page.get('data') or pacific_date(page['data'][-1]['timestamp']) < since:
             break
         page = meta_local.get('%s/media' % b['ig_id'], fields='id,caption,timestamp,username', limit=50, after=nxt)
-    recent = [m for m in media if pacific_date(m['timestamp']) >= SINCE]
+    recent = [m for m in media if pacific_date(m['timestamp']) >= since]
     ig_days = []
     for m in recent:
         if m.get('username') and m['username'] != b['ig_username']:
@@ -64,14 +84,14 @@ for account, b in BRANDS.items():
         ig_days.append(pacific_date(m['timestamp']))
     done = [d for d in ig_days if d < today]              # today may still be on its way
     fails.extend('instagram ' + c for c in cadence_problems(account, done))
-    if b['posts_per_day'] and ig_days.count(today) > b['posts_per_day']:
-        fails.append('instagram %s: %d posts today, locked to %d (overposting)' % (b['name'], ig_days.count(today), b['posts_per_day']))
+    if lock is not None and ig_days.count(today) > lock_today:
+        fails.append('instagram %s: %d posts today, locked to %d (overposting)' % (b['name'], ig_days.count(today), lock_today))
     ids = {m['id'] for m in media}
     for e in queue:
         if e.get('status') == 'published' and e.get('account', 'kmd') == account and e.get('media_id') \
-                and pacific_date(e['publish_at']) >= SINCE and e['media_id'] not in ids:
+                and pacific_date(e['publish_at']) >= since and e['media_id'] not in ids:
             fails.append('instagram %s: queue entry %s says published as %s, which is not on this feed' % (b['name'], e['id'], e['media_id']))
-    notes.append('%s instagram: %d posts since %s' % (b['name'], len(recent), SINCE))
+    notes.append('%s instagram: %d posts since %s' % (b['name'], len(recent), since))
 
 if fails:
     print('FAIL (%d):' % len(fails))

@@ -17,3 +17,7 @@ checkup-runs.local.json
 # Performance snapshots. Our own reach and engagement numbers are nobody
 # else's business, least of all a prospect's.
 insights-*.json
+
+# local Facebook plans carry this laptop's file paths
+*-fb-plan.json
+__pycache__/

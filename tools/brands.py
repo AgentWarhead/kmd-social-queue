@@ -37,6 +37,7 @@ BRANDS = {
         'image_prefix': 'media/kl-',
         # The List's week (SOCIAL.md, ratified 2026-08-14): one post each weekday, none at the weekend.
         'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
+        'since': '2026-09-30',                # first day the queue posted for it
     },
     'gsuw': {
         # Global Symphony for a United World, the first CLIENT on the machine (2026-10-04). Their signed
@@ -49,6 +50,7 @@ BRANDS = {
         'markers': ['gsuw.org', '#globalsymphonyforaunitedworld', '#artembracingawareness', '#kindnessprints',
                     '#frantisekstrouhal'],
         'image_prefix': 'media/gsuw-',
+        'since': '2026-10-05',                # first day the queue posts for it; its older feed is theirs
         # The signed scope: five a week, Monday to Friday, none at the weekend.
         'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
     },
