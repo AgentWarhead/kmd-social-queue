@@ -24,7 +24,7 @@ function assertBrand(entry) {
   const mine = ACCOUNTS[account];
   if (!mine) throw new Error(`unknown account "${entry.account}"`);
   const text = String(entry.caption || "").toLowerCase();
-  const media = entry.images || [entry.image || entry.video].filter(Boolean);
+  const media = entry.images || [entry.image || entry.video || entry.story].filter(Boolean);
   if (!mine.markers.some(m => text.includes(m))) throw new Error(`brand check: no ${account} marker in the caption`);
   for (const [other, b] of Object.entries(ACCOUNTS)) {
     if (other === account) continue;
@@ -188,6 +188,11 @@ async function catchUpFacebook(entry) {
   fbHandled.add(entry.id);
   // FB_PAGE_ID is KMD's page. Any other brand's post stops here, whatever else the entry says: its
   // Facebook copy is scheduled natively on that brand's own page when the slate is enqueued.
+  if (entry.story) {
+    entry.fb_skipped = "an instagram story; nothing goes to facebook";
+    changed = true;
+    return;
+  }
   if ((entry.account || "kmd") !== "kmd") {
     entry.fb_skipped = "not a KMD post; its facebook is scheduled on its own page";
     changed = true;
@@ -264,7 +269,7 @@ for (const entry of queue) {
   if (!breathingRoom(account)) continue;
   try {
     console.log(`publishing ${entry.id}...`);
-    const mediaId = entry.video ? await publishReel(entry) : entry.images ? await publishCarousel(entry) : await publishImage(entry);
+    const mediaId = entry.story ? await publishStory(entry) : entry.video ? await publishReel(entry) : entry.images ? await publishCarousel(entry) : await publishImage(entry);
     entry.status = "published";
     entry.media_id = mediaId;
     entry.published_at = new Date().toISOString();
@@ -354,6 +359,17 @@ if (newFailure) {
 }
 
 // Reels: video processing is slower, so the readiness poll gets 5 minutes.
+// Stories (2026-10-04, Global Symphony's Soul Journey invitations). The API publishes an image story
+// but cannot add a link sticker, so the invitation and the address are part of the image itself.
+// A story carries no caption; entry.caption is only the label the brand gate reads.
+async function publishStory(entry) {
+  const ig = igOf(entry);
+  const c = await api(`${ig}/media`, { media_type: "STORIES", image_url: RAW + entry.story });
+  await waitReady(c.id);
+  const pub = await api(`${ig}/media_publish`, { creation_id: c.id });
+  return pub.id;
+}
+
 async function publishReel(entry) {
   const ig = igOf(entry);
   const c = await api(`${ig}/media`, {

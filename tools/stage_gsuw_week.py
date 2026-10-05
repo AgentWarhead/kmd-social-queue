@@ -12,6 +12,8 @@ SOC = os.path.join(GSUW, "social")
 YEAR = 2026
 IG_TIME = "15:30"   # Instagram: the cron lands posts about 1.6 h late, so this reads as late morning Pacific
 FB_TIME = "17:00"   # Facebook schedules natively on the minute: 10 am Pacific
+STORY_TIME = "18:00"  # stories after the day's post; the per-brand 45 minute floor keeps them apart anyway
+STORIES = os.path.join(SOC, "2026-10-Brett-only", "stories")
 
 week = int(sys.argv[sys.argv.index("--week") + 1])
 src = io.open(os.path.join(SOC, "build-review.py"), encoding="utf-8").read()
@@ -52,6 +54,23 @@ for p in parse(week):
                  "message": fbcap})
     print("%-52s %s  ig tags %d  fb tags %d  %s" % (pid, e["publish_at"], len(re.findall(r"#\w+", igcap)),
                                                    len(re.findall(r"#\w+", fbcap)), kind))
+
+    # The week's stories ride with the post they sit beside: "Story, Sat Oct 24 (...): ...". The story image
+    # carries the invitation and gsuw.org, because the API cannot add a link sticker.
+    for st in p.get("stories", []):
+        sm = re.match(r"Story, \w+ (\w+) (\d+)", st)
+        sdate = "%d-%02d-%02d" % (YEAR, MONTHS[sm.group(1)], int(sm.group(2)))
+        img = os.path.join(STORIES, "story-%s%02d-soul-journey.jpg" % (sm.group(1).lower(), int(sm.group(2))))
+        if not os.path.exists(img):
+            raise SystemExit("story image missing: %s" % img)
+        sid = "gsuw-%s-story-soul-journey" % sdate
+        srel = "media/%s.jpg" % sid
+        if "--write" in sys.argv:
+            shutil.copy(img, os.path.join(ROOT, srel))
+        entries.append({"id": sid, "account": "gsuw", "publish_at": "%sT%s:00Z" % (sdate, STORY_TIME), "story": srel,
+                        "caption": "Instagram story, Soul Journey for Women, gsuw.org", "status": "pending",
+                        "fb_skipped": "an instagram story; nothing goes to facebook"})
+        print("%-52s %s  story" % (sid, entries[-1]["publish_at"]))
 
 json.dump(plan, io.open(os.path.join(ROOT, "gsuw-fb-plan.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 if "--write" in sys.argv:

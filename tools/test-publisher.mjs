@@ -27,6 +27,7 @@ globalThis.fetch = async (url, opts) => {
   const u = String(url);
   if (opts && opts.method === "POST" && u.includes("/media")) { const parts = u.split("?")[0].split("/"); console.log("IGACCOUNT " + parts[parts.length - 2]); if (!u.includes("/media_publish")) globalThis.lastIg = parts[parts.length - 2]; }
   if (opts && opts.method === "POST" && ["/photos", "/videos", "/feed"].some((s) => u.includes(s))) console.log("FBCALL " + u);
+  if (opts && opts.method === "POST" && u.includes("/media") && !u.includes("/media_publish")) { const mt = new URLSearchParams(String(opts.body)).get("media_type"); if (mt) console.log("MEDIATYPE " + mt); }
   if (opts && opts.method === "POST" && u.includes("/media_publish"))
     return { json: async () => ({ id: "MEDIA_" + ++n }) };
   if (opts && opts.method === "POST" && u.includes("/media")) {
@@ -210,6 +211,24 @@ const CASES = [
       if (["k1", "l1", "kl1"].some((id) => by[id].status !== "published")) return `another brand did not publish: ${JSON.stringify(q.map((e) => [e.id, e.status]))}`;
       return (by.gsfail.status === "pending" && by.gsfail.attempts === 1 && by.gsfail.next_try) ? true : `gsuw failure not booked as a retry: ${JSON.stringify(by.gsfail)}`;
     },
+  },
+  {
+    name: "a gsuw story publishes as an instagram story on gsuw only, with no caption and nothing on facebook",
+    queue: [{ id: "gsst", account: "gsuw", publish_at: hoursAgo(1), story: "media/gsuw-story.jpg", caption: "story gsuw.org", status: "pending", fb_skipped: "x" }],
+    expect: 1, exit: 0,
+    check: (q, out) => {
+      const ig = [...new Set((out.match(/IGACCOUNT (\d+)/g) || []).map((l) => l.split(" ")[1]))];
+      if (ig.length !== 1 || ig[0] !== "17841474928481362") return `instagram calls went to ${ig.join(",") || "nothing"}`;
+      if (!/MEDIATYPE STORIES/.test(out)) return "it was not published as a story";
+      if (/FBCALL/.test(out)) return "it went to facebook";
+      return true;
+    },
+  },
+  {
+    name: "a KMD story never reaches KMD's facebook",
+    queue: [{ id: "kst", publish_at: hoursAgo(1), story: "images/story.jpg", caption: "story #KootenayMade", status: "pending" }],
+    expect: 1, exit: 0,
+    check: (q, out) => (!/FBCALL/.test(out) && /MEDIATYPE STORIES/.test(out) && /story/.test(q[0].fb_skipped || "")) ? true : `facebook touched or not a story: ${JSON.stringify(q[0])}`,
   },
   {
     name: "a gsuw post carrying KMD markers is refused before any call",

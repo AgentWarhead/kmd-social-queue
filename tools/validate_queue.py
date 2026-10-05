@@ -66,7 +66,8 @@ for e in pending:
     except Exception:
         fails.append('%s: publish_at unparseable: %r' % (eid, e.get('publish_at')))
 
-    media = e.get('images') or ([e['image']] if e.get('image') else []) or ([e['video']] if e.get('video') else [])
+    media = e.get('images') or ([e['image']] if e.get('image') else []) or ([e['video']] if e.get('video') else []) \
+        or ([e['story']] if e.get('story') else [])
     if not media:
         fails.append('%s: no media' % eid)
     for m in media:
@@ -92,7 +93,9 @@ for e in pending:
     if account != 'kmd' and not e.get('fb_skipped'):
         fails.append('%s: a %s post must carry fb_skipped, or the publisher would try KMD facebook' % (eid, account))
     tags = re.findall(r'#\w+', cap)
-    if len(tags) != 5:
+    if e.get('story'):
+        pass   # a story sends no caption: its caption is only the label the brand gate reads, so no tag law
+    elif len(tags) != 5:
         fails.append('%s: %d hashtags, law says exactly 5' % (eid, len(tags)))
     elif account == 'kmd' and tags[-1] != '#KootenayMade':
         fails.append('%s: #KootenayMade is not the last tag' % eid)
@@ -108,7 +111,8 @@ for e in pending:
 
 # The cadence lock: every post that is out or on its way, per brand, per Pacific day. Published posts count
 # too, so a queue cannot add a second post to a day that already had its one.
-live = [e for e in q if e.get('status') in ('pending', 'published')]
+# Stories are not feed posts: they never count toward a brand's posts per day (2026-10-04).
+live = [e for e in q if e.get('status') in ('pending', 'published') and not e.get('story')]
 for account in BRANDS:
     mine = [e for e in live if e.get('account', 'kmd') == account]
     todo = [e for e in mine if e.get('status') == 'pending']
