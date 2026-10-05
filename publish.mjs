@@ -13,6 +13,8 @@ const ACCOUNTS = {
   kmd: { ig: IG_ID, username: "kootenaymadedigital", markers: ["#kootenaymade", "kootenaymade.ca"], imagePrefix: null },
   lapphund: { ig: "17841459350887730", username: "lapphunddesigns", markers: ["lapphunddesigns.com", "#lapphunddesigns"], imagePrefix: "images/ld-" },
   list: { ig: "17841442960494232", username: "kootenaylist", markers: ["kootenaylist.ca"], imagePrefix: "media/kl-" },
+  // Global Symphony for a United World (client, 2026-10-04). Instagram reached through its Page link.
+  gsuw: { ig: "17841474928481362", username: "gsuw_official", markers: ["gsuw.org", "#globalsymphonyforaunitedworld", "#artembracingawareness", "#kindnessprints", "#frantisekstrouhal"], imagePrefix: "media/gsuw-" },
 };
 // Brett's law, 2026-09-17: a post on the wrong account is never acceptable. The pre-push gate already
 // refuses one; this is the last check before the API call, so a queue edited by hand after the gate

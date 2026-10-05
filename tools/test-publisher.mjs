@@ -35,7 +35,7 @@ globalThis.fetch = async (url, opts) => {
     return { json: async () => ({ id: "CONTAINER_" + Math.random().toString(36).slice(2, 7) }) };
   }
   if (u.includes("fields=username")) {
-    const names = { "17841459350887730": "lapphunddesigns", "17841446312533398": "kootenaymadedigital" };
+    const names = { "17841459350887730": "lapphunddesigns", "17841446312533398": "kootenaymadedigital", "17841474928481362": "gsuw_official", "17841442960494232": "kootenaylist" };
     return { json: async () => ({ username: process.env.WRONG_OWNER ? "someoneelse" : names[globalThis.lastIg] }) };
   }
   if (u.includes("fields=status_code"))
@@ -181,6 +181,47 @@ const CASES = [
       if (/FBCALL/.test(out)) return "it posted to KMD's facebook";
       return q[0].fb_skipped ? true : "fb_skipped was not recorded";
     },
+  },
+  // Global Symphony for a United World, the first client (2026-10-04). Brett's law for it: its posts must
+  // never interfere with any other account's, so its own feed, its own refusals and its own failures are
+  // each proven here by where the calls actually went.
+  {
+    name: "a gsuw post goes to gsuw's instagram and nowhere else",
+    queue: [{ id: "gs1", account: "gsuw", publish_at: hoursAgo(1), image: "media/gsuw-x.jpg", caption: "c gsuw.org #ArtEmbracingAwareness", status: "pending", fb_skipped: "x" }],
+    expect: 1, exit: 0,
+    check: (q, out) => {
+      const ig = [...new Set((out.match(/IGACCOUNT (\d+)/g) || []).map((l) => l.split(" ")[1]))];
+      if (ig.length !== 1 || ig[0] !== "17841474928481362") return `instagram calls went to ${ig.join(",") || "nothing"}`;
+      if (/FBCALL/.test(out)) return "it posted to KMD's facebook";
+      return q[0].verified_account === "gsuw_official" ? true : `owner check read ${q[0].verified_account}`;
+    },
+  },
+  {
+    name: "a failing gsuw post leaves every other brand's post in the same run untouched",
+    queue: [
+      { id: "k1", publish_at: hoursAgo(1), image: "x.jpg", caption: "k #KootenayMade", status: "pending" },
+      { id: "l1", account: "lapphund", publish_at: hoursAgo(1), image: "images/ld-x.jpg", caption: "l lapphunddesigns.com", status: "pending", fb_skipped: "x" },
+      { id: "gsfail", account: "gsuw", publish_at: hoursAgo(1), image: "media/gsuw-x.jpg", caption: "BOOM gsuw.org", status: "pending", fb_skipped: "x" },
+      { id: "kl1", account: "list", publish_at: hoursAgo(1), image: "media/kl-x.jpg", caption: "kl kootenaylist.ca", status: "pending", fb_skipped: "x" },
+    ],
+    expect: 3, exit: 0,
+    check: (q) => {
+      const by = Object.fromEntries(q.map((e) => [e.id, e]));
+      if (["k1", "l1", "kl1"].some((id) => by[id].status !== "published")) return `another brand did not publish: ${JSON.stringify(q.map((e) => [e.id, e.status]))}`;
+      return (by.gsfail.status === "pending" && by.gsfail.attempts === 1 && by.gsfail.next_try) ? true : `gsuw failure not booked as a retry: ${JSON.stringify(by.gsfail)}`;
+    },
+  },
+  {
+    name: "a gsuw post carrying KMD markers is refused before any call",
+    queue: [{ id: "gsmix", account: "gsuw", publish_at: hoursAgo(1), image: "media/gsuw-x.jpg", caption: "c gsuw.org #KootenayMade", status: "pending", fb_skipped: "x" }],
+    expect: 0, exit: 0,
+    check: (q, out) => (!/IGACCOUNT/.test(out) && /brand check/.test(q[0].error || "")) ? true : `not refused: ${JSON.stringify(q[0])}`,
+  },
+  {
+    name: "a KMD post carrying a gsuw image is refused before any call",
+    queue: [{ id: "kmix", publish_at: hoursAgo(1), image: "media/gsuw-x.jpg", caption: "c #KootenayMade", status: "pending" }],
+    expect: 0, exit: 0,
+    check: (q, out) => (!/IGACCOUNT/.test(out) && /brand check/.test(q[0].error || "")) ? true : `not refused: ${JSON.stringify(q[0])}`,
   },
   {
     name: "an unknown account fails instead of falling back to KMD",

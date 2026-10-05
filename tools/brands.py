@@ -38,6 +38,20 @@ BRANDS = {
         # The List's week (SOCIAL.md, ratified 2026-08-14): one post each weekday, none at the weekend.
         'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
     },
+    'gsuw': {
+        # Global Symphony for a United World, the first CLIENT on the machine (2026-10-04). Their signed
+        # scope has KMD schedule the month Chantal approves; her approval of each week is the stamp. The
+        # Page is shared to the KMD portfolio as a partner asset with partial access (Content task); their
+        # Instagram is reached through the Page link, not assigned on its own.
+        'name': 'Global Symphony for a United World',
+        'ig_id': '17841474928481362', 'ig_username': 'gsuw_official',
+        'page_id': '647250268477829',
+        'markers': ['gsuw.org', '#globalsymphonyforaunitedworld', '#artembracingawareness', '#kindnessprints',
+                    '#frantisekstrouhal'],
+        'image_prefix': 'media/gsuw-',
+        # The signed scope: five a week, Monday to Friday, none at the weekend.
+        'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
+    },
 }
 
 
