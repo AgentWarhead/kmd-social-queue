@@ -1630,9 +1630,12 @@
     "account": "list",
     "publish_at": "2026-10-05T16:00:00Z",
     "caption": "Crawford Bay has five makers on the List, and all five sit on Highway 3A.\n\nDog Patch Pottery. Gala Jewelry. Kootenay Lake Driftwood Co. Norse Arts. North Woven Broom.\n\nOn the drive to the Kootenay Bay ferry, these five are the reason to pull over. Each one has its own listing with where to find it, and a link to its own site where it has one.\n\nSee the whole town at kootenaylist.ca/town/crawford-bay\n\n@dogpatchpottery @lagalajewelry @kootenaylakedriftwoodco\n.\n.\n#KootenayLake #WestKootenay #ShopLocal #SmallBizBC #LoveWhereYouLive",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-10-05-drawer-crawford-bay.mp4"
+    "video": "media/kl-2026-10-05-drawer-crawford-bay.mp4",
+    "media_id": "18444062605135535",
+    "published_at": "2026-10-05T22:04:21.410Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-06-data-103-ways",
@@ -1693,9 +1696,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-05T15:30:00Z",
     "caption": "We are Chantal and Frantisek. We live and work in the Slocan Valley, and we started Global Symphony for a United World with one conviction between us: we are all wounded in some way, and healing begins within.\n\nThat belief has become a living society.\n\nFree gatherings, two pages of writing each month. Musicians and singers visiting seniors’ homes.\n\nAnd small framed pictures we quietly give to strangers whose kindness catches our eye.\n\nWe call them kindness prints.\n\nOur new home online is now open: gsuw.org\n\nThere you’ll find our prints, our two books, our writings, our gatherings, and the work that is growing around them.\n\nThis is our first post from the new site. We’ll show you what we are doing as it happens.\n\nCome and see what we are making together. ❤️\n\n#GlobalSymphonyForAUnitedWorld #SlocanValley #Kootenays #ArtForHealing #KindnessPrints",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-05-the-table.jpg"
+    "image": "media/gsuw-2026-10-05-the-table.jpg",
+    "media_id": "17949708366328397",
+    "published_at": "2026-10-05T22:04:32.370Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-06-one-work",
