@@ -1163,7 +1163,12 @@
     "publish_at": "2026-10-05T15:00:00Z",
     "video": "media/fullcoverage-20261005.mp4",
     "caption": "Busy in Castlegar. Invisible in Trail.\n\nPeople search their own town, and a site built around one address rarely shows up anywhere else.\n\nThe Trailhead, Full Coverage is everything in the Trailhead plus a page for every community you genuinely serve and 20 guides that answer what customers search before they hire. That gives you roughly ten times the ways to be found compared with the site on its own.\n\nThe Trailhead, Full Coverage is $3,200 and goes live in 3 to 4 weeks. A Trailhead that is already live can add it later for $1,200.\n\nkootenaymade.ca/services/websites\n\n#SmallBusinessOwner #WestKootenay #WebsiteTips #TrailBC #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18133422895670838",
+    "published_at": "2026-10-05T15:12:04.789Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1108836644976452",
+    "fb_posted_at": "2026-10-05T15:12:11.205Z"
   },
   {
     "id": "2026-10-05-save-hire",
@@ -1378,8 +1383,11 @@
     "publish_at": "2026-10-05T14:20:00Z",
     "image": "images/ld-20261005.jpg",
     "caption": "The Lappy tax has been collected.\n\nPayment accepted in treats and attention, due every single time you walk through the door.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogHumor #LappyLife #LapphundDesigns #Lapphund",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18639097150052783",
+    "published_at": "2026-10-05T15:12:24.780Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-05-product",
