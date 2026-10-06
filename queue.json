@@ -1194,7 +1194,12 @@
     "publish_at": "2026-10-06T15:00:00Z",
     "video": "media/survey-20261006.mp4",
     "caption": "You are paying for software you forgot you had.\n\nA subscription nobody opens is easy to miss, and so are two tools quietly doing the same job.\n\nThe Survey is one hour on how your business actually runs. Afterwards you get a written summary under five headings: what to cancel, what you already own, what to buy from someone else, what to build, and what to leave alone. No tool is assumed going in and nothing gets installed.\n\nThe Survey is $500, or $300 if I built your website.\n\nkootenaymade.ca/services/the-survey\n\n#ShopLocalBC #NelsonBC #SmallBusinessWebsite #SupportLocal #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "17911526154550545",
+    "published_at": "2026-10-06T16:12:35.372Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1567821221273212",
+    "fb_posted_at": "2026-10-06T16:12:42.151Z"
   },
   {
     "id": "2026-10-06-proof-marlowe",
@@ -1413,8 +1418,11 @@
     "publish_at": "2026-10-06T14:20:00Z",
     "image": "images/ld-20261006.jpg",
     "caption": "The Lappy glossary, for people who know. 🐾\n\nLappy lean, snow zoomies, reindeer reflex, tundra mode, dramatic diva. Which one does your dog do daily?\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #Lapphund #suomenlapinkoira #LappyLife #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "17890303014454220",
+    "published_at": "2026-10-06T16:12:51.806Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-06-product",
@@ -1650,9 +1658,12 @@
     "account": "list",
     "publish_at": "2026-10-06T16:00:00Z",
     "caption": "Business funding in the Kootenays is more than loans. Of the 103 programs on the List's funding page, 36 are loans. The other 67 are 23 grants, 22 advice services, 8 wage subsidies, 5 training programs, 5 rebates and 4 tax credits.\n\nThey come from all three levels: 36 from Kootenay funders, 35 from BC and 32 from Canada.\n\nEach program says who it's for and how to apply.\n\nkootenaylist.ca/funding\n.\n.\n#KootRocks #ExploreBC #SupportLocal #BCEntrepreneur #StartUpBC",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-06-data-103-ways.jpg"
+    "image": "media/kl-2026-10-06-data-103-ways.jpg",
+    "media_id": "18197439112382916",
+    "published_at": "2026-10-06T16:13:01.157Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-07-money-who-it-is-for",
@@ -1716,9 +1727,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-06T15:30:00Z",
     "caption": "Self Introspection\nAn oil print by Frantisek.\n\nA woman holds a small mirror. Behind her, in the shadows, someone waits.\n\nThere is something about looking inward that can be both tender and unsettling: the moment when we stop looking outward and meet ourselves.\n\nFrantisek makes each print by hand, a process that takes three to four weeks.\n\nAnd when one of his prints finds a home, it helps make other things possible: our free gatherings and the music we bring to seniors’ homes.\n\nThe link is in our bio.\n\n#ArtEmbracingAwareness #SlocanValley #WestKootenay #OilPrint #ContemplativeArt",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-06-one-work.jpg"
+    "image": "media/gsuw-2026-10-06-one-work.jpg",
+    "media_id": "18101815496634392",
+    "published_at": "2026-10-06T16:13:09.618Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-07-the-studio",
