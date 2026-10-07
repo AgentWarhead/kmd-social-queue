@@ -19,7 +19,9 @@ BRANDS = {
         'page_id': '1001276889744302',
         'markers': ['#kootenaymade', 'kootenaymade.ca'],
         'image_prefix': None,                 # anything except another brand's prefix
-        'posts_per_day': 2,                   # Brett, 2026-09-17: two a day
+        # Brett, 2026-09-17: two a day. Brett, 2026-10-07: one a day from 2026-10-11, after the harvest showed
+        # reach falling at two a day (median 15 in September to 5 in October, one follow from 64 posts).
+        'posts_per_day': [('2026-10-11', 1), (None, 2)],
     },
     'lapphund': {
         'name': 'Lapphund Designs',
@@ -106,7 +108,14 @@ def cadence_problems(account, dates):
     lock = BRANDS[account]['posts_per_day']
     if lock is None or not dates:
         return []
-    per_day = (lambda d: lock.get(d.weekday(), 0)) if isinstance(lock, dict) else (lambda d: lock)
+    def per_day(d):
+        if isinstance(lock, dict):
+            return lock.get(d.weekday(), 0)
+        if isinstance(lock, list):  # [(first ISO day the value applies, value), ..., (None, value before them all)]
+            for start, value in lock:
+                if start is None or d.isoformat() >= start:
+                    return value
+        return lock
     count = {}
     for d in dates:
         count[d] = count.get(d, 0) + 1

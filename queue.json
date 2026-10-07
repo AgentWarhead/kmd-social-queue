@@ -1770,5 +1770,146 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "image": "media/gsuw-2026-10-09-the-society.jpg"
+  },
+  {
+    "id": "2026-10-09-stump-diner",
+    "publish_at": "2026-10-09T15:00:00Z",
+    "caption": "Nobody knew this diner was open.\n\nMeet Stump, a cedar stump with a lantern who fixes up local businesses at night while the town sleeps. Episode 1 is a diner with dusty counters, a dead bulb and a neon coffee cup that will not light.\n\nEvery Kootenay town has a place like this. Good food, open every day, and from the street it looks closed. Online it is the same story when your hours, your menu and your front door are hard to find.\n\nNew episodes every Tuesday and Friday.\n\nWhich business should Stump fix next? Tell me the kind of shop and the town.\n\n#Kootenays #ShopLocalBC #RestaurantOwner #Animation #KootenayMade",
+    "status": "pending",
+    "video": "media/stump-diner-20261009.mp4"
+  },
+  {
+    "id": "2026-10-12-fix-diner",
+    "publish_at": "2026-10-12T15:00:00Z",
+    "caption": "It's Thanksgiving Monday. Are your hours right today?\n\nLong weekends are when people guess whether you're open, and a wrong guess sends them somewhere else. Here are four things every restaurant website has to answer before anyone drives over, from Stump's diner on Friday.\n\nHours on the home page. Holiday hours posted early. A menu that reads on a phone. The same hours on your site and on Google.\n\nSave this for the next long weekend.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #ShopLocalBC #RestaurantMarketing #SmallBusinessTips #KootenayMade",
+    "status": "pending",
+    "images": [
+      "images/fix-diner-20261012-01.jpg",
+      "images/fix-diner-20261012-02.jpg",
+      "images/fix-diner-20261012-03.jpg",
+      "images/fix-diner-20261012-04.jpg",
+      "images/fix-diner-20261012-05.jpg",
+      "images/fix-diner-20261012-06.jpg"
+    ]
+  },
+  {
+    "id": "2026-10-13-stump-motel",
+    "publish_at": "2026-10-14T01:30:00Z",
+    "caption": "Six rooms. Every car drove past.\n\nEpisode 2 of Stump is a highway motel in a snowstorm, every room dark and the arrow sign dead on its pole. Stump digs the path, pulls every lamp chain and hangs off that sign until the bulbs chase.\n\nTravellers on Highway 3 pick where to stop from a phone in the passenger seat. If your rooms, your rates and your booking aren't there, the car keeps going to the next town.\n\nTomorrow I'll cover what a lodging website needs for that late-night booking.\n\nkootenaymade.ca/services/websites\n\n#Kootenays #ExploreBC #HotelMarketing #Animation #KootenayMade",
+    "status": "pending",
+    "video": "media/stump-motel-20261013.mp4"
+  },
+  {
+    "id": "2026-10-14-fix-motel",
+    "publish_at": "2026-10-14T15:00:00Z",
+    "caption": "Can a driver book you tonight?\n\nYesterday Stump lit up a highway motel. Here is the website side of the same job, four things a motel or lodge site needs for the late-night booking from the passenger seat.\n\nReal photos of every room. Rates and dates on one screen. Booking in under a minute on a phone. Directions a tired driver can follow, right down to the turn after the bridge.\n\nIf you run rooms anywhere from Nakusp to Creston, this is the list to check.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#CrestonBC #Kootenays #HotelMarketing #SmallBusinessTips #KootenayMade",
+    "status": "pending",
+    "images": [
+      "images/fix-motel-20261014-01.jpg",
+      "images/fix-motel-20261014-02.jpg",
+      "images/fix-motel-20261014-03.jpg",
+      "images/fix-motel-20261014-04.jpg",
+      "images/fix-motel-20261014-05.jpg",
+      "images/fix-motel-20261014-06.jpg"
+    ]
+  },
+  {
+    "id": "2026-10-15-teardown-nocall",
+    "publish_at": "2026-10-15T15:00:00Z",
+    "caption": "Friday night, you want a table, and you tap the number on their website. On many phones, nothing happens.\n\nI checked 156 Kootenay restaurant and cafe websites on October 7. 84 of them have no tap-to-call link on the home page. The number is just text, so the person trying to book has to copy it, switch apps and dial by hand.\n\nIt takes one line of code to fix.\n\nWant to know what else your site is missing? Free 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #SmallBusinessBC #RestaurantMarketing #WebsiteTips #KootenayMade",
+    "status": "pending",
+    "video": "media/teardown-nocall-20261015.mp4"
+  },
+  {
+    "id": "2026-10-16-stump-garage",
+    "publish_at": "2026-10-17T01:30:00Z",
+    "caption": "Best mechanic for miles. Nobody can find it.\n\nEpisode 3 of Stump is a garage in the fog, with a rusted bay door, a pegboard of tools out of place and a dead tire sign by the road. Stump hauls the door up, hangs every tool and throws the breaker. The tube man does not go easy on him.\n\nBreak down between Trail and Rossland and you pick a mechanic from your phone on the shoulder. The shop that shows its bays, its services and a number you can tap gets the call.\n\nWhich business should Stump fix next?\n\n#TrailBC #RosslandBC #AutoRepairShop #Animation #KootenayMade",
+    "status": "pending",
+    "video": "media/stump-garage-20261016.mp4"
+  },
+  {
+    "id": "2026-10-17-fix-garage",
+    "publish_at": "2026-10-17T15:00:00Z",
+    "caption": "Would a stranger trust your shop?\n\nFour things that make someone broken down on the shoulder call you instead of the next listing, from Stump's garage episode last night.\n\nReal photos of your bays and your crew. A plain list of what you fix. A phone number they can tap. What happens when they arrive, before any work starts.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #SmallBusinessBC #AutoRepairShop #SmallBusinessTips #KootenayMade",
+    "status": "pending",
+    "images": [
+      "images/fix-garage-20261017-01.jpg",
+      "images/fix-garage-20261017-02.jpg",
+      "images/fix-garage-20261017-03.jpg",
+      "images/fix-garage-20261017-04.jpg",
+      "images/fix-garage-20261017-05.jpg",
+      "images/fix-garage-20261017-06.jpg"
+    ]
+  },
+  {
+    "id": "2026-10-18-proof-gsuw",
+    "publish_at": "2026-10-18T15:00:00Z",
+    "caption": "Every print pays for the programs.\n\nGlobal Symphony for a United World is a non-profit in the Slocan Valley. Frantisek Strouhal paints and Chantal Robert writes, and together they run gatherings, bring music into seniors' homes and give away kindness prints.\n\nI built their store from scratch on Shopify: 67 archival prints and 2 books, made and shipped by a print-on-demand partner, with all 79 posts from their old site carried across word for word.\n\nIf your work deserves a better home online, start here: kootenaymade.ca/services/websites\n\n#SlocanValley #WestKootenay #ShopifyDesign #WebDesign #KootenayMade",
+    "status": "pending",
+    "video": "media/proof-gsuw-20261018.mp4"
+  },
+  {
+    "id": "2026-10-19-offer-dark",
+    "publish_at": "2026-10-19T15:00:00Z",
+    "caption": "Is your business dark online?\n\nMost of my work starts with one question. When someone in Trail, Castlegar or Nelson looks you up, what do they find?\n\nThe free check-up answers it in about a minute. It reads your site for speed, Google visibility, accessibility and security, then tells you what to fix first. No email required.\n\nNo website yet? That is half the people I work with. A first site starts with a conversation about what your business actually needs.\n\nkootenaymade.ca/audit\n\n#CastlegarBC #NelsonBC #TrailBC #SmallBusinessWebsite #KootenayMade",
+    "status": "pending",
+    "image": "images/offer-dark-20261019-01.jpg"
+  },
+  {
+    "id": "2026-10-20-stump-barbershop",
+    "publish_at": "2026-10-21T01:30:00Z",
+    "caption": "Best haircut in town. Pole's dead.\n\nEpisode 4 of Stump, and he brought a friend. Shell the snail repaints the barber pole after Stump's first attempt goes badly. Then Stump trims his own beard in the mirror and takes off far too much.\n\nA good barber's work walks out the door every day, and the website should show it with real cuts, real chairs and booking that works on a phone. I think the shop that shows its work online is the one people try first.\n\nTomorrow I'll cover four things a barbershop or salon site needs.\n\nkootenaymade.ca/services/websites\n\n#Kootenays #ShopLocalBC #BarberLife #Animation #KootenayMade",
+    "status": "pending",
+    "video": "media/stump-barbershop-20261020.mp4"
+  },
+  {
+    "id": "2026-10-21-fix-barbershop",
+    "publish_at": "2026-10-21T15:00:00Z",
+    "caption": "Your best cuts are your best ad.\n\nFour things a barbershop or salon website needs, after Stump's night at the barbershop.\n\nA gallery of your own cuts. Booking that works on a phone. Starting prices for the usual services. A short line on who does fades and who does colour.\n\nNo website yet? Here is what a first one looks like: kootenaymade.ca/services/websites\n\n#WestKootenay #SmallBusinessBC #SalonOwner #SmallBusinessTips #KootenayMade",
+    "status": "pending",
+    "images": [
+      "images/fix-barbershop-20261021-01.jpg",
+      "images/fix-barbershop-20261021-02.jpg",
+      "images/fix-barbershop-20261021-03.jpg",
+      "images/fix-barbershop-20261021-04.jpg",
+      "images/fix-barbershop-20261021-05.jpg",
+      "images/fix-barbershop-20261021-06.jpg"
+    ]
+  },
+  {
+    "id": "2026-10-22-teardown-noquote",
+    "publish_at": "2026-10-22T15:00:00Z",
+    "caption": "Your roof is leaking on a Saturday morning. You find a roofer's website. Where do you ask for a quote?\n\nI checked 310 Kootenay trades websites on October 7. 172 never mention a quote or estimate anywhere on the home page.\n\nWhen the water's coming in, I think people call whoever makes the next step easiest. A clear \"Get a quote\" on the first screen is one of the simplest fixes a trades site can make.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #SmallBusinessBC #ContractorLife #WebsiteTips #KootenayMade",
+    "status": "pending",
+    "video": "media/teardown-noquote-20261022.mp4"
+  },
+  {
+    "id": "2026-10-23-stump-yard",
+    "publish_at": "2026-10-24T01:30:00Z",
+    "caption": "Beautiful work. Locked in a shed.\n\nEpisode 5 of Stump, and a crow named Inky joins the crew. Together they unlock a carpenter's shed, set her rocking chair out by the road and get her fallen sign back up on its posts. The bell nearly gives them away.\n\nPlenty of Kootenay builders do work like this and show none of it online. A gallery of finished jobs, with the town named, sells the next one while you're still on site.\n\nWhich business should Stump fix next?\n\n#Kootenays #ShopLocalBC #Woodworking #Animation #KootenayMade",
+    "status": "pending",
+    "video": "media/stump-yard-20261023.mp4"
+  },
+  {
+    "id": "2026-10-24-fix-contractor",
+    "publish_at": "2026-10-24T15:00:00Z",
+    "caption": "Is your best work still in the shed?\n\nFour ways trades can show their work online, after Stump and Inky got a carpenter's rocking chair out to the road.\n\nA gallery of finished jobs with the town named. One page for each service. Reviews next to the work they describe. A quote request that takes two minutes.\n\nThe build here is Summit Handyman in Langley, BC, a real client site with every service on its own page and a repair guide customers come back to.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #LangleyBC #ContractorLife #SmallBusinessTips #KootenayMade",
+    "status": "pending",
+    "images": [
+      "images/fix-contractor-20261024-01.jpg",
+      "images/fix-contractor-20261024-02.jpg",
+      "images/fix-contractor-20261024-03.jpg",
+      "images/fix-contractor-20261024-04.jpg",
+      "images/fix-contractor-20261024-05.jpg",
+      "images/fix-contractor-20261024-06.jpg",
+      "images/fix-contractor-20261024-07.jpg"
+    ]
+  },
+  {
+    "id": "2026-10-25-proof-familydesigns",
+    "publish_at": "2026-10-25T15:00:00Z",
+    "caption": "One hoodie or a hundred fundraiser shirts, it starts in the same place.\n\nFamily Designs & Creations is Kim's custom apparel and engraving business, run from her home studio in the Kootenays since 2019. She makes everything herself.\n\nI built her an eight-page site with four ways into an order, each leading to the right form. The order form takes reference photos and a needed-by date, so the first message already holds what she needs to quote.\n\nRun a business on custom orders? Here is where a site like this starts: kootenaymade.ca/services/websites\n\n#CastlegarBC #WestKootenay #CustomApparel #WebDesign #KootenayMade",
+    "status": "pending",
+    "video": "media/proof-familydesigns-20261025.mp4"
   }
 ]
