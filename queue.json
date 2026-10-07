@@ -1223,7 +1223,12 @@
     "publish_at": "2026-10-07T15:00:00Z",
     "video": "media/empire-20261007.mp4",
     "caption": "Four apps. Four monthly bills. You own none of them.\n\nBookings in one, memberships in another, payments and a spreadsheet holding it all together.\n\nThe Empire replaces that stack with one system you own. Bookings, memberships, events, payments, customer accounts and portals, and an admin area you run it all from. The tools that already do their job well stay connected. It comes with seven or more custom pages, up to 50 search pages and guides, and a page for every town you serve.\n\nThe Empire starts from $10,000, with the final number set by scope. It is scoped with you first and goes live from 8 weeks.\n\nkootenaymade.ca/services/empire\n\n#KootenayBusiness #RosslandBC #WebDesignCanada #SmallBizTips #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18099056504427024",
+    "published_at": "2026-10-07T19:54:52.669Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1702002078153846",
+    "fb_posted_at": "2026-10-07T19:54:59.682Z"
   },
   {
     "id": "2026-10-07-proof-cedar",
@@ -1450,8 +1455,11 @@
     "publish_at": "2026-10-07T14:20:00Z",
     "image": "images/ld-20261007.jpg",
     "caption": "Free shipping over $75, to 43 countries.\n\nCanada, the US, the UK, Europe, Australia and New Zealand. Bowls are the one exception, and only in Canada.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #LapphundDesigns #FreeShipping #TheLappyPack #lapinkoira",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "17998639185001911",
+    "published_at": "2026-10-07T19:55:14.268Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-07-product",
@@ -1680,9 +1688,12 @@
     "account": "list",
     "publish_at": "2026-10-07T16:00:00Z",
     "caption": "Some Kootenay business money is set aside for you if you're under 40, a woman in business, Indigenous, buying a business, or short of staff.\n\nFuturpreneur lends to owners aged 18 to 39 and adds up to two years of mentoring. WeBC lends to women in business anywhere in BC, with a mentor and free training. BDC runs an Indigenous Entrepreneur Loan, and NACCA lists the Indigenous lenders. Venture Connect starts buyers and sellers with a free first consultation, which matters when an owner is ready to retire. WorkBC can pay part of the wage when you hire a WorkBC client.\n\nThe List's funding page sorts every program by who it is set aside for: 8 for under-40s, 7 for women, 10 for Indigenous owners.\n\nkootenaylist.ca/funding\n.\n.\n#BritishColumbia #MountainLife #ShopSmall #SmallBusinessOwner #BusinessIdeas",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-10-07-money-who-it-is-for.mp4"
+    "video": "media/kl-2026-10-07-money-who-it-is-for.mp4",
+    "media_id": "18436180696197497",
+    "published_at": "2026-10-07T19:55:51.398Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-08-claim",
@@ -1749,9 +1760,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-07T15:30:00Z",
     "caption": "How an oil print is made, in one paragraph.\n\nWatercolour paper is bathed in gelatin. A negative is printed onto it under ultraviolet light. Then Frantisek dabs lithography ink onto the paper with a stag-foot brush, layer over layer, for three to four weeks. One picture. Every piece in the collection is made this way.\n\nWatch the brush. Every touch leaves a little more ink sitting in the paper.\n\nThe full film is on our site. The link is in our bio.\n\n#FrantisekStrouhal #SlocanValley #Kootenays #OilPrinting #ArtProcess",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "video": "media/gsuw-2026-10-07-the-studio.mp4"
+    "video": "media/gsuw-2026-10-07-the-studio.mp4",
+    "media_id": "18125838661852940",
+    "published_at": "2026-10-07T19:57:06.269Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-08-the-words",
