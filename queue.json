@@ -1264,7 +1264,12 @@
     "publish_at": "2026-10-08T23:30:00Z",
     "image": "images/offer-referral-20261008-01.jpg",
     "caption": "Know a business that needs a website?\n\nSend them my way. If they sign a project, I send you $200 by e-transfer once their first payment clears.\n\nAnyone can refer, there is no limit on how many, and you do not need to be a client. The only rule is that you cannot refer yourself. Have them mention your name when they get in touch.\n\nMost of my work comes from people talking to each other, so this is my way of saying thanks.\n\nkootenaymade.ca\n\n#BCSmallBusiness #KootenayLife #WebsiteDesign #SmallBusinessCanada #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18078254777400918",
+    "published_at": "2026-10-08T23:55:07.105Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "122129498444844963",
+    "fb_posted_at": "2026-10-08T23:55:12.895Z"
   },
   {
     "id": "2026-10-09-brain",
@@ -1502,9 +1507,12 @@
     "publish_at": "2026-10-08T22:20:00Z",
     "image": "images/ld-20261008-p.jpg",
     "caption": "Count Floofula awaits. 🦇\n\nA ginger Lappy in a vampire cape under a crescent moon, on a black tee. From $29. Two days left: Order by October 10 for delivery before Halloween in most of Canada and the US.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HalloweenShirt #CountFloofula #LapphundDesigns #Lapphund",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-count-floofula-vampire-halloween-t-shirt"
+    "product": "finnish-lapphund-count-floofula-vampire-halloween-t-shirt",
+    "media_id": "18130639198691240",
+    "published_at": "2026-10-08T23:55:22.629Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-09-am",
