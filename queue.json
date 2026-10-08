@@ -1252,7 +1252,12 @@
     "publish_at": "2026-10-08T15:00:00Z",
     "video": "media/grants-20261008.mp4",
     "caption": "The funding is out there. The forms are what stop you.\n\nPlenty of owners never apply because the application looks like a week of paperwork, and there is no week to spare.\n\nI find the programs that fit, write the case, and fill in the application with you. You answer questions and I handle the rest. I price by the work and never take a percentage of an award. No grant is ever guaranteed, and I will tell you straight when one is a long shot.\n\nGrant writing is $500 for a standard application, and from $1,500 for a full one.\n\nkootenaymade.ca/services/grant-writing\n\n#BCSmallBusiness #KootenayLife #WebsiteDesign #SmallBusinessCanada #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "17884699044624925",
+    "published_at": "2026-10-08T19:30:10.886Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1130792809530343",
+    "fb_posted_at": "2026-10-08T19:30:17.515Z"
   },
   {
     "id": "2026-10-08-offer-referral",
@@ -1485,8 +1490,11 @@
     "publish_at": "2026-10-08T14:20:00Z",
     "image": "images/ld-20261008.jpg",
     "caption": "The side-eye collection. Judgment sold separately.\n\nA soft cotton tee, vinyl stickers, and the exact look your Lappy gives when dinner runs late.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogHumor #Stickers #LapphundDesigns #LappyLife",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18129473953829393",
+    "published_at": "2026-10-08T19:30:24.212Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-08-product",
@@ -1708,9 +1716,12 @@
     "account": "list",
     "publish_at": "2026-10-08T16:00:00Z",
     "caption": "Run a business in the Kootenays? It's likely already on the List. 5,700+ are.\n\nRight now your listing says whatever the public source said. For a lot of businesses, that was one vague word like \"services\". Claim it, and it's yours to fill in:\n\nYour own words. Say what you actually do, so people searching for it find you.\nYour real hours. Day by day, the way you actually work.\nYour photos and your logo. Up to four photos.\nA booking or quote link.\nThe area you cover, if you travel to jobs.\nYour social profiles.\nThe claimed mark, so people see you look after your listing yourself.\n\nIt's free. Find your business at kootenaylist.ca and claim it.\n.\n.\n#Kootenays #SmallTownBC #ShopLocalBC #SmallBusinessBC #SearchTips",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-08-claim.jpg"
+    "image": "media/kl-2026-10-08-claim.jpg",
+    "media_id": "18136260010645673",
+    "published_at": "2026-10-08T19:30:33.305Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-09-your-town-invermere",
@@ -1780,9 +1791,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-08T15:30:00Z",
     "caption": "From a piece of ours called Authentic Self-Knowledge.\n\n\"Our greatest loss is not the treasures we fail to gather, but the quiet forgetting of who we are beneath the endless demands of the world.\"\n\nWe publish two writings a month. This one is about the inner connection we lose when the world keeps asking for more, and how to come back to it. The whole piece is on gsuw.org with the rest of the writings.\n\nWe hope you’ll take a few quiet minutes with it.\n\n#ArtEmbracingAwareness #Kootenays #NelsonBC #InnerPeace #Mindfulness",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-08-the-words.jpg"
+    "image": "media/gsuw-2026-10-08-the-words.jpg",
+    "media_id": "18146711530561445",
+    "published_at": "2026-10-08T19:30:46.204Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-09-the-society",
