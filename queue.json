@@ -1240,7 +1240,12 @@
       "images/proof-cedar-20261007-04.jpg"
     ],
     "caption": "A concept build: Cedar & Stone Lodge, a five-room bed and breakfast I invented near Radium Hot Springs.\n\nSmall inns lose a cut of every booking to the big travel sites. This one is built as a direct-booking engine, with each room shown properly, breakfast explained, and local guides that give a guest a reason to book with the lodge instead.\n\nSee the full build: kootenaymade.ca/portfolio/cedar-stone-lodge\n\n#SmallBusinessOwner #WestKootenay #WebsiteTips #TrailBC #KootenayMade",
-    "status": "pending"
+    "status": "published",
+    "media_id": "18112435157144988",
+    "published_at": "2026-10-08T00:07:08.274Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122129341694844963",
+    "fb_posted_at": "2026-10-08T00:07:16.216Z"
   },
   {
     "id": "2026-10-08-grants",
@@ -1467,9 +1472,12 @@
     "publish_at": "2026-10-07T22:20:00Z",
     "image": "images/ld-20261007-p.jpg",
     "caption": "Candy corn cutie. 🍬\n\nA black Lappy dressed as a candy corn, lettered in orange and cream. From $22.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HalloweenMug #CandyCorn #LapphundDesigns #SpookySeason",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-candy-corn-cutie-halloween-mug"
+    "product": "finnish-lapphund-candy-corn-cutie-halloween-mug",
+    "media_id": "18077021480412686",
+    "published_at": "2026-10-08T00:07:30.031Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-08-am",
