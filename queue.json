@@ -1520,8 +1520,11 @@
     "publish_at": "2026-10-09T14:20:00Z",
     "image": "images/ld-20261009.jpg",
     "caption": "Membership: emotionally owned by a Lappy.\n\nThe Nordic Floof Club has no meetings and no dues. There is simply a lot of fur.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #NordicDog #LapphundDesigns #Lapphund #LappyLife",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18073365914756353",
+    "published_at": "2026-10-09T18:23:18.535Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-09-product",
@@ -1736,9 +1739,12 @@
     "account": "list",
     "publish_at": "2026-10-09T16:00:00Z",
     "caption": "Invermere has 266 businesses on the List, just in time for the long weekend. They run from 44 places to eat and drink to 53 builders, trades and home services.\n\nWhen the cabin needs a tradesperson or the family needs somewhere for Thanksgiving dinner, the answer shouldn't take five searches. The List keeps every Invermere business it knows in one place, sorted by what they do.\n\nThat's 68 businesses for every 1,000 people who live there.\n\nSee all of it at kootenaylist.ca/town/invermere\n.\n.\n#InvermereBC #KootenayLife #SupportLocalBC #BCBusiness #HometownPride",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-10-09-your-town-invermere.mp4"
+    "video": "media/kl-2026-10-09-your-town-invermere.mp4",
+    "media_id": "18106772618213142",
+    "published_at": "2026-10-09T18:23:55.168Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-12-drawer-cranbrook-gear",
@@ -1811,16 +1817,24 @@
     "account": "gsuw",
     "publish_at": "2026-10-09T15:30:00Z",
     "caption": "Membership is free. Your name helps us grow.\n\nBecoming a member of Global Symphony for a United World costs nothing, but it means something.\n\nYou’ll be among the first to receive our monthly letter and invitations to our gatherings.\n\nAnd your name becomes part of the circle of people who stand behind this work.\n\nWhen we apply for grants, one of the things funders want to know is whether a society has a real community behind it. Every member helps us show that this is not simply an idea created by two people. It is something people are choosing to be part of.\n\nIf you’d like to join us, the link is in our bio.\n\n#GlobalSymphonyForAUnitedWorld #SlocanValley #WestKootenay #CommunityArts #Belonging",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-09-the-society.jpg"
+    "image": "media/gsuw-2026-10-09-the-society.jpg",
+    "media_id": "18146502583495793",
+    "published_at": "2026-10-09T18:24:08.091Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "2026-10-09-stump-diner",
     "publish_at": "2026-10-09T15:00:00Z",
     "caption": "Nobody knew this diner was open.\n\nMeet Stump, a cedar stump with a lantern who fixes up local businesses at night while the town sleeps. Episode 1 is a diner with dusty counters, a dead bulb and a neon coffee cup that will not light.\n\nEvery Kootenay town has a place like this. Good food, open every day, and from the street it looks closed. Online it is the same story when your hours, your menu and your front door are hard to find.\n\nNew episodes every Tuesday and Friday.\n\nWhich business should Stump fix next? Tell me the kind of shop and the town.\n\n#Kootenays #ShopLocalBC #RestaurantOwner #Animation #KootenayMade",
-    "status": "pending",
-    "video": "media/stump-diner-20261009.mp4"
+    "status": "published",
+    "video": "media/stump-diner-20261009.mp4",
+    "media_id": "18098282741096743",
+    "published_at": "2026-10-09T18:25:17.927Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1597928272351547",
+    "fb_posted_at": "2026-10-09T18:25:24.503Z"
   },
   {
     "id": "2026-10-12-fix-diner",
