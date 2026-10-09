@@ -1532,9 +1532,12 @@
     "publish_at": "2026-10-09T22:20:00Z",
     "image": "images/ld-20261009-p.jpg",
     "caption": "Greetings from spooky Lapland. 📮\n\nA vintage postcard design with a Lappy under the northern lights. From $22. Tomorrow is the cutoff: Order by October 10 for delivery before Halloween in most of Canada and the US.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HalloweenMug #Lapland #LapphundDesigns #SpookySeason",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-greetings-from-spooky-lapland-halloween-mug"
+    "product": "finnish-lapphund-greetings-from-spooky-lapland-halloween-mug",
+    "media_id": "18124486567901312",
+    "published_at": "2026-10-09T22:49:59.498Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-10-am",
