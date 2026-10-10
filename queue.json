@@ -1550,8 +1550,11 @@
     "publish_at": "2026-10-10T14:20:00Z",
     "image": "images/ld-20261010.jpg",
     "caption": "Tiny breed, worldwide pack. 🌍\n\nLappy parcels go out to 43 countries, and today is the cutoff. Order by October 10 for delivery before Halloween in most of Canada and the US.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #LapphundDesigns #TheLappyPack #suomenlapinkoira #Halloween",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18624925669061293",
+    "published_at": "2026-10-10T14:47:30.508Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-10-product",
