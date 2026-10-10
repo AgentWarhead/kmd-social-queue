@@ -1567,9 +1567,12 @@
     "publish_at": "2026-10-10T22:20:00Z",
     "image": "images/ld-20261010-p.jpg",
     "caption": "Last call for Halloween delivery. 🎃\n\nOur Howl-O-Ween tee, a sable Lappy in a spooky season badge, from $29. Order by October 10 for delivery before Halloween in most of Canada and the US.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HalloweenShirt #LapphundDesigns #HowlOWeen #Lapphund",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-howl-o-ween-spooky-season-t-shirt"
+    "product": "finnish-lapphund-howl-o-ween-spooky-season-t-shirt",
+    "media_id": "17969888850178353",
+    "published_at": "2026-10-10T22:38:27.657Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-11-am",
