@@ -1585,8 +1585,11 @@
     "publish_at": "2026-10-11T14:20:00Z",
     "image": "images/ld-20261011.jpg",
     "caption": "The Lappy lean society: if you know, you belong.\n\nFull body weight, no warning, always while you are holding a full coffee.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #LappyLean #LappyLife #LapphundDesigns #DogMom",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18014392742956155",
+    "published_at": "2026-10-11T14:24:18.690Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-11-product",
