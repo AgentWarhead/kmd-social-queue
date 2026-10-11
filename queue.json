@@ -1597,9 +1597,12 @@
     "publish_at": "2026-10-11T22:20:00Z",
     "image": "images/ld-20261011-p.jpg",
     "caption": "Northern lights, worn all year. ✨\n\nThe Aurora Nights tee puts a Lappy under a sky full of green and violet, and it was made for long walks and slow mornings. From $29.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #NorthernLights #LapphundDesigns #LappyLife #suomenlapinkoira",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-aurora-nights-t-shirt"
+    "product": "finnish-lapphund-aurora-nights-t-shirt",
+    "media_id": "18075143762480752",
+    "published_at": "2026-10-11T22:57:19.277Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-12-am",
