@@ -1615,8 +1615,11 @@
     "publish_at": "2026-10-12T14:20:00Z",
     "image": "images/ld-20261012.jpg",
     "caption": "One breed, four wrong guesses.\n\nHusky, Finnish Spitz, Australian Shepherd, Lapponian Herder. Here they are beside the real thing.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #Lapphund #suomenlapinkoira #DogBreeds #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "17964064698195590",
+    "published_at": "2026-10-12T19:15:45.214Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-12-product",
@@ -1786,9 +1789,12 @@
     "account": "list",
     "publish_at": "2026-10-12T16:00:00Z",
     "caption": "Cranbrook has eight outdoor gear shops on the List, and here they all are.\n\nFunhogz Gear Exchange. Gerick Cycle & Sports. High Country Sportswear. Mountain Man Outdoors. Northstar Bicycle Co. St. Mary Angler Fly Shop. The Choice Shop. True Flite Archery Center.\n\nBikes, fly fishing, archery and more, all in one Kootenay town. Happy Thanksgiving. It's a holiday Monday, so call ahead before you head over.\n\nkootenaylist.ca/sporting-goods-outdoor/cranbrook\n\n@gericksports @highcountrysports @northstarbicycleco @stmaryanglerflyshop @the_choice_shop\n.\n.\n#CranbrookBC #KootenayLiving #BCLocal #KootenayBusiness #CommunityFirst",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-10-12-drawer-cranbrook-gear.mp4"
+    "video": "media/kl-2026-10-12-drawer-cranbrook-gear.mp4",
+    "media_id": "18059625104795950",
+    "published_at": "2026-10-12T19:16:15.692Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-13-data-58-towns",
@@ -1875,7 +1881,7 @@
     "id": "2026-10-12-fix-diner",
     "publish_at": "2026-10-12T15:00:00Z",
     "caption": "It's Thanksgiving Monday. Are your hours right today?\n\nLong weekends are when people guess whether you're open, and a wrong guess sends them somewhere else. Here are four things every restaurant website has to answer before anyone drives over, from Stump's diner on Friday.\n\nHours on the home page. Holiday hours posted early. A menu that reads on a phone. The same hours on your site and on Google.\n\nSave this for the next long weekend.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #ShopLocalBC #RestaurantMarketing #SmallBusinessTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/fix-diner-20261012-01.jpg",
       "images/fix-diner-20261012-02.jpg",
@@ -1883,7 +1889,12 @@
       "images/fix-diner-20261012-04.jpg",
       "images/fix-diner-20261012-05.jpg",
       "images/fix-diner-20261012-06.jpg"
-    ]
+    ],
+    "media_id": "18112704374135508",
+    "published_at": "2026-10-12T19:17:17.044Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122130085244844963",
+    "fb_posted_at": "2026-10-12T19:17:31.199Z"
   },
   {
     "id": "2026-10-13-stump-motel",
