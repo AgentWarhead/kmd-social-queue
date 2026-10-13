@@ -55,6 +55,9 @@ BRANDS = {
         'since': '2026-10-05',                # first day the queue posts for it; its older feed is theirs
         # The signed scope: five a week, Monday to Friday, none at the weekend.
         'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
+        # Named days that differ from the lock, each with the reason. Brett, 2026-10-13: Monday Oct 12 was
+        # Thanksgiving and its Soul Journey for Women post never went out, so it runs on Oct 14 beside the reel.
+        'day_overrides': {'2026-10-14': 2},
     },
 }
 
@@ -108,7 +111,10 @@ def cadence_problems(account, dates):
     lock = BRANDS[account]['posts_per_day']
     if lock is None or not dates:
         return []
+    overrides = BRANDS[account].get('day_overrides', {})
     def per_day(d):
+        if d.isoformat() in overrides:
+            return overrides[d.isoformat()]
         if isinstance(lock, dict):
             return lock.get(d.weekday(), 0)
         if isinstance(lock, list):  # [(first ISO day the value applies, value), ..., (None, value before them all)]
