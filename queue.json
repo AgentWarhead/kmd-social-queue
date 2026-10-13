@@ -1640,8 +1640,11 @@
     "publish_at": "2026-10-13T14:20:00Z",
     "image": "images/ld-20261013.jpg",
     "caption": "You cannot explain it to non-Lappy people.\n\nThe fur, the talking, the way they follow you from room to room. The pack understands.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #LappyLife #LapphundDesigns #DogLovers #lapinkoira",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18009256556775666",
+    "published_at": "2026-10-13T16:28:37.708Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-13-product",
@@ -1804,9 +1807,12 @@
     "account": "list",
     "publish_at": "2026-10-13T16:00:00Z",
     "caption": "Wynndel. Yahk. Riondel. Ta Ta Creek. Krestova. These are 5 of the 58 Kootenay towns whose businesses are counted in public for the first time, right here on the List.\n\nA register is only useful if your town is on it, however small. Every town with a business on the List has a page of its own, with everything on record there sorted by what they do.\n\nFind yours at kootenaylist.ca/towns\n.\n.\n#SmallTownBC #ExploreKootenays #BuyLocalBC #LocalBusiness #DidYouKnow",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-13-data-58-towns.jpg"
+    "image": "media/kl-2026-10-13-data-58-towns.jpg",
+    "media_id": "18096939158443087",
+    "published_at": "2026-10-13T16:28:52.517Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "gsuw-2026-10-05-the-table",
