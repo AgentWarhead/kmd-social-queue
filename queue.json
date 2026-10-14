@@ -1665,8 +1665,11 @@
     "publish_at": "2026-10-14T14:20:00Z",
     "image": "images/ld-20261014.jpg",
     "caption": "Rare breed, easy gift.\n\nA gift card, a tee and a coaster covers nearly every Lappy person you know. Getting ahead of the holidays counts as self care.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogLoverGifts #GiftIdeas #LapphundDesigns #TheLappyPack",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18118853740972704",
+    "published_at": "2026-10-14T15:33:11.861Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-14-product",
@@ -1924,7 +1927,7 @@
     "id": "2026-10-14-fix-motel",
     "publish_at": "2026-10-14T15:00:00Z",
     "caption": "Can a driver book you tonight?\n\nYesterday Stump lit up a highway motel. Here is the website side of the same job, four things a motel or lodge site needs for the late-night booking from the passenger seat.\n\nReal photos of every room. Rates and dates on one screen. Booking in under a minute on a phone. Directions a tired driver can follow, right down to the turn after the bridge.\n\nIf you run rooms anywhere from Nakusp to Creston, this is the list to check.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#CrestonBC #Kootenays #HotelMarketing #SmallBusinessTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/fix-motel-20261014-01.jpg",
       "images/fix-motel-20261014-02.jpg",
@@ -1932,7 +1935,12 @@
       "images/fix-motel-20261014-04.jpg",
       "images/fix-motel-20261014-05.jpg",
       "images/fix-motel-20261014-06.jpg"
-    ]
+    ],
+    "media_id": "18118713715989719",
+    "published_at": "2026-10-14T15:34:16.323Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122130352502844963",
+    "fb_posted_at": "2026-10-14T15:34:30.968Z"
   },
   {
     "id": "2026-10-15-teardown-nocall",
@@ -2051,9 +2059,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-14T15:30:00Z",
     "caption": "Chantal, in her own words, on why we are called a symphony.\n\n“When we put all of those harmonies together, it creates a symphony that is much grander.”\n\nThis spring we sat down for a series of conversations about art, healing, and the people who carry this work with us. This is a moment from one of them.\n\nAll ten conversations are on our site, beside the writings they belong to.\n\nThe link is in our bio.\n\n#GlobalSymphonyForAUnitedWorld #SlocanValley #Kootenays #HumanConnection #HealingJourney",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "video": "media/gsuw-2026-10-14-in-her-own-words.mp4"
+    "video": "media/gsuw-2026-10-14-in-her-own-words.mp4",
+    "media_id": "18125345899681584",
+    "published_at": "2026-10-14T15:35:06.913Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-15-the-words",
