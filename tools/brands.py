@@ -73,8 +73,8 @@ BRANDS = {
         'markers': ['#kootenayslate'],
         'image_prefix': 'media/ks-',
         'since': '2026-10-14',                # first day the queue posts for it
-        # No cadence set yet: Brett picks the Slate's posts per day. Until then the gate holds no lock.
-        'posts_per_day': None,
+        # Brett, 2026-10-14: one post each weekday, none at the weekend, the List's week.
+        'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
     },
 }
 
