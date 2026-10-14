@@ -1652,9 +1652,12 @@
     "publish_at": "2026-10-13T22:20:00Z",
     "image": "images/ld-20261013-p.jpg",
     "caption": "Step into nature. Bring your Lappy. ☕\n\nA simple line, a paw print, and the walk you are already planning. It is dishwasher and microwave safe and comes in three sizes, from $22.\n\nShop it at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogMom #LapphundDesigns #CoffeeTime #LappyLife",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Lapphund Designs page",
-    "product": "finnish-lapphund-step-nature-lappy-mug"
+    "product": "finnish-lapphund-step-nature-lappy-mug",
+    "media_id": "18227547571333169",
+    "published_at": "2026-10-14T00:34:52.631Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-14-am",
@@ -2030,12 +2033,13 @@
     "account": "gsuw",
     "publish_at": "2026-10-13T19:45:00Z",
     "caption": "Musing by the Candle Light\nAn oil print by Frantisek.\n\nA woman in a red dress stands beside a single candle, lost in thought.\n\nThere is a kind of quiet that only comes when we stop rushing: when one small light is enough, and nothing needs to be solved.\n\nLike every one of his prints, it was made by hand over three to four weeks, one layer of ink at a time.\n\nWhen a print finds a home, it helps keep our gatherings free and the music visiting seniors’ homes.\n\nThe link is in our bio.\n\n#ArtEmbracingAwareness #Kootenays #SlocanValley #OilPrint #InnerPeace",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "image": "media/gsuw-2026-10-13-one-work.jpg",
     "attempts": 1,
-    "error": "Please reduce the amount of data you're asking for, then retry your request",
-    "next_try": "2026-10-13T21:44:46.657Z"
+    "media_id": "18019249889734666",
+    "published_at": "2026-10-14T00:35:08.822Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-14-in-her-own-words",
