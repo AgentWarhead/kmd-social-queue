@@ -122,23 +122,33 @@ def pacific_date(when):
     return (u + timedelta(hours=offset)).date()
 
 
+def posts_allowed(account, d):
+    """How many posts the brand is locked to on Pacific day `d`, or None when it has no lock. The one reading
+    of the lock's three shapes (a number, a per-weekday dict, a dated list) and the named day overrides, so the
+    pre-push gate and verify_live.py cannot read it two ways (verify_live crashed on KMD's dated list,
+    2026-10-14)."""
+    lock = BRANDS[account]['posts_per_day']
+    if lock is None:
+        return None
+    overrides = BRANDS[account].get('day_overrides', {})
+    if d.isoformat() in overrides:
+        return overrides[d.isoformat()]
+    if isinstance(lock, dict):
+        return lock.get(d.weekday(), 0)
+    if isinstance(lock, list):  # [(first ISO day the value applies, value), ..., (None, value before them all)]
+        for start, value in lock:
+            if start is None or d.isoformat() >= start:
+                return value
+    return lock
+
+
 def cadence_problems(account, dates):
     """dates: the Pacific day of every post that is out or on its way for this brand. Across the span from
     the first to the last day, each day must hold exactly the locked number."""
     lock = BRANDS[account]['posts_per_day']
     if lock is None or not dates:
         return []
-    overrides = BRANDS[account].get('day_overrides', {})
-    def per_day(d):
-        if d.isoformat() in overrides:
-            return overrides[d.isoformat()]
-        if isinstance(lock, dict):
-            return lock.get(d.weekday(), 0)
-        if isinstance(lock, list):  # [(first ISO day the value applies, value), ..., (None, value before them all)]
-            for start, value in lock:
-                if start is None or d.isoformat() >= start:
-                    return value
-        return lock
+    per_day = lambda d: posts_allowed(account, d)
     count = {}
     for d in dates:
         count[d] = count.get(d, 0) + 1

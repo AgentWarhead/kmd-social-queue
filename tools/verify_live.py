@@ -22,7 +22,7 @@ from datetime import date, datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
-from brands import BRANDS, brand_problems, pacific_date, cadence_problems
+from brands import BRANDS, brand_problems, pacific_date, cadence_problems, posts_allowed
 import meta_local
 
 SINCE = date.fromisoformat(sys.argv[sys.argv.index('--since') + 1]) if '--since' in sys.argv else date(2026, 9, 17)
@@ -35,7 +35,7 @@ for account, b in BRANDS.items():
     # (Global Symphony arrived 2026-10-05 with 126 posts of its own).
     since = max(SINCE, date.fromisoformat(b['since'])) if b.get('since') else SINCE
     lock = b['posts_per_day']
-    lock_today = lock.get(today.weekday(), 0) if isinstance(lock, dict) else lock
+    lock_today = posts_allowed(account, today)
     # Facebook: what is waiting on the Page
     tok = meta_local.page_token(b['page_id'])
     sched = meta_local.get('%s/scheduled_posts' % b['page_id'], tok,
