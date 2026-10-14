@@ -32,7 +32,9 @@ BRANDS = {
         'page_id': '109874835456732',
         'markers': ['lapphunddesigns.com', '#lapphunddesigns'],
         'image_prefix': 'images/ld-',
-        'posts_per_day': 2,                   # Brett, 2026-09-17: two a day, one lifestyle post and one Halloween product
+        # Brett, 2026-09-17: two a day. Brett, 2026-10-14: one a day from 2026-10-16, after the harvest showed account
+        # reach flat at about 130 a day while per-post median fell from 116 to 39 and new follows from 25 to 4 a fortnight.
+        'posts_per_day': [('2026-10-16', 1), (None, 2)],
     },
     'list': {
         'name': 'The Kootenay List',
