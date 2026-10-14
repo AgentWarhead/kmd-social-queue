@@ -2189,8 +2189,11 @@
     "publish_at": "2026-10-14T16:00:00Z",
     "image": "media/kl-2026-10-14-halloween.jpg",
     "caption": "Every Halloween event in the Kootenays is now on one page.\n\nTrick-or-treat at Fort Steele, hunt pumpkins in Fernie, take a ghost tour, join the Creston Witch Walk, or dress up for a party from Nelson to Invermere on the 31st.\n\nIt all lives on the Kootenay Slate, the events sister to kootenaylist.ca. The Halloween page sorts every event three ways, so families and the party crowd each find theirs fast.\n\nPlan yours at kootenayslate.ca/halloween\n.\n.\n#Halloween #Kootenays #FernieBC #NelsonBC #KootenayLiving",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay List page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "media_id": "18057278612592476",
+    "published_at": "2026-10-14T19:44:26.976Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "ks-2026-10-14-halloween",
@@ -2203,8 +2206,11 @@
       "media/ks-2026-10-14-halloween-04.jpg"
     ],
     "caption": "Halloween in the Kootenays is sorted.\n\nTrick-or-treat at Fort Steele, hunt pumpkins in Fernie, take a ghost tour, join the Creston Witch Walk, or dress up for a party from Nelson to Invermere on the 31st.\n\nEvery event is on one page, split into kids, frights for everyone and nights out. Pin the ones you want and the Slate builds your plan, in order, with every time and place. Send it to the group chat in one link.\n\nPlan your Halloween at kootenayslate.ca/halloween\n\n#Halloween #Kootenays #FernieBC #NelsonBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18389365462231507",
+    "published_at": "2026-10-14T19:45:20.295Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "2026-10-14-halloween",
@@ -2216,7 +2222,10 @@
       "images/halloween-20261014-04.jpg"
     ],
     "caption": "Halloween's coming fast, and the Kootenays have a lot on.\n\nI added a Halloween page to the Kootenay Slate, the events site I built and keep. Trick-or-treating, pumpkin hunts, haunted forts, ghost tours and costume parties from Nakusp to Fernie, all in one place.\n\nEvery event is sorted three ways, so a parent and a party crowd each find theirs fast. On November 2 it leaves the front page by itself, and it comes back next October.\n\nThat is the part of a website I like building most. It does the sorting so people don't have to.\n\nFind your Halloween at kootenayslate.ca/halloween\n\n#Kootenays #FernieBC #Halloween #WebDesign #KootenayMade",
-    "status": "pending"
+    "status": "pending",
+    "attempts": 1,
+    "error": "Media ID is not available",
+    "next_try": "2026-10-14T19:59:12.841Z"
   },
   {
     "id": "ks-2026-10-15-weekend",
