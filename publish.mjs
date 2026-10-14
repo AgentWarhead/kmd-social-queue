@@ -15,6 +15,9 @@ const ACCOUNTS = {
   list: { ig: "17841442960494232", username: "kootenaylist", markers: ["kootenaylist.ca"], imagePrefix: "media/kl-" },
   // Global Symphony for a United World (client, 2026-10-04). Instagram reached through its Page link.
   gsuw: { ig: "17841474928481362", username: "gsuw_official", markers: ["gsuw.org", "#globalsymphonyforaunitedworld", "#artembracingawareness", "#kindnessprints", "#frantisekstrouhal"], imagePrefix: "media/gsuw-" },
+  // The Kootenay Slate (2026-10-13). Its marker is its hashtag, not its domain: KMD and List posts link
+  // kootenayslate.ca on purpose. Facebook is scheduled natively on its own Page, like the List's.
+  slate: { ig: "17841455973071151", username: "kootenayslate", markers: ["#kootenayslate"], imagePrefix: "media/ks-" },
 };
 // Brett's law, 2026-09-17: a post on the wrong account is never acceptable. The pre-push gate already
 // refuses one; this is the last check before the API call, so a queue edited by hand after the gate

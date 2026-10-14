@@ -3,7 +3,8 @@
 
     py tools/schedule_facebook.py <plan.json> --account lapphund [--go]
 
-plan.json is a list of {"when": ISO UTC time, "file": local image path, "message": text}. Facebook
+plan.json is a list of {"when": ISO UTC time, "file": local image path, "message": text}; a carousel
+adds "files": [paths] ("file" stays the first). Facebook
 schedules natively through the API, so these never touch the cron queue.
 
 Without --go it only checks. With --go it checks, schedules, then reads the Page back. It refuses to
@@ -40,8 +41,9 @@ for i, p in enumerate(plan):
     mins = (when - now).total_seconds() / 60
     if not 10 < mins < 30 * 24 * 60:
         fails.append('post %d at %s: Facebook schedules 10 minutes to 30 days ahead' % (i + 1, p['when']))
-    if not os.path.exists(p['file']):
-        fails.append('post %d: image missing %s' % (i + 1, p['file']))
+    for f in (p.get('files') or [p['file']]):
+        if not os.path.exists(f):
+            fails.append('post %d: image missing %s' % (i + 1, f))
     for why in brand_problems(account, p['message']):
         fails.append('post %d: WRONG ACCOUNT RISK for %s, %s' % (i + 1, brand['name'], why))
 days = [pacific_date(p['when']) for p in plan] + \
@@ -69,11 +71,15 @@ for i, p in enumerate(plan):
     # an unpublished photo, then one scheduled feed post that attaches it. Meta's docs say temporary=true for
     # this; with only the Content task on a Page it is refused as "no permission to create an unpublished
     # post" (2026-09-17, Lapphund Designs), while the same upload without it succeeds and schedules fine.
-    ph = meta_local.post_file('%s/photos' % brand['page_id'], tok, 'source', os.path.basename(p['file']), data,
-                              published='false')
+    # A carousel names its photos in "files" (The Kootenay Slate, 2026-10-13); each is uploaded unpublished
+    # and attached in order, the multi-photo shape PUBLISHING.md records for KMD's own Page.
+    attached = {}
+    for k, f in enumerate(p.get('files') or [p['file']]):
+        ph = meta_local.post_file('%s/photos' % brand['page_id'], tok, 'source', os.path.basename(f),
+                                  open(f, 'rb').read(), published='false')
+        attached['attached_media[%d]' % k] = json.dumps({'media_fbid': ph['id']})
     r = meta_local.post('%s/feed' % brand['page_id'], tok, message=p['message'], published='false',
-                        scheduled_publish_time=str(when),
-                        **{'attached_media[0]': json.dumps({'media_fbid': ph['id']})})
+                        scheduled_publish_time=str(when), **attached)
     print('scheduled %d/%d  %s  %s' % (i + 1, len(plan), pacific_date(p['when']), r['id']))
 
 after = meta_local.get('%s/scheduled_posts' % brand['page_id'], tok,

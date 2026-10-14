@@ -22,6 +22,9 @@ BRANDS = {
         # Brett, 2026-09-17: two a day. Brett, 2026-10-07: one a day from 2026-10-11, after the harvest showed
         # reach falling at two a day (median 15 in September to 5 in October, one follow from 64 posts).
         'posts_per_day': [('2026-10-11', 1), (None, 2)],
+        # Brett, 2026-10-13 (the stamp): the Halloween carousel for paid ads runs beside the motel Fix the
+        # day after its Stump episode, so October 14 carries two.
+        'day_overrides': {'2026-10-14': 2},
     },
     'lapphund': {
         'name': 'Lapphund Designs',
@@ -58,6 +61,20 @@ BRANDS = {
         # Named days that differ from the lock, each with the reason. Brett, 2026-10-13: Monday Oct 12 was
         # Thanksgiving and its Soul Journey for Women post never went out, so it runs on Oct 14 beside the reel.
         'day_overrides': {'2026-10-14': 2},
+    },
+    'slate': {
+        # The Kootenay Slate (Brett, 2026-10-13): the events sister to the List. Page and Instagram owned by
+        # the KMD portfolio and assigned to kmd-shade with full control the same night. Its marker is its own
+        # hashtag, never its domain: KMD and List posts link kootenayslate.ca on purpose (the Halloween wall),
+        # and a domain marker would refuse them.
+        'name': 'The Kootenay Slate',
+        'ig_id': '17841455973071151', 'ig_username': 'kootenayslate',
+        'page_id': '1443567115496518',
+        'markers': ['#kootenayslate'],
+        'image_prefix': 'media/ks-',
+        'since': '2026-10-14',                # first day the queue posts for it
+        # No cadence set yet: Brett picks the Slate's posts per day. Until then the gate holds no lock.
+        'posts_per_day': None,
     },
 }
 
