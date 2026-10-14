@@ -2332,5 +2332,59 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on The Kootenay List page",
     "video": "media/kl-2026-10-16-your-town-nelson.mp4"
+  },
+  {
+    "id": "kl-2026-10-19-drawer-creston",
+    "account": "list",
+    "publish_at": "2026-10-19T16:00:00Z",
+    "caption": "Here's every winery, brewery and distillery in Creston, all on one page.\n\nThree wineries, two breweries and a distillery, all in the Creston Valley: Baillie-Grohman Estate Winery, Columbia Brewery, Red Bird Estate Winery, Skimmerhorn Winery and Vineyard, Sternwheeler Craft Distillery and Wild North Brewing Company.\n\nSave this for the next time someone asks what to do in Creston.\n\nkootenaylist.ca/breweries-taprooms/creston\n.\n.\n#CrestonBC #CrestonValley #BCWine #CraftBeer #ShopLocalBC",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "video": "media/kl-2026-10-19-drawer-creston.mp4"
+  },
+  {
+    "id": "kl-2026-10-20-data-common-kinds",
+    "account": "list",
+    "publish_at": "2026-10-20T16:00:00Z",
+    "caption": "The most common business in the Kootenays is a restaurant. There are 395 on the List.\n\nNext come contractors, then business services and shops. Cafes and electricians tie at 130 each.\n\nThat's the ten biggest kinds of business on the List, from the Boundary to the Rockies. A business can sit in more than one. Government offices, non-profits and community groups are on the List too, but not in this count.\n\nWhich one surprised you?\n\nkootenaylist.ca/categories\n.\n.\n#Kootenays #KootenayBusiness #SmallBusinessBC #BCBusiness #EastKootenay",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "image": "media/kl-2026-10-20-data-common-kinds.jpg"
+  },
+  {
+    "id": "kl-2026-10-21-claim-banjo",
+    "account": "list",
+    "publish_at": "2026-10-21T16:00:00Z",
+    "caption": "Today Banjo Plumbing has the front page of the Kootenay List.\n\nEvery business that claims or adds its listing gets a day like this, in the order they joined. Their name goes on the sign, their photo in the window and their logo on the door. After their day, the storefront stays on Main Street.\n\nIt's free, and it takes about five minutes. Tell me what's right, add your photos and hours, and you're in the line.\n\nkootenaylist.ca/claim\n.\n.\n#NelsonBC #ShopLocalBC #SmallBusinessBC #SupportLocal #Kootenays",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "image": "media/kl-2026-10-21-claim-banjo.jpg"
+  },
+  {
+    "id": "kl-2026-10-22-keep-sources",
+    "account": "list",
+    "publish_at": "2026-10-22T16:00:00Z",
+    "caption": "Every listing on the Kootenay List names where it came from.\n\nMost come from the businesses' own websites. The rest come from chambers of commerce and tourism directories, and public registers kept by city halls, Interior Health and Technical Safety BC. Owners who claim their listing add to it in their own words.\n\nOpen any listing and the source is printed at the bottom.\n\nkootenaylist.ca/sources\n.\n.\n#Kootenays #WestKootenay #ShopLocalBC #LocalBusiness #KootenayLife",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "image": "media/kl-2026-10-22-keep-sources.jpg"
+  },
+  {
+    "id": "kl-2026-10-23-your-town-castlegar",
+    "account": "list",
+    "publish_at": "2026-10-23T16:00:00Z",
+    "caption": "Castlegar has 765 businesses on the List.\n\n159 of them are builders, trades and home services, and 48 are places to eat and drink. That's about 92 businesses for every 1,000 people in town.\n\nEvery one is on one page, sorted by what they do, with how to reach them.\n\nkootenaylist.ca/town/castlegar\n.\n.\n#CastlegarBC #WestKootenay #ShopLocalBC #SupportLocal #Kootenays",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "video": "media/kl-2026-10-23-your-town-castlegar.mp4"
+  },
+  {
+    "id": "kl-2026-10-26-drawer-kimberley-bakeries",
+    "account": "list",
+    "publish_at": "2026-10-26T16:00:00Z",
+    "caption": "Here's every bakery in Kimberley, all on one page.\n\nBear's Eatery, Bread & Butter, Pie and Mighty, Stoke Market and The Bread Peddler. Five bakeries in one small mountain town.\n\nTag the friend you'd go on a bakery run with.\n\nkootenaylist.ca/bakeries/kimberley\n.\n.\n#KimberleyBC #EastKootenay #ShopLocalBC #BakeryLove #SupportLocal",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "video": "media/kl-2026-10-26-drawer-kimberley-bakeries.mp4"
   }
 ]

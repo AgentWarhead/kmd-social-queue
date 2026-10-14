@@ -8,13 +8,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SLATE = r"C:\Users\bfauc\Desktop\Kootenay Made Digital\Kootenay List\social\2026-10-15-two-weeks.md"
 STILLS = r"C:\Users\bfauc\Desktop\Kootenay Made Digital\Kootenay List\social\stills\2026-10-15"
 FILMS = r"C:\Users\bfauc\Desktop\Kootenay Made Digital\Kootenay List\social\films"
-POSTS = [  # (slate number, date, UTC time, id, source file, kind). Stamped by Brett 2026-10-14 (stills, then the two Your Town films).
+POSTS = [  # (slate number, date, UTC time, id, source file, kind). Stamped by Brett 2026-10-14 (stills, the two Your Town films, then the two Drawers).
     (1, '2026-10-15', '16:00', 'kl-2026-10-15-money-farm-deadlines', os.path.join(STILLS, 'kl-2026-10-15-money-farm-deadlines.jpg'), 'image'),
     (2, '2026-10-16', '16:00', 'kl-2026-10-16-your-town-nelson', os.path.join(FILMS, '2026-10-16-your-town-nelson.mp4'), 'video'),
+    (3, '2026-10-19', '16:00', 'kl-2026-10-19-drawer-creston', os.path.join(FILMS, '2026-10-19-drawer-creston.mp4'), 'video'),
     (4, '2026-10-20', '16:00', 'kl-2026-10-20-data-common-kinds', os.path.join(STILLS, 'kl-2026-10-20-data-common-kinds.jpg'), 'image'),
     (5, '2026-10-21', '16:00', 'kl-2026-10-21-claim-banjo', os.path.join(STILLS, 'kl-2026-10-21-claim-banjo.jpg'), 'image'),
     (6, '2026-10-22', '16:00', 'kl-2026-10-22-keep-sources', os.path.join(STILLS, 'kl-2026-10-22-keep-sources.jpg'), 'image'),
     (7, '2026-10-23', '16:00', 'kl-2026-10-23-your-town-castlegar', os.path.join(FILMS, '2026-10-23-your-town-castlegar.mp4'), 'video'),
+    (8, '2026-10-26', '16:00', 'kl-2026-10-26-drawer-kimberley-bakeries', os.path.join(FILMS, '2026-10-26-drawer-kimberley-bakeries.mp4'), 'video'),
     (10, '2026-10-28', '16:00', 'kl-2026-10-28-open-doors', os.path.join(STILLS, 'kl-2026-10-28-open-doors.jpg'), 'image'),
 ]
 slate = io.open(SLATE, encoding='utf-8').read()
