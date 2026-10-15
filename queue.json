@@ -2253,8 +2253,11 @@
     "publish_at": "2026-10-15T17:00:00Z",
     "image": "media/ks-2026-10-15-weekend.jpg",
     "caption": "This weekend brings wine, wild mushrooms and a fort full of trick-or-treaters.\n\nDana Lee releases Big Time with a show in Nelson on Friday. Saturday has the Grand Food and Wine Festival in Nelson, Martin Kerr at the Langham in Kaslo, and trick-or-treating at Fort Steele. On Sunday it's the Boundary Mushroom Festival in Christina Lake and the Witch Market in Nelson.\n\nEvery event in every town is on kootenayslate.ca\n\n#ThisWeekend #NelsonBC #KasloBC #ChristinaLake #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17995029749841955",
+    "published_at": "2026-10-15T19:26:59.378Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-16-hockey",
@@ -2360,9 +2363,12 @@
     "account": "list",
     "publish_at": "2026-10-15T16:00:00Z",
     "caption": "Three funding deadlines for Kootenay farms land before winter.\n\nOctober 20: the B.C. Agri-Business Planning Program pays back up to $7,500 for a consultant to write your business plan, or up to $2,000 toward training. It's for B.C. growers and food and beverage makers with over $50,000 a year in sales. It can close early if the money runs out.\n\nNovember 2: the Beneficial Management Practices Program has one category open, for extreme weather plans and assessments. Its intake was just extended from October 31.\n\nNovember 30: farms not yet in AgriStability can still join for 2026, because of this year's drought. It pays when your farm's net income falls more than 30 percent below normal.\n\nAll three are on the List's funding page, with how to apply.\n\nkootenaylist.ca/funding\n.\n.\n#Kootenays #BCFarmers #BCAgriculture #SmallFarm #SupportLocalBC",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-15-money-farm-deadlines.jpg"
+    "image": "media/kl-2026-10-15-money-farm-deadlines.jpg",
+    "media_id": "18088713893698349",
+    "published_at": "2026-10-15T19:27:14.336Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-16-your-town-nelson",
