@@ -1690,8 +1690,11 @@
     "publish_at": "2026-10-15T14:20:00Z",
     "image": "images/ld-20261015.jpg",
     "caption": "Small breed. Serious devotion.\n\nWelcome to the rare dog club, where everyone has explained the breed to a stranger this week.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #RareBreed #LapphundDesigns #Lapphund #TheLappyPack",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Lapphund Designs page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Lapphund Designs page",
+    "media_id": "18219371566358201",
+    "published_at": "2026-10-15T15:38:39.606Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-15-product",
@@ -1949,8 +1952,13 @@
     "id": "2026-10-15-teardown-nocall",
     "publish_at": "2026-10-15T15:00:00Z",
     "caption": "Friday night, you want a table, and you tap the number on their website. On many phones, nothing happens.\n\nI checked 156 Kootenay restaurant and cafe websites on October 7. 84 of them have no tap-to-call link on the home page. The number is just text, so the person trying to book has to copy it, switch apps and dial by hand.\n\nIt takes one line of code to fix.\n\nWant to know what else your site is missing? Free 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #SmallBusinessBC #RestaurantMarketing #WebsiteTips #KootenayMade",
-    "status": "pending",
-    "video": "media/teardown-nocall-20261015.mp4"
+    "status": "published",
+    "video": "media/teardown-nocall-20261015.mp4",
+    "media_id": "18118975255986422",
+    "published_at": "2026-10-15T15:39:16.097Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1636323321199783",
+    "fb_posted_at": "2026-10-15T15:39:21.425Z"
   },
   {
     "id": "2026-10-16-stump-garage",
@@ -2074,9 +2082,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-15T15:30:00Z",
     "caption": "From a piece of ours called An Invitation to Contemplate.\n\n“Yet art can ask something very different from us. It can invite us not to evaluate, but to contemplate.”\n\nMost of us meet a painting with a quick verdict: we like it, or we don’t. This writing is about what happens when we stay a little longer, without rushing to explain what we see.\n\nWe publish two writings a month. The whole piece is on gsuw.org with the rest of the writings.\n\nRead it slowly, if you can.\n\n#ArtEmbracingAwareness #Kootenays #WestKootenay #ContemplativeArt #Mindfulness",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-15-the-words.jpg"
+    "image": "media/gsuw-2026-10-15-the-words.jpg",
+    "media_id": "17895207963674865",
+    "published_at": "2026-10-15T15:39:29.674Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-16-the-books",
