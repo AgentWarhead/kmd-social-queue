@@ -2097,9 +2097,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-16T15:30:00Z",
     "caption": "Inspirations: Art Embracing Awareness 2\nPath to Transformation\n\nOur second book. Frantisek’s paintings and our meditations, side by side, made to be read slowly.\n\nThe poet Tom Wayman, recipient of British Columbia’s 2022 George Woodcock Award for Lifetime Achievement in the literary arts, wrote that Frantisek’s art “radiates a calm, humble and generous spirit.”\n\nOur first book, Illuminations: Streams of Consciousness, sits beside it.\n\nThe link is in our bio.\n\n#ArtEmbracingAwareness #SlocanValley #Kootenays #ArtBooks #CanadianArtist",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-16-the-books.jpg"
+    "image": "media/gsuw-2026-10-16-the-books.jpg",
+    "media_id": "18074891225725923",
+    "published_at": "2026-10-16T18:44:09.241Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-19-music-in-seniors-homes",
@@ -2268,8 +2271,11 @@
     "publish_at": "2026-10-16T17:00:00Z",
     "image": "media/ks-2026-10-16-hockey.jpg",
     "caption": "Junior hockey all weekend, from Cranbrook to Castlegar.\n\nThe Cranbrook Bucks host Chilliwack tonight, and Kimberley and Invermere are on home ice too. Trail and Fernie play Saturday night, and Castlegar closes it out Sunday afternoon.\n\nFind your rink on kootenayslate.ca\n\n#JuniorHockey #CranbrookBC #TrailBC #CastlegarBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18354500497221485",
+    "published_at": "2026-10-16T18:44:27.803Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-19-plan",
@@ -2378,9 +2384,12 @@
     "account": "list",
     "publish_at": "2026-10-16T16:00:00Z",
     "caption": "Nelson has 712 businesses on the List.\n\n98 of them are builders, trades and home services. 65 are places to eat and drink. And 574 of them, about four in five, run a website of their own.\n\nEvery one is on one page, sorted by what they do, with how to reach them.\n\nkootenaylist.ca/town/nelson\n.\n.\n#NelsonBC #WestKootenay #ShopLocalBC #SupportLocal #Kootenays",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-10-16-your-town-nelson.mp4"
+    "video": "media/kl-2026-10-16-your-town-nelson.mp4",
+    "media_id": "17919219171454252",
+    "published_at": "2026-10-16T18:45:04.676Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-19-drawer-creston",
@@ -2442,8 +2451,11 @@
     "publish_at": "2026-10-16T16:00:00Z",
     "video": "images/ld-uncle-timber-01.mp4",
     "caption": "Lesson one: sit when asked. 🎃\n\nUncle Timber, the black and tan one, takes his tricks seriously. His nephew Tundra, the one with the cream face, takes them his own way.\n\nThis is episode 1 of Uncle Timber, our Halloween series. A new episode every few days, and the finale lands on Halloween night.\n\nWho's the Timber in your house, and who's the Tundra?\n.\n.\n#FinnishLapphund #HalloweenDog #suomenlapinkoira #Lapphund #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18118157750072865",
+    "published_at": "2026-10-16T18:46:34.160Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-17-post",
