@@ -1979,7 +1979,7 @@
     "id": "2026-10-17-fix-garage",
     "publish_at": "2026-10-17T15:00:00Z",
     "caption": "Would a stranger trust your shop?\n\nFour things that make someone broken down on the shoulder call you instead of the next listing, from Stump's garage episode last night.\n\nReal photos of your bays and your crew. A plain list of what you fix. A phone number they can tap. What happens when they arrive, before any work starts.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #SmallBusinessBC #AutoRepairShop #SmallBusinessTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/fix-garage-20261017-01.jpg",
       "images/fix-garage-20261017-02.jpg",
@@ -1987,7 +1987,12 @@
       "images/fix-garage-20261017-04.jpg",
       "images/fix-garage-20261017-05.jpg",
       "images/fix-garage-20261017-06.jpg"
-    ]
+    ],
+    "media_id": "18385573438228443",
+    "published_at": "2026-10-17T16:17:35.856Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122130767648844963",
+    "fb_posted_at": "2026-10-17T16:17:45.661Z"
   },
   {
     "id": "2026-10-18-proof-gsuw",
@@ -2469,7 +2474,10 @@
     "image": "images/ld-20261017.jpg",
     "caption": "Name your Nordic floof.\n\nA Finnish breed suits a Finnish name, and the good ones mean something. Lumi is snow. Sisu is grit. Taika is magic. Kielo is the lily of the valley. Aino is the girl from the Kalevala.\n\nWhat's your Lappy called, and is there a story behind it?\n.\n.\n#FinnishLapphund #DogNames #lapinkoira #LappyLife #LapphundDesigns",
     "status": "pending",
-    "fb_skipped": true
+    "fb_skipped": true,
+    "attempts": 1,
+    "error": "Media ID is not available",
+    "next_try": "2026-10-17T16:31:38.899Z"
   },
   {
     "id": "ld-2026-10-18-reel",
