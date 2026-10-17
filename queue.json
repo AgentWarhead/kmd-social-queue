@@ -2473,11 +2473,12 @@
     "publish_at": "2026-10-17T16:00:00Z",
     "image": "images/ld-20261017.jpg",
     "caption": "Name your Nordic floof.\n\nA Finnish breed suits a Finnish name, and the good ones mean something. Lumi is snow. Sisu is grit. Taika is magic. Kielo is the lily of the valley. Aino is the girl from the Kalevala.\n\nWhat's your Lappy called, and is there a story behind it?\n.\n.\n#FinnishLapphund #DogNames #lapinkoira #LappyLife #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "attempts": 1,
-    "error": "Media ID is not available",
-    "next_try": "2026-10-17T16:31:38.899Z"
+    "media_id": "18009287783995595",
+    "published_at": "2026-10-17T18:45:20.542Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-18-reel",
