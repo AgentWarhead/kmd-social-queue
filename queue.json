@@ -2010,8 +2010,13 @@
     "id": "2026-10-19-offer-dark",
     "publish_at": "2026-10-19T15:00:00Z",
     "caption": "Is your business dark online?\n\nMost of my work starts with one question. When someone in Trail, Castlegar or Nelson looks you up, what do they find?\n\nThe free check-up answers it in about a minute. It reads your site for speed, Google visibility, accessibility and security, then tells you what to fix first. No email required.\n\nNo website yet? That is half the people I work with. A first site starts with a conversation about what your business actually needs.\n\nkootenaymade.ca/audit\n\n#CastlegarBC #NelsonBC #TrailBC #SmallBusinessWebsite #KootenayMade",
-    "status": "pending",
-    "image": "images/offer-dark-20261019-01.jpg"
+    "status": "published",
+    "image": "images/offer-dark-20261019-01.jpg",
+    "media_id": "18119162582049033",
+    "published_at": "2026-10-19T17:11:34.592Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "122131051856844963",
+    "fb_posted_at": "2026-10-19T17:11:41.028Z"
   },
   {
     "id": "2026-10-20-stump-barbershop",
@@ -2124,9 +2129,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-19T15:30:00Z",
     "caption": "“We can’t wait for the next show!”\n\nThat is what the residents of Jubilee Manor in Nelson were saying after our musicians and singers came to visit.\n\n“They took time to include us in their show,” one resident said. They remembered the way the singers talked with them, rather than simply performing for them.\n\nSince 2025, musicians and singers have been giving their time to bring live music into seniors’ homes. We would love to see it reach many more.\n\nIf you play or sing and would like to be part of it, the link is in our bio.\n\n#GlobalSymphonyForAUnitedWorld #NelsonBC #Kootenays #MusicForSeniors #CommunityArts",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-19-music-in-seniors-homes.jpg"
+    "image": "media/gsuw-2026-10-19-music-in-seniors-homes.jpg",
+    "media_id": "18126812827915257",
+    "published_at": "2026-10-19T17:11:53.289Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-20-coming-up",
@@ -2298,8 +2306,11 @@
     "publish_at": "2026-10-19T17:00:00Z",
     "image": "media/ks-2026-10-19-plan.jpg",
     "caption": "Plan a whole night out in about a minute.\n\nTap the pin on any poster on the Slate and pick three or four. The Slate lines them up in the order you'll do them, with every time and place on one page. The one in the picture is a Halloween night in Nelson, with the Leafs game, then Superluxe, then Bloom.\n\nSend the link to your crew, or add the whole plan to your calendar. It works without an account.\n\nTry it at kootenayslate.ca\n\n#Kootenays #NelsonBC #ThingsToDo #NightOut #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18069057212780316",
+    "published_at": "2026-10-19T17:12:06.275Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-20-tonight",
@@ -2411,9 +2422,12 @@
     "account": "list",
     "publish_at": "2026-10-19T16:00:00Z",
     "caption": "Here's every winery, brewery and distillery in Creston, all on one page.\n\nThree wineries, two breweries and a distillery, all in the Creston Valley: Baillie-Grohman Estate Winery, Columbia Brewery, Red Bird Estate Winery, Skimmerhorn Winery and Vineyard, Sternwheeler Craft Distillery and Wild North Brewing Company.\n\nSave this for the next time someone asks what to do in Creston.\n\nkootenaylist.ca/breweries-taprooms/creston\n.\n.\n#CrestonBC #CrestonValley #BCWine #CraftBeer #ShopLocalBC",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-10-19-drawer-creston.mp4"
+    "video": "media/kl-2026-10-19-drawer-creston.mp4",
+    "media_id": "18124399055491517",
+    "published_at": "2026-10-19T17:12:52.242Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-20-data-common-kinds",
@@ -2503,8 +2517,11 @@
     "publish_at": "2026-10-19T16:00:00Z",
     "image": "images/ld-20261019.jpg",
     "caption": "Reindeer reflex: activated. 🦌\n\nFinnish Lapphunds were bred to herd reindeer with the Sámi people of Lapland, and the instinct never really left. The circling, the barking and the sudden stare at anything that moves all come from the job they were made for.\n\nDoes your Lappy try to herd you on walks?\n.\n.\n#FinnishLapphund #HerdingDog #suomenlapinkoira #DogsOfInstagram #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "17959615575254593",
+    "published_at": "2026-10-19T17:13:07.689Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-20-post",
