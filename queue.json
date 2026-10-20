@@ -2141,9 +2141,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-20T15:30:00Z",
     "caption": "Soul Journey for Women\nRemembering Safety Within\n\nMany of us still carry the ways we learned to protect ourselves, long after we needed them.\n\nMelissa Crawford, MD, one of our directors, will gently guide a circle of women inward, to meet those old patterns with compassion.\n\nA morning of quiet, presence and community, and of remembering safety, self-trust and connection from within.\n\nSunday, October 25, 10 am to 1 pm, here at Global Symphony in Passmore.\n\nCome as you are. To reserve your place, the link is in our bio.\n\n#NelsonBC #WestKootenay #WomensCircle #SoulJourney #GlobalSymphonyForAUnitedWorld",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-20-coming-up.jpg"
+    "image": "media/gsuw-2026-10-20-coming-up.jpg",
+    "media_id": "18411708142093367",
+    "published_at": "2026-10-20T19:33:03.067Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-21-in-his-own-words",
@@ -2318,8 +2321,11 @@
     "publish_at": "2026-10-20T17:00:00Z",
     "image": "media/ks-2026-10-20-tonight.jpg",
     "caption": "Tonight at the Capitol Theatre in Nelson: God Is A Scottish Drag Queen, the Halloween Spooktacular.\n\nThe show starts at 7:30 pm. Cranbrook gets it on Friday at the Key City Theatre.\n\nTickets and details on kootenayslate.ca\n\n#NelsonBC #CranbrookBC #DragShow #CapitolTheatre #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17965995642197463",
+    "published_at": "2026-10-20T19:33:09.921Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-21-kids",
@@ -2434,9 +2440,12 @@
     "account": "list",
     "publish_at": "2026-10-20T16:00:00Z",
     "caption": "The most common business in the Kootenays is a restaurant. There are 395 on the List.\n\nNext come contractors, then business services and shops. Cafes and electricians tie at 130 each.\n\nThat's the ten biggest kinds of business on the List, from the Boundary to the Rockies. A business can sit in more than one. Government offices, non-profits and community groups are on the List too, but not in this count.\n\nWhich one surprised you?\n\nkootenaylist.ca/categories\n.\n.\n#Kootenays #KootenayBusiness #SmallBusinessBC #BCBusiness #EastKootenay",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-20-data-common-kinds.jpg"
+    "image": "media/kl-2026-10-20-data-common-kinds.jpg",
+    "media_id": "18094799618683004",
+    "published_at": "2026-10-20T19:33:17.826Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-21-claim-banjo",
@@ -2529,8 +2538,11 @@
     "publish_at": "2026-10-20T16:00:00Z",
     "image": "images/ld-20261020.jpg",
     "caption": "Designed in Castlegar, BC.\n\nLapphund Designs is two Lappy people in the mountains of British Columbia, and two Lappies, Timber and Tundra. Every design is drawn for people who know the breed as well as we do.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #CastlegarBC #ShopSmall #Lapphund #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18078757502535256",
+    "published_at": "2026-10-20T19:33:32.053Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-21-reel",
