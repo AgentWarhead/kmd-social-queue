@@ -2034,7 +2034,7 @@
     "id": "2026-10-21-fix-barbershop",
     "publish_at": "2026-10-21T15:00:00Z",
     "caption": "Your best cuts are your best ad.\n\nFour things a barbershop or salon website needs, after Stump's night at the barbershop.\n\nA gallery of your own cuts. Booking that works on a phone. Starting prices for the usual services. A short line on who does fades and who does colour.\n\nNo website yet? Here is what a first one looks like: kootenaymade.ca/services/websites\n\n#WestKootenay #SmallBusinessBC #SalonOwner #SmallBusinessTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/fix-barbershop-20261021-01.jpg",
       "images/fix-barbershop-20261021-02.jpg",
@@ -2042,7 +2042,12 @@
       "images/fix-barbershop-20261021-04.jpg",
       "images/fix-barbershop-20261021-05.jpg",
       "images/fix-barbershop-20261021-06.jpg"
-    ]
+    ],
+    "media_id": "18110029790524135",
+    "published_at": "2026-10-21T17:00:54.912Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122131295486844963",
+    "fb_posted_at": "2026-10-21T17:01:16.073Z"
   },
   {
     "id": "2026-10-22-teardown-noquote",
@@ -2158,9 +2163,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-21T15:30:00Z",
     "caption": "Frantisek, in his own words.\n\nAt the Vienna Café in Nelson, we gave a small framed print to the woman serving us. She opened it, read it, and said: “This is exactly what I needed today. Can I give you a hug?”\n\nHe was born in Czechoslovakia into a family of painters. Today he works from his studio in Winlaw, in the Slocan Valley, making each print by hand.\n\nHis whole conversation is on our site.\n\nThe link is in our bio.\n\n#FrantisekStrouhal #SlocanValley #Kootenays #CanadianArtist #ArtForHealing",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "video": "media/gsuw-2026-10-21-in-his-own-words.mp4"
+    "video": "media/gsuw-2026-10-21-in-his-own-words.mp4",
+    "media_id": "18195376954392329",
+    "published_at": "2026-10-21T17:01:50.534Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-22-the-words",
@@ -2338,8 +2346,11 @@
     "publish_at": "2026-10-21T17:00:00Z",
     "image": "media/ks-2026-10-21-kids.jpg",
     "caption": "Five days of Halloween fun with the kids.\n\nThe Fright Train rolls in Cranbrook today. Saturday brings the Halloween Bootacular in Cranbrook, the Great Pumpkin Hunt in Fernie and trick-or-treating downtown in Invermere. On Sunday there's the Griz Kidz party and haunted house in Fernie, and Mister Mojo's Halloween concert for kids in Nelson.\n\nFind every family Halloween event at kootenayslate.ca/halloween\n\n#Halloween #FamilyFun #FernieBC #InvermereBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18139817620715947",
+    "published_at": "2026-10-21T17:02:01.383Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-22-weekend",
@@ -2457,9 +2468,12 @@
     "account": "list",
     "publish_at": "2026-10-21T16:00:00Z",
     "caption": "Today Banjo Plumbing has the front page of the Kootenay List.\n\nEvery business that claims or adds its listing gets a day like this, in the order they joined. Their name goes on the sign, their photo in the window and their logo on the door. After their day, the storefront stays on Main Street.\n\nIt's free, and it takes about five minutes. Tell me what's right, add your photos and hours, and you're in the line.\n\nkootenaylist.ca/claim\n.\n.\n#NelsonBC #ShopLocalBC #SmallBusinessBC #SupportLocal #Kootenays",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-21-claim-banjo.jpg"
+    "image": "media/kl-2026-10-21-claim-banjo.jpg",
+    "media_id": "18128381258485262",
+    "published_at": "2026-10-21T17:02:17.123Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-22-keep-sources",
@@ -2555,8 +2569,11 @@
     "publish_at": "2026-10-21T16:00:00Z",
     "video": "images/ld-uncle-timber-03.mp4",
     "caption": "Picture day. 📸\n\nUncle Timber was asked to wear one small witch hat for the Halloween photo. Tundra found the costume box.\n\nUncle Timber, episode 3. The next one is on Friday.\n\nCostume dog or protest dog: which one lives at your place?\n.\n.\n#FinnishLapphund #DogCostume #lapinkoira #Lapphund #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18125553340929056",
+    "published_at": "2026-10-21T17:03:19.222Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-22-post",
