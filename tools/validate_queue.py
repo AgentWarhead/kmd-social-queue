@@ -112,7 +112,16 @@ for e in pending:
 # The cadence lock: every post that is out or on its way, per brand, per Pacific day. Published posts count
 # too, so a queue cannot add a second post to a day that already had its one.
 # Stories are not feed posts: they never count toward a brand's posts per day (2026-10-04).
-live = [e for e in q if e.get('status') in ('pending', 'published') and not e.get('story')]
+# Breaking news (Brett, 2026-10-21, the PHP advisory: "post it immediately as its an urgent message"): a post
+# carrying a written "breaking" reason may go out the same day as that day's scheduled post and does not count
+# toward the lock. The reason is printed on every run so the exception never hides, and a breaking post with an
+# empty reason fails.
+for e in q:
+    if 'breaking' in e and not str(e.get('breaking') or '').strip():
+        fails.append('%s: "breaking" set without a reason' % e.get('id'))
+    elif e.get('breaking') and e.get('status') == 'pending':
+        print('BREAKING (outside the daily lock): %s: %s' % (e.get('id'), e['breaking']))
+live = [e for e in q if e.get('status') in ('pending', 'published') and not e.get('story') and not e.get('breaking')]
 for account in BRANDS:
     mine = [e for e in live if e.get('account', 'kmd') == account]
     todo = [e for e in mine if e.get('status') == 'pending']

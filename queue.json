@@ -2050,6 +2050,20 @@
     "fb_posted_at": "2026-10-21T17:01:16.073Z"
   },
   {
+    "id": "2026-10-21-php-notice",
+    "publish_at": "2026-10-21T18:11:00Z",
+    "images": [
+      "images/php-notice-20261021-01.jpg",
+      "images/php-notice-20261021-02.jpg",
+      "images/php-notice-20261021-03.jpg",
+      "images/php-notice-20261021-04.jpg",
+      "images/php-notice-20261021-05.jpg"
+    ],
+    "caption": "If your website runs on WordPress, check this today.\n\nOn October 21, the makers of PHP fixed two serious flaws. PHP is the software every WordPress site runs on. The flaws can let a stranger take over the server without a password, and some government websites went offline this week until they were patched.\n\nThe fix is an update, and installing it is your host's job or your web person's. Send them one message: is my site on PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 or newer? On Wix, Squarespace or Shopify, the company handles it for you.\n\nThe sites I build don't run PHP, so my clients have nothing to patch this week.\n\nNot sure what yours runs on? Comment or message me the address and I'll tell you.\n\n#Kootenays #SmallBusinessBC #WordPress #WebsiteTips #KootenayMade",
+    "status": "pending",
+    "breaking": "PHP critical security advisory published 2026-10-21; Brett ordered it posted immediately, same day as the 8 am post"
+  },
+  {
     "id": "2026-10-22-teardown-noquote",
     "publish_at": "2026-10-22T15:00:00Z",
     "caption": "Your roof is leaking on a Saturday morning. You find a roofer's website. Where do you ask for a quote?\n\nI checked 310 Kootenay trades websites on October 7. 172 never mention a quote or estimate anywhere on the home page.\n\nWhen the water's coming in, I think people call whoever makes the next step easiest. A clear \"Get a quote\" on the first screen is one of the simplest fixes a trades site can make.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #SmallBusinessBC #ContractorLife #WebsiteTips #KootenayMade",
