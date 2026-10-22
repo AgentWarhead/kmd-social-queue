@@ -2072,8 +2072,13 @@
     "id": "2026-10-22-teardown-noquote",
     "publish_at": "2026-10-22T15:00:00Z",
     "caption": "Your roof is leaking on a Saturday morning. You find a roofer's website. Where do you ask for a quote?\n\nI checked 310 Kootenay trades websites on October 7. 172 never mention a quote or estimate anywhere on the home page.\n\nWhen the water's coming in, I think people call whoever makes the next step easiest. A clear \"Get a quote\" on the first screen is one of the simplest fixes a trades site can make.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #SmallBusinessBC #ContractorLife #WebsiteTips #KootenayMade",
-    "status": "pending",
-    "video": "media/teardown-noquote-20261022.mp4"
+    "status": "published",
+    "video": "media/teardown-noquote-20261022.mp4",
+    "media_id": "18139147081713442",
+    "published_at": "2026-10-22T18:01:57.692Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1497510808846408",
+    "fb_posted_at": "2026-10-22T18:02:04.665Z"
   },
   {
     "id": "2026-10-23-stump-yard",
@@ -2194,9 +2199,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-22T15:30:00Z",
     "caption": "We were deeply touched to learn that Dr. Gabor Maté not only read our books, but also took the time to share these words with us.\n\n“Your openness, courage, and curiosity remind me daily that healing is possible when we face ourselves with compassion.”\n\nHis words carry the spirit of everything we hope this work can be. His whole message is on gsuw.org, with the writings.\n\nMeeting ourselves with compassion is also at the heart of Soul Journey for Women, this Sunday, October 25, here in Passmore, guided by Melissa Crawford, MD, one of our directors. If it speaks to you, we would love to have you join us.\n\nThe details are through the link in our bio.\n\n#ArtEmbracingAwareness #Kootenays #SlocanValley #HealingJourney #Compassion",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-22-the-words.jpg"
+    "image": "media/gsuw-2026-10-22-the-words.jpg",
+    "media_id": "17912694456513121",
+    "published_at": "2026-10-22T18:02:20.622Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-23-kindness-prints",
@@ -2377,8 +2385,11 @@
     "publish_at": "2026-10-22T17:00:00Z",
     "image": "media/ks-2026-10-22-weekend.jpg",
     "caption": "This weekend brings funk, salsa and Simon and Garfunkel.\n\nFreak Motif plays Nelson on Friday night. Saturday is packed with the Arts Station Craft Fair in Fernie, Oktoberfest with the Rotary Club in Nelson, Latin Vibes Orquesta, Jim Witter's Feelin' Groovy in Invermere, and the Nelson Leafs at home to Williams Lake.\n\nSee the whole weekend at kootenayslate.ca\n\n#ThisWeekend #LiveMusic #NelsonBC #FernieBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17875310970593477",
+    "published_at": "2026-10-22T18:02:31.275Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-23-haunts",
@@ -2499,9 +2510,12 @@
     "account": "list",
     "publish_at": "2026-10-22T16:00:00Z",
     "caption": "Every listing on the Kootenay List names where it came from.\n\nMost come from the businesses' own websites. The rest come from chambers of commerce and tourism directories, and public registers kept by city halls, Interior Health and Technical Safety BC. Owners who claim their listing add to it in their own words.\n\nOpen any listing and the source is printed at the bottom.\n\nkootenaylist.ca/sources\n.\n.\n#Kootenays #WestKootenay #ShopLocalBC #LocalBusiness #KootenayLife",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-22-keep-sources.jpg"
+    "image": "media/kl-2026-10-22-keep-sources.jpg",
+    "media_id": "18104870783368911",
+    "published_at": "2026-10-22T18:02:44.037Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-23-your-town-castlegar",
@@ -2600,8 +2614,11 @@
     "publish_at": "2026-10-22T16:00:00Z",
     "image": "images/ld-20261022.jpg",
     "caption": "Snow zoomie energy. ❄️\n\nFirst snow, and every Lappy turns into a snowplough with no brakes. That double coat was built for the Arctic, and they know it.\n\nHas the first snow reached your Lappy yet?\n.\n.\n#FinnishLapphund #SnowDog #finsklapphund #LappyLife #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18135678217635747",
+    "published_at": "2026-10-22T18:03:01.810Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-23-reel",
