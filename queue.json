@@ -2211,9 +2211,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-23T15:30:00Z",
     "caption": "Kindness prints.\n\nWe make the frames ourselves, at our own table. Sometimes an older frame is given a second life. Each one holds a small print of one of Frantisek’s paintings and the words that belong to it.\n\nThen it goes into a gift bag, and into someone’s hands.\n\nA clerk. A flag person. A stranger who offered a kindness. Someone who looked as though they needed a little light.\n\nNo explanation. No follow-up. Just a small gesture of seeing.\n\n#KindnessPrints #SlocanValley #Kootenays #KindnessMatters #HumanConnection",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-23-kindness-prints.jpg"
+    "image": "media/gsuw-2026-10-23-kindness-prints.jpg",
+    "media_id": "18032820002886083",
+    "published_at": "2026-10-23T19:15:26.751Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-26-five-minutes-for-you",
@@ -2397,8 +2400,11 @@
     "publish_at": "2026-10-23T17:00:00Z",
     "image": "media/ks-2026-10-23-haunts.jpg",
     "caption": "Want a real scare? Here's where to find one.\n\nFort Steele runs its Overnight Haunted Experience tonight and Fright at the Fort on Saturday. The Creston Witch Walk is tonight too, for 19 and up. Fernie has ghost tours every night until Halloween, Beyond the Veil tours Fort Steele after hours on Sunday, and Castlegar's Island of Horrors opens on the 30th.\n\nFind all the haunts at kootenayslate.ca/halloween\n\n#Halloween #FortSteele #CrestonBC #CastlegarBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17964346011227778",
+    "published_at": "2026-10-23T19:15:40.695Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-26-fernie",
@@ -2522,9 +2528,12 @@
     "account": "list",
     "publish_at": "2026-10-23T16:00:00Z",
     "caption": "Castlegar has 765 businesses on the List.\n\n159 of them are builders, trades and home services, and 48 are places to eat and drink. That's about 92 businesses for every 1,000 people in town.\n\nEvery one is on one page, sorted by what they do, with how to reach them.\n\nkootenaylist.ca/town/castlegar\n.\n.\n#CastlegarBC #WestKootenay #ShopLocalBC #SupportLocal #Kootenays",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "video": "media/kl-2026-10-23-your-town-castlegar.mp4"
+    "video": "media/kl-2026-10-23-your-town-castlegar.mp4",
+    "media_id": "18118657483988103",
+    "published_at": "2026-10-23T19:16:46.490Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-26-drawer-kimberley-bakeries",
@@ -2626,8 +2635,11 @@
     "publish_at": "2026-10-23T16:00:00Z",
     "video": "images/ld-uncle-timber-04.mp4",
     "caption": "Tundra's been waiting all night. 👻\n\nHe has the perfect hiding spot and the perfect jump scare ready for his uncle. Uncle Timber does not scare. The yard skeleton, on the other hand...\n\nUncle Timber, episode 4. The next one is on Sunday.\n\nWhat's the one thing that spooks your Lappy every single time?\n.\n.\n#FinnishLapphund #HalloweenDog #suomenlapinkoira #DogsOfInstagram #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "17989822977077993",
+    "published_at": "2026-10-23T19:17:23.340Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-24-post",
