@@ -24,7 +24,18 @@ BRANDS = {
         'posts_per_day': [('2026-10-11', 1), (None, 2)],
         # Brett, 2026-10-13 (the stamp): the Halloween carousel for paid ads runs beside the motel Fix the
         # day after its Stump episode, so October 14 carries two.
-        'day_overrides': {'2026-10-14': 2},
+        #
+        # Staging overrides, chair ruling 2026-10-24. Brett stamped one post on each of these days: the Stump
+        # episodes 6 to 9 of the Oct 26 to Nov 8 slate. The rest of the slate is queued first, and each episode
+        # follows when the chair has reviewed its film. These change the staging, not the cadence. Remove each
+        # override in the same commit that adds its episode: the gate reports "overposting" until you do.
+        'day_overrides': {
+            '2026-10-14': 2,
+            '2026-10-27': 0,   # Stump ep 6 is queued by the chair after film review; remove this override in the same commit that adds the episode
+            '2026-10-30': 0,   # Stump ep 7 is queued by the chair after film review; remove this override in the same commit that adds the episode
+            '2026-11-03': 0,   # Stump ep 8 is queued by the chair after film review; remove this override in the same commit that adds the episode
+            '2026-11-06': 0,   # Stump ep 9 is queued by the chair after film review; remove this override in the same commit that adds the episode
+        },
     },
     'lapphund': {
         'name': 'Lapphund Designs',
@@ -109,15 +120,23 @@ def _nth_sunday(year, month, n):
     return d + timedelta(weeks=n - 1)
 
 
+# 2 am PST on Sunday March 8, 2026, the last clock change BC makes.
+BC_PERMANENT_UTC7 = datetime(2026, 3, 8, 10, 0)
+
+
 def pacific_date(when):
     """The calendar day in Pacific time. The day is what the cadence lock counts, and a UTC date would
-    move a late evening post onto tomorrow. This PC has no tz database, so the DST rule is written out:
-    daylight time from 2 am on the second Sunday of March to 2 am on the first Sunday of November."""
+    move a late evening post onto tomorrow. This PC has no tz database, so the rule is written out.
+    Before 2026: daylight time from 2 am on the second Sunday of March to 2 am on the first Sunday of
+    November. From the March 8, 2026 change on, BC stays on UTC-7 all year and never falls back
+    (BC Gov News release 2026AG0013-000209, March 2, 2026)."""
     if isinstance(when, str):
         when = datetime.fromisoformat(when.replace('Z', '+00:00'))
     if when.tzinfo is None:
         when = when.replace(tzinfo=timezone.utc)
     u = when.astimezone(timezone.utc).replace(tzinfo=None)
+    if u >= BC_PERMANENT_UTC7:
+        return (u - timedelta(hours=7)).date()
     start = _nth_sunday(u.year, 3, 2) + timedelta(hours=10)     # 2 am PST is 10:00 UTC
     end = _nth_sunday(u.year, 11, 1) + timedelta(hours=9)       # 2 am PDT is 09:00 UTC
     offset = -7 if start <= u < end else -8
