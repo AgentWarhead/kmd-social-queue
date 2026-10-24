@@ -18,6 +18,9 @@ import os
 import re
 import subprocess
 import sys
+import urllib.error
+import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -57,6 +60,26 @@ except Exception as exc:
 # Instagram caps a caption at 2200 characters.
 CAPTION_MAX = 2200
 
+# Meta's Reels cover spec (IG User Media reference, checked 2026-10-24): JPEG, 8MB maximum.
+COVER_MAX_BYTES = 8 * 1024 * 1024
+# The publisher's RAW base. Change both together.
+RAW = 'https://raw.githubusercontent.com/AgentWarhead/kmd-social-queue/main/'
+
+
+def served(path):
+    """The HTTP status raw.githubusercontent gives for a repo path, or the error that stopped the ask."""
+    try:
+        req = urllib.request.Request(RAW + urllib.parse.quote(path), method='HEAD')
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return r.status
+    except urllib.error.HTTPError as exc:
+        return exc.code
+    except Exception as exc:
+        return 'unreachable: %s' % exc
+
+
+no_cover = []
+
 for e in pending:
     eid = e.get('id', '<no id>')
     try:
@@ -77,6 +100,35 @@ for e in pending:
             fails.append('%s: media on disk but NOT COMMITTED, so it will 404 '
                          'when the publisher fetches it: %s' % (eid, m))
 
+    # A Reel's designed cover (kmd-social Law 11). The publisher hands Instagram the raw URL as cover_url,
+    # so the same questions as media apply, plus Meta's spec: JPEG, 8MB at most. The served check asks
+    # the URL itself, because a cover that is committed and never pushed is a 404 Meta will not report.
+    cover = e.get('cover')
+    if 'cover' in e and not cover:
+        fails.append('%s: "cover" set but empty' % eid)
+    elif cover:
+        if not e.get('video'):
+            fails.append('%s: cover set on a post that is not a reel (cover_url is REELS only): %s' % (eid, cover))
+        if not cover.lower().endswith(('.jpg', '.jpeg')):
+            fails.append('%s: cover must be a JPEG (Meta spec): %s' % (eid, cover))
+        if not os.path.exists(os.path.join(ROOT, cover)):
+            fails.append('%s: cover file missing: %s' % (eid, cover))
+        elif os.path.getsize(os.path.join(ROOT, cover)) > COVER_MAX_BYTES:
+            fails.append('%s: cover is %.1f MB, Meta caps it at 8 MB: %s'
+                         % (eid, os.path.getsize(os.path.join(ROOT, cover)) / 1e6, cover))
+        elif TRACKED is not None and cover not in TRACKED:
+            fails.append('%s: cover on disk but NOT COMMITTED, so it will 404: %s' % (eid, cover))
+        else:
+            code = served(cover)
+            if code != 200:
+                fails.append('%s: cover not served (%s) at %s%s. Push the media commit first, then rerun.'
+                             % (eid, code, RAW, cover))
+        media_for_brand = media + [cover]
+    else:
+        media_for_brand = media
+        if e.get('video'):
+            no_cover.append(eid)
+
     cap = e.get('caption', '')
     if len(cap) > CAPTION_MAX:
         fails.append('%s: caption is %d characters, Instagram caps it at %d'
@@ -86,7 +138,7 @@ for e in pending:
     account = e.get('account', 'kmd')
     for why in brand_problems(account, cap, (media or [None])[0]):
         fails.append('%s: WRONG ACCOUNT RISK, queued for %s but %s' % (eid, account, why))
-    for m in media[1:]:
+    for m in media_for_brand[1:]:
         for why in brand_problems(account, cap, m):
             if 'image' in why:
                 fails.append('%s: WRONG ACCOUNT RISK, %s' % (eid, why))
@@ -152,6 +204,12 @@ for a, b in tight:
     print('WARNING: %s and %s are %.1f h apart, inside the cron jitter window'
           % (a.strftime('%m-%d %H:%M'), b.strftime('%H:%M'),
              (b - a).total_seconds() / 3600))
+
+# Law 11 says every Reel gets a designed cover. Not a failure yet, because reels already queued were stamped
+# without one; a warning, so the gap is named on every run instead of sitting silent.
+if no_cover:
+    print('WARNING: %d pending reel(s) with no "cover", Instagram will use the first frame: %s'
+          % (len(no_cover), ', '.join(no_cover)))
 
 per = ', '.join('%s %d' % (a, sum(1 for e in pending if e.get('account', 'kmd') == a)) for a in BRANDS)
 locks = ', '.join('%s %s' % (a, b['posts_per_day'] or 'NO LOCK SET') for a, b in BRANDS.items())

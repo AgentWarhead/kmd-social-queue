@@ -27,7 +27,7 @@ globalThis.fetch = async (url, opts) => {
   const u = String(url);
   if (opts && opts.method === "POST" && u.includes("/media")) { const parts = u.split("?")[0].split("/"); console.log("IGACCOUNT " + parts[parts.length - 2]); if (!u.includes("/media_publish")) globalThis.lastIg = parts[parts.length - 2]; }
   if (opts && opts.method === "POST" && ["/photos", "/videos", "/feed"].some((s) => u.includes(s))) console.log("FBCALL " + u);
-  if (opts && opts.method === "POST" && u.includes("/media") && !u.includes("/media_publish")) { const mt = new URLSearchParams(String(opts.body)).get("media_type"); if (mt) console.log("MEDIATYPE " + mt); }
+  if (opts && opts.method === "POST" && u.includes("/media") && !u.includes("/media_publish")) { const b = new URLSearchParams(String(opts.body)); const mt = b.get("media_type"); if (mt) console.log("MEDIATYPE " + mt); if (b.has("cover_url")) console.log("COVERURL " + b.get("cover_url")); }
   if (opts && opts.method === "POST" && u.includes("/media_publish"))
     return { json: async () => ({ id: "MEDIA_" + ++n }) };
   if (opts && opts.method === "POST" && u.includes("/media")) {
@@ -316,6 +316,31 @@ const CASES = [
       return k.status === "pending" || "KMD posted again inside its own 45 minute floor";
     },
   },
+  // Designed Reel covers (kmd-social Law 11, 2026-10-24). The cover rides as cover_url on the REELS container,
+  // from the same raw base as the video. The no-cover case is the control that proves the check reads the entry.
+  {
+    name: "a reel with a cover sends cover_url from the raw base",
+    queue: [{ id: "rc1", publish_at: hoursAgo(1), video: "media/r.mp4", cover: "media/r-cover.jpg", caption: "c #KootenayMade", status: "pending" }],
+    expect: 1, exit: 0,
+    check: (q, out) => {
+      const urls = (out.match(/COVERURL \S+/g) || []).map((l) => l.slice(9));
+      if (!/MEDIATYPE REELS/.test(out)) return "it was not published as a reel";
+      return (urls.length === 1 && urls[0] === "https://raw.githubusercontent.com/AgentWarhead/kmd-social-queue/main/media/r-cover.jpg")
+        ? true : `cover_url sent: ${urls.join(",") || "none"}`;
+    },
+  },
+  {
+    name: "a reel without a cover sends no cover_url",
+    queue: [{ id: "rc2", publish_at: hoursAgo(1), video: "media/r.mp4", caption: "c #KootenayMade", status: "pending" }],
+    expect: 1, exit: 0,
+    check: (q, out) => (/MEDIATYPE REELS/.test(out) && !/COVERURL/.test(out)) ? true : "a cover_url went out with no cover set",
+  },
+  {
+    name: "a lapphund reel with a KMD cover is refused before any call",
+    queue: [{ id: "rc3", account: "lapphund", publish_at: hoursAgo(1), video: "images/ld-r.mp4", cover: "media/r-cover.jpg", caption: "c lapphunddesigns.com", status: "pending", fb_skipped: "x" }],
+    expect: 0, exit: 0,
+    check: (q, out) => (!/IGACCOUNT/.test(out) && /brand check/.test(q[0].error || "")) ? true : `not refused: ${JSON.stringify(q[0])}`,
+  },
   {
     name: "a post instagram carried earlier gets caught up on facebook",
     queue: [{ id: "catch", publish_at: hoursAgo(20), image: "x.jpg", caption: "c #KootenayMade", status: "published", published_at: hoursAgo(20) }],
@@ -354,5 +379,43 @@ for (const c of CASES) {
   }
 }
 
-console.log(failed ? `\n${failed} of ${CASES.length} FAILED` : `\nPASS: ${CASES.length} cases`);
+// The enqueue gate's cover check, run as the real validator against a one-entry queue (--queue). The missing
+// file is the red control; the real stamped cover is the control that proves the failure comes from the path.
+// The second case asks raw.githubusercontent for the cover, so it needs the network.
+const PY = process.platform === "win32" ? "py" : "python3";
+const reelWith = (cover) => [{
+  id: "vc", publish_at: "2027-01-15T16:00:00Z", status: "pending",
+  video: "media/fullcoverage-20261005.mp4", cover,
+  caption: "c kootenaymade.ca #Kootenays #ShopLocalBC #ContractorLife #WebDesign #KootenayMade",
+}];
+const VALIDATOR_CASES = [
+  { name: "validator: a missing cover file fails the gate", queue: reelWith("media/no-such-cover.jpg"), exit: 1,
+    check: (out) => /vc: cover file missing: media\/no-such-cover\.jpg/.test(out) ? true : "no cover-missing failure named" },
+  { name: "validator: the stamped cover passes the gate, served 200", queue: reelWith("media/builthere-scotties-20261029-cover.jpg"), exit: 0,
+    check: (out) => (/^PASS/m.test(out) && !/cover/.test(out)) ? true : "cover check fired on a real cover" },
+];
+for (const c of VALIDATOR_CASES) {
+  const dir = mkdtempSync(path.join(tmpdir(), "kmdval-"));
+  try {
+    const file = path.join(dir, "queue.json");
+    writeFileSync(file, JSON.stringify(c.queue, null, 2));
+    let out = "", code = 0;
+    try {
+      out = execFileSync(PY, [path.join(ROOT, "tools", "validate_queue.py"), "--queue", file], { encoding: "utf8" });
+    } catch (e) {
+      out = (e.stdout || "") + (e.stderr || ""); code = e.status;
+    }
+    const extra = c.check(out);
+    const ok = code === c.exit && extra === true;
+    if (!ok) failed++;
+    console.log(`${ok ? "ok  " : "FAIL"}  ${c.name}`);
+    console.log(`        expected exit ${c.exit}, got ${code}` + (extra === true ? "" : `; ${extra}`));
+    if (!ok) console.log(out.split("\n").map((l) => "        | " + l).join("\n"));
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+const total = CASES.length + VALIDATOR_CASES.length;
+console.log(failed ? `\n${failed} of ${total} FAILED` : `\nPASS: ${total} cases`);
 process.exit(failed ? 1 : 0);

@@ -27,7 +27,7 @@ function assertBrand(entry) {
   const mine = ACCOUNTS[account];
   if (!mine) throw new Error(`unknown account "${entry.account}"`);
   const text = String(entry.caption || "").toLowerCase();
-  const media = entry.images || [entry.image || entry.video || entry.story].filter(Boolean);
+  const media = [...(entry.images || [entry.image || entry.video || entry.story]), entry.cover].filter(Boolean);
   if (!mine.markers.some(m => text.includes(m))) throw new Error(`brand check: no ${account} marker in the caption`);
   for (const [other, b] of Object.entries(ACCOUNTS)) {
     if (other === account) continue;
@@ -373,6 +373,9 @@ async function publishStory(entry) {
   return pub.id;
 }
 
+// A designed cover (kmd-social Law 11, 2026-10-24) rides as cover_url: Meta fetches it from the public URL,
+// JPEG, 8MB at most, 9:16 or it is centre-cropped to 9:16. Without one Instagram uses the first frame.
+// Facebook keeps its own frame: its video thumb takes raw upload data, not a URL.
 async function publishReel(entry) {
   const ig = igOf(entry);
   const c = await api(`${ig}/media`, {
@@ -380,6 +383,7 @@ async function publishReel(entry) {
     video_url: RAW + entry.video,
     caption: entry.caption,
     share_to_feed: "true",
+    ...(entry.cover ? { cover_url: RAW + entry.cover } : {}),
   });
   await waitReady(c.id, 100);
   const pub = await api(`${ig}/media_publish`, { creation_id: c.id });
