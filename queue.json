@@ -2760,7 +2760,8 @@
     "publish_at": "2026-10-29T15:00:00Z",
     "caption": "Is it a kayak day? The front page already knows.\n\nThis is Scotties Marina on the Lower Arrow Lake near Castlegar, a client site I built from scratch. The windsock on the front page flies on the wind at the marina's own dock. The reading comes from its own weather station every minute, with the number written right beside it. Below it, the board shows today's lake level from Environment Canada's gauge at Fauquier, and whether the store is open.\n\nThe lake is a reservoir that can move by as much as 20 metres, so those are the questions people ask before they drive 12 km up Broadwater Road. Now the site answers them before anyone has to call.\n\nRun a marina, a campground or a rental business? Here's where a site like this starts: kootenaymade.ca/services/websites\n\n#CastlegarBC #WestKootenay #BoatRentals #WebDesign #KootenayMade",
     "status": "pending",
-    "video": "media/builthere-scotties-20261029.mp4"
+    "video": "media/builthere-scotties-20261029.mp4",
+    "cover": "media/builthere-scotties-20261029-cover.jpg"
   },
   {
     "id": "2026-10-31-place-halloween",
@@ -2804,7 +2805,8 @@
     "publish_at": "2026-11-05T15:00:00Z",
     "caption": "Pick your dog's coat once. The whole store follows.\n\nLapphund Designs is the Shopify store my wife Jill and I run from Castlegar for Finnish Lapphund owners, and I wrote its theme from scratch. Lapphunds come in a lot of coat colours, and an owner wants designs that look like their own dog. So the first tap picks the coat, and the full catalogue and the mugs then lead with the designs that match it.\n\nIf people buy what you make because they love it, a store can lead with what they love too. The Storefront is my custom Shopify build at $5,500, with up to 50 products at launch on a theme made for your store: kootenaymade.ca/services/shopify\n\n#CastlegarBC #ShopLocalBC #ShopifyStore #WebDesign #KootenayMade",
     "status": "pending",
-    "video": "media/builthere-lapphund-20261105.mp4"
+    "video": "media/builthere-lapphund-20261105.mp4",
+    "cover": "media/builthere-lapphund-20261105-cover.jpg"
   },
   {
     "id": "2026-11-07-deep-rankings",
