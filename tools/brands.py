@@ -31,7 +31,6 @@ BRANDS = {
         # override in the same commit that adds its episode: the gate reports "overposting" until you do.
         'day_overrides': {
             '2026-10-14': 2,
-            '2026-11-03': 0,   # Stump ep 8 is queued by the chair after film review; remove this override in the same commit that adds the episode
             '2026-11-06': 0,   # Stump ep 9 is queued by the chair after film review; remove this override in the same commit that adds the episode
         },
     },
