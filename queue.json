@@ -2096,7 +2096,7 @@
     "id": "2026-10-24-fix-contractor",
     "publish_at": "2026-10-24T15:00:00Z",
     "caption": "Is your best work still in the shed?\n\nFour ways trades can show their work online, after Stump and Inky got a carpenter's rocking chair out to the road.\n\nA gallery of finished jobs with the town named. One page for each service. Reviews next to the work they describe. A quote request that takes two minutes.\n\nThe build here is Summit Handyman in Langley, BC, a real client site with every service on its own page and a repair guide customers come back to.\n\nFree 60-second check-up: kootenaymade.ca/audit\n\n#Kootenays #LangleyBC #ContractorLife #SmallBusinessTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/fix-contractor-20261024-01.jpg",
       "images/fix-contractor-20261024-02.jpg",
@@ -2105,7 +2105,12 @@
       "images/fix-contractor-20261024-05.jpg",
       "images/fix-contractor-20261024-06.jpg",
       "images/fix-contractor-20261024-07.jpg"
-    ]
+    ],
+    "media_id": "18157555060517477",
+    "published_at": "2026-10-24T17:02:28.221Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122131690256844963",
+    "fb_posted_at": "2026-10-24T17:02:39.399Z"
   },
   {
     "id": "2026-10-25-proof-familydesigns",
@@ -2652,8 +2657,11 @@
     "publish_at": "2026-10-24T16:00:00Z",
     "image": "images/ld-20261024.jpg",
     "caption": "Apartment Lappy? Yes, with walks and adventure.\n\nThey're a medium-sized dog, so plenty of Lappies live happily in flats. What they need is a long walk every day, something to think about, and people who don't mind a bark at the door and a lot of fur twice a year.\n\nLappy people in apartments: what is your best tip?\n.\n.\n#FinnishLapphund #ApartmentDog #Lapphund #DogLife #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18377397442242671",
+    "published_at": "2026-10-24T17:02:47.081Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-25-reel",
