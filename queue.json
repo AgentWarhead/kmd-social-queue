@@ -2239,9 +2239,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-26T15:30:00Z",
     "caption": "Five minutes, for you.\n\n“There is nowhere else you need to be right now. Nothing you need to solve. Nothing you need to carry for these next few moments.”\n\nThese words are from a short guided meditation we share for the moments when everything feels like too much.\n\nThe full five minutes is free on our site, with more meditations to come.\n\nThe link is in our bio.\n\n#GlobalSymphonyForAUnitedWorld #Kootenays #SlocanValley #GuidedMeditation #Mindfulness",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-26-five-minutes-for-you.jpg"
+    "image": "media/gsuw-2026-10-26-five-minutes-for-you.jpg",
+    "media_id": "18037881557889596",
+    "published_at": "2026-10-26T17:36:20.004Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-27-one-work",
@@ -2428,8 +2431,11 @@
     "publish_at": "2026-10-26T17:00:00Z",
     "image": "media/ks-2026-10-26-fernie.jpg",
     "caption": "Fernie goes big for Halloween.\n\nThere's a Rocky Horror Picture Show viewing party on Friday. Then on the 31st it's Halloween in Fernie all day, Halloween movies at the Vogue, and three parties after dark, with the Halloween Rave, the Halloween Bash and A Nightmare on Main Street.\n\nPlan your Fernie Halloween at kootenayslate.ca/halloween\n\n#FernieBC #ElkValley #Halloween #HalloweenParty #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17972384958175931",
+    "published_at": "2026-10-26T17:36:33.838Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-27-arts",
@@ -2556,10 +2562,13 @@
     "account": "list",
     "publish_at": "2026-10-26T16:00:00Z",
     "caption": "Here's every bakery in Kimberley, all on one page.\n\nBear's Eatery, Bread & Butter, Pie and Mighty, Stoke Market and The Bread Peddler. Five bakeries in one small mountain town.\n\nTag the friend you'd go on a bakery run with.\n\nkootenaylist.ca/bakeries/kimberley\n.\n.\n#KimberleyBC #EastKootenay #ShopLocalBC #BakeryLove #SupportLocal",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
     "video": "media/kl-2026-10-26-drawer-kimberley-bakeries.mp4",
-    "cover": "media/kl-2026-10-26-drawer-kimberley-bakeries-cover.jpg"
+    "cover": "media/kl-2026-10-26-drawer-kimberley-bakeries-cover.jpg",
+    "media_id": "18089433647695049",
+    "published_at": "2026-10-26T17:37:34.320Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "ld-2026-10-16-reel",
@@ -2689,8 +2698,11 @@
     "publish_at": "2026-10-26T16:00:00Z",
     "image": "images/ld-20261026.jpg",
     "caption": "Find your floof fit.\n\nLappy tees for every coat and every personality, drawn by people who live with the breed. Pick the one that looks like yours.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogMomShirt #finsklapphund #Lapphund #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18335548621274855",
+    "published_at": "2026-10-26T17:37:47.413Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-27-post",
@@ -2743,7 +2755,7 @@
     "id": "2026-10-26-save-contactform",
     "publish_at": "2026-10-26T15:00:00Z",
     "caption": "The customer hit send. You never saw it.\n\nTo them, it looks like you ignored them. A contact form that quietly stops delivering loses the warmest leads a business gets, and nothing tells you it happened.\n\nHere is a five-minute test for tonight. Open your own site on your phone and send yourself a message. Send a second one with a box left empty, and read the error. Find out whose inbox it lands in, then look in the spam folder too. Many forms send the message \"from\" the customer's address, and Gmail can treat that as a fake. The fix is to send form mail from your own domain, with the customer's address as the reply-to.\n\nIf your test message never shows up, that is the fix to make this week.\n\nThe full guide: kootenaymade.ca/blog/contact-page-feels-like-dead-end\n\n#WestKootenay #SmallBusinessBC #SmallBusinessOwner #SmallBusinessTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/save-contactform-20261026-01.jpg",
       "images/save-contactform-20261026-02.jpg",
@@ -2752,7 +2764,12 @@
       "images/save-contactform-20261026-05.jpg",
       "images/save-contactform-20261026-06.jpg",
       "images/save-contactform-20261026-07.jpg"
-    ]
+    ],
+    "media_id": "18119209669965278",
+    "published_at": "2026-10-26T17:39:02.782Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122131944632844963",
+    "fb_posted_at": "2026-10-26T17:39:20.160Z"
   },
   {
     "id": "2026-10-27-stump-campground",
