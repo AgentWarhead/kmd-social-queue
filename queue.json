@@ -2251,9 +2251,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-27T15:30:00Z",
     "caption": "The Way of Being\nAn oil print by Frantisek.\n\nOne figure leaning gently toward the other, creating a sense of intimacy and tenderness.\n\nWhen we have the courage to be truly ourselves, we create a space where others can do the same. This image speaks of authenticity, openness, love, and the quiet invitation to meet one another without masks.\n\nThe warmth is layer upon layer of lithography ink, dabbed on by hand with a stag-foot brush.\n\nIt is one of the most affectionate pictures in the collection. The link is in our bio.\n\n#ArtEmbracingAwareness #WestKootenay #NelsonBC #OilPrint #InnerPeace",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-27-one-work.jpg"
+    "image": "media/gsuw-2026-10-27-one-work.jpg",
+    "media_id": "18093772826487652",
+    "published_at": "2026-10-27T18:25:23.011Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-28-a-global-symphony",
@@ -2443,8 +2446,11 @@
     "publish_at": "2026-10-27T17:00:00Z",
     "image": "media/ks-2026-10-27-arts.jpg",
     "caption": "Not a costume person? This week has plenty for you.\n\nMiigis: Underwater Panther is in Cranbrook on Wednesday and Nelson on Friday. The Great Canadian Road Trip plays Trail on Wednesday. Thursday brings Dance of the Ancestors in Vallican, Broadway jazz at the Griff in Trail, and the Wonderland gallery opening in Fernie.\n\nMore at kootenayslate.ca\n\n#KootenayArts #TrailBC #NelsonBC #CranbrookBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18505218985102954",
+    "published_at": "2026-10-27T18:25:37.935Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-28-trick-or-treat",
@@ -2710,8 +2716,11 @@
     "publish_at": "2026-10-27T16:00:00Z",
     "image": "images/ld-20261027.jpg",
     "caption": "Today's floof forecast.\n\nSnow: high. Zoomies: extreme. Shedding: heavy. Couch cuddles: very high. Side-eye: guaranteed. One hundred percent chance of Lappy chaos.\n\nWhat's the forecast at your place today?\n.\n.\n#FinnishLapphund #LappyLife #suomenlapinkoira #FluffyDog #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18021778724732583",
+    "published_at": "2026-10-27T18:25:46.618Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-28-reel",
@@ -2990,9 +2999,12 @@
     "account": "list",
     "publish_at": "2026-10-27T16:00:00Z",
     "caption": "These Kootenay businesses joined the List or claimed their listing in the last month.\n\nLinguistics in the Wild, Slocan\nNoteworthy Coffee, Elkford\nThe Sleeping Pods, Creston\nFront Street Antiques, Kaslo\nVale of the Fae, Castlegar\nHouse Doctors Contracting, Radium Hot Springs\nKootenay Pedorthic Clinic, Nelson\nSqueegeez Window & Exterior Care, Castlegar\n\nEach one checked their listing and filled it in themselves. If you're a customer of one, go say hi.\n\nKnow a business that isn't on the List yet? kootenaylist.ca/claim\n.\n.\n#Kootenays #KootenayBusiness #ShopLocalBC #SmallBusinessBC #NewBusiness",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-27-data-new-this-month.jpg"
+    "image": "media/kl-2026-10-27-data-new-this-month.jpg",
+    "media_id": "17911594767559301",
+    "published_at": "2026-10-27T18:25:55.589Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-28-open-doors",
