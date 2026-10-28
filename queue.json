@@ -2263,9 +2263,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-28T15:30:00Z",
     "caption": "Last April, three hundred people filled the Brilliant Cultural Centre near Castlegar. Two choirs, two gospel bands, and neighbours singing together.\n\nThe music will bring us together again.\n\nSaturday, April 10, 2027. Free, and open to everyone, as always.\n\nIf you know someone who would love an afternoon of music, singing and togetherness, send this to them.\n\n#GlobalSymphonyForAUnitedWorld #CastlegarBC #Kootenays #CommunityArts #GospelMusic",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "video": "media/gsuw-2026-10-28-a-global-symphony.mp4"
+    "video": "media/gsuw-2026-10-28-a-global-symphony.mp4",
+    "media_id": "18023218157939090",
+    "published_at": "2026-10-28T20:20:26.328Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-29-the-words",
@@ -2459,7 +2462,10 @@
     "image": "media/ks-2026-10-28-trick-or-treat.jpg",
     "caption": "Where do the kids go on Halloween?\n\nIn Nakusp, the elementary school haunts a caboose on Friday, and the farmers market throws a Halloween carnival on Saturday. Rossland's library does Halloween on Saturday morning. Christina Lake has its Spooktacular, Creston runs a Halloween safety stop, and there are bonfires with fireworks in Christina Lake, Greenwood and Grand Forks.\n\nFind every kids' Halloween event at kootenayslate.ca/halloween\n\n#Halloween #NakuspBC #RosslandBC #CrestonBC #KootenaySlate",
     "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "attempts": 1,
+    "error": "Media ID is not available",
+    "next_try": "2026-10-28T20:34:49.427Z"
   },
   {
     "id": "ks-2026-10-29-nights",
@@ -2728,9 +2734,12 @@
     "publish_at": "2026-10-28T16:00:00Z",
     "video": "images/ld-uncle-timber-06.mp4",
     "caption": "Uncle Timber guards the bowl. 🍬\n\nTundra has a plan. It does not go to plan. Then it does.\n\nUncle Timber, episode 6. The finale is on Saturday, Halloween night.\n\nWho's the treat dealer in your house?\n.\n.\n#FinnishLapphund #HalloweenDog #Lapphund #DogsOfInstagram #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
-    "cover": "images/ld-uncle-timber-06-cover.jpg"
+    "cover": "images/ld-uncle-timber-06-cover.jpg",
+    "media_id": "18118457662814120",
+    "published_at": "2026-10-28T20:21:10.870Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-29-post",
@@ -3021,9 +3030,12 @@
     "account": "list",
     "publish_at": "2026-10-28T16:00:00Z",
     "caption": "Grand Forks has 4,112 people and no lawyer or notary on the List.\n\nSparwood has 4,148 people and no hair salon or barber listed. Rossland has 4,140 and no veterinarian.\n\nA gap like that can mean nobody does the work in town yet, which is an open door for whoever starts first. Or someone already does the work and has never been listed. If you know them, send them in. Their listing is free.\n\nEvery gap in every town is on one page.\n\nkootenaylist.ca/whats-missing\n.\n.\n#GrandForksBC #Kootenays #SmallBusinessBC #StartABusiness #ShopLocalBC",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-28-open-doors.jpg"
+    "image": "media/kl-2026-10-28-open-doors.jpg",
+    "media_id": "18133259830688358",
+    "published_at": "2026-10-28T20:21:24.678Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-29-drawer-trail-tires",
