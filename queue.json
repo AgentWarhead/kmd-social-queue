@@ -2275,9 +2275,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-29T15:30:00Z",
     "caption": "From a piece of ours called The Real Gift of Contemplation.\n\n“Contemplation isn’t about someone telling us what to look at. It’s about learning how to see what’s already right in front of us.”\n\nA tree moving in the wind. The quiet at the end of the day. The things we pass every day can begin to carry depth and presence, once we really notice them.\n\nThis writing, and all the others, are free to read on gsuw.org.\n\n#ArtEmbracingAwareness #SlocanValley #KootenayLife #InnerPeace #SlowLiving",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-29-the-words.jpg"
+    "image": "media/gsuw-2026-10-29-the-words.jpg",
+    "media_id": "18455200492193695",
+    "published_at": "2026-10-29T19:16:34.533Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-30-wearable-art",
@@ -2474,8 +2477,11 @@
     "publish_at": "2026-10-29T17:00:00Z",
     "image": "media/ks-2026-10-29-nights.jpg",
     "caption": "Costume on. Now, where's the party?\n\nOn Friday there's the Halloween Bash and Costume Party in Cranbrook and Hallows Eve in Nelson. On Saturday it's Nightmare at 292 in Castlegar, Superluxe Halloween in Nelson, Saints and Sinners at Jimmy's Pub in Creston, and the Halloween Party and Costume Contest in Invermere.\n\nFind every Halloween night out at kootenayslate.ca/halloween\n\n#HalloweenParty #NelsonBC #CastlegarBC #InvermereBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18105560276200085",
+    "published_at": "2026-10-29T19:16:52.409Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-30-tomorrow",
@@ -2748,8 +2754,11 @@
     "publish_at": "2026-10-29T16:00:00Z",
     "image": "images/ld-20261029.jpg",
     "caption": "Main character floof. Obviously.\n\nEvery Lappy walks into a room like the room was waiting for them. Usually, it was.\n\nWhat's your Lappy's main character move?\n.\n.\n#FinnishLapphund #lapinkoira #LappyLife #FluffyDog #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18386888527238240",
+    "published_at": "2026-10-29T19:17:00.983Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-30-post",
@@ -2819,9 +2828,14 @@
     "id": "2026-10-29-builthere-scotties",
     "publish_at": "2026-10-29T15:00:00Z",
     "caption": "Is it a kayak day? The front page already knows.\n\nThis is Scotties Marina on the Lower Arrow Lake near Castlegar, a client site I built from scratch. The windsock on the front page flies on the wind at the marina's own dock. The reading comes from its own weather station every minute, with the number written right beside it. Below it, the board shows today's lake level from Environment Canada's gauge at Fauquier, and whether the store is open.\n\nThe lake is a reservoir that can move by as much as 20 metres, so those are the questions people ask before they drive 12 km up Broadwater Road. Now the site answers them before anyone has to call.\n\nRun a marina, a campground or a rental business? Here's where a site like this starts: kootenaymade.ca/services/websites\n\n#CastlegarBC #WestKootenay #BoatRentals #WebDesign #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "video": "media/builthere-scotties-20261029.mp4",
-    "cover": "media/builthere-scotties-20261029-cover.jpg"
+    "cover": "media/builthere-scotties-20261029-cover.jpg",
+    "media_id": "17903651214378472",
+    "published_at": "2026-10-29T19:17:44.064Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1134309649105976",
+    "fb_posted_at": "2026-10-29T19:17:50.076Z"
   },
   {
     "id": "2026-10-30-stump-skishop",
@@ -3043,9 +3057,12 @@
     "account": "list",
     "publish_at": "2026-10-29T16:00:00Z",
     "caption": "Since October 1, you need winter tires or chains on most BC highways.\n\nHere's every tire shop in Trail, all on one page: Bella Tire Service Centre, Canadian Tire, OK Tire and Woodys Tire & Auto.\n\nSave this for the morning you wake up to snow.\n\nkootenaylist.ca/tire-shops/trail\n.\n.\n#TrailBC #WestKootenay #WinterTires #ShopLocalBC #SupportLocal",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-10-29-drawer-trail-tires.jpg"
+    "image": "media/kl-2026-10-29-drawer-trail-tires.jpg",
+    "media_id": "18151519966557379",
+    "published_at": "2026-10-29T19:18:04.789Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-10-30-drawer-sparwood-butchers",
