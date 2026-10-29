@@ -2461,11 +2461,12 @@
     "publish_at": "2026-10-28T17:00:00Z",
     "image": "media/ks-2026-10-28-trick-or-treat.jpg",
     "caption": "Where do the kids go on Halloween?\n\nIn Nakusp, the elementary school haunts a caboose on Friday, and the farmers market throws a Halloween carnival on Saturday. Rossland's library does Halloween on Saturday morning. Christina Lake has its Spooktacular, Creston runs a Halloween safety stop, and there are bonfires with fireworks in Christina Lake, Greenwood and Grand Forks.\n\nFind every kids' Halloween event at kootenayslate.ca/halloween\n\n#Halloween #NakuspBC #RosslandBC #CrestonBC #KootenaySlate",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay Slate page",
     "attempts": 1,
-    "error": "Media ID is not available",
-    "next_try": "2026-10-28T20:34:49.427Z"
+    "media_id": "17966834723981061",
+    "published_at": "2026-10-29T00:17:17.044Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-10-29-nights",
