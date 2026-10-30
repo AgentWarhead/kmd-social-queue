@@ -2287,9 +2287,12 @@
     "account": "gsuw",
     "publish_at": "2026-10-30T15:30:00Z",
     "caption": "Frantisek’s paintings, to wear and to live with.\n\nSome of his pictures now travel on clothing and pieces for the home, made and sold by Le Galeriste, a shop in Montreal.\n\nA way of carrying a little of that quiet with you through the day.\n\nPrices are in Canadian dollars. The link is in our bio.\n\n#ArtEmbracingAwareness #Kootenays #SlocanValley #WearableArt #CanadianArtist",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-10-30-wearable-art.jpg"
+    "image": "media/gsuw-2026-10-30-wearable-art.jpg",
+    "media_id": "18133409555509468",
+    "published_at": "2026-10-30T16:38:23.064Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "gsuw-2026-10-12-coming-up",
@@ -2766,8 +2769,11 @@
     "publish_at": "2026-10-30T16:00:00Z",
     "image": "images/ld-20261030.jpg",
     "caption": "Warning: Lappy ownership may cause merch collections.\n\nIt starts with one mug. Then a sticker on the water bottle. Then a tee for every coat colour you have ever loved.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogMom #suomenlapinkoira #Lapphund #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18581134915072642",
+    "published_at": "2026-10-30T16:38:35.570Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-10-31-reel",
@@ -3069,10 +3075,13 @@
     "account": "list",
     "publish_at": "2026-10-30T16:00:00Z",
     "caption": "Hunting season is on. Here's every butcher in Sparwood, including the one that cuts wild game.\n\nBernie's Wild Game Cutting, Rocky Mountain Meats, and Wes Country Meat and Sausage.\n\nTag whoever's bringing the deer home this year.\n\nkootenaylist.ca/butchers-meat/sparwood\n.\n.\n#SparwoodBC #ElkValley #HuntingSeason #ShopLocalBC #SupportLocal",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
     "video": "media/kl-2026-10-30-drawer-sparwood-butchers.mp4",
-    "cover": "media/kl-2026-10-30-drawer-sparwood-butchers-cover.jpg"
+    "cover": "media/kl-2026-10-30-drawer-sparwood-butchers-cover.jpg",
+    "media_id": "18097017641451630",
+    "published_at": "2026-10-30T16:39:36.271Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-11-02-data-busiest-small-towns",
