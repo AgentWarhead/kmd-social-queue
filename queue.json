@@ -2492,8 +2492,11 @@
     "publish_at": "2026-10-30T17:00:00Z",
     "image": "media/ks-2026-10-30-tomorrow.jpg",
     "caption": "Halloween is tomorrow. Have you picked your night?\n\nCatch the Nelson Leafs at home, the Halloween Shindig with Pretty for the People in Cranbrook, Halloween Live at Bloom in Nelson, or the Halloween Bash in Fernie. Castlegar's Ghoulish Gathering rounds it out on Sunday.\n\nPin your picks at kootenayslate.ca/halloween and the Slate builds your plan.\n\n#Halloween #NelsonBC #CranbrookBC #FernieBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18099205205119786",
+    "published_at": "2026-10-30T21:07:10.758Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "kl-2026-10-15-money-farm-deadlines",
