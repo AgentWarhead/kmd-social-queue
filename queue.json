@@ -3153,5 +3153,23 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on The Kootenay List page",
     "image": "media/kl-2026-11-09-drawer-towing.jpg"
+  },
+  {
+    "id": "ld-2026-11-01-carousel",
+    "account": "lapphund",
+    "publish_at": "2026-11-01T16:00:00Z",
+    "caption": "Six winter names for a Finnish dog, and what they mean.\n\nLumi is snow, Talvi is winter, Sisu is the grit this breed was built from. Sixty more, with meanings, in the names guide on lapphunddesigns.com.\n\nWhat's your Lappy called, and is there a story behind it?\n.\n.\n#FinnishLapphund #DogNames #suomenlapinkoira #Lapphund #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "images": [
+      "images/ld-20261101-01.jpg",
+      "images/ld-20261101-02.jpg",
+      "images/ld-20261101-03.jpg",
+      "images/ld-20261101-04.jpg",
+      "images/ld-20261101-05.jpg",
+      "images/ld-20261101-06.jpg",
+      "images/ld-20261101-07.jpg",
+      "images/ld-20261101-08.jpg"
+    ]
   }
 ]
