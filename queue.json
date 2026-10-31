@@ -2784,9 +2784,12 @@
     "publish_at": "2026-10-31T16:00:00Z",
     "video": "images/ld-uncle-timber-07.mp4",
     "caption": "Tundra's a werewolf tonight. 🌕\n\nThe Uncle Timber finale. Tundra howls at the moon and waits for an answer. Uncle Timber shows him how it is really done.\n\nHappy Halloween from Timber, Tundra and all of us at Lapphund Designs. Thank you for watching all seven.\n\nDoes your Lappy howl? What sets them off?\n.\n.\n#FinnishLapphund #HappyHalloween #finsklapphund #Lapphund #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
-    "cover": "images/ld-uncle-timber-07-cover.jpg"
+    "cover": "images/ld-uncle-timber-07-cover.jpg",
+    "media_id": "17938640400401090",
+    "published_at": "2026-10-31T17:56:01.402Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "2026-10-26-save-contactform",
@@ -2863,8 +2866,13 @@
     "id": "2026-10-31-place-halloween",
     "publish_at": "2026-10-31T15:00:00Z",
     "caption": "Trick-or-treat tonight. Keep your clocks tomorrow.\n\nThis is the first fall BC doesn't turn the clocks back. The province moved to permanent Pacific time, UTC-7, after the March change, so nothing moves on Sunday in Castlegar, Nelson or Trail.\n\nThe sun sets in Castlegar at about 5:33 tonight, so the porch lights will be on early. The trade comes in December, with sunset around 4:54 instead of 3:54, and darker mornings. I'll take the extra light after work.\n\nWashington and Idaho still fall back on Sunday, so from then on Spokane is an hour behind BC. Worth knowing if you're driving down, or booking anything across the line.\n\nWhat's the best trick-or-treat street in your town?\n\n#NelsonBC #TrailBC #KootenayLife #Halloween #KootenayMade",
-    "status": "pending",
-    "image": "images/place-halloween-20261031-01.jpg"
+    "status": "published",
+    "image": "images/place-halloween-20261031-01.jpg",
+    "media_id": "18343454875287590",
+    "published_at": "2026-10-31T17:56:09.851Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "122132561930844963",
+    "fb_posted_at": "2026-10-31T17:56:14.590Z"
   },
   {
     "id": "2026-11-01-turn-facebook",
