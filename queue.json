@@ -2878,8 +2878,13 @@
     "id": "2026-11-01-turn-facebook",
     "publish_at": "2026-11-01T15:00:00Z",
     "caption": "Is a Facebook page enough for your business?\n\nFor a while, it can be. If your regulars already know you and the referrals keep coming, a page and a phone number go a long way.\n\nIt gets harder when strangers have to trust you first. Someone searching \"electrician in Trail\" gets the businesses with a page for that job in that town, and they call one of those.\n\nHere's what a first website with me looks like. The Trailhead is $2,000, with three custom page designs and a starter mark, so a business starting from nothing looks finished on day one. The first step is a short style questionnaire I send you. You get a live preview link in the first week. The whole build typically takes 2 to 3 weeks from when I have what I need. The domain is registered in your name from the start.\n\nIf you'd rather spread it out, it's $500 at signing and 12 monthly payments of $142, $2,204 in total.\n\nStart here: kootenaymade.ca/services/websites\n\n#TrailBC #SmallBusinessBC #NewBusiness #SmallBusinessWebsite #KootenayMade",
-    "status": "pending",
-    "image": "images/turn-facebook-20261101-01.jpg"
+    "status": "published",
+    "image": "images/turn-facebook-20261101-01.jpg",
+    "media_id": "18028844219917296",
+    "published_at": "2026-11-01T18:50:26.799Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "122132696198844963",
+    "fb_posted_at": "2026-11-01T18:50:34.204Z"
   },
   {
     "id": "2026-11-02-save-domain",
@@ -3159,7 +3164,7 @@
     "account": "lapphund",
     "publish_at": "2026-11-01T16:00:00Z",
     "caption": "Six winter names for a Finnish dog, and what they mean.\n\nLumi is snow, Talvi is winter, Sisu is the grit this breed was built from. Sixty more, with meanings, in the names guide on lapphunddesigns.com.\n\nWhat's your Lappy called, and is there a story behind it?\n.\n.\n#FinnishLapphund #DogNames #suomenlapinkoira #Lapphund #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261101-01.jpg",
@@ -3170,6 +3175,9 @@
       "images/ld-20261101-06.jpg",
       "images/ld-20261101-07.jpg",
       "images/ld-20261101-08.jpg"
-    ]
+    ],
+    "media_id": "18014258156989770",
+    "published_at": "2026-11-01T18:52:01.838Z",
+    "verified_account": "lapphunddesigns"
   }
 ]
