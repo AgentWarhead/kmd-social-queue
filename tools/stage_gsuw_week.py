@@ -33,6 +33,21 @@ for p in parse(week):
     kind, name, _ = MEDIA[p["date"]]
     slug = re.sub(r"[^a-z0-9]+", "-", p["head"].split(" · ")[1].lower()).strip("-")
     pid = "gsuw-%s-%s" % (date, slug)
+    if kind == "carousel":
+        rels = ["media/%s-%d.jpg" % (pid, i) for i in range(1, len(name) + 1)]
+        srcs = [os.path.join(IMG, n) for n in name]
+        if "--write" in sys.argv:
+            for s, r in zip(srcs, rels):
+                shutil.copy(s, os.path.join(ROOT, r))
+        files = [os.path.join(ROOT, r) if "--write" in sys.argv else s for s, r in zip(srcs, rels)]
+        igcap = p["ig"] + "\n\n" + p["ig_tags"]
+        fbcap = (p["fb"] if p["fb"] is not None else p["ig"]) + ("\n\n" + p["fb_tags"] if p["fb_tags"] else "")
+        entries.append({"id": pid, "account": "gsuw", "publish_at": "%sT%s:00Z" % (date, IG_TIME), "caption": igcap, "status": "pending",
+                        "fb_skipped": "scheduled natively on the Global Symphony for a United World page", "images": rels})
+        plan.append({"when": "%sT%s:00Z" % (date, FB_TIME), "file": files[0], "files": files, "message": fbcap})
+        print("%-52s %s  ig tags %d  fb tags %d  carousel of %d" % (pid, entries[-1]["publish_at"], len(re.findall(r"#\w+", igcap)),
+                                                                   len(re.findall(r"#\w+", fbcap)), len(rels)))
+        continue
     if kind == "video":
         srcfile = os.path.join(REELS, FULL[name])
         rel = "media/%s.mp4" % pid
