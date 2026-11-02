@@ -16,11 +16,13 @@ STORY_TIME = "18:00"  # stories after the day's post; the per-brand 45 minute fl
 STORIES = os.path.join(SOC, "2026-10-Brett-only", "stories")
 
 week = int(sys.argv[sys.argv.index("--week") + 1])
-src = io.open(os.path.join(SOC, "build-review.py"), encoding="utf-8").read()
-ns = {"__file__": os.path.join(SOC, "build-review.py"), "__name__": "br"}
-exec(compile(src[:src.index("def assemble(")], "build-review.py", "exec"), ns)
+month = sys.argv[sys.argv.index("--month") + 1] if "--month" in sys.argv else "2026-10"  # --month 2026-11 reads November
+builder = {"2026-10": "build-review.py", "2026-11": "build-review-nov.py"}[month]
+src = io.open(os.path.join(SOC, builder), encoding="utf-8").read()
+ns = {"__file__": os.path.join(SOC, builder), "__name__": "br"}
+exec(compile(src[:src.index("def assemble(")], builder, "exec"), ns)
 parse, MEDIA, FULL, IMG = ns["parse"], ns["MEDIA"], ns["FULL"], ns["IMG"]
-REELS = os.path.join(SOC, "2026-10-Brett-only", "reels")
+REELS = os.path.join(SOC, month + "-Brett-only", "reels")
 MONTHS = {"Oct": 10, "Nov": 11, "Dec": 12}
 
 entries, plan = [], []
