@@ -3512,5 +3512,23 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "image": "media/gsuw-2026-11-27-save-the-date.jpg"
+  },
+  {
+    "id": "ks-2026-11-16-christmas",
+    "account": "slate",
+    "publish_at": "2026-11-16T17:00:00Z",
+    "image": "media/ks-2026-11-16-christmas.jpg",
+    "caption": "Christmas in the Kootenays is on one page.\n\nCastlegar's Brilliant Christmas Market is Nov 21, the Invermere Light Up Parade is Nov 28, and Cranbrook has its Santa Claus Parade and The Nutcracker on Dec 5.\n\nMarkets, kids' outings and shows are sorted for you. Pin the ones you want and send your plan in one link.\n\nPlan your Christmas at kootenayslate.ca/christmas\n\n#Christmas #ChristmasMarket #CastlegarBC #CranbrookBC #KootenaySlate",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+  },
+  {
+    "id": "ks-2026-11-16-christmas-story",
+    "account": "slate",
+    "publish_at": "2026-11-16T17:00:00Z",
+    "story": "media/ks-2026-11-16-christmas-story.jpg",
+    "caption": "Christmas in the Kootenays, the story echo of the post. #KootenaySlate",
+    "status": "pending",
+    "fb_skipped": "an instagram story; nothing goes to facebook"
   }
 ]
