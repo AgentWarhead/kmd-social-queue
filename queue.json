@@ -3031,18 +3031,24 @@
     "account": "gsuw",
     "publish_at": "2026-11-03T15:30:00Z",
     "caption": "Out of Hiding\nAn oil print by Frantisek, new to our collection.\n\nThree faces slowly emerge from murky water.\n\nEach is a step out of fear, a release from judgment, until a soul finally embraces its own light.\n\nPerhaps there is a part of each of us still waiting for that kind of courage.\n\nWhen a print finds a home, it helps make our free gatherings possible.\n\nThe link is in our bio.\n\n#ArtEmbracingAwareness #SlocanValley #OilPrint #CanadianArtist #Courage",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-03-one-work.jpg"
+    "image": "media/gsuw-2026-11-03-one-work.jpg",
+    "media_id": "18078344720558480",
+    "published_at": "2026-11-03T17:15:27.119Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-03-photo",
     "account": "lapphund",
     "publish_at": "2026-11-03T16:00:00Z",
     "caption": "First snow on the deck, and two very different opinions about it.\n\nTimber would like to go back inside. Tundra has already dug in.\n\nHas the first snow reached your Lappy yet? Tell us where you are.\n.\n.\n#FinnishLapphund #SnowDog #finsklapphund #LappyLife #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
-    "image": "images/ld-20261103.jpg"
+    "image": "images/ld-20261103.jpg",
+    "media_id": "18083554454347451",
+    "published_at": "2026-11-03T17:15:42.509Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-03-film",
@@ -3050,8 +3056,11 @@
     "publish_at": "2026-11-03T17:00:00Z",
     "image": "media/ks-2026-11-03-film.jpg",
     "caption": "Four film nights before the snow flies.\n\nThe ski film A Luxurious Experience screens in Fernie on Friday. Fort Steele shows All Quiet on the Western Front on Sunday. Trail hosts the BroadKAST Film Festival next Thursday, and Invermere's 13th annual Wild & Scenic Film Festival is two days later.\n\nEvery screening is on kootenayslate.ca\n\n#FilmFestival #FernieBC #TrailBC #InvermereBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17949030357346682",
+    "published_at": "2026-11-03T17:15:56.889Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "kl-2026-11-03-drawer-grand-forks-heating",
@@ -3060,7 +3069,10 @@
     "caption": "When the furnace quits on a cold night, you won't want to start searching.\n\nHere are the 7 heating and cooling companies in Grand Forks on the List: 49th Parallel Construction, Access Plumbing Heating, Boundary Hearth and Home, Clean Current Electric, Oasis Refrigeration, Romaine Industries and WD Sheet Metal.\n\nSave this now, so it's there when you need it.\n\nkootenaylist.ca/hvac-heating/grand-forks\n.\n.\n#GrandForksBC #BoundaryCountry #HomeHeating #ShopLocalBC #SupportLocal",
     "status": "pending",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-11-03-drawer-grand-forks-heating.jpg"
+    "image": "media/kl-2026-11-03-drawer-grand-forks-heating.jpg",
+    "attempts": 1,
+    "error": "Media ID is not available",
+    "next_try": "2026-11-03T17:30:20.146Z"
   },
   {
     "id": "2026-11-03-stump-hall",
