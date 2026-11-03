@@ -3067,12 +3067,13 @@
     "account": "list",
     "publish_at": "2026-11-03T17:00:00Z",
     "caption": "When the furnace quits on a cold night, you won't want to start searching.\n\nHere are the 7 heating and cooling companies in Grand Forks on the List: 49th Parallel Construction, Access Plumbing Heating, Boundary Hearth and Home, Clean Current Electric, Oasis Refrigeration, Romaine Industries and WD Sheet Metal.\n\nSave this now, so it's there when you need it.\n\nkootenaylist.ca/hvac-heating/grand-forks\n.\n.\n#GrandForksBC #BoundaryCountry #HomeHeating #ShopLocalBC #SupportLocal",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
     "image": "media/kl-2026-11-03-drawer-grand-forks-heating.jpg",
     "attempts": 1,
-    "error": "Media ID is not available",
-    "next_try": "2026-11-03T17:30:20.146Z"
+    "media_id": "18117253691118085",
+    "published_at": "2026-11-03T22:22:58.667Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "2026-11-03-stump-hall",
