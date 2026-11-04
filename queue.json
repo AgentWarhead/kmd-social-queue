@@ -3259,13 +3259,22 @@
     ]
   },
   {
-    "id": "ld-2026-11-07-still",
+    "id": "ld-2026-11-07-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-07T16:00:00Z",
-    "caption": "Smiling because I did something.\n\nA tricolour Lappy grinning beside a toppled Christmas tree. Nobody saw anything. It's one of the sixty new Christmas tees.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasTee #finsklapphund #FunnyDogShirt #LapphundDesigns",
+    "caption": "40 new Christmas sweatshirts are in.\n\nA fair isle Christmas jumper for every Lappy coat, plus Lapland After Dark, Après Ski and Hyvää Joulua, and small, sweet ones like Bows and Paws. Soft crewnecks in nine colours. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasSweatshirt #suomenlapinkoira #DogMomGift #LapphundDesigns",
     "status": "pending",
     "fb_skipped": true,
-    "image": "images/ld-20261107-01.jpg"
+    "images": [
+      "images/ld-20261107-sweat-01.jpg",
+      "images/ld-20261107-sweat-02.jpg",
+      "images/ld-20261107-sweat-03.jpg",
+      "images/ld-20261107-sweat-04.jpg",
+      "images/ld-20261107-sweat-05.jpg",
+      "images/ld-20261107-sweat-06.jpg",
+      "images/ld-20261107-sweat-07.jpg",
+      "images/ld-20261107-sweat-08.jpg"
+    ]
   },
   {
     "id": "2026-11-08-turn-onefix",
@@ -3408,19 +3417,18 @@
     "id": "ld-2026-11-12-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-12T16:00:00Z",
-    "caption": "Seven things to know before the first snow.\n\nSnowshoe toes, the snowballs in the feathering, road salt, and why the coat is never shaved. All from the cold and hot weather guide on lapphunddesigns.com.\n\nSave this one for the first big dump.\n.\n.\n#FinnishLapphund #DogCare #finsklapphund #WinterWithDogs #LapphundDesigns",
+    "caption": "40 new Lappy hoodies are in.\n\nThese are made for the whole winter: a little ski run sign for every coat, Lapland scenes like Revontulet and Kaamos, and coat jokes like Built-In Hoodie. Nine colours, S to 3XL. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogHoodie #suomenlapinkoira #finsklapphund #LapphundDesigns",
     "status": "pending",
     "fb_skipped": true,
     "images": [
-      "images/ld-20261112-01.jpg",
-      "images/ld-20261112-02.jpg",
-      "images/ld-20261112-03.jpg",
-      "images/ld-20261112-04.jpg",
-      "images/ld-20261112-05.jpg",
-      "images/ld-20261112-06.jpg",
-      "images/ld-20261112-07.jpg",
-      "images/ld-20261112-08.jpg",
-      "images/ld-20261112-09.jpg"
+      "images/ld-20261112-hood-01.jpg",
+      "images/ld-20261112-hood-02.jpg",
+      "images/ld-20261112-hood-03.jpg",
+      "images/ld-20261112-hood-04.jpg",
+      "images/ld-20261112-hood-05.jpg",
+      "images/ld-20261112-hood-06.jpg",
+      "images/ld-20261112-hood-07.jpg",
+      "images/ld-20261112-hood-08.jpg"
     ]
   },
   {
@@ -3495,6 +3503,15 @@
     ]
   },
   {
+    "id": "ld-2026-11-16-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-16T16:00:00Z",
+    "caption": "Smiling because I did something.\n\nA tricolour Lappy grinning beside a toppled Christmas tree. Nobody saw anything. It's one of the sixty new Christmas tees.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasTee #finsklapphund #FunnyDogShirt #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261107-01.jpg"
+  },
+  {
     "id": "ks-2026-11-16-christmas",
     "account": "slate",
     "publish_at": "2026-11-16T17:00:00Z",
@@ -3522,6 +3539,25 @@
     "image": "media/gsuw-2026-11-17-a-writing.jpg"
   },
   {
+    "id": "ld-2026-11-17-carousel",
+    "account": "lapphund",
+    "publish_at": "2026-11-17T16:00:00Z",
+    "caption": "Seven things to know before the first snow.\n\nSnowshoe toes, the snowballs in the feathering, road salt, and why the coat is never shaved. All from the cold and hot weather guide on lapphunddesigns.com.\n\nSave this one for the first big dump.\n.\n.\n#FinnishLapphund #DogCare #finsklapphund #WinterWithDogs #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "images": [
+      "images/ld-20261112-01.jpg",
+      "images/ld-20261112-02.jpg",
+      "images/ld-20261112-03.jpg",
+      "images/ld-20261112-04.jpg",
+      "images/ld-20261112-05.jpg",
+      "images/ld-20261112-06.jpg",
+      "images/ld-20261112-07.jpg",
+      "images/ld-20261112-08.jpg",
+      "images/ld-20261112-09.jpg"
+    ]
+  },
+  {
     "id": "gsuw-2026-11-18-the-gift",
     "account": "gsuw",
     "publish_at": "2026-11-18T15:30:00Z",
@@ -3531,6 +3567,15 @@
     "video": "media/gsuw-2026-11-18-the-gift.mp4"
   },
   {
+    "id": "ld-2026-11-18-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-18T16:00:00Z",
+    "caption": "Lapland After Dark.\n\nA black Lappy under the northern lights on a navy badge. It's one of the 40 new Christmas sweatshirts.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasSweatshirt #finsklapphund #NorthernLights #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261118-01.jpg"
+  },
+  {
     "id": "gsuw-2026-11-19-membership",
     "account": "gsuw",
     "publish_at": "2026-11-19T15:30:00Z",
@@ -3538,6 +3583,15 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "image": "media/gsuw-2026-11-19-membership.jpg"
+  },
+  {
+    "id": "ld-2026-11-19-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-19T16:00:00Z",
+    "caption": "Powder day.\n\nThe morning after a big snowfall, and the black Lappy got to it first. It's one of the 40 new hoodies.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #PowderDay #suomenlapinkoira #SnowDog #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261119-01.jpg"
   },
   {
     "id": "gsuw-2026-11-20-kind-words",
