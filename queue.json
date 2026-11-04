@@ -3092,24 +3092,32 @@
     "id": "2026-11-04-person-update",
     "publish_at": "2026-11-04T15:00:00Z",
     "caption": "A trades owner asked me this summer: \"Is it easy to update?\"\n\nThey only wanted to add a few photos once a year. It's a fair question, because nobody wants a website they can't touch, then a bill every time a phone number changes.\n\nHere's how I handle it. Small fixes to a live site, like a typo, a new phone number or a broken link, are free on every plan, including the free one. Bigger changes are $75 an hour for care work, or come inside a support plan if you have one.\n\nWhat's the one thing you'd change on your website today if it were easy?\n\n#WestKootenay #ShopLocalBC #ContractorLife #BehindTheBusiness #KootenayMade",
-    "status": "pending",
-    "image": "images/person-update-20261104-01.jpg"
+    "status": "published",
+    "image": "images/person-update-20261104-01.jpg",
+    "media_id": "18037867805891722",
+    "published_at": "2026-11-04T17:55:33.142Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "122133064892844963",
+    "fb_posted_at": "2026-11-04T17:55:37.444Z"
   },
   {
     "id": "gsuw-2026-11-04-the-first-note",
     "account": "gsuw",
     "publish_at": "2026-11-04T15:30:00Z",
     "caption": "“On Sunday, March 1st, 2025, a quiet yet powerful beginning took place.”\n\nThat is how our story begins, in the voice of Randy Morse: the evening Global Symphony for a United World first opened its doors, by candlelight, among friends.\n\n“It was a first note in a larger symphony, a gentle promise of the work to come.”\n\nEveryone who has joined us since is part of that symphony. Membership is free, and your name becomes part of the circle.\n\nIf you would like to join us, the link is in our bio.\n\n#GlobalSymphonyForAUnitedWorld #SlocanValley #Kootenays #CommunityArts #Belonging",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "video": "media/gsuw-2026-11-04-the-first-note.mp4"
+    "video": "media/gsuw-2026-11-04-the-first-note.mp4",
+    "media_id": "18011128223777789",
+    "published_at": "2026-11-04T17:56:11.842Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-04-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-04T16:00:00Z",
     "caption": "Sixty new Christmas tees are in.\n\nForty funny ones, from The Turkey Was Unattended to I Am the Sweater, and twenty smaller, simpler designs like Santa's Favourite and Hyvää Joulua. Every Lappy coat is in there somewhere, on eight shirt colours. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasShirt #suomenlapinkoira #DogMomGift #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261104-01.jpg",
@@ -3120,7 +3128,10 @@
       "images/ld-20261104-06.jpg",
       "images/ld-20261104-07.jpg",
       "images/ld-20261104-08.jpg"
-    ]
+    ],
+    "media_id": "17874417570641711",
+    "published_at": "2026-11-04T17:57:24.270Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-04-lineup-reel",
@@ -3129,18 +3140,24 @@
     "video": "media/ks-2026-11-04-lineup-reel.mp4",
     "cover": "media/ks-2026-11-04-lineup-reel-cover.jpg",
     "caption": "Every local calendar in the Kootenays, on one wall.\n\nThe Slate reads more than 70 calendars most mornings, from Live Music Nelson and Key City Theatre to the libraries, the arts councils and the ski hills. Every event lands on one wall you can browse by town, by day or by what's on.\n\nFree, and no account. kootenayslate.ca\n\n#Kootenays #ThingsToDo #NelsonBC #CranbrookBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17905226643408019",
+    "published_at": "2026-11-04T17:58:14.525Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "kl-2026-11-04-drawer-kaslo-cafes",
     "account": "list",
     "publish_at": "2026-11-04T17:00:00Z",
     "caption": "Here's every café in Kaslo, all on one page.\n\nBlueBelle Bistro, Hazey Daze Parlour, Teresa's and The Treehouse Restaurant. That's four cafés in a village of 1,049 people.\n\nTag the friend you'd meet for coffee in Kaslo.\n\nkootenaylist.ca/cafes-coffee/kaslo\n.\n.\n#KasloBC #KootenayLake #CoffeeTime #ShopLocalBC #SupportLocal",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
     "video": "media/kl-2026-11-04-drawer-kaslo-cafes.mp4",
-    "cover": "media/kl-2026-11-04-drawer-kaslo-cafes-cover.jpg"
+    "cover": "media/kl-2026-11-04-drawer-kaslo-cafes-cover.jpg",
+    "media_id": "18348073210250729",
+    "published_at": "2026-11-04T17:58:52.734Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "2026-11-05-builthere-lapphund",
