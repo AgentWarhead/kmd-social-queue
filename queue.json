@@ -3163,18 +3163,26 @@
     "id": "2026-11-05-builthere-lapphund",
     "publish_at": "2026-11-05T15:00:00Z",
     "caption": "Pick your dog's coat once. The whole store follows.\n\nLapphund Designs is the Shopify store my wife Jill and I run from Castlegar for Finnish Lapphund owners, and I wrote its theme from scratch. Lapphunds come in a lot of coat colours, and an owner wants designs that look like their own dog. So the first tap picks the coat, and the full catalogue and the mugs then lead with the designs that match it.\n\nIf people buy what you make because they love it, a store can lead with what they love too. The Storefront is my custom Shopify build at $5,500, with up to 50 products at launch on a theme made for your store: kootenaymade.ca/services/shopify\n\n#CastlegarBC #ShopLocalBC #ShopifyStore #WebDesign #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "video": "media/builthere-lapphund-20261105.mp4",
-    "cover": "media/builthere-lapphund-20261105-cover.jpg"
+    "cover": "media/builthere-lapphund-20261105-cover.jpg",
+    "media_id": "18117361778519296",
+    "published_at": "2026-11-05T19:02:30.870Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "972789322182589",
+    "fb_posted_at": "2026-11-05T19:02:36.243Z"
   },
   {
     "id": "gsuw-2026-11-05-kind-words",
     "account": "gsuw",
     "publish_at": "2026-11-05T15:30:00Z",
     "caption": "“Global Symphony for a United World plays an important role in fostering positive change in the world.”\n\nWe were deeply moved when Renee Phillips of The Healing Power of ART & ARTISTS included us in her series of World Changers.\n\nOf Frantisek’s art, she wrote: “His subjects transcend their physical qualities and evoke an immediate visceral response in the viewer.”\n\nWords like these remind us why this work matters to us: bringing people together through art, so that healing can begin within.\n\nMore about our work is through the link in our bio.\n\n#ArtEmbracingAwareness #HealingThroughArt #Kootenays #SlocanValley #ArtForChange",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-05-kind-words.jpg"
+    "image": "media/gsuw-2026-11-05-kind-words.jpg",
+    "media_id": "17930552487181376",
+    "published_at": "2026-11-05T19:02:45.734Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-05-reel",
@@ -3183,8 +3191,11 @@
     "video": "images/ld-timber-tundra-s2e02.mp4",
     "cover": "images/ld-timber-tundra-s2e02-cover.jpg",
     "caption": "The snowman had a carrot for about eight seconds.\n\nTundra waited for Uncle Timber to look away. Uncle Timber had his own ideas about the scarf.\n\nEpisode 2 of the winter season. Has your Lappy ever robbed a snowman?\n.\n.\n#FinnishLapphund #Snowman #finsklapphund #Lapphund #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18121089661985819",
+    "published_at": "2026-11-05T19:03:21.951Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-05-highway-reel",
@@ -3193,17 +3204,23 @@
     "video": "media/ks-2026-11-05-highway-reel.mp4",
     "cover": "media/ks-2026-11-05-highway-reel-cover.jpg",
     "caption": "Drive Highway 3 this weekend and nearly every town you pass has something on.\n\nThere's hockey in Grand Forks, Creston and Fernie, and roller derby in Castlegar. Catch Meisha and the Spanks at the Royal in Nelson, Sunday blues in Crawford Bay, Moontricks in Cranbrook and the ski swap in Fernie. Off the highway, Invermere, Kimberley and Kaslo add theirs.\n\nThe whole weekend is on kootenayslate.ca\n\n#ThisWeekend #NelsonBC #CranbrookBC #FernieBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18110102582616469",
+    "published_at": "2026-11-05T19:04:03.312Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "kl-2026-11-05-data-gift-shops",
     "account": "list",
     "publish_at": "2026-11-05T17:00:00Z",
     "caption": "Start your Christmas shopping close to home.\n\nThe List has 40 gift shops across 20 Kootenay towns. Creston and Nelson have the most, with 6 each. Kaslo has 4. Even Yahk has 2.\n\nFind the ones near you: kootenaylist.ca/gift-shops\n.\n.\n#Kootenays #ChristmasShopping #ShopSmall #ShopLocalBC #SupportLocal",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-11-05-data-gift-shops.jpg"
+    "image": "media/kl-2026-11-05-data-gift-shops.jpg",
+    "media_id": "18083196626356190",
+    "published_at": "2026-11-05T19:04:12.450Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "gsuw-2026-11-06-wearable-art",
