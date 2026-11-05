@@ -3343,13 +3343,22 @@
     "image": "media/gsuw-2026-11-09-the-valley.jpg"
   },
   {
-    "id": "ld-2026-11-09-photo",
+    "id": "ld-2026-11-09-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-09T16:00:00Z",
-    "caption": "Chest-deep and not coming out.\n\nTundra, every single snowfall.\n\nDoes your Lappy wade in, or wait on the trail?\n.\n.\n#FinnishLapphund #WinterDog #suomenlapinkoira #DogsOfInstagram #LapphundDesigns",
+    "caption": "27 Lappy puzzles are in.\n\nField guides, stained glass, a seek and find, a Christmas village and a sauna full of dogs, each with all seven Lappy coats in the picture. Plus Home by the Fire, one Lappy in each coat. In 252, 500 or 1000 pieces, packed in a tin and made to frame. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #JigsawPuzzle #suomenlapinkoira #PuzzleLover #LapphundDesigns",
     "status": "pending",
     "fb_skipped": true,
-    "image": "images/ld-20261109.jpg"
+    "images": [
+      "images/ld-20261109-puz-01.jpg",
+      "images/ld-20261109-puz-02.jpg",
+      "images/ld-20261109-puz-03.jpg",
+      "images/ld-20261109-puz-04.jpg",
+      "images/ld-20261109-puz-05.jpg",
+      "images/ld-20261109-puz-06.jpg",
+      "images/ld-20261109-puz-07.jpg",
+      "images/ld-20261109-puz-08.jpg"
+    ]
   },
   {
     "id": "ks-2026-11-09-markets",
@@ -3689,6 +3698,25 @@
     "image": "media/gsuw-2026-11-23-the-books.jpg"
   },
   {
+    "id": "ld-2026-11-23-carousel",
+    "account": "lapphund",
+    "publish_at": "2026-11-23T16:00:00Z",
+    "caption": "Home by the Fire, in your Lappy's coat.\n\nOne Lappy on a rag rug by the wood stove, socks drying on the line and frost on the window. It comes in all seven coats, so you can pick the one that looks like yours. Which one is yours?\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogPuzzle #finsklapphund #DogMomGift #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "images": [
+      "images/ld-20261123-coat-01.jpg",
+      "images/ld-20261123-coat-02.jpg",
+      "images/ld-20261123-coat-03.jpg",
+      "images/ld-20261123-coat-04.jpg",
+      "images/ld-20261123-coat-05.jpg",
+      "images/ld-20261123-coat-06.jpg",
+      "images/ld-20261123-coat-07.jpg",
+      "images/ld-20261123-coat-08.jpg",
+      "images/ld-20261123-coat-09.jpg"
+    ]
+  },
+  {
     "id": "gsuw-2026-11-24-thank-you",
     "account": "gsuw",
     "publish_at": "2026-11-24T15:30:00Z",
@@ -3698,6 +3726,15 @@
     "image": "media/gsuw-2026-11-24-thank-you.jpg"
   },
   {
+    "id": "ld-2026-11-24-photo",
+    "account": "lapphund",
+    "publish_at": "2026-11-24T16:00:00Z",
+    "caption": "Chest-deep and not coming out.\n\nTundra, every single snowfall.\n\nDoes your Lappy wade in, or wait on the trail?\n.\n.\n#FinnishLapphund #WinterDog #suomenlapinkoira #DogsOfInstagram #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261109.jpg"
+  },
+  {
     "id": "gsuw-2026-11-25-thirty-seconds",
     "account": "gsuw",
     "publish_at": "2026-11-25T15:30:00Z",
@@ -3705,6 +3742,15 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "video": "media/gsuw-2026-11-25-thirty-seconds.mp4"
+  },
+  {
+    "id": "ld-2026-11-25-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-25T16:00:00Z",
+    "caption": "Seven Lappies are hiding in this one.\n\nLapland Seek and Find: a winter camp with reindeer, a kota hut, ice fishing and a snowman, and one Lappy of every coat tucked into the scene. A jigsaw puzzle in 252, 500 or 1000 pieces. How fast can you find all seven?\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #SeekAndFind #suomenlapinkoira #JigsawPuzzle #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261125-01.jpg"
   },
   {
     "id": "gsuw-2026-11-26-wearable-art",
