@@ -3520,13 +3520,22 @@
     ]
   },
   {
-    "id": "ld-2026-11-16-still",
+    "id": "ld-2026-11-16-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-16T16:00:00Z",
-    "caption": "Smiling because I did something.\n\nA tricolour Lappy grinning beside a toppled Christmas tree. Nobody saw anything. It's one of the sixty new Christmas tees.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasTee #finsklapphund #FunnyDogShirt #LapphundDesigns",
+    "caption": "20 new Lappy ornaments are in.\n\nGlossy ceramic, printed on both sides, in a circle, star or snowflake. There's a wreath and a Christmas 2026 ornament for every Lappy coat, plus Puppy's First Christmas, Hyvää Joulua and more. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasOrnament #finsklapphund #DogLoverGift #LapphundDesigns",
     "status": "pending",
     "fb_skipped": true,
-    "image": "images/ld-20261107-01.jpg"
+    "images": [
+      "images/ld-20261116-orn-01.jpg",
+      "images/ld-20261116-orn-02.jpg",
+      "images/ld-20261116-orn-03.jpg",
+      "images/ld-20261116-orn-04.jpg",
+      "images/ld-20261116-orn-05.jpg",
+      "images/ld-20261116-orn-06.jpg",
+      "images/ld-20261116-orn-07.jpg",
+      "images/ld-20261116-orn-08.jpg"
+    ]
   },
   {
     "id": "ks-2026-11-16-christmas",
@@ -3618,6 +3627,40 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "image": "media/gsuw-2026-11-20-kind-words.jpg"
+  },
+  {
+    "id": "ld-2026-11-20-carousel",
+    "account": "lapphund",
+    "publish_at": "2026-11-20T16:00:00Z",
+    "caption": "A Lappy Christmas, four ways.\n\nA tee for the porch pirate, a sweatshirt for snowflake patrol, a fair isle mug and an ornament for the tree. There are 157 Christmas designs on the store, in every coat, with free shipping over $75 to 43 countries.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasGiftIdeas #suomenlapinkoira #DogMomGift #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "images": [
+      "images/ld-20261120-four-01.jpg",
+      "images/ld-20261120-four-02.jpg",
+      "images/ld-20261120-four-03.jpg",
+      "images/ld-20261120-four-04.jpg",
+      "images/ld-20261120-four-05.jpg",
+      "images/ld-20261120-four-06.jpg"
+    ]
+  },
+  {
+    "id": "ld-2026-11-21-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-21T16:00:00Z",
+    "caption": "Smiling because I did something.\n\nA tricolour Lappy grinning beside a toppled Christmas tree. Nobody saw anything. It's one of the sixty new Christmas tees.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasTee #finsklapphund #FunnyDogShirt #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261107-01.jpg"
+  },
+  {
+    "id": "ld-2026-11-22-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-22T16:00:00Z",
+    "caption": "Our First Christmas.\n\nA keepsake ornament for your first Christmas together, dog included. A sable Lappy in a pine wreath, printed on both sides, in a circle, star or snowflake.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #FirstChristmas #finsklapphund #ChristmasOrnament #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261122-01.jpg"
   },
   {
     "id": "gsuw-2026-11-23-the-books",
