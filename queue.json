@@ -3628,13 +3628,22 @@
     "video": "media/gsuw-2026-11-18-the-gift.mp4"
   },
   {
-    "id": "ld-2026-11-18-still",
+    "id": "ld-2026-11-18-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-18T16:00:00Z",
-    "caption": "Lapland After Dark.\n\nA black Lappy under the northern lights on a navy badge. It's one of the 40 new Christmas sweatshirts.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasSweatshirt #finsklapphund #NorthernLights #LapphundDesigns",
+    "caption": "21 Lappy blankets are in.\n\nAll seven coats under the northern lights, round the tree on Christmas morning and out on the cabin porch, plus Nordic knit looks from Fair Isle to a star medallion. Every blanket has a printed front and a soft sherpa back, in 37 x 57, 50 x 60 or 60 x 80 inches. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #SherpaBlanket #suomenlapinkoira #DogLoverGift #LapphundDesigns",
     "status": "pending",
     "fb_skipped": true,
-    "image": "images/ld-20261118-01.jpg"
+    "images": [
+      "images/ld-20261118-shp-01.jpg",
+      "images/ld-20261118-shp-02.jpg",
+      "images/ld-20261118-shp-03.jpg",
+      "images/ld-20261118-shp-04.jpg",
+      "images/ld-20261118-shp-05.jpg",
+      "images/ld-20261118-shp-06.jpg",
+      "images/ld-20261118-shp-07.jpg",
+      "images/ld-20261118-shp-08.jpg"
+    ]
   },
   {
     "id": "gsuw-2026-11-19-membership",
@@ -3815,5 +3824,42 @@
     "caption": "Merry Christmas, Mom. Love, the Lappy.\n\nThe Christmas gift from the dog, signed with a paw print. It's one of the 37 new Christmas mugs.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasGift #finsklapphund #DogMom #LapphundDesigns",
     "status": "pending",
     "fb_skipped": true
+  },
+  {
+    "id": "ld-2026-11-29-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-29T16:00:00Z",
+    "caption": "Lapland After Dark.\n\nA black Lappy under the northern lights on a navy badge. It's one of the 40 new Christmas sweatshirts.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasSweatshirt #finsklapphund #NorthernLights #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261118-01.jpg"
+  },
+  {
+    "id": "ld-2026-11-30-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-30T16:00:00Z",
+    "caption": "Bred to herd reindeer.\n\nSeven Lappies in every coat moving a reindeer herd across a sunny fell, printed on a sherpa blanket. The breed was made for this job in Lapland, and now it can keep you warm on the couch.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #HerdingDog #finsklapphund #CozyBlanket #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261130-01.jpg"
+  },
+  {
+    "id": "ld-2026-12-01-carousel",
+    "account": "lapphund",
+    "publish_at": "2026-12-01T16:00:00Z",
+    "caption": "Seven coats in seven winter scenes.\n\nA tricolour Lappy at sunrise on the fell, wolf sable in the birches, cream under the northern lights, brown by the cabin, sable at the sauna, domino with the reindeer and black at the blue hour. Each one is a sherpa blanket. Which scene would you curl up in?\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #LapphundLove #suomenlapinkoira #SherpaBlanket #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "images": [
+      "images/ld-20261201-coat-01.jpg",
+      "images/ld-20261201-coat-02.jpg",
+      "images/ld-20261201-coat-03.jpg",
+      "images/ld-20261201-coat-04.jpg",
+      "images/ld-20261201-coat-05.jpg",
+      "images/ld-20261201-coat-06.jpg",
+      "images/ld-20261201-coat-07.jpg",
+      "images/ld-20261201-coat-08.jpg",
+      "images/ld-20261201-coat-09.jpg"
+    ]
   }
 ]
