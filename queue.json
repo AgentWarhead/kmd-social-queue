@@ -3227,16 +3227,19 @@
     "account": "gsuw",
     "publish_at": "2026-11-06T15:30:00Z",
     "caption": "Some gifts carry more than they hold.\n\nA scarf with one of Frantisek’s paintings, to wrap around someone you love. A tote that carries a little art through every day.\n\nThe scarf carries Feuilles d’Automne, and the tote carries Yellow Delicacy.\n\nEach piece is made to order in Montreal by Le Galeriste.\n\nWherever it goes, a little of that quiet goes with it.\n\nThe link is in our bio.\n\n#WearableArt #ArtEmbracingAwareness #GiftIdeas #CanadianArtist #Kootenays",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-06-wearable-art.jpg"
+    "image": "media/gsuw-2026-11-06-wearable-art.jpg",
+    "media_id": "17970513297194794",
+    "published_at": "2026-11-06T20:55:56.629Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-06-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-06T16:00:00Z",
     "caption": "Seven colours, one breed.\n\nBlack and tan is the one most people picture, but a Finnish Lapphund can be wolf sable, brown, cream, sable, domino or solid black. Swipe for all seven; the standards and the genetics are in the colour guide on lapphunddesigns.com.\n\nWhich coat is yours?\n.\n.\n#FinnishLapphund #DogBreeds #lapinkoira #Lapphund #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261106-01.jpg",
@@ -3248,7 +3251,10 @@
       "images/ld-20261106-07.jpg",
       "images/ld-20261106-08.jpg",
       "images/ld-20261106-09.jpg"
-    ]
+    ],
+    "media_id": "18108117851118654",
+    "published_at": "2026-11-06T20:56:46.046Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-06-tonight",
@@ -3256,17 +3262,23 @@
     "publish_at": "2026-11-06T17:00:00Z",
     "image": "media/ks-2026-11-06-tonight.jpg",
     "caption": "Tonight in Nelson: a community contra barn dance.\n\nIt runs 6:30 to 9 pm at the North Shore Hall, with live music and a live caller. No partner needed. Adults are $15, youth 10 to 17 are $10, and kids under 8 get in free. Bring water and a few layers, because you'll warm up.\n\nDetails on kootenayslate.ca\n\n#NelsonBC #BarnDance #ContraDance #ThingsToDo #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18106236512533597",
+    "published_at": "2026-11-06T20:56:55.118Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "kl-2026-11-06-drawer-rossland-ski",
     "account": "list",
     "publish_at": "2026-11-06T17:00:00Z",
     "caption": "Ski season is coming to Rossland. Here's everything on the List to get you up the hill.\n\nRed Mountain Resort, Big Red Cats and Powder Creek Lodge. Plus six outdoor shops in town: Bombshack, Butch Boutry Ski Shop, Kootenay Gateway, Piste Off Supply Co, Revolution Cycles and Rossland Outdoor.\n\nkootenaylist.ca/sporting-goods-outdoor/rossland\n.\n.\n#RosslandBC #RedMountain #SkiSeason #ShopLocalBC #SupportLocal",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-11-06-drawer-rossland-ski.jpg"
+    "image": "media/kl-2026-11-06-drawer-rossland-ski.jpg",
+    "media_id": "18000464042823121",
+    "published_at": "2026-11-06T20:57:05.750Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "2026-11-06-stump-museum",
