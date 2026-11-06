@@ -3522,13 +3522,22 @@
     "fb_skipped": true
   },
   {
-    "id": "ld-2026-11-15-still",
+    "id": "ld-2026-11-15-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-15T16:00:00Z",
-    "image": "images/ld-20261115-01.jpg",
-    "caption": "Merry Christmas, Mom. Love, the Lappy.\n\nThe Christmas gift from the dog, signed with a paw print. It's one of the 37 new Christmas mugs.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasGift #finsklapphund #DogMom #LapphundDesigns",
+    "caption": "21 Lappy pillows are in.\n\nNeedlepoint-style portraits in all seven coats, script pillows for Lappy moms, and patterns from block print and toile to Fair Isle. Every pillow is printed on both sides and comes with its insert, in 14, 16, 18 or 22 inches. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ThrowPillow #suomenlapinkoira #DogLoverGift #LapphundDesigns",
     "status": "pending",
-    "fb_skipped": true
+    "fb_skipped": true,
+    "images": [
+      "images/ld-20261115-pil-01.jpg",
+      "images/ld-20261115-pil-02.jpg",
+      "images/ld-20261115-pil-03.jpg",
+      "images/ld-20261115-pil-04.jpg",
+      "images/ld-20261115-pil-05.jpg",
+      "images/ld-20261115-pil-06.jpg",
+      "images/ld-20261115-pil-07.jpg",
+      "images/ld-20261115-pil-08.jpg"
+    ]
   },
   {
     "id": "gsuw-2026-11-16-gifts-that-carry-meaning",
@@ -3762,6 +3771,25 @@
     "image": "media/gsuw-2026-11-26-wearable-art.jpg"
   },
   {
+    "id": "ld-2026-11-26-carousel",
+    "account": "lapphund",
+    "publish_at": "2026-11-26T16:00:00Z",
+    "caption": "For the Lappy mom.\n\nSeven pillows for the Lappy mom in your life: dog mom, Lappy DOG mama, home is where my Lappy is, and four more, in plum script on pink and lavender. Each one has a leopard or paw print back. Which one is hers?\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogMom #finsklapphund #DogMomGift #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "images": [
+      "images/ld-20261126-mom-01.jpg",
+      "images/ld-20261126-mom-02.jpg",
+      "images/ld-20261126-mom-03.jpg",
+      "images/ld-20261126-mom-04.jpg",
+      "images/ld-20261126-mom-05.jpg",
+      "images/ld-20261126-mom-06.jpg",
+      "images/ld-20261126-mom-07.jpg",
+      "images/ld-20261126-mom-08.jpg",
+      "images/ld-20261126-mom-09.jpg"
+    ]
+  },
+  {
     "id": "gsuw-2026-11-27-save-the-date",
     "account": "gsuw",
     "publish_at": "2026-11-27T15:30:00Z",
@@ -3769,5 +3797,23 @@
     "status": "pending",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "image": "media/gsuw-2026-11-27-save-the-date.jpg"
+  },
+  {
+    "id": "ld-2026-11-27-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-27T16:00:00Z",
+    "caption": "Cabin plaid with a Lappy patch.\n\nRust, camel and cream check with a tricolour Lappy on a stitched-look patch in the corner, printed on both sides of a throw pillow. Made for the couch from first frost to spring.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #CabinDecor #suomenlapinkoira #ThrowPillow #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true,
+    "image": "images/ld-20261127-01.jpg"
+  },
+  {
+    "id": "ld-2026-11-28-still",
+    "account": "lapphund",
+    "publish_at": "2026-11-28T16:00:00Z",
+    "image": "images/ld-20261115-01.jpg",
+    "caption": "Merry Christmas, Mom. Love, the Lappy.\n\nThe Christmas gift from the dog, signed with a paw print. It's one of the 37 new Christmas mugs.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasGift #finsklapphund #DogMom #LapphundDesigns",
+    "status": "pending",
+    "fb_skipped": true
   }
 ]
