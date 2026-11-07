@@ -3297,7 +3297,7 @@
     "id": "2026-11-07-deep-rankings",
     "publish_at": "2026-11-07T15:00:00Z",
     "caption": "Scared a new website will cost you your Google rankings?\n\nIt's the reason plenty of owners stay on a site they've outgrown. The fear is fair, because a careless move breaks every link pointing at the old pages. A careful one follows a map.\n\nList every old page address, starting with the old sitemap and the pages Search Console shows getting clicks. Pair each one with the new page that answers the same question, and set the pair up as a permanent redirect. Test every old address after launch. Then leave the redirects in place, because Google's advice is to keep them for at least a year.\n\nExpect a small dip. Some pages drop a few places for a couple of weeks, then climb back. A top page that loses nearly all its clicks and stays down usually has a missing redirect.\n\nWhen I moved Global Symphony off its old WordPress site, all 79 posts came across word for word, and the old addresses lead to their new homes.\n\nThe full guide: kootenaymade.ca/blog/change-website-platform-keep-google-rankings\n\n#WestKootenay #SmallBusinessCanada #SmallBusinessWebsite #WebsiteTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/deep-rankings-20261107-01.jpg",
       "images/deep-rankings-20261107-02.jpg",
@@ -3307,14 +3307,19 @@
       "images/deep-rankings-20261107-06.jpg",
       "images/deep-rankings-20261107-07.jpg",
       "images/deep-rankings-20261107-08.jpg"
-    ]
+    ],
+    "media_id": "18077480999765892",
+    "published_at": "2026-11-07T18:37:33.744Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122133477674844963",
+    "fb_posted_at": "2026-11-07T18:37:44.058Z"
   },
   {
     "id": "ld-2026-11-07-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-07T16:00:00Z",
     "caption": "40 new Christmas sweatshirts are in.\n\nA fair isle Christmas jumper for every Lappy coat, plus Lapland After Dark, Après Ski and Hyvää Joulua, and small, sweet ones like Bows and Paws. Soft crewnecks in nine colours. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasSweatshirt #suomenlapinkoira #DogMomGift #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261107-sweat-01.jpg",
@@ -3325,7 +3330,10 @@
       "images/ld-20261107-sweat-06.jpg",
       "images/ld-20261107-sweat-07.jpg",
       "images/ld-20261107-sweat-08.jpg"
-    ]
+    ],
+    "media_id": "18361108861217363",
+    "published_at": "2026-11-07T18:39:03.379Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "2026-11-08-turn-onefix",
