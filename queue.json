@@ -3339,14 +3339,19 @@
     "id": "2026-11-08-turn-onefix",
     "publish_at": "2026-11-08T15:00:00Z",
     "caption": "Every website has one fix that matters more than the rest.\n\nMost of the time it's small. A phone number you can't tap, hours that still say summer, a contact form that lands in spam. It's rarely the whole site.\n\nThe free 60-second check-up at kootenaymade.ca/audit grades your site on speed, search, security headers and best practices.\n\nNo website yet? Then you have nothing broken to fix. A first website begins with a conversation about what your business needs. The Trailhead is $2,000.\n\nDrop your website in the comments, and I'll reply with the one thing I'd fix first.\n\n#Kootenays #SmallBusinessBC #SmallBusinessOwner #WebsiteTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/turn-onefix-20261108-01.jpg",
       "images/turn-onefix-20261108-02.jpg",
       "images/turn-onefix-20261108-03.jpg",
       "images/turn-onefix-20261108-04.jpg",
       "images/turn-onefix-20261108-05.jpg"
-    ]
+    ],
+    "media_id": "18227309260340365",
+    "published_at": "2026-11-08T15:17:09.867Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122133585806844963",
+    "fb_posted_at": "2026-11-08T15:17:19.880Z"
   },
   {
     "id": "ld-2026-11-08-reel",
