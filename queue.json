@@ -3371,16 +3371,19 @@
     "account": "gsuw",
     "publish_at": "2026-11-09T15:30:00Z",
     "caption": "“We can just walk out and go in the forest or go by the river.”\n\nChantal, on why she and Frantisek made their home in the Slocan Valley.\n\nBeing close to the peaceful nature keeps us rooted in the moment, something that flows through everything we do: the art, the writing, and the gatherings we open to anyone who wants to join us.\n\nPerhaps you have a place like this too, somewhere you go to come back to yourself.\n\nMore about us is through the link in our bio.\n\n#SlocanValley #KootenayLife #WestKootenay #NatureConnection #ArtEmbracingAwareness",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-09-the-valley.jpg"
+    "image": "media/gsuw-2026-11-09-the-valley.jpg",
+    "media_id": "17979389004160668",
+    "published_at": "2026-11-09T21:35:51.837Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-09-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-09T16:00:00Z",
     "caption": "27 Lappy puzzles are in.\n\nField guides, stained glass, a seek and find, a Christmas village and a sauna full of dogs, each with all seven Lappy coats in the picture. Plus Home by the Fire, one Lappy in each coat. In 252, 500 or 1000 pieces, packed in a tin and made to frame. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #JigsawPuzzle #suomenlapinkoira #PuzzleLover #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261109-puz-01.jpg",
@@ -3391,7 +3394,10 @@
       "images/ld-20261109-puz-06.jpg",
       "images/ld-20261109-puz-07.jpg",
       "images/ld-20261109-puz-08.jpg"
-    ]
+    ],
+    "media_id": "17973214823986066",
+    "published_at": "2026-11-09T21:37:10.317Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-09-markets",
@@ -3399,17 +3405,23 @@
     "publish_at": "2026-11-09T17:00:00Z",
     "image": "media/ks-2026-11-09-markets.jpg",
     "caption": "Holiday market season starts this week.\n\nFernie's Jingle & Mingle Shopping Social is Thursday night. Saturday brings the Midway Holiday Craft Fair, and Nelson's Artisan and Vintage Market is on Sunday. Next Friday, Santa's Little Fall Market opens in Cranbrook and the Kootenay Artisan Fair opens in Nelson. Castlegar's Brilliant Christmas Market follows on Saturday the 21st.\n\nFind a market near you at kootenayslate.ca\n\n#HolidayMarket #ShopLocal #NelsonBC #FernieBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18106519907570879",
+    "published_at": "2026-11-09T21:37:26.687Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "kl-2026-11-09-drawer-towing",
     "account": "list",
     "publish_at": "2026-11-09T17:00:00Z",
     "caption": "Save this before the roads turn.\n\nEvery towing company on the List: Cold Country Towing & Traffic Control and Van Horne Towing in Cranbrook, Keegz South Country Towing in Genelle, Scrap King Auto Wrecking & Towing in Salmo, Sparwood Towing, and Western Auto Wreckers & Towing in Nelson.\n\nKnow a tow truck that isn't here yet? Adding it is free: kootenaylist.ca/claim\n.\n.\n#Kootenays #WinterDriving #RoadSafety #ShopLocalBC #SupportLocal",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on The Kootenay List page",
-    "image": "media/kl-2026-11-09-drawer-towing.jpg"
+    "image": "media/kl-2026-11-09-drawer-towing.jpg",
+    "media_id": "18016708763995429",
+    "published_at": "2026-11-09T21:37:41.298Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "gsuw-2026-11-10-a-writing",
