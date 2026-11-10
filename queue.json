@@ -3428,21 +3428,24 @@
     "account": "gsuw",
     "publish_at": "2026-11-10T15:30:00Z",
     "caption": "From a piece of ours called The Power of Connection.\n\n“What is being rediscovered is the power of connection: our ability to relate, to be fully present with one another, and to truly see and reflect each other’s humanity.”\n\nThe piece is about the moments when something opens in us, often when we are not looking for it at all: sitting in silence, listening to the birds, feeling the sun on our skin.\n\nWe publish two writings a month. The whole piece is on gsuw.org, with the rest of the writings.\n\nWe hope you’ll take a few quiet minutes with it.\n\nThe link is in our bio.\n\n#ArtEmbracingAwareness #Connection #Mindfulness #Kootenays #Contemplation",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "images": [
       "media/gsuw-2026-11-10-a-writing-1.jpg",
       "media/gsuw-2026-11-10-a-writing-2.jpg",
       "media/gsuw-2026-11-10-a-writing-3.jpg",
       "media/gsuw-2026-11-10-a-writing-4.jpg"
-    ]
+    ],
+    "media_id": "17865853767694338",
+    "published_at": "2026-11-10T19:57:17.397Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-10-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-10T16:00:00Z",
     "caption": "38 new Christmas mugs are in.\n\nThirty funny and cosy ones, from Lappy Mom Fuel to Santa's Little Alarm Clock, plus a wreath portrait mug for every Lappy coat. Each is printed on both sides, in 11, 15 or 20 oz. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasMug #suomenlapinkoira #DogMomGift #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261110-mug-01.jpg",
@@ -3453,7 +3456,10 @@
       "images/ld-20261110-mug-06.jpg",
       "images/ld-20261110-mug-07.jpg",
       "images/ld-20261110-mug-08.jpg"
-    ]
+    ],
+    "media_id": "18131631559693423",
+    "published_at": "2026-11-10T19:58:37.116Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-10-tonight",
@@ -3461,8 +3467,11 @@
     "publish_at": "2026-11-10T17:00:00Z",
     "image": "media/ks-2026-11-10-tonight.jpg",
     "caption": "Two folk nights tonight.\n\nGeneviève Racette plays the Langham in Kaslo at 7 pm. In Trail, James Keelaghan and Jez Lowe share the stage at 7:30.\n\nTickets and details on kootenayslate.ca\n\n#FolkMusic #KasloBC #TrailBC #LiveMusic #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17964247317231243",
+    "published_at": "2026-11-10T19:58:48.389Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "gsuw-2026-11-11-one-breath",
