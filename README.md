@@ -1,8 +1,11 @@
 # kmd-social-queue
 
-The always-on Instagram publisher for Kootenay Made Digital. A GitHub
-Actions cron (every 15 minutes) reads queue.json and publishes due
-posts through the Instagram Graph API. Images live in images/ and are
+The always-on publisher for Kootenay Made Digital's Instagram account
+and Facebook Page. A GitHub Actions cron (every 15 minutes) reads
+queue.json and publishes due posts through the Graph API (Facebook
+since 2026-09-09). The Action commits queue.json after every run:
+always pull before editing it. Cadence: one KMD post a day (Brett,
+2026-10-07); the lock lives in tools/brands.py. Images live in images/ and are
 served to the API via raw URLs. Captions here are pre-approved public
 content; the access token lives ONLY in the repo's Actions secrets.
 
