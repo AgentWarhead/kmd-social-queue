@@ -3478,9 +3478,12 @@
     "account": "gsuw",
     "publish_at": "2026-11-11T15:30:00Z",
     "caption": "“Take a slow, deep breath in, and gently let it go.”\n\nA moment from the guided meditation Chantal recorded for anyone who needs a little calm.\n\n“Breathing in, calm. Breathing out, release.”\n\nOn this day of remembrance, we offer it in the hope of peace, within each of us and between us all.\n\nThe meditations are free, through the link in our bio.\n\n#GuidedMeditation #Mindfulness #InnerPeace #Kootenays #ArtEmbracingAwareness",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "video": "media/gsuw-2026-11-11-one-breath.mp4"
+    "video": "media/gsuw-2026-11-11-one-breath.mp4",
+    "media_id": "18114874100265564",
+    "published_at": "2026-11-11T22:12:05.334Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-11-reel",
@@ -3489,8 +3492,11 @@
     "video": "images/ld-timber-tundra-s2e04.mp4",
     "cover": "images/ld-timber-tundra-s2e04-cover.jpg",
     "caption": "One ball, one field of fresh snow.\n\nTundra dug up half the field. Uncle Timber walked over, picked it up, and gave it back to him.\n\nEpisode 4 of the winter season. How long does it take your Lappy to find a ball in deep snow?\n.\n.\n#FinnishLapphund #SnowDog #finsklapphund #Lapphund #LapphundDesigns",
-    "status": "pending",
-    "fb_skipped": true
+    "status": "published",
+    "fb_skipped": true,
+    "media_id": "18003671543811602",
+    "published_at": "2026-11-11T22:13:45.421Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-11-cranbrook",
@@ -3498,8 +3504,11 @@
     "publish_at": "2026-11-11T20:00:00Z",
     "image": "media/ks-2026-11-11-cranbrook.jpg",
     "caption": "Three big nights at the Key City Theatre this week.\n\nTom Cochrane plays a duo show on Thursday. Chilliwack brings its Farewell to Friends tour on Saturday, and William Prince plays an acoustic evening on Sunday. All three start at 7:30 pm.\n\nTickets on kootenayslate.ca\n\n#CranbrookBC #KeyCityTheatre #LiveMusic #ConcertSeason #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17993594969858501",
+    "published_at": "2026-11-11T22:14:00.379Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "gsuw-2026-11-12-one-work",
