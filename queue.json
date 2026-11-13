@@ -3562,18 +3562,24 @@
     "account": "gsuw",
     "publish_at": "2026-11-13T15:30:00Z",
     "caption": "Who has offered you a kindness this year?\n\nPerhaps a neighbour who cleared your walk, a stranger who stopped to listen, or a friend who simply showed up.\n\nFor many years we have quietly offered small framed prints to people whose kindness touched us. We call them kindness prints.\n\nThis month, we would love to hear about the people who have touched your life. Tell us about them in the comments, and before the year ends, we will offer a kindness print to one of them.\n\nBecause every kindness deserves to be seen.\n\n#KindnessPrints #Kindness #SlocanValley #Kootenays #CommunityLove",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-13-kindness-prints.jpg"
+    "image": "media/gsuw-2026-11-13-kindness-prints.jpg",
+    "media_id": "18091659839267689",
+    "published_at": "2026-11-13T21:31:58.741Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-13-still",
     "account": "lapphund",
     "publish_at": "2026-11-13T16:00:00Z",
     "caption": "Best gift ever.\n\nA tricolour Lappy in an open gift box, from the smaller, simpler Christmas designs. Anyone who brought a Lappy home will agree.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasGift #lapinkoira #DogMom #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
-    "image": "images/ld-20261113-01.jpg"
+    "image": "images/ld-20261113-01.jpg",
+    "media_id": "18445348135181039",
+    "published_at": "2026-11-13T21:32:12.916Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-13-weekend",
@@ -3581,8 +3587,11 @@
     "publish_at": "2026-11-13T17:00:00Z",
     "image": "media/ks-2026-11-13-weekend.jpg",
     "caption": "Folk metal, bluegrass and stand-up this weekend.\n\nBrass Camel plays the Royal in Nelson tonight. Saturday has Finnish folk metal band Korpiklaani in Nelson, Cass Furman's stand-up show Funny for a Girl in Castlegar, and Nathan Stanley's tribute to Dr. Ralph Stanley, also in Castlegar. All the Madmen play Rossland, and Salmo has Dance Into the Dark.\n\nThe whole weekend is on kootenayslate.ca\n\n#ThisWeekend #NelsonBC #CastlegarBC #RosslandBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "17930695656432276",
+    "published_at": "2026-11-13T21:32:25.950Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ld-2026-11-14-reel",
