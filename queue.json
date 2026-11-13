@@ -3515,19 +3515,20 @@
     "account": "gsuw",
     "publish_at": "2026-11-12T15:30:00Z",
     "caption": "Time to Breathe\nAn oil print by Frantisek.\n\nA woman sits quietly in nature, letting stillness replace the urge to run.\n\nIn that pause, breath becomes understanding, and life gently reveals its deeper rhythm.\n\nAs the days grow shorter, perhaps it is an invitation for all of us to slow down.\n\nIts softness comes from lithography ink, worked into the paper by hand, one pass at a time.\n\nWhen one of his prints finds a home, it helps keep our gatherings open to everyone.\n\nThe link is in our bio.\n\n#ArtEmbracingAwareness #SlocanValley #OilPrint #SlowLiving #CanadianArtist",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "image": "media/gsuw-2026-11-12-one-work.jpg",
     "attempts": 1,
-    "error": "Media ID is not available",
-    "next_try": "2026-11-12T19:18:38.977Z"
+    "media_id": "17973061856960699",
+    "published_at": "2026-11-13T00:30:02.265Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-12-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-12T20:08:00Z",
     "caption": "42 new Lappy hoodies are in.\n\nThese are made for the whole winter: seven little ski run signs from Black Diamond to Domino Glades, Lapland scenes like Revontulet and Kaamos, and coat jokes like Built-In Hoodie. Nine colours, S to 3XL. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogHoodie #suomenlapinkoira #finsklapphund #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261112-hood-01.jpg",
@@ -3538,7 +3539,10 @@
       "images/ld-20261112-hood-06.jpg",
       "images/ld-20261112-hood-07.jpg",
       "images/ld-20261112-hood-08.jpg"
-    ]
+    ],
+    "media_id": "18114018089601272",
+    "published_at": "2026-11-13T00:31:38.288Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-12-sevenpm-reel",
