@@ -3611,7 +3611,7 @@
     "account": "lapphund",
     "publish_at": "2026-11-15T16:00:00Z",
     "caption": "22 Lappy pillows are in.\n\nNeedlepoint-style portraits in all eight coats, script pillows for Lappy moms, and patterns from block print and toile to Fair Isle. Every pillow is printed on both sides and comes with its insert, in 14, 16, 18 or 22 inches. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ThrowPillow #suomenlapinkoira #DogLoverGift #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261115-pil-01.jpg",
@@ -3622,7 +3622,10 @@
       "images/ld-20261115-pil-06.jpg",
       "images/ld-20261115-pil-07.jpg",
       "images/ld-20261115-pil-08.jpg"
-    ]
+    ],
+    "media_id": "18140920339632438",
+    "published_at": "2026-11-15T19:44:18.067Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "gsuw-2026-11-16-gifts-that-carry-meaning",
