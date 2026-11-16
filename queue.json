@@ -3632,7 +3632,7 @@
     "account": "gsuw",
     "publish_at": "2026-11-16T15:30:00Z",
     "caption": "Gifts That Carry Meaning\n\nThis season, a few ideas for the people you love, each one carrying Frantisek’s art.\n\nA print, for a wall that needs a little quiet.\nOur two books, his paintings and our meditations side by side, made to be read slowly.\nA scarf, a tote or a pair of earrings with one of his pictures, made in Montreal by Le Galeriste.\n\nThe prints and the wearable pieces are made to order, so if one is meant for the holidays, give it a little time to arrive.\n\nEvery print and every book helps make our free gatherings and the writings possible.\n\nThe link is in our bio.\n\n#GiftIdeas #ArtEmbracingAwareness #CanadianArtist #Kootenays #GiftsWithMeaning",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
     "images": [
       "media/gsuw-2026-11-16-gifts-that-carry-meaning-1.jpg",
@@ -3640,14 +3640,17 @@
       "media/gsuw-2026-11-16-gifts-that-carry-meaning-3.jpg",
       "media/gsuw-2026-11-16-gifts-that-carry-meaning-4.jpg",
       "media/gsuw-2026-11-16-gifts-that-carry-meaning-5.jpg"
-    ]
+    ],
+    "media_id": "17945366982382717",
+    "published_at": "2026-11-16T21:16:25.390Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-16-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-16T16:00:00Z",
     "caption": "24 new Lappy ornaments are in.\n\nGlossy ceramic, printed on both sides, in a circle, star or snowflake. There's a wreath and a Christmas 2026 ornament for every Lappy coat, plus Puppy's First Christmas, Hyvää Joulua and more. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasOrnament #finsklapphund #DogLoverGift #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261116-orn-01.jpg",
@@ -3658,7 +3661,10 @@
       "images/ld-20261116-orn-06.jpg",
       "images/ld-20261116-orn-07.jpg",
       "images/ld-20261116-orn-08.jpg"
-    ]
+    ],
+    "media_id": "18234506200331279",
+    "published_at": "2026-11-16T21:17:48.319Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ks-2026-11-16-christmas",
@@ -3666,8 +3672,11 @@
     "publish_at": "2026-11-16T17:00:00Z",
     "image": "media/ks-2026-11-16-christmas.jpg",
     "caption": "Christmas in the Kootenays is on one page.\n\nCastlegar's Brilliant Christmas Market is Nov 21, the Invermere Light Up Parade is Nov 28, and Cranbrook has its Santa Claus Parade and The Nutcracker on Dec 5.\n\nMarkets, kids' outings and shows are sorted for you. Pin the ones you want and send your plan in one link.\n\nPlan your Christmas at kootenayslate.ca/christmas\n\n#Christmas #ChristmasMarket #CastlegarBC #CranbrookBC #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18188868076420104",
+    "published_at": "2026-11-16T21:17:58.769Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-11-16-christmas-story",
