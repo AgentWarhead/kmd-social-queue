@@ -3684,8 +3684,11 @@
     "publish_at": "2026-11-16T17:00:00Z",
     "story": "media/ks-2026-11-16-christmas-story.jpg",
     "caption": "Christmas in the Kootenays, the story echo of the post. #KootenaySlate",
-    "status": "pending",
-    "fb_skipped": "an instagram story; nothing goes to facebook"
+    "status": "published",
+    "fb_skipped": "an instagram story; nothing goes to facebook",
+    "media_id": "18122718109917089",
+    "published_at": "2026-11-17T04:00:15.442Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "gsuw-2026-11-17-a-writing",
