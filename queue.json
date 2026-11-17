@@ -3695,16 +3695,19 @@
     "account": "gsuw",
     "publish_at": "2026-11-17T15:30:00Z",
     "caption": "From a piece of ours called The Simple Dignity of Another Human Life.\n\n“There’s an old story that says each of us moves through the world with an unseen procession, as if voices go before us whispering, ‘Make way. Someone sacred is passing.’”\n\nThe piece asks what would change if we truly saw the worth in every person: the people closest to us, and the stranger we pass on the street.\n\nWe publish two writings a month. The whole piece is on gsuw.org, with the rest of the writings.\n\nRead it slowly, if you can.\n\nThe link is in our bio.\n\n#ArtEmbracingAwareness #HumanDignity #Compassion #Kootenays #SharedHumanity",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-17-a-writing.jpg"
+    "image": "media/gsuw-2026-11-17-a-writing.jpg",
+    "media_id": "18130301659859202",
+    "published_at": "2026-11-17T21:50:33.080Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-17-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-17T16:00:00Z",
     "caption": "Seven things to know before the first snow.\n\nSnowshoe toes, the snowballs in the feathering, road salt, and why the coat is never shaved. All from the cold and hot weather guide on lapphunddesigns.com.\n\nSave this one for the first big dump.\n.\n.\n#FinnishLapphund #DogCare #finsklapphund #WinterWithDogs #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261112-01.jpg",
@@ -3716,7 +3719,10 @@
       "images/ld-20261112-07.jpg",
       "images/ld-20261112-08.jpg",
       "images/ld-20261112-09.jpg"
-    ]
+    ],
+    "media_id": "17924050686453370",
+    "published_at": "2026-11-17T21:52:07.791Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "gsuw-2026-11-18-the-gift",
