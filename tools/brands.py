@@ -85,6 +85,21 @@ BRANDS = {
         # Brett, 2026-10-14: one post each weekday, none at the weekend, the List's week.
         'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
     },
+    'helpers': {
+        # Kootenay Helpers (Brett, 2026-11-18): the volunteer sister to the List and the Slate. Page and
+        # Instagram moved into the KMD portfolio and assigned to kmd-shade. The Instagram is not linked to
+        # the Page in Meta's API, but the token reaches it directly with its own publishing quota (checked
+        # 2026-11-18). Its marker is its hashtag, never its domain: List and Slate posts link
+        # kootenayhelpers.ca on purpose.
+        'name': 'Kootenay Helpers',
+        'ig_id': '17841462409969574', 'ig_username': 'kootenayhelpers',
+        'page_id': '1405032572698961',
+        'markers': ['#kootenayhelpers'],
+        'image_prefix': 'media/kh-',
+        'since': '2026-11-18',
+        # No cadence ruled yet: Brett sets it with the first stamped week.
+        'posts_per_day': None,
+    },
 }
 
 

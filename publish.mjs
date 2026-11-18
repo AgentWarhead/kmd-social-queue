@@ -18,6 +18,9 @@ const ACCOUNTS = {
   // The Kootenay Slate (2026-10-13). Its marker is its hashtag, not its domain: KMD and List posts link
   // kootenayslate.ca on purpose. Facebook is scheduled natively on its own Page, like the List's.
   slate: { ig: "17841455973071151", username: "kootenayslate", markers: ["#kootenayslate"], imagePrefix: "media/ks-" },
+  // Kootenay Helpers (2026-11-18). Page and Instagram moved into the KMD portfolio and assigned to kmd-shade.
+  // Marker is its hashtag, not its domain: List and Slate posts link kootenayhelpers.ca on purpose.
+  helpers: { ig: "17841462409969574", username: "kootenayhelpers", markers: ["#kootenayhelpers"], imagePrefix: "media/kh-" },
 };
 // Brett's law, 2026-09-17: a post on the wrong account is never acceptable. The pre-push gate already
 // refuses one; this is the last check before the API call, so a queue edited by hand after the gate
