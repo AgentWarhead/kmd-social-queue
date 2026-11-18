@@ -3729,16 +3729,19 @@
     "account": "gsuw",
     "publish_at": "2026-11-18T15:30:00Z",
     "caption": "“Art washes away from the soul the dust of everyday life.”\n\nFrantisek tells the story of a flight from Spokane to Cleveland, and a little piece of art offered to the crew.\n\nOne flight attendant said she had never received anything like it in ten years of service.\n\nIt is the spirit of our kindness prints: a small gift, quietly offered, to someone who needed a little light.\n\nThere is still time to tell us about someone whose kindness touched you.\n\nThe story of the kindness prints is through the link in our bio.\n\n#KindnessPrints #Kindness #ArtEmbracingAwareness #Kootenays #GivingArt",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "video": "media/gsuw-2026-11-18-the-gift.mp4"
+    "video": "media/gsuw-2026-11-18-the-gift.mp4",
+    "media_id": "18196049335402547",
+    "published_at": "2026-11-18T19:03:34.967Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-18-carousel",
     "account": "lapphund",
     "publish_at": "2026-11-18T16:00:00Z",
     "caption": "21 Lappy blankets are in.\n\nAll eight coats under the northern lights, round the tree on Christmas morning and out on the cabin porch, plus Nordic knit looks from Fair Isle to a star medallion. Every blanket has a printed front and a soft sherpa back, in 37 x 57, 50 x 60 or 60 x 80 inches. Swipe for a few.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #SherpaBlanket #suomenlapinkoira #DogLoverGift #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261118-shp-01.jpg",
@@ -3749,7 +3752,10 @@
       "images/ld-20261118-shp-06.jpg",
       "images/ld-20261118-shp-07.jpg",
       "images/ld-20261118-shp-08.jpg"
-    ]
+    ],
+    "media_id": "18227248282340415",
+    "published_at": "2026-11-18T19:05:03.986Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "gsuw-2026-11-19-membership",
@@ -3985,8 +3991,11 @@
       "media/ks-2026-11-18-markets-08.jpg"
     ],
     "caption": "Six Christmas markets this weekend, from Castlegar to Westbridge. Swipe for the day, the hours and the hall.\n\nCastlegar's Brilliant Christmas Market runs all day Saturday. Cranbrook has two: Santa's Little Fall Market at Eagles Hall, Friday 4 to 8 pm and Saturday from 10 am, and the Cozy Christmas Craft Fair at Christ Church Anglican, Saturday 10 am to 3 pm. Invermere's Legion market runs Friday to Sunday. Nakusp's Legion sale is Saturday 10 am to 3 pm, and Westbridge wraps up the weekend on Sunday, 10 am to 2 pm.\n\nMore markets and dates are on kootenayslate.ca/christmas. Save this one for Saturday morning.\n\n#kootenayslate #kootenays #christmasmarket #shoplocal #kootrocks",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18155479528527342",
+    "published_at": "2026-11-18T19:06:16.748Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-11-19-square-dance",
@@ -4174,8 +4183,11 @@
     "publish_at": "2026-11-18T17:00:00Z",
     "image": "media/kl-2026-11-19-claimed-keys.jpg",
     "caption": "49 Kootenay business owners have claimed their listing on the List so far.\n\nClaiming takes a few minutes. You tell me what you want people to see. That can be the business in your own words, your real hours, your photos and logo, and the area you cover. I check that it's really you, and then it goes up with a stamp that says the owner keeps it.\n\nClaiming is free. It stays free.\n\nIf your business is already on the List, claim it. If it's missing, you can add it the same way.\n\nClaim or add yours at kootenaylist.ca/claim\n\n#kootenaylist #kootenays #kootrocks #smallbusiness #shoplocalbc",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay List page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "media_id": "18175781779492215",
+    "published_at": "2026-11-18T19:06:31.894Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-11-20-claim-reel",
