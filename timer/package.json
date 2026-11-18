@@ -1,0 +1,6 @@
+{
+  "name": "kmd-publisher-timer",
+  "private": true,
+  "type": "module",
+  "description": "Starts the kmd-social-queue publisher every 5 minutes from Vercel, for every account."
+}
