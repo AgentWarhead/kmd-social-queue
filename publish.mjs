@@ -329,6 +329,22 @@ for (const entry of queue) {
   break;   // one extra post per run
 }
 
+// The late alarm (Brett, 2026-11-18: no client should be the one to tell us a
+// morning post went out at 7 pm). Any post, on any account, still pending 20
+// minutes past its slot turns this run red ONCE for that post, so GitHub emails
+// the boss right away, whatever the cause: a dead token, an outage, a stuck
+// retry. late_alarmed is saved with the queue so later runs stay quiet.
+const LATE_ALARM_MIN = 20;
+for (const entry of queue) {
+  if (entry.status !== "pending" || entry.late_alarmed) continue;
+  const lateMin = (now - new Date(entry.publish_at)) / 60000;
+  if (lateMin <= LATE_ALARM_MIN) continue;
+  entry.late_alarmed = true;
+  newFailure = true;
+  changed = true;
+  console.error(`LATE ${entry.id} (${accountOf(entry)}): ${Math.round(lateMin)} min past its slot and not out yet${entry.error ? `; last error: ${entry.error}` : ""}`);
+}
+
 if (changed) {
   writeFileSync("queue.json", JSON.stringify(queue, null, 2) + "\n");
   console.log("queue updated");
