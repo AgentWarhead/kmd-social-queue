@@ -4009,8 +4009,11 @@
     "publish_at": "2026-11-19T17:00:00Z",
     "image": "media/ks-2026-11-19-square-dance.jpg",
     "caption": "Friday night in Kaslo, the school gym turns into a dance floor.\n\nThe Community Celebration Square Dance runs 6 to 8 pm in the JV Humphries Lighthouse Gym. It costs $5 to $10, and it's made for families, so bring the kids and the grandparents too.\n\nNever square danced before? Nobody's keeping score. It's a warm way to spend a cold Friday with your neighbours.\n\nWho are you bringing? Tag them.\n\n#kootenayslate #kootenays #kaslo #FindingAwesome #familyfun",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18342744877261970",
+    "published_at": "2026-11-19T17:01:25.670Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-11-20-markets-reel",
@@ -4202,8 +4205,11 @@
     "video": "media/kl-2026-11-20-claim-reel.mp4",
     "cover": "media/kl-2026-11-20-claim-reel-cover.jpg",
     "caption": "Is your business on The Kootenay List? There's a good chance it already is. 5,626 Kootenay businesses are listed, and each one names the public page I found it on.\n\n49 owners have claimed theirs so far. Claiming puts your own words, photos and hours on the listing, in place of what I could find on my own.\n\nIt takes a few minutes, it's free, and it stays free.\n\nClaim yours or add it at kootenaylist.ca/claim\n\n#kootenaylist #kootenays #kootrocks #localbusiness #supportlocal",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay List page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "media_id": "17915649669482648",
+    "published_at": "2026-11-19T17:02:11.904Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-11-23-nelson-takeover",
