@@ -3774,9 +3774,12 @@
     "account": "lapphund",
     "publish_at": "2026-11-19T16:00:00Z",
     "caption": "Powder day.\n\nThe morning after a big snowfall, and the black Lappy got to it first. It's one of the 42 Lappy hoodies.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #PowderDay #suomenlapinkoira #SnowDog #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
-    "image": "images/ld-20261119-01.jpg"
+    "image": "images/ld-20261119-01.jpg",
+    "media_id": "18162486283509402",
+    "published_at": "2026-11-19T16:01:30.211Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "gsuw-2026-11-20-kind-words",
