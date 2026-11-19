@@ -4297,7 +4297,7 @@
     "id": "2026-11-19-pkg-trailhead",
     "publish_at": "2026-11-19T15:00:00Z",
     "caption": "Plenty of businesses here run on word of mouth. The trouble starts when someone who has never met you looks you up and finds nothing, or only a Facebook page.\n\nThe Trailhead is my first-website package. Three custom page designs, the words written for you, a starter logo, colours and type, and a site set up to be found by your name and in your town. You own it, and the domain is in your name. Most go live in two to three weeks.\n\n$2,000, or $500 today and 12 payments of $142 ($2,204 total). Kootenay neighbours: $1,800, or $450 today and 12 payments of $128 ($1,986 total). Plus GST.\n\nkootenaymade.ca/services/websites\n\n#Kootenays #KootenayBusiness #FirstWebsite #SmallBusinessWebsite #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/pkg-trailhead-20261119-01.jpg",
       "images/pkg-trailhead-20261119-02.jpg",
@@ -4305,7 +4305,12 @@
       "images/pkg-trailhead-20261119-04.jpg",
       "images/pkg-trailhead-20261119-05.jpg",
       "images/pkg-trailhead-20261119-06.jpg"
-    ]
+    ],
+    "media_id": "18061090577650405",
+    "published_at": "2026-11-19T15:02:13.662Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122134840196844963",
+    "fb_posted_at": "2026-11-19T15:02:27.442Z"
   },
   {
     "id": "2026-11-20-commercial-neighbour",
