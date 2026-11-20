@@ -97,8 +97,8 @@ BRANDS = {
         'markers': ['#kootenayhelpers'],
         'image_prefix': 'media/kh-',
         'since': '2026-11-18',
-        # No cadence ruled yet: Brett sets it with the first stamped week.
-        'posts_per_day': None,
+        # One post a day, every day (Brett, 2026-11-19: "one post a day"; first week stamped 2026-11-20).
+        'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1},
     },
 }
 

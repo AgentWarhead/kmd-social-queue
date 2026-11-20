@@ -4513,5 +4513,101 @@
     "status": "pending",
     "fb_skipped": true,
     "image": "images/ld-20261130-bf-last-day.jpg"
+  },
+  {
+    "id": "kh-2026-11-22-launch-reel",
+    "account": "helpers",
+    "publish_at": "2026-11-22T15:00:00Z",
+    "video": "media/kh-2026-11-22-launch-reel.mp4",
+    "cover": "media/kh-2026-11-22-launch-reel-cover.jpg",
+    "caption": "People want to help. They just can't find where.\n\nVolunteer roles in the Kootenays are spread across hundreds of websites, one group and one town at a time. So I started building one place for all of them.\n\nKootenay Helpers is free. Pick your towns, tap the kind of help you'd like to give, and every role links straight back to the group that needs you. Every role comes from the groups' own pages, and every visit goes back to them.\n\nThe idea came from Nelson at its Best, and I couldn't stop thinking about it. I built it here in Castlegar. 400 roles from 99 groups so far. It grows every week.\n\nRun a group that needs volunteers? Post a role free. Link in bio.\n\n#kootenays #castlegar #volunteer #bccommunity #kootenayhelpers",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+  },
+  {
+    "id": "kh-2026-11-23-post-a-role-reel",
+    "account": "helpers",
+    "publish_at": "2026-11-23T15:00:00Z",
+    "video": "media/kh-2026-11-23-post-a-role-reel.mp4",
+    "cover": "media/kh-2026-11-23-post-a-role-reel-cover.jpg",
+    "caption": "Here's what posting a volunteer role looks like, start to finish.\n\nTell me who you are and one way I can check your group. A website, a Facebook page or a phone number all work.\nThen the role. What it's called, what a Helper does and when you need them.\nAdd where Helpers turn up and how they reach you.\nHit send.\n\nIt takes about five minutes, and you won't need a password. I read every role before it goes up. I reply within 24 hours. It goes live with the next morning's update.\n\nSave this for the next time your group needs a hand.\n\n#kootenays #nonprofit #volunteers #communitygroups #kootenayhelpers",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+  },
+  {
+    "id": "kh-2026-11-24-find-a-role",
+    "account": "helpers",
+    "publish_at": "2026-11-24T15:00:00Z",
+    "images": [
+      "media/kh-2026-11-24-find-a-role-01.jpg",
+      "media/kh-2026-11-24-find-a-role-02.jpg",
+      "media/kh-2026-11-24-find-a-role-03.jpg",
+      "media/kh-2026-11-24-find-a-role-04.jpg",
+      "media/kh-2026-11-24-find-a-role-05.jpg"
+    ],
+    "caption": "Looking for a way to help? Here's how to find one in about a minute.\n\nPick your town, or a few of them.\nTap the kind of help you'd like to give. Rinks, food banks, trails, boards, festivals and more.\nOpen a role to see when, where and who to contact.\nThen reach the group straight from their own page.\n\nYou don't need an account. Tap Keep on any role to save it for later, or get one email on Sunday with new roles near you.\n\nSend this to someone who keeps saying they'd like to help.\n\n#kootenays #westkootenay #volunteer #howto #kootenayhelpers",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+  },
+  {
+    "id": "kh-2026-11-25-where-roles-come-from",
+    "account": "helpers",
+    "publish_at": "2026-11-25T15:00:00Z",
+    "images": [
+      "media/kh-2026-11-25-where-roles-come-from-01.jpg",
+      "media/kh-2026-11-25-where-roles-come-from-02.jpg",
+      "media/kh-2026-11-25-where-roles-come-from-03.jpg",
+      "media/kh-2026-11-25-where-roles-come-from-04.jpg",
+      "media/kh-2026-11-25-where-roles-come-from-05.jpg"
+    ],
+    "caption": "Where do the roles on Kootenay Helpers come from? From the groups themselves.\n\nMost of them I find on pages groups already share, like their own websites, their town hall's page, or volunteer sites like iVolunteer and Volunteer Now. Each role shows the facts the group's own page states and links straight back to them, so every visit goes to the people doing the work.\n\nRun one of these groups? You can claim your listing and write it in your own words. If you'd rather not be listed, I'll take it down within two working days.\n\nThank you to every group out there keeping our towns running.\n\n#kootenays #nonprofit #communitygroups #volunteering #kootenayhelpers",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+  },
+  {
+    "id": "kh-2026-11-26-who-can-post",
+    "account": "helpers",
+    "publish_at": "2026-11-26T15:00:00Z",
+    "images": [
+      "media/kh-2026-11-26-who-can-post-01.jpg",
+      "media/kh-2026-11-26-who-can-post-02.jpg",
+      "media/kh-2026-11-26-who-can-post-03.jpg",
+      "media/kh-2026-11-26-who-can-post-04.jpg"
+    ],
+    "caption": "Who can post a role on Kootenay Helpers? More groups than you'd think.\n\nCharities and non-profit societies. Service clubs, sports clubs and hall societies. Towns, the regional district, libraries, museums, fire halls and health programs. Community work run by a faith group. A small group with no website can post too, with a Facebook page or a phone number I can call.\n\nNot listed: individuals asking for personal help, businesses, political campaigns, and roles only for parents of one school. Need a hand yourself? Call or text 2-1-1.\n\nIf your group is on the first list, there's no harm in trying.\n\n#kootenays #eastkootenay #nonprofit #clubs #kootenayhelpers",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+  },
+  {
+    "id": "kh-2026-11-27-what-your-group-gets",
+    "account": "helpers",
+    "publish_at": "2026-11-27T15:00:00Z",
+    "images": [
+      "media/kh-2026-11-27-what-your-group-gets-01.jpg",
+      "media/kh-2026-11-27-what-your-group-gets-02.jpg",
+      "media/kh-2026-11-27-what-your-group-gets-03.jpg",
+      "media/kh-2026-11-27-what-your-group-gets-04.jpg",
+      "media/kh-2026-11-27-what-your-group-gets-05.jpg"
+    ],
+    "caption": "What does your group get from posting on Kootenay Helpers?\n\nEvery visit goes straight to your own page.\nEvery role gets its own share card, ready for your Facebook page or newsletter.\nOnce you have a role up, you get a patch for your website that links to all your open roles.\nI share roles on the Kootenay Helpers Instagram and Facebook too.\n\nAll of it is free. There are no paid spots, so nobody can buy their way above you.\n\nKnow a group that needs Helpers? Send them this.\n\n#kootenays #nonprofit #volunteers #smallgroups #kootenayhelpers",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+  },
+  {
+    "id": "kh-2026-11-28-questions",
+    "account": "helpers",
+    "publish_at": "2026-11-28T15:00:00Z",
+    "images": [
+      "media/kh-2026-11-28-questions-01.jpg",
+      "media/kh-2026-11-28-questions-02.jpg",
+      "media/kh-2026-11-28-questions-03.jpg",
+      "media/kh-2026-11-28-questions-04.jpg",
+      "media/kh-2026-11-28-questions-05.jpg",
+      "media/kh-2026-11-28-questions-06.jpg",
+      "media/kh-2026-11-28-questions-07.jpg"
+    ],
+    "caption": "The questions I get asked most.\n\nIs it free? Yes, for everyone.\nDo I need an account? Nope.\nWho runs it? Me, Brett, from Castlegar.\nWhere do the roles come from? The groups' own pages. Every one links back to them.\nWhat about criminal record checks? Your group tells you if you need one, and starts it. Through the province's program it costs a volunteer $0.\nCan't commit every week? Some roles are a single shift, like helping at a festival.\n\nGot a question I missed? Ask it in the comments and I'll answer.\n\n#castlegar #kootenays #volunteerfaq #bccommunity #kootenayhelpers",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
   }
 ]
