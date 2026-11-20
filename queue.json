@@ -3798,7 +3798,7 @@
     "account": "lapphund",
     "publish_at": "2026-11-20T16:00:00Z",
     "caption": "A Lappy Christmas, four ways.\n\nA tee for the porch pirate, a sweatshirt for snowflake patrol, a fair isle mug and an ornament for the tree. There are 168 Christmas designs on the store, in every coat, with free shipping over $100 to 43 countries.\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #ChristmasGiftIdeas #suomenlapinkoira #DogMomGift #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261120-four-01.jpg",
@@ -3807,7 +3807,10 @@
       "images/ld-20261120-four-04.jpg",
       "images/ld-20261120-four-05.jpg",
       "images/ld-20261120-four-06.jpg"
-    ]
+    ],
+    "media_id": "18103816133395354",
+    "published_at": "2026-11-20T16:02:27.130Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-11-21-still",
