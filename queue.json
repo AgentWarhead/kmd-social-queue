@@ -4064,8 +4064,11 @@
     "publish_at": "2026-11-21T19:30:00Z",
     "story": "media/ks-2026-11-21-brilliant-story.jpg",
     "caption": "Brilliant Christmas Market, today in Castlegar #kootenayslate",
-    "status": "pending",
-    "fb_skipped": "an instagram story; nothing goes to facebook"
+    "status": "published",
+    "fb_skipped": "an instagram story; nothing goes to facebook",
+    "media_id": "18124760875985284",
+    "published_at": "2026-11-21T19:31:23.378Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-11-22-westbridge-story",
