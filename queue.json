@@ -4477,9 +4477,12 @@
     "account": "lapphund",
     "publish_at": "2026-11-21T16:00:00Z",
     "caption": "We made you something free! 🖍️\n\nThe Colouring Box is open: 43 Finnish Lapphund colouring pages you can print at home. There are big, simple pictures for little ones and detailed ones for grown-ups too.\n\nFind them at lapphunddesigns.com/pages/colouring-pages 🐾\n.\n.\n#finnishlapphund #lapphund #colouringpages #lappylove #dogcolouring",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
-    "image": "images/ld-20261121-colouring-box.jpg"
+    "image": "images/ld-20261121-colouring-box.jpg",
+    "media_id": "18650077129006357",
+    "published_at": "2026-11-21T16:01:28.702Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-11-24-bf-blankets",
