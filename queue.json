@@ -4052,8 +4052,11 @@
     "publish_at": "2026-11-21T15:00:00Z",
     "story": "media/ks-2026-11-21-santa-paws-story.jpg",
     "caption": "Santa Paws, today in Rossland #kootenayslate",
-    "status": "pending",
-    "fb_skipped": "an instagram story; nothing goes to facebook"
+    "status": "published",
+    "fb_skipped": "an instagram story; nothing goes to facebook",
+    "media_id": "17888608167691579",
+    "published_at": "2026-11-21T15:02:00.417Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-11-21-brilliant-story",
@@ -4614,13 +4617,18 @@
     "id": "2026-11-21-winter-launch",
     "publish_at": "2026-11-21T15:00:00Z",
     "caption": "Quiet season? Build your website now.\n\nGot a website nobody can find, that you can't update, or that your last web guy left you stuck with? Or no website at all? Winter's the time to fix it.\n\nUntil December 19, Kootenay businesses get the Trailhead for $1,500. That's $500 off. Trailhead Plus is $2,400, $800 off, with a page for every town you serve and 20 guides answering what your customers search for.\n\nBoth are custom built for your business, and you own all of it, domain included. I start as soon as you sign up, and you get a local guy you can actually call.\n\nFive spots. Holidays tight? Own It Monthly works on both. Plus GST.\n\nkootenaymade.ca/winter\n\n#Kootenays #KootenayBusiness #SmallBusinessWebsite #ShopLocal #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/winter-launch-20261121-01.jpg",
       "images/winter-launch-20261121-02.jpg",
       "images/winter-launch-20261121-03.jpg",
       "images/winter-launch-20261121-04.jpg",
       "images/winter-launch-20261121-05.jpg"
-    ]
+    ],
+    "media_id": "18105809000379043",
+    "published_at": "2026-11-21T15:02:48.179Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122135079788844963",
+    "fb_posted_at": "2026-11-21T15:03:01.190Z"
   }
 ]
