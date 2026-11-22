@@ -4076,8 +4076,11 @@
     "publish_at": "2026-11-22T15:00:00Z",
     "story": "media/ks-2026-11-22-westbridge-story.jpg",
     "caption": "Westbridge Christmas Market, today #kootenayslate",
-    "status": "pending",
-    "fb_skipped": "an instagram story; nothing goes to facebook"
+    "status": "published",
+    "fb_skipped": "an instagram story; nothing goes to facebook",
+    "media_id": "18091263518708354",
+    "published_at": "2026-11-22T15:01:15.349Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-11-23-add-reel",
@@ -4369,14 +4372,19 @@
     "id": "2026-11-22-pkg-engine",
     "publish_at": "2026-11-22T15:00:00Z",
     "caption": "Plenty of people compare before they call a roofer, a mechanic or a cleaner. The business that answers their question, for their town, has the best shot at the call.\n\nThe Engine is built for that. A page for every town you serve, 20 guides answering the questions customers search, a blog that keeps earning search after launch, full brand identity, and website leads sent into the CRM you already use. Up to seven custom page designs, usually live in four to five weeks.\n\n$6,500, or $1,625 today and 12 payments of $457 ($7,109 total). Kootenay neighbours: $5,850, or $1,463 today and 12 payments of $411 ($6,395 total). Plus GST.\n\nkootenaymade.ca/services/websites\n\n#Kootenays #KootenayBusiness #LocalSEO #SmallBusinessMarketing #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/pkg-engine-20261122-01.jpg",
       "images/pkg-engine-20261122-02.jpg",
       "images/pkg-engine-20261122-03.jpg",
       "images/pkg-engine-20261122-04.jpg",
       "images/pkg-engine-20261122-05.jpg"
-    ]
+    ],
+    "media_id": "17941574685401640",
+    "published_at": "2026-11-22T15:01:53.682Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122135199086844963",
+    "fb_posted_at": "2026-11-22T15:02:02.747Z"
   },
   {
     "id": "2026-11-23-special-oim",
@@ -4530,8 +4538,11 @@
     "video": "media/kh-2026-11-22-launch-reel.mp4",
     "cover": "media/kh-2026-11-22-launch-reel-cover.jpg",
     "caption": "People want to help. They just can't find where.\n\nVolunteer roles in the Kootenays are spread across hundreds of websites, one group and one town at a time. So I started building one place for all of them.\n\nKootenay Helpers is free. Pick your towns, tap the kind of help you'd like to give, and every role links straight back to the group that needs you. Every role comes from the groups' own pages, and every visit goes back to them.\n\nThe idea came from Nelson at its Best, and I couldn't stop thinking about it. I built it here in Castlegar. 400 roles from 99 groups so far. It grows every week.\n\nRun a group that needs volunteers? Post a role free. Link in bio.\n\n#kootenays #castlegar #volunteer #bccommunity #kootenayhelpers",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page",
+    "media_id": "18118787984082088",
+    "published_at": "2026-11-22T15:02:40.920Z",
+    "verified_account": "kootenayhelpers"
   },
   {
     "id": "kh-2026-11-23-post-a-role-reel",
