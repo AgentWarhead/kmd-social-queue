@@ -4098,8 +4098,11 @@
     "video": "media/ks-2026-11-23-add-reel.mp4",
     "cover": "media/ks-2026-11-23-add-reel-cover.jpg",
     "caption": "Got a poster up at the post office? Put it on the Slate too.\n\nSnap a photo of your poster and the form fills itself in. Or type it in. It's free, and there's no account to make.\n\nI read every event before it goes up. Yours goes up with the next morning's update, on one wall with events from local calendars across the Kootenays, sorted by time.\n\nBake sales, gigs, hall dinners, craft fairs, trivia nights. If it's happening here, it belongs on the wall.\n\nAdd yours at kootenayslate.ca/add\n\n#kootenayslate #kootenays #shoplocal #kootrocks #smalltownbc",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay Slate page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay Slate page",
+    "media_id": "18134089369789617",
+    "published_at": "2026-11-23T17:01:23.683Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-11-24-workshops",
@@ -4266,8 +4269,11 @@
     "publish_at": "2026-11-23T17:00:00Z",
     "image": "media/kl-2026-11-24-volunteer-day.jpg",
     "caption": "December 5 is International Volunteer Day.\n\nKootenay Helpers is the sister site to kootenaylist.ca. It gathers volunteer roles from groups across the Kootenays, sorted by town and by the kind of help, like food bank and meals, rinks and game days, boards and committees, ski hills and ski trails, and more.\n\nIt's free to use, and free for groups to list their roles. Pick your town and see what's open this winter.\n\nIf you've been meaning to help out, Volunteer Day is a good day to start. Find a way to help at kootenayhelpers.ca\n\n#kootenaylist #kootenays #kootrocks #volunteer #internationalvolunteerday",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay List page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "media_id": "18103079333645492",
+    "published_at": "2026-11-23T17:01:37.310Z",
+    "verified_account": "kootenaylist"
   },
   {
     "id": "kl-2026-11-25-small-towns",
