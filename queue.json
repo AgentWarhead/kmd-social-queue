@@ -3850,7 +3850,7 @@
     "account": "lapphund",
     "publish_at": "2026-11-23T16:00:00Z",
     "caption": "Home by the Fire, in your Lappy's coat.\n\nOne Lappy on a rag rug by the wood stove, socks drying on the line and frost on the window. It comes in all eight coats, so you can pick the one that looks like yours. Which one is yours?\n\nShop at lapphunddesigns.com\n.\n.\n#FinnishLapphund #DogPuzzle #finsklapphund #DogMomGift #LapphundDesigns",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
     "images": [
       "images/ld-20261123-coat-01.jpg",
@@ -3863,7 +3863,10 @@
       "images/ld-20261123-coat-08.jpg",
       "images/ld-20261123-coat-09.jpg",
       "images/ld-20261123-coat-10.jpg"
-    ]
+    ],
+    "media_id": "18361632409169792",
+    "published_at": "2026-11-23T16:01:48.434Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "gsuw-2026-11-24-thank-you",
