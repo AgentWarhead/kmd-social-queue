@@ -4393,8 +4393,13 @@
     "id": "2026-11-23-special-oim",
     "publish_at": "2026-11-23T15:00:00Z",
     "caption": "A website you own, paid over a year.\n\nOwn It Monthly works the same way on every package it covers: a quarter of the price when you sign, then 12 monthly payments by card. There are no banks involved and no credit checks. At the 12th payment the code, design and words are yours, and the domain is in your name from day one. You can pay it off early any time with no penalty.\n\nThe Trailhead is $2,000, or $500 today and 12 payments of $142 ($2,204 total). Until December 19, Kootenay businesses get it for $1,500, or $375 today and 12 payments of $106 ($1,647 total). The Storefront and the Engine run on the same plan. Plus GST.\n\nkootenaymade.ca/own-it-monthly\n\n#Kootenays #KootenayBusiness #SmallBusinessWebsite #OwnYourWebsite #KootenayMade",
-    "status": "pending",
-    "image": "images/special-oim-20261123-01.jpg"
+    "status": "published",
+    "image": "images/special-oim-20261123-01.jpg",
+    "media_id": "18160777012518712",
+    "published_at": "2026-11-23T15:02:17.137Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "122135326790844963",
+    "fb_posted_at": "2026-11-23T15:02:22.273Z"
   },
   {
     "id": "2026-11-24-pkg-storefront",
@@ -4554,8 +4559,11 @@
     "video": "media/kh-2026-11-23-post-a-role-reel.mp4",
     "cover": "media/kh-2026-11-23-post-a-role-reel-cover.jpg",
     "caption": "Here's what posting a volunteer role looks like, start to finish.\n\nTell me who you are and one way I can check your group. A website, a Facebook page or a phone number all work.\nThen the role. What it's called, what a Helper does and when you need them.\nAdd where Helpers turn up and how they reach you.\nHit send.\n\nIt takes about five minutes, and you won't need a password. I read every role before it goes up. I reply within 24 hours. It goes live with the next morning's update.\n\nSave this for the next time your group needs a hand.\n\n#kootenays #nonprofit #volunteers #communitygroups #kootenayhelpers",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page",
+    "media_id": "18137717579508812",
+    "published_at": "2026-11-23T15:03:08.158Z",
+    "verified_account": "kootenayhelpers"
   },
   {
     "id": "kh-2026-11-24-find-a-role",
