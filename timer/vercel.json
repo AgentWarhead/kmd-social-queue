@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "ignoreCommand": "if [ -z \"$VERCEL_GIT_PREVIOUS_SHA\" ]; then exit 1; fi; if git cat-file -e \"$VERCEL_GIT_PREVIOUS_SHA^{commit}\" 2>/dev/null; then base=\"$VERCEL_GIT_PREVIOUS_SHA\"; else base=\"HEAD^\"; fi; git diff --quiet \"$base\" HEAD -- .; if [ $? -eq 0 ]; then exit 0; fi; exit 1",
+  "ignoreCommand": "bash skip.sh",
   "crons": [
     {
       "path": "/api/tick",
