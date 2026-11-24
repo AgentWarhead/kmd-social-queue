@@ -3873,9 +3873,12 @@
     "account": "gsuw",
     "publish_at": "2026-11-24T15:30:00Z",
     "caption": "To everyone who gathered with us this year, read our writings, listened to the music, or offered a kindness to someone who needed it: thank you.\n\nEvery one of you is part of this symphony.\n\nAs the year draws to a close, we are grateful for the circle that has grown around this work, and for all it has made possible.\n\nWith love, Chantal and Frantisek ❤️\n\n#Gratitude #SlocanValley #Kootenays #CommunityArts #GlobalSymphonyForAUnitedWorld",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-24-thank-you.jpg"
+    "image": "media/gsuw-2026-11-24-thank-you.jpg",
+    "media_id": "18085102037413202",
+    "published_at": "2026-11-24T15:30:56.659Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-24-photo",
