@@ -4290,14 +4290,13 @@
     "account": "list",
     "publish_at": "2026-11-25T17:00:00Z",
     "images": [
-      "media/kl-2026-11-25-vets-01.jpg",
-      "media/kl-2026-11-25-vets-02.jpg",
-      "media/kl-2026-11-25-vets-03.jpg",
-      "media/kl-2026-11-25-vets-04.jpg",
-      "media/kl-2026-11-25-vets-05.jpg",
-      "media/kl-2026-11-25-vets-06.jpg"
+      "media/kl-2026-11-25-vets-card-01.jpg",
+      "media/kl-2026-11-25-vets-card-02.jpg",
+      "media/kl-2026-11-25-vets-card-03.jpg",
+      "media/kl-2026-11-25-vets-card-04.jpg",
+      "media/kl-2026-11-25-vets-card-05.jpg"
     ],
-    "caption": "Save this one for the day your dog eats something it shouldn't.\n\nHere are the 24 vets on the List across the Kootenays, by town, with the phone number for each. Nelson and Cranbrook have four each. Castlegar, Fruitvale and Kimberley have two. Ten more towns have one.\n\nEach vet also has its own page on the List, with the address and the public page I found it on.\n\nIf your vet isn't here, adding it is free at kootenaylist.ca/add\n\n#kootenaylist #kootenays #kootrocks #veterinarian #pets",
+    "caption": "Save this one for the day your dog eats something it shouldn't.\n\nHere are the 24 vets on the List across the Kootenays, by town. Swipe for the names. Nelson and Cranbrook have four each. Castlegar, Fruitvale and Kimberley have two. Ten more towns have one.\n\nPhone numbers and addresses for all of them are on one page: kootenaylist.ca/veterinarians\n\nIf your vet isn't there, adding it is free.\n\n#kootenaylist #kootenays #kootrocks #veterinarian #pets",
     "status": "pending",
     "fb_skipped": "scheduled natively on The Kootenay List page"
   },
@@ -4306,7 +4305,7 @@
     "account": "list",
     "publish_at": "2026-11-26T17:00:00Z",
     "video": "media/kl-2026-11-26-add-reel.mp4",
-    "cover": "media/kl-2026-11-26-add-reel-cover.jpg",
+    "cover": "media/kl-2026-11-26-add-reel-cover-stamp.jpg",
     "caption": "Is your business missing from The Kootenay List? Adding it takes a few minutes.\n\nSend me its name, its town and how people reach it. I check that the business is real and reachable, and then it goes up with a stamp that says the owner filed it.\n\nIt's free to add and free to keep.\n\nAlready listed? You can claim your listing instead and put your own words on it.\n\nAdd yours at kootenaylist.ca/add\n\n#kootenaylist #kootenays #kootrocks #smallbusinessbc #shoplocal",
     "status": "pending",
     "fb_skipped": "scheduled natively on The Kootenay List page"
@@ -4317,8 +4316,9 @@
     "publish_at": "2026-11-27T17:00:00Z",
     "image": "media/kl-2026-11-27-slate-weekend.jpg",
     "caption": "This weekend in the Kootenays, from The Kootenay Slate, the events sister site to kootenaylist.ca.\n\nOn Friday, the Indigenous Holiday Market is on in Castlegar, and Electric Blanket releases an album in Fernie. On Saturday, there's the Blewett Winter Fair near Nelson and the Pals Craft Fair in Nakusp. Saturday and Sunday, the Cranbrook Winter Market runs at Western Financial Place, and Rossland has wreath making workshops.\n\nThe Slate lists what's on across the region by day and by town, with the time, place and price.\n\nMore this weekend at kootenayslate.ca\n\n#kootenaylist #kootenays #kootrocks #christmasmarket #thingstodo",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay List page"
+    "status": "cancelled",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "cancelled_reason": "Brett 2026-11-23: the List's feed sells the List; no posts about the Slate on the List's account"
   },
   {
     "id": "kl-2026-11-30-cranbrook-takeover",
@@ -4333,8 +4333,9 @@
       "media/kl-2026-11-30-cranbrook-takeover-06.jpg"
     ],
     "caption": "Cranbrook has 1,030 businesses on the List. No other Kootenay town has more.\n\nIt's a working town, and the numbers show it. There are 72 contractors, 33 heating and HVAC businesses and 29 electricians. Another 22 are in manufacturing, 22 in transport and trucking, and 12 in mining and forestry. Then there's the rest of life, with 60 restaurants, 12 cafés and 7 dentists.\n\nNeed a trade in Cranbrook? Search the List by what you need and you'll get names, numbers and addresses.\n\nRun one of the 1,030? Claim it free at kootenaylist.ca/claim\n\n#kootenaylist #kootenays #cranbrook #kootrocks #shoplocal",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay List page"
+    "status": "cancelled",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "cancelled_reason": "Brett 2026-11-23: the List's feed sells the List; a count about the List gives a follower nothing"
   },
   {
     "id": "kl-2026-12-01-own-website",
@@ -4342,8 +4343,9 @@
     "publish_at": "2026-12-01T17:00:00Z",
     "image": "media/kl-2026-12-01-own-website.jpg",
     "caption": "3,943 businesses on the List link to their own website.\n\nWhen a listing has a website, people can check your hours, see your work and get in touch without a phone call. When it doesn't, their search stops at the listing.\n\nIf you own a Kootenay business and your listing is missing its website, or shows an old one, claim it. You can add the right link along with your hours, photos and your own words. It's free.\n\nClaim yours at kootenaylist.ca/claim\n\n#kootenaylist #kootenays #kootrocks #smallbusiness #localbusiness",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay List page"
+    "status": "cancelled",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "cancelled_reason": "Brett 2026-11-23: the List's feed sells the List; a count about the List gives a follower nothing"
   },
   {
     "id": "2026-11-19-pkg-trailhead",
@@ -4765,6 +4767,34 @@
       "media/kl-2026-11-24-app-04.jpg"
     ],
     "caption": "The Kootenay List can live on your home screen now.\n\nAdd it once and it opens like any other app. One tap and you're looking up a plumber in Cranbrook, a café in Kaslo or a business in your own town. It's free, and it installs straight from the site.\n\nOn an iPhone, open the site in Safari, press Share, then choose Add to Home Screen. On Android, tap Add it as an app. Swipe for the steps.\n\nOpen kootenaylist.ca on your phone and add it.\n\n#kootenaylist #kootenays #kootrocks #shoplocal #localbusiness",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
+  },
+  {
+    "id": "kl-2026-11-27-surprise-reel",
+    "account": "list",
+    "publish_at": "2026-11-27T17:00:00Z",
+    "video": "media/kl-2026-11-27-surprise-reel.mp4",
+    "cover": "media/kl-2026-11-27-surprise-reel-cover.jpg",
+    "caption": "Same three places every weekend?\n\nThere's a button on The Kootenay List called Surprise me. Tap it and it pulls one Kootenay business at random. It might be an antique shop in Kaslo, a landscaper in Castlegar or a little coffee shop you've driven past for years.\n\nTap it a few times before you make weekend plans. You'll find somewhere you didn't know was there.\n\nTry it at kootenaylist.ca\n\n#kootenaylist #kootenays #kootrocks #shoplocal #weekendplans",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
+  },
+  {
+    "id": "kl-2026-11-30-window",
+    "account": "list",
+    "publish_at": "2026-11-30T17:00:00Z",
+    "image": "media/kl-2026-11-30-window.jpg",
+    "caption": "Each day, one Kootenay business gets the window on the front page of The Kootenay List.\n\nAfter its day, the business keeps a storefront on Main Street, the page for every business that has had a turn.\n\nGetting your day is free. Claim your listing and send your own words with a logo or a photo. The days go in the order people claimed.\n\nClaim yours at kootenaylist.ca/claim\n\n#kootenaylist #kootenays #kootrocks #smallbusinessbc #localbusiness",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
+  },
+  {
+    "id": "kl-2026-12-01-town",
+    "account": "list",
+    "publish_at": "2026-12-01T17:00:00Z",
+    "image": "media/kl-2026-12-01-town.jpg",
+    "caption": "Your whole town, on one page.\n\nEvery Kootenay town on the List has its own page. It shows where the town is, what kinds of businesses it has, and every business in town from A to Z. That's Kaslo's in the picture.\n\nLooking for a plumber, a bakery or somewhere to take visitors? Start with your town's page.\n\nFind yours at kootenaylist.ca/towns\n\n#kootenaylist #kootenays #kootrocks #kaslo #smalltown",
     "status": "pending",
     "fb_skipped": "scheduled natively on The Kootenay List page"
   }
