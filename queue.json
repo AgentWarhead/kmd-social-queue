@@ -4531,9 +4531,12 @@
     "account": "lapphund",
     "publish_at": "2026-11-24T16:00:00Z",
     "caption": "15% off every sherpa blanket 🎄\n\nAll the sherpa blankets are 15% off right now, and pretty much everything else is 10% off. The sale runs until Monday, Nov 30. No code needed, it comes off in your cart.\n\nShop at lapphunddesigns.com 🐾\n.\n.\n#finnishlapphund #lapphund #blackfriday #sherpablanket #lappylove",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
-    "image": "images/ld-20261124-bf-blankets.jpg"
+    "image": "images/ld-20261124-bf-blankets.jpg",
+    "media_id": "18134833024832268",
+    "published_at": "2026-11-24T16:01:06.100Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-11-27-bf-day",
