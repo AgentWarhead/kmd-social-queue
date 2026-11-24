@@ -4281,8 +4281,9 @@
     "publish_at": "2026-11-24T17:00:00Z",
     "image": "media/kl-2026-11-25-small-towns.jpg",
     "caption": "83 Kootenay towns and valleys have businesses on the List, and plenty of them are small.\n\nYahk has 15. Riondel has 24. Argenta has 17. Ta Ta Creek has 3. Each one gets its own page, with the businesses I found there and the public page I found each one on.\n\nA small town's businesses are often the hardest to find from the highway. Those pages are where they show up.\n\nLook up your town at kootenaylist.ca/towns\n\n#kootenaylist #kootenays #kootrocks #smalltown #shoplocal",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on The Kootenay List page"
+    "status": "cancelled",
+    "fb_skipped": "scheduled natively on The Kootenay List page",
+    "cancelled_reason": "Brett 2026-11-23: a count about the List gives a follower nothing; swapped for the add-it-as-an-app post"
   },
   {
     "id": "kl-2026-11-25-vets",
@@ -4752,5 +4753,19 @@
     "caption": "Today is International Volunteer Day, and Kootenay Helpers is officially open.\n\nSomebody flips the pancakes. Somebody runs the rink clock. Somebody answers the fire call. Every Kootenay town runs on people who show up.\n\nWant to help? Pick your town and find a role that fits. It's free, and you don't need an account.\nNeed Helpers? Post a role free, and I reply within 24 hours.\n\nBe the somebody.\n\nkootenayhelpers.ca\n\n#kootenays #internationalvolunteerday #bethesomebody #volunteer #kootenayhelpers",
     "status": "pending",
     "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+  },
+  {
+    "id": "kl-2026-11-24-app",
+    "account": "list",
+    "publish_at": "2026-11-24T17:00:00Z",
+    "images": [
+      "media/kl-2026-11-24-app-01.jpg",
+      "media/kl-2026-11-24-app-02.jpg",
+      "media/kl-2026-11-24-app-03.jpg",
+      "media/kl-2026-11-24-app-04.jpg"
+    ],
+    "caption": "The Kootenay List can live on your home screen now.\n\nAdd it once and it opens like any other app. One tap and you're looking up a plumber in Cranbrook, a café in Kaslo or a business in your own town. It's free, and it installs straight from the site.\n\nOn an iPhone, open the site in Safari, press Share, then choose Add to Home Screen. On Android, tap Add it as an app. Swipe for the steps.\n\nOpen kootenaylist.ca on your phone and add it.\n\n#kootenaylist #kootenays #kootrocks #shoplocal #localbusiness",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
   }
 ]
