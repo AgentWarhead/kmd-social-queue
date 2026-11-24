@@ -4797,5 +4797,63 @@
     "caption": "Your whole town, on one page.\n\nEvery Kootenay town on the List has its own page. It shows where the town is, what kinds of businesses it has, and every business in town from A to Z. That's Kaslo's in the picture.\n\nLooking for a plumber, a bakery or somewhere to take visitors? Start with your town's page.\n\nFind yours at kootenaylist.ca/towns\n\n#kootenaylist #kootenays #kootrocks #kaslo #smalltown",
     "status": "pending",
     "fb_skipped": "scheduled natively on The Kootenay List page"
+  },
+  {
+    "id": "kl-2026-12-02-claimed",
+    "account": "list",
+    "publish_at": "2026-12-02T17:00:00Z",
+    "images": [
+      "media/kl-2026-12-02-claimed-01.jpg",
+      "media/kl-2026-12-02-claimed-02.jpg",
+      "media/kl-2026-12-02-claimed-03.jpg",
+      "media/kl-2026-12-02-claimed-04.jpg"
+    ],
+    "caption": "This is what a claimed listing looks like.\n\nEnergy Economics Solar in Creston claimed theirs in September. Now the page has their own words about what they do and four photos of their work. Swipe to see it.\n\nAny business on The Kootenay List can do the same. You add your own words, up to four photos and your real hours. Claiming is free.\n\nClaim yours at kootenaylist.ca/claim\n\n#kootenaylist #kootenays #crestonbc #smallbusinessbc #localbusiness",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
+  },
+  {
+    "id": "kl-2026-12-03-search-reel",
+    "account": "list",
+    "publish_at": "2026-12-03T17:00:00Z",
+    "video": "media/kl-2026-12-03-search-reel.mp4",
+    "cover": "media/kl-2026-12-03-search-reel-cover.jpg",
+    "caption": "It's 8 pm and the tap won't shut off.\n\nYou don't want a plumber from an hour away. You want one in your town. On The Kootenay List you type what you need and where, like \"plumber castlegar\", and the plumbers in Castlegar come up with a number to call.\n\nIt works the same for an electrician in Nelson, a vet in Cranbrook or a tire shop in Trail.\n\nSearch your town at kootenaylist.ca/search\n\n#kootenaylist #kootenays #castlegar #kootrocks #shoplocal",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
+  },
+  {
+    "id": "kl-2026-12-04-map",
+    "account": "list",
+    "publish_at": "2026-12-04T17:00:00Z",
+    "image": "media/kl-2026-12-04-map.jpg",
+    "caption": "Every dot on this map is a Kootenay town on The Kootenay List.\n\nThey run from the Boundary to the Elk Valley, and from the big towns down to places with a handful of businesses. Each one has its own page at kootenaylist.ca/towns, with every business in town on it.\n\nBonus points if you can find your town without looking it up.\n\nWhich dot is yours? Tell me in the comments.\n\n#kootenaylist #kootenays #kootrocks #kootenaylife #smalltown",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
+  },
+  {
+    "id": "kl-2026-12-07-rockchip",
+    "account": "list",
+    "publish_at": "2026-12-07T17:00:00Z",
+    "images": [
+      "media/kl-2026-12-07-rockchip-01.jpg",
+      "media/kl-2026-12-07-rockchip-02.jpg",
+      "media/kl-2026-12-07-rockchip-03.jpg",
+      "media/kl-2026-12-07-rockchip-04.jpg",
+      "media/kl-2026-12-07-rockchip-05.jpg",
+      "media/kl-2026-12-07-rockchip-06.jpg"
+    ],
+    "caption": "Rock chip season is here.\n\nThere's gravel on the highway and a truck ahead of you, and now there's a star in your windshield. A small chip can often be filled before it turns into a crack.\n\nHere are the auto glass and body shops on the List, by town. Save this one for the day it happens.\n\nNumbers and addresses for all of them are at kootenaylist.ca/auto-body-glass\n\n#kootenaylist #kootenays #kootrocks #winterdriving #autoglass",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
+  },
+  {
+    "id": "kl-2026-12-08-card",
+    "account": "list",
+    "publish_at": "2026-12-08T17:00:00Z",
+    "image": "media/kl-2026-12-08-card.jpg",
+    "caption": "Know a good plumber, hairdresser or mechanic? Send their card.\n\nListings on The Kootenay List have a Send this card button. Tap it and your phone shares the business by text or email. Your friend gets a link to the page, with the name, what they do and the town.\n\nIt's a quick answer the next time someone asks if you know anyone who does floors.\n\nTry it on any listing at kootenaylist.ca\n\n#kootenaylist #kootenays #kootrocks #supportlocal #wordofmouth",
+    "status": "pending",
+    "fb_skipped": "scheduled natively on The Kootenay List page"
   }
 ]

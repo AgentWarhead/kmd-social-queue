@@ -1,5 +1,5 @@
 {
- "_note": "One entry per List post, tagged from its cover in media/. Grounds: cream, sand (kraft), mint, blue, charcoal, green (cedar), yellow (larch), black, paper. Tag a post from the picture that is actually queued, never from a plan.",
+ "_note": "One entry per List post, tagged from its cover in media/. Grounds: cream, sand (kraft), mint, blue, charcoal, green (cedar), yellow (larch), black, paper. Tag a post from the picture that is actually queued, never from a plan. Businesses: a post that features one real business names it in `business`; no business is featured twice.",
  "list": {
   "kl-2026-10-29-drawer-trail-tires": {
    "look": "signpost list",
@@ -99,17 +99,47 @@
   "kl-2026-11-27-surprise-reel": {
    "look": "screen recording",
    "ground": "sand",
-   "object": "site screen"
+   "object": "site screen",
+   "business": "Willowdale Landscaping; Front Street Antiques; Rural Treasures"
   },
   "kl-2026-11-30-window": {
    "look": "storefront capture",
    "ground": "green",
-   "object": "storefront"
+   "object": "storefront",
+   "business": "The Om Work Guru"
   },
   "kl-2026-12-01-town": {
    "look": "page strip",
    "ground": "yellow",
    "object": "town page"
+  },
+  "kl-2026-12-02-claimed": {
+   "look": "pinned prints",
+   "ground": "paper",
+   "object": "photo prints",
+   "business": "Energy Economics Solar"
+  },
+  "kl-2026-12-03-search-reel": {
+   "look": "search recording",
+   "ground": "blue",
+   "object": "search field",
+   "business": "Gekkelman Plumbing and Heating"
+  },
+  "kl-2026-12-04-map": {
+   "look": "dot map",
+   "ground": "green",
+   "object": "town map"
+  },
+  "kl-2026-12-07-rockchip": {
+   "look": "cracked glass",
+   "ground": "paper",
+   "object": "windshield crack"
+  },
+  "kl-2026-12-08-card": {
+   "look": "card on the table",
+   "ground": "yellow",
+   "object": "business card",
+   "business": "Fit Floors"
   }
  }
 }
