@@ -4420,14 +4420,19 @@
     "id": "2026-11-24-pkg-storefront",
     "publish_at": "2026-11-24T15:00:00Z",
     "caption": "If your orders come in through Instagram and Facebook messages, every sale starts with a conversation: is it in stock, what size, how do I pay?\n\nThe Storefront is my online-store package: a custom Shopify store on a theme built for it, so there is no theme to buy, with up to 50 products at launch. I make the product photos and mockups and write every product detail. Sizes and colours do not count as extra products, and print-on-demand is set up if your products need it. Usually live in five to six weeks.\n\n$5,500, or $1,375 today and 12 payments of $386 ($6,007 total). Kootenay neighbours: $4,950, or $1,238 today and 12 payments of $347 ($5,402 total). Plus GST.\n\nkootenaymade.ca/services/shopify\n\n#Kootenays #KootenayMakers #ShopifyStore #SmallBusinessWebsite #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/pkg-storefront-20261124-01.jpg",
       "images/pkg-storefront-20261124-02.jpg",
       "images/pkg-storefront-20261124-03.jpg",
       "images/pkg-storefront-20261124-04.jpg",
       "images/pkg-storefront-20261124-05.jpg"
-    ]
+    ],
+    "media_id": "17932934541429465",
+    "published_at": "2026-11-24T15:06:41.614Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122135442626844963",
+    "fb_posted_at": "2026-11-24T15:06:49.838Z"
   },
   {
     "id": "2026-11-25-motion-checkup",
@@ -4592,8 +4597,11 @@
       "media/kh-2026-11-24-find-a-role-05.jpg"
     ],
     "caption": "Looking for a way to help? Here's how to find one in about a minute.\n\nPick your town, or a few of them.\nTap the kind of help you'd like to give. Rinks, food banks, trails, boards, festivals and more.\nOpen a role to see when, where and who to contact.\nThen reach the group straight from their own page.\n\nYou don't need an account. Tap Keep on any role to save it for later, or get one email on Sunday with new roles near you.\n\nSend this to someone who keeps saying they'd like to help.\n\n#kootenays #westkootenay #volunteer #howto #kootenayhelpers",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page",
+    "media_id": "18352799515287166",
+    "published_at": "2026-11-24T15:07:35.751Z",
+    "verified_account": "kootenayhelpers"
   },
   {
     "id": "kh-2026-11-25-where-roles-come-from",
