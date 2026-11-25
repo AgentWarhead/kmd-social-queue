@@ -4444,9 +4444,14 @@
     "id": "2026-11-25-motion-checkup",
     "publish_at": "2026-11-25T15:00:00Z",
     "caption": "Is your website losing you calls? A slow page, or a site that is hard to use on a phone, can send a customer to the next business on the list.\n\nThe free check-up looks at your site in about a minute. Type in your address and it names each problem it finds, with the number behind it. You do not need to give an email to see the results.\n\nNo website yet? The Trailhead is my first-website package: $2,000, or $500 today and 12 payments of $142 ($2,204 total), plus GST. Kootenay businesses get it for $1,500 until December 19.\n\nkootenaymade.ca/audit\n\n#Kootenays #KootenayBusiness #WebsiteCheckup #SmallBusinessTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "video": "media/motion-checkup-20261125.mp4",
-    "cover": "media/motion-checkup-20261125-cover.jpg"
+    "cover": "media/motion-checkup-20261125-cover.jpg",
+    "media_id": "17881648335562694",
+    "published_at": "2026-11-25T15:01:26.157Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1334083712176705",
+    "fb_posted_at": "2026-11-25T15:01:32.343Z"
   },
   {
     "id": "2026-11-26-pkg-fullcoverage",
@@ -4624,8 +4629,11 @@
       "media/kh-2026-11-25-where-roles-come-from-05.jpg"
     ],
     "caption": "Where do the roles on Kootenay Helpers come from? From the groups themselves.\n\nMost of them I find on pages groups already share, like their own websites, their town hall's page, or volunteer sites like iVolunteer and Volunteer Now. Each role shows the facts the group's own page states and links straight back to them, so every visit goes to the people doing the work.\n\nRun one of these groups? You can claim your listing and write it in your own words. If you'd rather not be listed, I'll take it down within two working days.\n\nThank you to every group out there keeping our towns running.\n\n#kootenays #nonprofit #communitygroups #volunteering #kootenayhelpers",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page",
+    "media_id": "18122389120768741",
+    "published_at": "2026-11-25T15:02:01.483Z",
+    "verified_account": "kootenayhelpers"
   },
   {
     "id": "kh-2026-11-26-who-can-post",
