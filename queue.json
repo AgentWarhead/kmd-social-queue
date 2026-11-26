@@ -4470,14 +4470,19 @@
     "id": "2026-11-26-pkg-fullcoverage",
     "publish_at": "2026-11-26T15:00:00Z",
     "caption": "If you work in more than one town, people in the next town over search for the job and their own town. A site built around one town can be hard to find from the next.\n\nTrailhead Plus is the bigger version of my first-website package. You get everything in the Trailhead, plus a page for every town you serve and 20 guides answering what customers ask before they hire. Usually live in three to four weeks.\n\n$3,200, or $800 today and 12 payments of $226 ($3,512 total). Until December 19, Kootenay businesses get it for $2,400, $800 off, or $600 today and 12 payments of $170 ($2,640 total). Plus GST. Already on the Trailhead? Upgrading to Trailhead Plus later is $1,200.\n\nkootenaymade.ca/services/websites\n\n#Kootenays #KootenayBusiness #LocalSEO #SmallBusinessWebsite #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/pkg-fullcoverage-20261126-01.jpg",
       "images/pkg-fullcoverage-20261126-02.jpg",
       "images/pkg-fullcoverage-20261126-03.jpg",
       "images/pkg-fullcoverage-20261126-04.jpg",
       "images/pkg-fullcoverage-20261126-05.jpg"
-    ]
+    ],
+    "media_id": "17919201903494622",
+    "published_at": "2026-11-26T15:01:24.635Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122135671352844963",
+    "fb_posted_at": "2026-11-26T15:01:36.289Z"
   },
   {
     "id": "2026-11-27-diff-oneperson",
@@ -4659,8 +4664,11 @@
       "media/kh-2026-11-26-who-can-post-04.jpg"
     ],
     "caption": "Who can post a role on Kootenay Helpers? More groups than you'd think.\n\nCharities and non-profit societies. Service clubs, sports clubs and hall societies. Towns, the regional district, libraries, museums, fire halls and health programs. Community work run by a faith group. A small group with no website can post too, with a Facebook page or a phone number I can call.\n\nNot listed: individuals asking for personal help, businesses, political campaigns, and roles only for parents of one school. Need a hand yourself? Call or text 2-1-1.\n\nIf your group is on the first list, there's no harm in trying.\n\n#kootenays #eastkootenay #nonprofit #clubs #kootenayhelpers",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page",
+    "media_id": "17919348924470484",
+    "published_at": "2026-11-26T15:01:59.432Z",
+    "verified_account": "kootenayhelpers"
   },
   {
     "id": "kh-2026-11-27-what-your-group-gets",
