@@ -149,6 +149,32 @@ async function pageToken() {
   return pageTokenCache;
 }
 
+// The live check (2026-11-26). On 2026-11-24 a run posted to Instagram and Facebook, then GitHub refused its
+// push of queue.json ("fatal error in commit_refs_rules"), so the record of those posts was lost and the next
+// run posted both again, on KMD and on Kootenay Helpers. The queue file alone cannot be trusted to know what
+// is live, so before posting we read the account itself. A post carrying the same caption, made no earlier
+// than an hour before the slot, means a run already did this one: adopt it instead of making a second.
+// If the account cannot be read, the post waits for a retry rather than going out blind.
+const sameText = (s) => String(s || "").replace(/\s+/g, " ").trim().slice(0, 300);
+const sinceSlot = (entry) => new Date(entry.publish_at).getTime() - 3600e3;
+async function liveIgTwin(entry) {
+  if (entry.story || !entry.caption) return null;
+  const ig = ACCOUNTS[entry.account || "kmd"].ig;
+  const res = await fetch(`${API}/${ig}/media?fields=id,caption,timestamp&limit=25&access_token=${TOKEN}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`live check could not read the account: ${json.error.message}`);
+  const want = sameText(entry.caption);
+  return (json.data || []).find(m => sameText(m.caption) === want && new Date(m.timestamp).getTime() >= sinceSlot(entry)) || null;
+}
+async function liveFbTwin(entry) {
+  const token = await pageToken();
+  const res = await fetch(`${API}/${FB_PAGE_ID}/published_posts?fields=id,message,created_time&limit=25&access_token=${token}`);
+  const json = await res.json();
+  if (json.error) throw new Error(`live check could not read the page: ${json.error.message}`);
+  const want = sameText(entry.caption);
+  return (json.data || []).find(p => sameText(p.message) === want && new Date(p.created_time).getTime() >= sinceSlot(entry)) || null;
+}
+
 async function fbPost(path, params) {
   const token = await pageToken();
   const body = new URLSearchParams({ ...params, access_token: token });
@@ -210,6 +236,16 @@ async function catchUpFacebook(entry) {
     return;
   }
   try {
+    const twin = await liveFbTwin(entry);
+    if (twin) {
+      entry.fb_post_id = twin.id;
+      entry.fb_posted_at = twin.created_time;
+      entry.fb_adopted = "already live on the page; an earlier run's record was lost";
+      delete entry.fb_error;
+      console.log(`facebook ${entry.id} ADOPTED ${twin.id}: already live, not posted twice`);
+      changed = true;
+      return;
+    }
     entry.fb_post_id = await publishToFacebook(entry);
     entry.fb_posted_at = new Date().toISOString();
     delete entry.fb_error;
@@ -275,11 +311,18 @@ for (const entry of queue) {
   if (!breathingRoom(account)) continue;
   try {
     console.log(`publishing ${entry.id}...`);
-    const mediaId = entry.story ? await publishStory(entry) : entry.video ? await publishReel(entry) : entry.images ? await publishCarousel(entry) : await publishImage(entry);
+    igOf(entry);                                                     // the brand check runs before anything is read or posted
+    const twin = await liveIgTwin(entry);
+    if (twin) {
+      entry.adopted = "already live on the account; an earlier run's record was lost";
+      console.log(`ADOPTED ${entry.id} -> ${twin.id}: already live, not posted twice`);
+    }
+    const mediaId = twin ? twin.id : entry.story ? await publishStory(entry) : entry.video ? await publishReel(entry) : entry.images ? await publishCarousel(entry) : await publishImage(entry);
     entry.status = "published";
     entry.media_id = mediaId;
     entry.published_at = new Date().toISOString();
-    await verifyOwner(entry, mediaId);
+    if (twin) entry.verified_account = ACCOUNTS[entry.account || "kmd"].username;   // found by listing that account's own posts
+    else await verifyOwner(entry, mediaId);
     delete entry.next_try;
     delete entry.alerted;
     delete entry.error;

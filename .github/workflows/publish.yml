@@ -31,9 +31,18 @@ jobs:
         run: |
           git config user.name "kmd-shade"
           git config user.email "actions@users.noreply.github.com"
+          # A refused push loses the record of what just went out. On 2026-11-24 GitHub refused one
+          # ("fatal error in commit_refs_rules") and the next run posted two posts a second time.
+          # So the push is retried with a fresh rebase each time. publish.mjs also checks the live
+          # account before posting, so a record lost even after five tries still cannot cause a double.
           if ! git diff --quiet queue.json; then
             git add queue.json
             git commit -m "queue: publish run $(date -u +%FT%TZ)"
-            git pull --rebase origin main
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push && exit 0
+              echo "push attempt $i refused; trying again in $((i * 10)) s"
+              sleep $((i * 10))
+            done
+            echo "::error::queue.json could not be pushed after 5 attempts; the live check in publish.mjs will stop any double"
+            exit 1
           fi

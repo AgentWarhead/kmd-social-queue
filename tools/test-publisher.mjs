@@ -39,6 +39,11 @@ globalThis.fetch = async (url, opts) => {
     const names = { "17841459350887730": "lapphunddesigns", "17841446312533398": "kootenaymadedigital", "17841474928481362": "gsuw_official", "17841442960494232": "kootenaylist" };
     return { json: async () => ({ username: process.env.WRONG_OWNER ? "someoneelse" : names[globalThis.lastIg] }) };
   }
+  // The live check reads what each account already shows. LIVE_IG and LIVE_FB hold those posts.
+  if (!(opts && opts.method === "POST") && u.includes("/media?fields=id,caption"))
+    return { json: async () => (process.env.LIVE_BOOM ? { error: { message: "simulated live check failure" } } : { data: JSON.parse(process.env.LIVE_IG || "[]") }) };
+  if (!(opts && opts.method === "POST") && u.includes("/published_posts"))
+    return { json: async () => ({ data: JSON.parse(process.env.LIVE_FB || "[]") }) };
   if (u.includes("fields=status_code"))
     return { json: async () => ({ status_code: "FINISHED" }) };
   if (u.includes("/me/accounts"))
@@ -347,6 +352,41 @@ const CASES = [
     expect: 1, exit: 0,
     check: (q) => /^FB_/.test(q[0].fb_post_id || "") || `not caught up: ${JSON.stringify(q[0])}`,
   },
+
+  // The double-post trap (2026-11-24). A run posted to Instagram and Facebook, then GitHub refused its push
+  // of queue.json, so the next run saw the post still pending and posted it again. Before posting, the
+  // publisher now reads the account: the same caption already live since the slot means the record was
+  // lost, so it adopts that post instead of making a second.
+  {
+    name: "a post already live on instagram and facebook is adopted, not posted twice",
+    queue: [{ id: "twin", publish_at: hoursAgo(1), image: "x.jpg", caption: "twin #KootenayMade", status: "pending" }],
+    env: { LIVE_IG: JSON.stringify([{ id: "LIVE_IG_1", caption: "twin #KootenayMade", timestamp: minsAgo(50) }]),
+           LIVE_FB: JSON.stringify([{ id: "LIVE_FB_1", message: "twin #KootenayMade", created_time: minsAgo(50) }]) },
+    expect: 1, exit: 0,
+    check: (q, out) => {
+      if (/IGACCOUNT|FBCALL/.test(out)) return "it posted again";
+      if (q[0].media_id !== "LIVE_IG_1") return `instagram not adopted: ${q[0].media_id}`;
+      return q[0].fb_post_id === "LIVE_FB_1" || `facebook not adopted: ${q[0].fb_post_id}`;
+    },
+  },
+  {
+    name: "the same caption from an older slot does not block a new post",
+    queue: [{ id: "again", publish_at: hoursAgo(1), image: "x.jpg", caption: "again #KootenayMade", status: "pending" }],
+    env: { LIVE_IG: JSON.stringify([{ id: "OLD_IG", caption: "again #KootenayMade", timestamp: hoursAgo(30) }]) },
+    expect: 1, exit: 0,
+    check: (q, out) => (/IGACCOUNT/.test(out) && q[0].media_id !== "OLD_IG") ? true : "a weeks-old twin stopped a real post",
+  },
+  {
+    name: "if the account cannot be read, nothing is posted blind",
+    queue: [{ id: "blind", publish_at: hoursAgo(1), image: "x.jpg", caption: "blind #KootenayMade", status: "pending" }],
+    env: { LIVE_BOOM: "1" }, expect: 0, exit: 0,
+    check: (q, out) => (!/IGACCOUNT/.test(out) && q[0].status === "pending" && q[0].next_try) ? true : `posted or dropped: ${JSON.stringify(q[0])}`,
+  },
+  // The late alarm (2026-11-18): a post 20 minutes past its slot turns the run red once, and only once.
+  { name: "a late post turns the run red once", lateAlarm: true, queue: [failing({ overdue: 1 })], expect: 0, exit: 1,
+    check: (q) => byId(q, "bad").late_alarmed === true || "late_alarmed was not set" },
+  { name: "a late post already alarmed stays quiet", lateAlarm: true,
+    queue: [{ ...failing({ overdue: 1 }), late_alarmed: true }], expect: 0, exit: 0 },
 ];
 
 let failed = 0;
@@ -355,7 +395,10 @@ for (const c of CASES) {
   try {
     copyFileSync(path.join(ROOT, "publish.mjs"), path.join(dir, "publish.mjs"));
     writeFileSync(path.join(dir, "runner.mjs"), RUNNER);
-    writeFileSync(path.join(dir, "queue.json"), JSON.stringify(c.queue, null, 2));
+    // Most fixtures sit hours past their slot on purpose. The late alarm has its own cases (lateAlarm: true),
+    // so everywhere else it is marked as already raised, or it turns every one of those runs red.
+    const fixture = c.lateAlarm ? c.queue : c.queue.map((e) => ({ late_alarmed: true, ...e }));
+    writeFileSync(path.join(dir, "queue.json"), JSON.stringify(fixture, null, 2));
     let out = "", code = 0;
     try {
       out = execFileSync(process.execPath, ["runner.mjs"],
