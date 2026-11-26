@@ -84,6 +84,9 @@ BRANDS = {
         'since': '2026-10-14',                # first day the queue posts for it
         # Brett, 2026-10-14: one post each weekday, none at the weekend, the List's week.
         'posts_per_day': {0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0},
+        # Brett, 2026-11-26: the reveal reel for the eight papers goes out the evening it was stamped, beside
+        # that morning's markets carousel. One day only.
+        'day_overrides': {'2026-11-26': 2},
     },
     'helpers': {
         # Kootenay Helpers (Brett, 2026-11-18): the volunteer sister to the List and the Slate. Page and
