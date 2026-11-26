@@ -3918,9 +3918,12 @@
     "account": "gsuw",
     "publish_at": "2026-11-26T15:30:00Z",
     "caption": "For the long winter evenings.\n\nThe Frida cardigan carries Pansies, one of Frantisek’s paintings, made to wrap around you while the snow falls outside.\n\nEach piece is made to order in Montreal by Le Galeriste.\n\nSomething warm, with a little art in it.\n\nThe link is in our bio.\n\n#WearableArt #ArtEmbracingAwareness #CanadianArtist #WinterStyle #Kootenays",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-26-wearable-art.jpg"
+    "image": "media/gsuw-2026-11-26-wearable-art.jpg",
+    "media_id": "18107591168632519",
+    "published_at": "2026-11-26T15:31:11.514Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-26-carousel",
