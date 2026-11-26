@@ -1,0 +1,21 @@
+name: Facebook watch
+# Daily at 6 am Pacific, before the first post of the day. Every brand post due in the next
+# 72 hours must already be scheduled on its own Facebook Page. Red means a post is missing
+# there, and GitHub emails the boss. It only reads the Pages; it never posts.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every Page has its posts scheduled
+        env:
+          META_GRAPH_TOKEN: ${{ secrets.META_GRAPH_TOKEN }}
+        run: python3 tools/fb_watch.py

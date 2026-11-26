@@ -9,6 +9,14 @@ always pull before editing it. Cadence: one KMD post a day (Brett,
 served to the API via raw URLs. Captions here are pre-approved public
 content; the access token lives ONLY in the repo's Actions secrets.
 
+Every other brand's Facebook is scheduled natively on its own Page with
+tools/schedule_facebook.py, in the same session its week is queued. The
+cron never posts it. A second Action, Facebook watch (daily, 6 am
+Pacific), runs tools/fb_watch.py: every brand feed post due in the next
+72 hours must already be scheduled on its Page, matched by Pacific day.
+Red means one is missing (The Kootenay Slate went quiet on Facebook from
+Nov 17 to 25, 2026, this way).
+
 Queue entry shape:
 
     {
