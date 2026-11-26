@@ -1,0 +1,21 @@
+name: Social watch
+# Daily at 6 am Pacific, before the first post of the day. Red means a brand has a day in the
+# next 5 with nothing queued (silent on Instagram and Facebook), or a brand post due in the next
+# 72 hours is not scheduled on its own Facebook Page. GitHub emails the boss. Read only.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every brand's runway and Facebook
+        env:
+          META_GRAPH_TOKEN: ${{ secrets.META_GRAPH_TOKEN }}
+        run: python3 tools/social_watch.py

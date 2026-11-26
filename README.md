@@ -11,11 +11,13 @@ content; the access token lives ONLY in the repo's Actions secrets.
 
 Every other brand's Facebook is scheduled natively on its own Page with
 tools/schedule_facebook.py, in the same session its week is queued. The
-cron never posts it. A second Action, Facebook watch (daily, 6 am
-Pacific), runs tools/fb_watch.py: every brand feed post due in the next
-72 hours must already be scheduled on its Page, matched by Pacific day.
-Red means one is missing (The Kootenay Slate went quiet on Facebook from
-Nov 17 to 25, 2026, this way).
+cron never posts it. A second Action, Social watch (daily, 6 am
+Pacific), runs tools/social_watch.py. It goes red when a brand has a day
+in the next 5 with nothing queued, which leaves both Instagram and
+Facebook silent, or when a brand feed post due in the next 72 hours is
+not scheduled on its Page, matched by Pacific day (The Kootenay Slate
+went quiet on Facebook from Nov 17 to 25, 2026, this way). A late
+Instagram post is the publisher's own alarm.
 
 Queue entry shape:
 
