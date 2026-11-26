@@ -48,6 +48,12 @@ for i, p in enumerate(plan):
         fails.append('post %d: WRONG ACCOUNT RISK for %s, %s' % (i + 1, brand['name'], why))
 days = [pacific_date(p['when']) for p in plan] + \
        [pacific_date(datetime.fromtimestamp(int(e['scheduled_publish_time']), timezone.utc)) for e in existing]
+# A day that still holds a scheduled post may also hold one that already went out that morning. Count those
+# too, or a two-post day reads as one post short once the first has published (The Kootenay Slate,
+# 2026-11-26: the markets carousel was out and the reveal reel was still scheduled for 6 pm).
+open_days = set(days)
+out = meta_local.get('%s/posts' % brand['page_id'], tok, fields='id,created_time', limit=25).get('data', [])
+days += [d for d in (pacific_date(p['created_time'].replace('+0000', '+00:00')) for p in out) if d in open_days]
 fails.extend(cadence_problems(account, days))
 if fails:
     print('REFUSED (%d):' % len(fails))
