@@ -4500,8 +4500,13 @@
     "id": "2026-11-27-diff-oneperson",
     "publish_at": "2026-11-27T15:00:00Z",
     "caption": "When you hire me, you deal with one person the whole way through.\n\nI design your website, write the words and build it. When you email, I answer. Your project stays with me from the first call to launch day.\n\nThe person who asks about your business in the first conversation is the same person who sets your site live, and the one you call when something needs changing a year later.\n\nkootenaymade.ca/process\n\n#Kootenays #KootenayBusiness #WebDesign #SmallBusinessWebsite #KootenayMade",
-    "status": "pending",
-    "image": "images/diff-oneperson-20261127-01.jpg"
+    "status": "published",
+    "image": "images/diff-oneperson-20261127-01.jpg",
+    "media_id": "18168367363493516",
+    "published_at": "2026-11-27T15:02:05.073Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "122135778632844963",
+    "fb_posted_at": "2026-11-27T15:02:11.057Z"
   },
   {
     "id": "2026-11-28-pkg-signal",
@@ -4694,8 +4699,11 @@
       "media/kh-2026-11-27-what-your-group-gets-05.jpg"
     ],
     "caption": "What does your group get from posting on Kootenay Helpers?\n\nEvery visit goes straight to your own page.\nEvery role gets its own share card, ready for your Facebook page or newsletter.\nOnce you have a role up, you get a patch for your website that links to all your open roles.\nI share roles on the Kootenay Helpers Instagram and Facebook too.\n\nAll of it is free. There are no paid spots, so nobody can buy their way above you.\n\nKnow a group that needs Helpers? Send them this.\n\n#kootenays #nonprofit #volunteers #smallgroups #kootenayhelpers",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page",
+    "media_id": "17987041908066101",
+    "published_at": "2026-11-27T15:02:38.841Z",
+    "verified_account": "kootenayhelpers"
   },
   {
     "id": "kh-2026-11-28-questions",
