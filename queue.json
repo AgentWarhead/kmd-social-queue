@@ -4589,9 +4589,12 @@
     "account": "lapphund",
     "publish_at": "2026-11-27T16:00:00Z",
     "caption": "Happy Black Friday! 🎁\n\nAlmost everything in the shop is 10% off and the sherpa blankets are 15% off, through Monday. No code, it just comes off in your cart, and free shipping over $100 still applies.\n\nShop at lapphunddesigns.com 🐾\n.\n.\n#finnishlapphund #lapphund #blackfriday #lappylove #doggifts",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": true,
-    "image": "images/ld-20261127-bf-day.jpg"
+    "image": "images/ld-20261127-bf-day.jpg",
+    "media_id": "18112707098348991",
+    "published_at": "2026-11-27T16:01:18.517Z",
+    "verified_account": "lapphunddesigns"
   },
   {
     "id": "ld-2026-11-29-colouring-crafts",
