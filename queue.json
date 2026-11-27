@@ -3952,9 +3952,12 @@
     "account": "gsuw",
     "publish_at": "2026-11-27T15:30:00Z",
     "caption": "A Global Symphony\nSaturday, April 10, 2027\n\nLast spring, the Brilliant Cultural Centre near Castlegar filled with song: choirs, gospel bands and neighbours, all singing together.\n\nNext spring, the music brings us together again, free and open to everyone, as always.\n\nSave the date. Come as you are.\n\nThe details are through the link in our bio.\n\n#GlobalSymphonyForAUnitedWorld #CastlegarBC #Kootenays #CommunityArts #SaveTheDate",
-    "status": "pending",
+    "status": "published",
     "fb_skipped": "scheduled natively on the Global Symphony for a United World page",
-    "image": "media/gsuw-2026-11-27-save-the-date.jpg"
+    "image": "media/gsuw-2026-11-27-save-the-date.jpg",
+    "media_id": "17912543499331561",
+    "published_at": "2026-11-27T15:31:03.335Z",
+    "verified_account": "gsuw_official"
   },
   {
     "id": "ld-2026-11-27-still",
