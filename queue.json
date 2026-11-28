@@ -4193,8 +4193,11 @@
     "publish_at": "2026-11-28T15:00:00Z",
     "story": "media/ks-2026-11-28-cranbrook-market-story.jpg",
     "caption": "Cranbrook Winter Market, today #kootenayslate",
-    "status": "pending",
-    "fb_skipped": "an instagram story; nothing goes to facebook"
+    "status": "published",
+    "fb_skipped": "an instagram story; nothing goes to facebook",
+    "media_id": "17933007387183159",
+    "published_at": "2026-11-28T15:01:06.606Z",
+    "verified_account": "kootenayslate"
   },
   {
     "id": "ks-2026-11-28-light-up-story",
@@ -4518,14 +4521,19 @@
     "id": "2026-11-28-pkg-signal",
     "publish_at": "2026-11-28T15:00:00Z",
     "caption": "If your last post was weeks ago, people checking your page can wonder if you are still open.\n\nThe Signal is my social media posting service for Instagram and Facebook. I design the posts and short videos from your own photos, write the captions in your voice, and you approve the whole month before anything goes out. Then it posts on schedule, and you get a short note at the end of the month.\n\nSteady is $500 a month for 8 posts. Regular is $800 a month for 12 posts, including 2 short videos. Every weekday is $1,200 a month for 20 posts, including 4 short videos. Plus GST, month to month.\n\nkootenaymade.ca/services/social-media\n\n#Kootenays #KootenayBusiness #SocialMediaMarketing #SmallBusinessTips #KootenayMade",
-    "status": "pending",
+    "status": "published",
     "images": [
       "images/pkg-signal-20261128-01.jpg",
       "images/pkg-signal-20261128-02.jpg",
       "images/pkg-signal-20261128-03.jpg",
       "images/pkg-signal-20261128-04.jpg",
       "images/pkg-signal-20261128-05.jpg"
-    ]
+    ],
+    "media_id": "18093033080266105",
+    "published_at": "2026-11-28T15:01:35.953Z",
+    "verified_account": "kootenaymadedigital",
+    "fb_post_id": "1001276889744302_122135884352844963",
+    "fb_posted_at": "2026-11-28T15:01:47.635Z"
   },
   {
     "id": "2026-11-29-commercial-lantern",
@@ -4728,8 +4736,11 @@
       "media/kh-2026-11-28-questions-07.jpg"
     ],
     "caption": "The questions I get asked most.\n\nIs it free? Yes, for everyone.\nDo I need an account? Nope.\nWho runs it? Me, Brett, from Castlegar.\nWhere do the roles come from? The groups' own pages. Every one links back to them.\nWhat about criminal record checks? Your group tells you if you need one, and starts it. Through the province's program it costs a volunteer $0.\nCan't commit every week? Some roles are a single shift, like helping at a festival.\n\nGot a question I missed? Ask it in the comments and I'll answer.\n\n#castlegar #kootenays #volunteerfaq #bccommunity #kootenayhelpers",
-    "status": "pending",
-    "fb_skipped": "scheduled natively on the Kootenay Helpers page"
+    "status": "published",
+    "fb_skipped": "scheduled natively on the Kootenay Helpers page",
+    "media_id": "17887301538524241",
+    "published_at": "2026-11-28T15:02:22.252Z",
+    "verified_account": "kootenayhelpers"
   },
   {
     "id": "2026-11-21-winter-launch",
